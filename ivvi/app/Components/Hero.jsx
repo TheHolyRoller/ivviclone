@@ -3,7 +3,16 @@ import React from 'react'
 function Hero() {
   return (
 
-    <section>Hero</section>
+    <main>
+    
+    <section>
+
+    Hero
+    
+    </section>
+    
+    
+    </main>
     
 
 )

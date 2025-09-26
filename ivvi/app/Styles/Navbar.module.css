@@ -1,0 +1,182 @@
+.navbar {
+
+
+    width: 100vw; 
+    max-width: 100vw; 
+    margin: 0 auto; 
+    background-color: var(--navbar-background-color);
+    height: var(--navbar-height); 
+    position: relative; 
+
+	
+}
+
+.LogoContainer {
+
+
+    height: 85px;
+    position: absolute; 
+    left: 5rem; 
+    /* top: 1rem;  */
+    top: 30px; 
+
+	
+}
+
+.navigationContainer {
+
+    display: flex;
+
+    outline: 5px solid lime;
+    justify-content: flex-end;
+    height: 85px; 
+    align-items: center;
+    margin-right: 4rem; 
+    width: 80vw; 
+
+    
+	
+}
+
+.navigationButtonList {
+
+    display: flex;
+    
+}
+
+.navigationListItem {
+	
+}
+
+.navLink {
+	
+}
+
+#resourceDropDown {
+	
+}
+
+#teamDropdown {
+	
+}
+
+#cta {
+	
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+	.navbar {
+		
+	}
+	
+	.LogoContainer {
+		
+	}
+	
+	.navigationContainer {
+		
+	}
+	
+	.navigationButtonList {
+		
+	}
+	
+	.navigationListItem {
+		
+	}
+	
+	.navLink {
+		
+	}
+	
+	#resourceDropDown {
+		
+	}
+	
+	#teamDropdown {
+		
+	}
+	
+	#cta {
+		
+	}
+}
+
+/* Tablet Styles */
+@media (min-width: 769px) and (max-width: 1024px) {
+	.navbar {
+		
+	}
+	
+	.LogoContainer {
+		
+	}
+	
+	.navigationContainer {
+		
+	}
+	
+	.navigationButtonList {
+		
+	}
+	
+	.navigationListItem {
+		
+	}
+	
+	.navLink {
+		
+	}
+	
+	#resourceDropDown {
+		
+	}
+	
+	#teamDropdown {
+		
+	}
+	
+	#cta {
+		
+	}
+}
+
+/* Desktop Styles */
+@media (min-width: 1025px) {
+	.navbar {
+		
+	}
+	
+	.LogoContainer {
+		
+	}
+	
+	.navigationContainer {
+		
+	}
+	
+	.navigationButtonList {
+		
+	}
+	
+	.navigationListItem {
+		
+	}
+	
+	.navLink {
+		
+	}
+	
+	#resourceDropDown {
+		
+	}
+	
+	#teamDropdown {
+		
+	}
+	
+	#cta {
+		
+	}
+}

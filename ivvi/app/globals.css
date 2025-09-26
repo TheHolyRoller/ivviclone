@@ -46,11 +46,14 @@
   --mainHeadingFontWeight: 700; 
   --mainHeadingLineHeight: 1.2; 
   --main-heading-emphasis-color: #15317e; 
+
   --bullet-point-color: #00143d; 
+  --bullet-point-dot: #00133c; 
+
+
   --main-section-font-size: 24px; 
   --main-section-font-weight: 700; 
   --main-section-line-height: 1.5;
-
 
 
   --blue-background: #013699; 
@@ -69,7 +72,10 @@
   --navbar-font-size: 16px; 
   --navbar-right-margin: 10px; 
 
+  --navbar-height: 85px; 
   
+
+
 
 
 
