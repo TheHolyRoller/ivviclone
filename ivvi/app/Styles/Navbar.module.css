@@ -7,17 +7,26 @@
     background-color: var(--navbar-background-color);
     height: var(--navbar-height); 
     position: relative; 
-
 	
+
+	font-weight: 400; 
+
+	font-size: 18px; 
+	font-family: var(--text-font-family); 
+	line-height: 1.5; 
+
+
+
+
 }
+
 
 .LogoContainer {
 
 
-    height: 85px;
+    height: 83.5px;
     position: absolute; 
-    left: 5rem; 
-    /* top: 1rem;  */
+    left: 7.5rem; 
     top: 30px; 
 
 	
@@ -27,30 +36,65 @@
 
     display: flex;
 
-    outline: 5px solid lime;
     justify-content: flex-end;
     height: 85px; 
     align-items: center;
-    margin-right: 4rem; 
-    width: 80vw; 
+	margin: 0 10px; 
 
+    width: 93vw; 
+	color: var(--navbar-font-color); 
+	margin-top: 0.5px; 
     
+
+
+
 	
 }
 
 .navigationButtonList {
 
     display: flex;
+	display: flex; 
+	align-items: center; 
+	list-style: none;
+
+
     
 }
 
 .navigationListItem {
+
+
+	margin-right: 35px; 
+	/* margin: 0 10px;  */
+
+
+
+
+
 	
 }
 
 .navLink {
 	
 }
+
+
+#login{
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
 
 #resourceDropDown {
 	
@@ -61,16 +105,46 @@
 }
 
 #cta {
+
+
+	background-color: var(--cta-background-color); 
+	border-radius: var(--cta-border-radius); 
+	width: 108px; 
+	height: 43.5px; 
+	min-width: 108px; 
+
+	display: grid; 
+	place-content: center; 
+	/* font-weight: var(--cta-font-weight);  */
+	font-weight: 700; 
+	font-size: 90%; 
+
+
+
+
+
 	
 }
 
 /* Mobile Styles */
 @media (max-width: 768px) {
 	.navbar {
+
+
+
+
 		
 	}
 	
+
+	/* Adjust the absolute positioning of the logo  */
 	.LogoContainer {
+
+
+		outline: 2px solid lime; 
+		left: 1rem; 
+		
+
 		
 	}
 	

@@ -1,9 +1,16 @@
 import React from 'react'
+import f from '../Styles/Footer.module.css'; 
 
 function Footer() {
   return (
 
-    <footer>footer</footer>
+    <footer className={f.Footer}>
+
+        
+
+
+
+    </footer>
 
 
 )

@@ -9,8 +9,6 @@ import Link from 'next/link';
 
 
 
-
-
 function Navbar() {
   return (
 
@@ -120,7 +118,7 @@ function Navbar() {
 
 
             
-            <li className={n.navigationListItem}>
+            <li className={n.navigationListItem} id={n.login} >
 
               <Link   
                 className={n.navLink}
@@ -136,9 +134,9 @@ function Navbar() {
 
 
             
-            <li className={n.navigationListItem}>
+            <li className={n.navigationListItem} id={n.cta}  >
 
-              <Link className={n.navLink} id={n.cta}  href="/students" alt="https://www.ivvi.app/">
+              <Link className={n.navLink}  href="/students" alt="https://www.ivvi.app/">
 
 
                 Open ivvi 
