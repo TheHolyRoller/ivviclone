@@ -1,13 +1,21 @@
 import Image from "next/image";
+import Hero from "./Components/Hero";
+import Footer from './Components/Footer'; 
+import FeatureBlock from "./Components/FeatureBlock";
+import ImageText from "./Components/ImageText";
+// import FeatureBlock from "./Components/FeatureBlock";
+import FeatureGrid from "./Components/FeatureGrid";
+
+
+
 
 export default function Home() {
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-     
+    <div>
 
-
-
-
+        {/* <ImageText/>  */}
+        <FeatureGrid/> 
+        
 
     </div>
   );

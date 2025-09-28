@@ -1,0 +1,87 @@
+.featureGridContainer {
+
+
+    width: 60vw; 
+    margin: 9rem auto; 
+    display: grid;  
+    place-content: center;
+
+
+}
+
+.headlineContainer {
+
+
+    display: grid;
+    place-content: center;
+    margin: 1em auto; 
+
+    font-size: var(--mainSectionHeadingFontSize);
+    font-weight: 600;   
+    color: var(--main-heading-emphasis-color); 
+
+
+}
+
+.featureGrid {
+
+
+    display: grid;
+    place-content: center;  
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem; 
+
+    width: 995px; 
+    text-align: center;
+
+
+}
+
+.gridItem {
+
+    display: grid;
+    place-content: center;
+    margin-left: 1.75rem; 
+
+
+}
+
+
+.thirdItem{
+
+
+
+
+
+
+
+}
+
+.gridImg{
+
+
+    width: 200px; 
+    height: 200px; 
+    align-self: center; 
+    margin: 0 auto;
+
+
+}
+
+.gridSupportingText {
+
+
+    width: 473px; 
+    max-width: 473px; 
+    margin: 0 auto; 
+    margin-top: 1.3rem; 
+    font-size: var(--main-section-font-size);
+    color: var(--primary-font-color);
+    font-weight: 600;
+
+
+}
+
+
+
+
