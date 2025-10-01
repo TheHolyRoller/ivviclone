@@ -4,10 +4,6 @@ import c from '../Styles/ContactForm.module.css';
 
 import {useState, useEffect } from 'react'; 
 
-// Get the form ID here 
-
-
-// Add in the form spark creds & imports here 
 
 
 
@@ -15,8 +11,6 @@ import {useState, useEffect } from 'react';
 function ContactForm() {
 
 
-  // Add in the state management here 
-  // Add in an object here with the different input value key value pairs 
   const [formInput, setFormInput] = useState({
 
     name: "", 

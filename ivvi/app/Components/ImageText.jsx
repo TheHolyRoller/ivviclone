@@ -7,12 +7,13 @@ import it from '../Styles/ImageText.module.css';
 
 function ImageText() {
   return (  
+
+
     <section className={it.featureMainContainer}>
-    
-      {/* Add in the grid container here  */}
+
       <div className={it.gridContainer}>
 
-      {/* Add in the image container here */}
+
       <div className={it.imageContainer}>
 
         <Image className={it.mainImage}  src={img} alt='woman' quality={100} loading='lazy' />

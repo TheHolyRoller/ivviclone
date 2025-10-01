@@ -17,11 +17,16 @@ export default function Home() {
   return (
     <div>
 
-        <ContactForm/> 
-        <VideoBlock/> 
+        {/* <ContactForm/>  */}
+        {/* <VideoBlock/>  */}
+        {/* <ImageText/> */}
+
+        <FeatureBlock/>
+        
+        
         <div className="textIMG" style={{width: '100vw', height: '95vh', backgroundColor: '#ef7a1a'}}>
 
-        <TextImage/> 
+        {/* <TextImage/>  */}
         
         </div>
 
