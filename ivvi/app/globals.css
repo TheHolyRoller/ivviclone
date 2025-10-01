@@ -104,7 +104,9 @@
 }
 
 body {
-  background-color: #e1dad3;
+  /* background-color: #e1dad3; */
+  background-color: #013699;
+  
   color: var(--foreground);
   overflow-x: hidden;
   

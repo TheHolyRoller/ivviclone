@@ -1,0 +1,211 @@
+/* ImageText Component Styles */
+
+.featureMainContainer {
+
+
+    /* outline: 11px solid lime; */
+
+    width: 70vw; 
+    display: grid;
+    place-content: center;
+    margin: 0 auto; 
+
+    /* background-color: #eeede8; */
+
+    /* color: var(--primary-font-color);  */
+    color: white; 
+
+
+
+	
+}
+
+.gridContainer {
+
+    display: grid;
+    place-content: center;
+    grid-template-columns: 1fr 1fr;
+
+    /* width: 45vw;  */
+    width: 1295px;
+
+    margin: 9rem auto; 
+    /* outline: 2px solid lime; */
+    
+	
+}
+
+.imageContainer {
+
+
+	
+}
+
+.mainImage{
+     
+    
+    
+    height: 507; 
+    width: 507; 
+
+    
+    
+    
+    border-radius: var(--image-border-radius);
+    -webkit-border-radius: var(--image-border-radius);
+    -moz-border-radius: var(--image-border-radius);
+    -ms-border-radius: var(--image-border-radius);
+    -o-border-radius: var(--image-border-radius);
+
+
+
+
+
+
+}
+
+
+
+
+.textContainer {
+	
+}
+
+.mainHeading {
+
+    /* font-size: var(--mainSectionHeadingFontSize); */
+    font-size: 48px;
+    /* width: 99%;  */
+    width: 455px; 
+
+
+    font-weight: 600;
+    line-height: 1.2;
+	
+}
+
+.supportingText {
+
+
+    font-size: var(--main-section-font-size);
+    width: 564.5px; 
+    max-width: 564.3px;
+    margin-top: 5px; 
+
+
+
+	
+}
+
+.ivviSpan{
+
+
+
+    margin: 0 0.25em;
+
+
+
+
+}
+
+
+
+.bulletPointListContainer {
+
+
+    margin-left: 2.1rem; 
+
+    font-size: var(--main-section-font-size); 
+    margin-top: 1.35rem; 
+
+
+
+	
+}
+
+.bulletPointList {
+
+
+    list-style: disc;
+
+
+
+
+	
+}
+
+.bulletPointListItem {
+
+
+    /* color: var(--bullet-point-color);  */
+    /* color: #013699;  */
+    color: white; 
+    line-height: 1.5;
+    margin-top: 1rem; 
+
+
+    
+
+
+    font-weight: 600;
+    max-width: 530px; 
+
+  
+
+
+	
+}
+
+
+
+.ctaLink{
+
+
+
+
+}
+
+
+
+.cta{
+    width: 168px;
+    height: 50px;
+    display: grid;
+    place-content: center;
+    outline:  2.4px solid #eeede8;
+    background-color: transparent;
+    color: #eeede8;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 2em; 
+    margin-left: -1rem; 
+
+
+
+    border-radius:40px;
+    -webkit-border-radius:40px;
+    -moz-border-radius:40px;
+    -ms-border-radius:40px;
+    -o-border-radius:40px;
+
+
+
+}
+
+
+
+
+
+
+
+
+.bulletPointListItem::marker{
+
+
+    color: #00143d; 
+
+
+
+
+}
+

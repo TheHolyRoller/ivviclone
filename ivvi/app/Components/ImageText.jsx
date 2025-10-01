@@ -6,7 +6,7 @@ import Image from 'next/image';
 import it from '../Styles/ImageText.module.css'; 
 
 function ImageText() {
-  return (
+  return (  
     <section className={it.featureMainContainer}>
     
       {/* Add in the grid container here  */}
@@ -69,8 +69,6 @@ function ImageText() {
 
         </li>
         <li className={it.bulletPointListItem}>
-
-            
 
 
 
