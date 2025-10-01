@@ -19,7 +19,6 @@
     height: 100vh; 
     position: relative; 
 
-    outline: 11px solid red;
     /* display: grid;   */
     /* place-content: center; */
 
@@ -43,9 +42,6 @@
     display: grid;
     place-content: center;    
     grid-template-columns: 1fr 1.4fr;
-
-    outline: 4px solid lime;
-    
 
 
 	
@@ -74,7 +70,6 @@
     z-index: 2; 
     color: var(--primary-font-color); 
     font-family: "Lato", sans-serif !important; 
-    outline: 1px solid lime;
     margin-left: 20vw; 
 
 
@@ -105,9 +100,6 @@
 
 
     width: 14vw; 
-    outline: 3px solid red;
-
-
 
     font-size: clamp(1rem, 1vw + 1rem, 1.55rem);
 	
@@ -141,7 +133,6 @@
 
 
 
-    outline: 2px solid lime;
     width: 10vw; 
     display: inline-block;
 
@@ -186,7 +177,6 @@
 .heroLaptopImageContainer {
 
 
-    outline: 1px solid red;
     position: relative;
     z-index: 3;
 
