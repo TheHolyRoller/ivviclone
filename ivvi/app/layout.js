@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
 
 
       <body>
-        <div style={{position: 'relative', zIndex: '99'}}>
+        <div style={{position: 'relative', zIndex: '99999999999'}}>
 
     <Navbar/> 
         </div>

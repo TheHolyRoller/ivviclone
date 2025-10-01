@@ -15,7 +15,7 @@ import FirstTextElement from "./Components/FirstTextElement";
 
 export default function Home() {
   return (
-    <div>
+    <div style={{position: "relative"}} >
       <Hero/> 
       <div style={{width: '100vw', height: '100vh', backgroundColor: '#eeede8', paddingTop: '4rem', marginTop: '-5rem', overflow: 'hidden'}} >
 
@@ -36,8 +36,24 @@ export default function Home() {
 
       </div>
 
-      <div   >
+      <div  style={{backgroundColor: '#79a479', width: '100vw', height: '406px', display: "grid", placeContent:'center', paddingBottom:"5rem"}} >
         <FirstTextElement/>
+
+
+      </div>
+
+
+      <div style={{width: '100vw', height: '100vh', backgroundColor: '#eeede8', paddingTop: '0rem', paddingBottom:"5rem", marginTop: '-5rem', display: "grid", placeContent: "center", overflow: 'hidden'}}  >
+
+      <FeatureBlock/> 
+
+
+
+      </div>
+
+      <div style={{width: '100vw', height: '100vh', backgroundColor: '#ef7a1a', paddingTop: '4rem', marginTop: '-5rem', overflow: 'hidden', display: "grid", placeContent: "center",}}  >
+
+        <TextImage/> 
 
 
       </div>
@@ -51,12 +67,17 @@ export default function Home() {
       <div>
         <ContactForm/> 
 
+      <div style={{marginBottom: "-3rem", outline: "2px solid red", position: "absolute", bottom: '0'}}>
 
       </div>
 
-      <div style={{position: 'absolute', bottom: "0", zIndex:"9999"}} >
 
-      {/* <Footer/>  */}
+      </div>
+
+      <div style={{position: "relative",  zIndex:"9999"}} >
+
+      <Footer/> 
+
 
 
       </div>

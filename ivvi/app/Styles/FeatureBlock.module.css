@@ -10,7 +10,7 @@
     place-content: center;
     margin: 0 auto; 
 
-    background-color: #eeede8;
+    /* background-color: #eeede8; */
     color: var(--primary-font-color); 
 
 	
@@ -176,7 +176,7 @@
     font-size: 24px;
     color: #013699; 
 
-    
+
 
 
 }

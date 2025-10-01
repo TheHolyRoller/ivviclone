@@ -51,8 +51,6 @@ function FeatureBlock() {
 
         <li className={ft.bulletPointListItem}>
 
-            
-
 
 
         Tap record
