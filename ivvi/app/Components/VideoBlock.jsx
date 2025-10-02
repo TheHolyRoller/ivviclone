@@ -50,8 +50,8 @@ function VideoBlock() {
     <figure style={{ position: "relative", paddingBottom: "56.25%",width: "714px", height: "470px", maxHeight: '470px',overflow: 'hidden', height: 0,  }}>
 
     <Image className={v.videoBackground} src={background} alt="video background" quality={100} loading='lazy'/> 
-  {/* <iframe
-    src="https://vimeo.com/1007634251?fl=pl&fe=sh"
+  <iframe
+    src="https://player.vimeo.com/video/1007634251?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
     style={{
       position: "absolute",
       top: 0,
@@ -63,7 +63,7 @@ function VideoBlock() {
     allow="autoplay; fullscreen; picture-in-picture"
     allowFullScreen
     title="ivvi Demo Video 30s"
-  /> */}
+  />
 </figure>
 
 
