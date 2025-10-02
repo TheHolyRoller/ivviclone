@@ -46,10 +46,10 @@ function VideoBlock() {
 
     <div className={v.heroLaptopImageContainer}>
 
-    {/* style='background-image: url("https://i.vimeocdn.com/video/1924540620-a71b0966e2994e5812bd5db761e7f475ec641b7c7132050df9e787d775180e8e-d?mw=1300&mh=731&q=70"); */}
+    {/* TO DO Add in a white background here  */}
     <figure style={{ position: "relative", paddingBottom: "56.25%",width: "714px", height: "470px", maxHeight: '470px',overflow: 'hidden', height: 0,  }}>
 
-    <Image className={v.videoBackground} src={background} alt="video background" quality={100} loading='lazy'/> 
+    {/* <Image className={v.videoBackground} src={background} alt="video background" quality={100} loading='lazy'/>  */}
   <iframe
     src="https://player.vimeo.com/video/1007634251?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
     style={{
