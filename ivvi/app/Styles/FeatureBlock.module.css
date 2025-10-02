@@ -2,15 +2,11 @@
 
 .featureMainContainer {
 
-
-    /* outline: 11px solid lime; */
-
     width: 70vw; 
     display: grid;
     place-content: center;
     margin: 0 auto; 
 
-    /* background-color: #eeede8; */
     color: var(--primary-font-color); 
 
 	
@@ -22,11 +18,8 @@
     place-content: center;
     grid-template-columns: 1fr 1.3fr;
 
-    /* width: 45vw;  */
     width: 1080px; 
     margin: 9rem auto; 
-    /* outline: 2px solid lime; */
-    
 	
 }
 

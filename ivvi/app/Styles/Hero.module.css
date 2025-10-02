@@ -17,6 +17,7 @@
 
     width:100vw; 
     height: 100vh; 
+    min-height: 100vh;
     position: relative; 
 
     /* display: grid;   */
@@ -30,8 +31,15 @@
 
 .heroContentContainer {
 
-
+    /* Add in a fixed width here */
     width: 100vw;
+    width: 1400px; 
+    /* width: max-content;  */
+
+    /* width: 1400px;  */
+    outline: 22px solid red;
+    position: relative;
+    z-index: 9999999;
     /* width: 70vw; */
     margin: 0 auto; 
 
@@ -39,9 +47,7 @@
     padding-top: 20vh;
     
     
-    display: grid;
-    place-content: center;    
-    grid-template-columns: 1fr 1.4fr;
+    display: flex;
 
 
 	
@@ -55,7 +61,8 @@
     
         position: absolute;
         width: 100vw; 
-        max-height: 90vh; 
+        min-height: 100vh !important;
+        outline: 11px solid red;
 
 
 
@@ -70,7 +77,12 @@
     z-index: 2; 
     color: var(--primary-font-color); 
     font-family: "Lato", sans-serif !important; 
-    margin-left: 20vw; 
+    /* margin-left: 20vw;  */
+
+    margin-left: 200px; 
+
+
+    
 
 
 }
@@ -99,8 +111,12 @@
 .heroSupportingText {
 
 
-    width: 14vw; 
+    /* width: 14vw;  */
+    /* Add in a fixed size here  */
+    width: 333px; 
 
+
+    
     font-size: clamp(1rem, 1vw + 1rem, 1.55rem);
 	
 }
@@ -131,9 +147,7 @@
 
 .mainSupportingText{
 
-
-
-    width: 10vw; 
+    width: 333px; 
     display: inline-block;
 
 
@@ -147,8 +161,11 @@
 
 
 .heroCTAButton {
+    
+    
     width: 223px;
     height: 50px;
+    
     background-color: var(--cta-background-color);
     color: var(--cta-font-color); 
     font-weight: 700;
@@ -160,9 +177,8 @@
     -ms-border-radius: var(--cta-border-radius);
     -o-border-radius: var(--cta-border-radius);
 
-    margin-top: 1rem; 
-    /* margin-left: 1rem;  */
 
+    margin-top: 1rem; 
     display: grid;
     place-content: center;
 
@@ -190,12 +206,110 @@
 
 
 
-    width: 33vw; 
-    /* height: 56vh;  */
+    /* width: 33vw;  */
+    /* Add in a fixed width for the height here */
+    width: 829px;
+
     height: 500px;
 
     position: relative;
     z-index: 9;
+
+
+}
+
+
+
+/* Add in the media queries here  */
+
+@media(max-width: 1430px) {
+    
+
+    .heroTextContainer {
+
+
+    position: relative; 
+    z-index: 2; 
+    color: var(--primary-font-color); 
+    font-family: "Lato", sans-serif !important; 
+    /* margin-left: 20vw;  */
+
+    /* margin-left: 150px;  */
+    margin-left: 10vw; 
+
+
+
+    
+
+
+}
+
+@media(max-width: 1320px){
+
+
+    
+    .heroTextContainer {
+
+
+    position: relative; 
+    z-index: 2; 
+    color: var(--primary-font-color); 
+    font-family: "Lato", sans-serif !important; 
+    margin-left: 5.5vw; 
+
+
+
+    
+
+
+}
+
+/* Add in the laptop image here  */
+
+.heroLaptopImg{
+
+
+
+    /* width: 33vw;  */
+    /* Add in a fixed width for the height here */
+    /* width: 829px; */
+    /* aspect-ratio: ; */
+    width: 60vw; 
+    height: 40vw;
+    /* aspect-ratio: 1.7; */
+
+    /* height: 500px; */
+
+    position: relative;
+    z-index: 9;
+
+
+}
+
+
+/* Add in the text here and make it responsive  */
+
+@media(max-width: 1120px){
+
+    /* make the here element stacked here */
+    .heroContentContainer {
+
+
+        display: flex;
+        flex-direction: column;
+        
+
+
+    }
+
+
+
+
+
+}
+
+
+
 
 
 
@@ -203,3 +317,79 @@
 
 
 }
+
+
+
+
+}
+
+
+
+/* short phone */
+@media(min-width: 320px) and (max-width: 360px){
+
+
+
+
+
+}
+
+
+/* large phone */
+@media(min-width: 370px) and (max-width: 550px){
+
+
+
+}
+
+/* Tablet */
+@media(min-width: 600px) and (max-width: 1050px){
+
+
+
+
+
+
+}
+
+
+/* Laptop  */
+@media(min-width: 1200px) and (max-width: 1900px) {
+
+
+
+
+
+
+}
+
+
+/* Desktop */
+
+@media(min-width: 1920px) {
+
+
+
+
+
+
+
+
+}
+
+
+
+
+/* Add in the media query here that Starts at laptop width and stops just before desktop width  */
+
+
+/* Add in the media query that starts at Tablet width and stops just before laptop width here */
+
+
+/* Add in media query that starts at wide phone width and stops just before tablet width  */
+
+
+
+/* Add in narrow short phone dimensions here  */
+
+
