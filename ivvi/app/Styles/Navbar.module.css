@@ -10,10 +10,7 @@
 	position: fixed; 
 	top: 0; 
 	left: 0; 
-	right:0; 
 	z-index: 99999999;
-	
-
 	font-weight: 400; 
 
 	font-size: 18px; 
@@ -133,7 +130,7 @@
 	.navbar {
 
 
-
+		display: none !important;
 
 		
 	}
@@ -181,6 +178,8 @@
 /* Tablet Styles */
 @media (min-width: 769px) and (max-width: 1024px) {
 	.navbar {
+
+		display: none !important;
 		
 	}
 	
@@ -217,15 +216,31 @@
 	}
 }
 
+@media(max-width: 1100px){
+
+		.LogoContainer {
+
+			display: none;
+		
+	}
+
+}
+
+
+
 /* Desktop Styles */
 @media (min-width: 1025px) {
 	.navbar {
+
+
 		
 	}
 	
-	.LogoContainer {
-		
-	}
+		.LogoContainer {
+
+
+			
+		}
 	
 	.navigationContainer {
 		
@@ -255,3 +270,20 @@
 		
 	}
 }
+
+
+@media(max-width: 1205px){
+
+
+	.LogoContainer {
+
+
+		left: 2rem !important; 
+
+
+	}
+
+
+
+}
+

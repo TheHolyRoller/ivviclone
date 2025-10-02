@@ -73,6 +73,20 @@
   --navbar-right-margin: 10px; 
 
   --navbar-height: 85px; 
+
+
+  --hamburgerBarWidth: 40px; 
+  --hamburgerBarHeight: 5px; 
+  --hamburgerMargin: 5px; 
+  --rotationAngle: 45deg;
+  
+  --borderRadius: 2px; 
+
+  --backgroundColor: black; 
+  --activeBackgroundColor: white; 
+  
+
+
   
 
 

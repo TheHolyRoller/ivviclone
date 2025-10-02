@@ -19,6 +19,14 @@ function Hero() {
 
     <section className={h.heroContentContainer} >
 
+      {/* Add in an img here that you will show on tablet mode  */}
+
+      <div className={h.mobileHeroLaptopImageContainer}>
+
+      <Image className={h.heroLaptopImg}  src={laptop} alt='laptop'  quality={100} loading="lazy"/> 
+
+    </div>
+
     <div className={h.heroTextContainer}>
 
         <div className={h.DSASubHeading}>
@@ -33,14 +41,23 @@ function Hero() {
         </span>
 
 
-        <span style={{display: 'block'}} >
+        <span className={h.notesSpan}>
 
         Notes for
         </span>
 
-        <span>
+        <span  className={h.studentSpan}>
 
          Students
+        </span>
+
+        <span className={h.mobileHeader} >
+
+          Notes for
+
+          Students
+
+
         </span>
 
         </h1>

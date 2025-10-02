@@ -1,7 +1,7 @@
 import "./globals.css";
 import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
-
+import Hamburger from "./Components/Hamburger";
 
 export const metadata = {
   title: "myScreener",
@@ -17,10 +17,11 @@ export default function RootLayout({ children }) {
       <body>
         <div style={{position: 'relative', zIndex: '99999999999'}}>
 
+          <Hamburger/> 
     <Navbar/> 
         </div>
 
-        {children}
+        {/* {children} */}
 
 
       </body>

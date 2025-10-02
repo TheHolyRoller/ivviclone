@@ -1,0 +1,169 @@
+
+
+.hamburgerIconContainer{
+
+
+margin-top: 5rem;
+margin-left: 9rem; 
+
+
+
+}
+
+
+.hamburgerIconNav{
+
+
+
+
+
+}
+
+
+.checkBox{
+
+
+
+    margin-bottom: -3rem;
+    position: absolute; 
+    opacity: 0;
+
+
+}
+
+
+.hamburgerIconButton{
+
+
+
+
+}
+
+
+.hamburgerBar{
+
+
+    transform-origin: center;
+    transition: 0.5s ease;
+
+    width: var(--hamburgerBarWidth);
+    height: var(--hamburgerBarHeight); 
+
+    background-color: var(--backgroundColor);
+    margin-top: var(--hamburgerMargin);
+
+    /* outline: 11px solid red; */
+    display: block;
+    border-radius: var(--borderRadius);
+
+    
+
+}
+
+
+#firstBar{
+
+
+
+
+}
+
+
+#secondBar{
+
+
+
+
+}
+
+
+
+#thirdBar{
+
+
+
+
+}
+
+
+.checkBox{
+
+
+
+
+}
+
+
+
+.hamburgerMenu{
+
+
+
+
+}
+
+
+
+.hamburgerMenuList{
+
+
+
+
+}
+
+
+.hamburgerMenuListItem{
+
+
+
+
+}
+
+
+aside{
+
+    transform: translate(-100%);
+    transition: 1s ease;
+
+
+}
+
+
+
+/* Add in the Animations here  */
+.hamburgerIconNav:has(input:checked) aside {
+
+
+
+    transform: translate(5rem);
+
+
+}
+
+
+.hamburgerIconNav:has(input:checked) #firstBar {
+
+    transform: rotate(var(--rotationAngle)) translate(-7.6px, 6px) ;
+    background-color: var(--activeBackgroundColor);
+
+}
+
+.hamburgerIconNav:has(input:checked) #secondBar {
+
+
+    display: none;
+
+
+}
+
+.hamburgerIconNav:has(input:checked) #thirdBar {
+
+
+    transform: rotate(-45deg) translate(2px, -15px) ;
+    background-color: var(--activeBackgroundColor);
+
+}
+
+
+/* Add in the effects here  */
+

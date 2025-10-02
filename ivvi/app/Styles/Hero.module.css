@@ -31,16 +31,11 @@
 
 .heroContentContainer {
 
-    /* Add in a fixed width here */
+
     width: 100vw;
     width: 1400px; 
-    /* width: max-content;  */
-
-    /* width: 1400px;  */
-    outline: 22px solid red;
     position: relative;
     z-index: 9999999;
-    /* width: 70vw; */
     margin: 0 auto; 
 
     padding-bottom: 10vh;
@@ -62,9 +57,6 @@
         position: absolute;
         width: 100vw; 
         min-height: 100vh !important;
-        outline: 11px solid red;
-
-
 
 
     
@@ -108,6 +100,15 @@
 	
 }
 
+
+.mobileHeader{
+
+
+    display: none !important; 
+
+
+}
+
 .heroSupportingText {
 
 
@@ -142,6 +143,15 @@
 
 
 	
+}
+
+.notesSpan{
+
+
+        display: block;
+
+
+
 }
 
 
@@ -197,6 +207,16 @@
     z-index: 3;
 
 	
+}
+
+.mobileHeroLaptopImageContainer{
+
+
+    display: none;
+
+
+
+
 }
 
 
@@ -297,11 +317,127 @@
 
         display: flex;
         flex-direction: column;
-        
+        justify-items: flex-end;
+        margin: 0 auto; 
+
+        width: 90vw; 
+
+
 
 
     }
 
+    .mobileHeroLaptopImageContainer{
+
+
+        display: inline-block;
+
+
+
+
+
+    }
+
+    /* Add in the hero lapto img here  */
+    .heroLaptopImg{
+
+
+        width: 85vw; 
+
+
+
+
+
+    }
+
+    .heroLaptopImageContainer{
+
+
+
+        display: none !important;
+
+
+
+
+
+    }
+
+
+    
+.heroCTAButton {
+    
+    
+    width: 223px;
+    height: 50px;
+    
+    font-size: 18px;
+
+
+}
+
+.heroTextContainer{
+
+
+    font-size: 30px !important;
+    text-align: left;
+    margin-left: 0 !important; 
+
+
+}
+
+.heroMainHeader{
+
+
+    font-size: 30px !important;
+
+
+}
+
+.studentSpan{
+
+
+    display: none !important;
+
+
+
+}
+
+.notesSpan{
+
+
+    display: none;
+
+
+}
+
+
+
+.DSASubHeading{
+
+
+    font-size: 18px;
+
+
+
+}
+
+.mobileHeader{
+
+
+
+    display: inline-block !important;
+
+
+}
+
+.heroSupportingText{
+
+
+    font-size: 16px;
+
+
+
+}
 
 
 

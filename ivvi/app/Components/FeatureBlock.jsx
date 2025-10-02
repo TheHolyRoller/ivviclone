@@ -56,8 +56,6 @@ function FeatureBlock() {
         Tap record
 
 
-
-
         </li>
         <li className={ft.bulletPointListItem}>
 
