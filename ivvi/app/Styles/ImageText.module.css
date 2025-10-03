@@ -9,8 +9,10 @@
     margin: 0 auto; 
 
     background-color: #eeede8;
-    color: var(--primary-font-color); 
-
+    color: var(--primary-font-color);
+    position: relative;
+     
+    z-index: 99;
 	
 }
 
@@ -27,7 +29,6 @@
 }
 
 .imageContainer {
-
 
 	
 }
@@ -140,6 +141,140 @@
 
 
     color: #00143d; 
+
+
+
+
+}
+
+
+@media(max-width: 1120px){
+
+
+
+    .gridContainer {
+
+    display: grid;
+    place-content: center;
+    grid-template-columns: 1fr;
+
+    width: 90vw; 
+    height: 40vh;
+
+    margin: 19rem auto !important; 
+    text-align: left; 
+
+	
+}
+
+
+.featureMainContainer {
+
+
+    width: 100vw; 
+    display: grid;
+    place-content: center;
+    margin: 15rem auto; 
+
+    background-color: #eeede8;
+    color: var(--primary-font-color);
+    position: relative;
+    z-index: 99;
+
+    
+
+}
+
+.mainImage{
+
+
+    width: 90vw; 
+    height: 90vw; 
+    margin-top: 4rem; 
+
+
+
+}
+
+
+
+
+
+}
+
+
+/* Add in the phone media query here  */
+
+
+@media(max-width:630px){
+
+
+       .gridContainer {
+
+    display: grid;
+    place-content: center;
+    grid-template-columns: 1fr;
+
+    width: 90vw; 
+    height: 40vh;
+
+    margin: 19rem auto !important; 
+    text-align: left; 
+
+	
+}
+
+
+.featureMainContainer {
+
+
+    width: 100vw; 
+    display: grid;
+    place-content: center;
+    margin: 15rem auto; 
+
+    background-color: #eeede8;
+    color: var(--primary-font-color);
+    position: relative;
+    z-index: 99;
+
+    
+
+}
+
+.mainImage{
+
+
+    width: 90vw; 
+    height: 90vw; 
+    margin: 0 auto; 
+
+    margin-top: 4rem; 
+
+
+
+}
+
+/* Adjust the text elements here */
+.textContainer{
+
+
+    width: 90vw; 
+
+}
+
+
+.supportingText{
+
+
+
+    width: 80vw; 
+    
+
+
+
+}
+
 
 
 

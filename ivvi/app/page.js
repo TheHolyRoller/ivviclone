@@ -16,13 +16,14 @@ import FirstTextElement from "./Components/FirstTextElement";
 export default function Home() {
   return (
     <div style={{position: "relative"}} >
-      <Hero/> 
+
+        <VideoBlock/> 
+
       <div style={{width: '100vw', height: '100vh', backgroundColor: '#eeede8', paddingTop: '4rem', marginTop: '-5rem', overflow: 'hidden'}} >
 
-      <ImageText/> 
       </div>
 
-      <div>
+      {/* <div>
         <VideoBlock/> 
 
       </div>
@@ -80,7 +81,7 @@ export default function Home() {
 
 
 
-      </div>
+      </div> */}
 
 
 

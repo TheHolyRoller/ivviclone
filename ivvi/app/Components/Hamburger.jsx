@@ -13,7 +13,7 @@ import ivvi from '../../public/icons/ivvi.svg';
 function Hamburger() {
 
 
-    const [isChecked, setIsChecked] = useState(true);
+    const [isChecked, setIsChecked] = useState(false);
 
 
     const handleClicked = () => {

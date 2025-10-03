@@ -28,10 +28,10 @@ function VideoBlock() {
 
         </h1>
 
-        <article  className={v.heroSupportingText}>
+        <p  className={v.heroSupportingText}>
 
           We understand these challenges, so we built ivvi Notes for you with our revolutionary Speech-to-Map™ technology. As you  listen, ivvi Notes transcribes the lecture and transforms it into a visual mind map with keywords and images. ivvi Notes is the ultimate solution for visual thinkers.
-        </article>
+        </p>
 
         <button className={v.heroCTAButton}>
           <Link className={v.heroCTALink}  href='/ivvi' alt='ivvi'>
@@ -47,17 +47,15 @@ function VideoBlock() {
     <div className={v.heroLaptopImageContainer}>
 
     {/* TO DO Add in a white background here  */}
-    <figure style={{ position: "relative", paddingBottom: "56.25%",width: "714px", height: "470px", maxHeight: '470px',overflow: 'hidden', height: 0,  }}>
+    <figure className={v.videoContainer}  style={{}}>
 
     {/* <Image className={v.videoBackground} src={background} alt="video background" quality={100} loading='lazy'/>  */}
   <iframe
+
+    className={v.mainVideoFrame}
     src="https://player.vimeo.com/video/1007634251?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
     style={{
-      position: "absolute",
-      top: 0,
-      left: 0,
-      width: "714px",
-      height: "470px",
+      
     }}
     frameBorder="0"
     allow="autoplay; fullscreen; picture-in-picture"

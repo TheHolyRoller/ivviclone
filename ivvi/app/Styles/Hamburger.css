@@ -385,7 +385,7 @@
 aside{
 
     transition: 1s ease;
-    transform: translate(0, -45rem);
+    transform: translate(0, -44rem);
     position: absolute;
     right: 0; 
     padding-top: 2rem; 

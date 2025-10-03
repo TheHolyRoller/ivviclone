@@ -10,9 +10,7 @@ function ImageText() {
 
 
     <section className={it.featureMainContainer}>
-
       <div className={it.gridContainer}>
-
 
       <div className={it.imageContainer}>
 
@@ -74,9 +72,6 @@ function ImageText() {
 
 
         Visual notes are recommended but they're hard to create during lectures
-
-
-
 
         </li>
         </ul>
