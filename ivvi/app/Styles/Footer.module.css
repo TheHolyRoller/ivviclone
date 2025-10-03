@@ -123,3 +123,82 @@
 
 
 }
+
+@media(max-width: 750px){
+
+
+    
+.Footer {
+
+
+    /* height: 292px;  */
+    height: 370px;  
+
+    background-color: var(--footer-background-color);
+    width: 100vw; 
+    display: grid;
+    place-content: center;
+
+    padding-bottom: 1rem;
+
+	
+}
+
+
+.footerTitleSection{
+
+
+
+    display: flex;
+    text-wrap: wrap;
+    text-align: center; 
+    width: 90vw; 
+    margin: auto; 
+
+
+    /* padding-top: 6rem;  */
+
+
+
+
+}
+
+
+.footerLegalList{
+
+
+    width: 80vw; 
+    display: flex;
+    flex-wrap: wrap;
+    
+
+
+
+
+
+
+}
+
+
+.footerPhoneSection{
+
+
+    /* padding-bottom: 3rem;  */
+    
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+}
