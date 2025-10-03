@@ -33,7 +33,6 @@
     place-content: center;    
     grid-template-columns: 1fr 1.4fr;
 
-    outline: 5px solid red;
 
 	
 }
@@ -96,7 +95,6 @@
 
 
     width: 14vw; 
-    /* outline: 3px solid red; */
 
 
 
@@ -263,7 +261,6 @@
 
     .heroContentContainer {
 
-
     width: 90vw;
     margin: 0 auto; 
     padding-bottom: 10vh;
@@ -272,7 +269,9 @@
     display: grid;
     place-content: center;    
     grid-template-columns: 1fr 1fr;
-    
+
+    outline: 5px solid lime;
+
 	
 }
 
@@ -404,8 +403,8 @@
 
 .mainVideoFrame{
 
-width: 90vw; 
-min-width: 90vw !important; 
+width: 80vw; 
+min-width: 60vw !important; 
 
 height: 55vw; 
 position: relative;
@@ -413,8 +412,7 @@ z-index: 999;
 margin-top: 55vw; 
 outline: 4px solid red !important;
 
-
-
+/* padding: 9rem; */
 
 }
 

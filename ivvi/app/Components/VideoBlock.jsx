@@ -54,10 +54,7 @@ function VideoBlock() {
 
     className={v.mainVideoFrame}
     src="https://player.vimeo.com/video/1007634251?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-    style={{
-      
-    }}
-    frameBorder="0"
+    
     allow="autoplay; fullscreen; picture-in-picture"
     allowFullScreen
     title="ivvi Demo Video 30s"
