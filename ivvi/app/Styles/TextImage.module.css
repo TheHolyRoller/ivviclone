@@ -37,9 +37,9 @@
      
     
     
-    height: 507; 
-    width: 507; 
-
+    height: 507px; 
+    width: 507px; 
+    
     
     
     
@@ -130,8 +130,8 @@
 
 
     /* color: var(--bullet-point-color);  */
-    /* color: #013699;  */
-    color: white; 
+    color: #013699; 
+    /* color: white;  */
     line-height: 1.5;
     margin-top: 1rem; 
 
@@ -201,3 +201,142 @@
 
 }
 
+@media(max-width: 1380px){
+
+
+
+    .featureMainContainer {
+
+
+    width: 70vw; 
+    display: grid;
+    place-content: center;
+    margin: 0 auto; 
+
+    color: white; 
+
+
+
+	
+}
+
+.gridContainer {
+
+    display: grid;
+    place-content: center;
+    grid-template-columns: 1fr 1fr;
+
+    /* width: 1295px; */
+    width: 80vw; 
+    margin: 9rem auto; 
+    
+	
+}
+
+
+
+
+}
+
+
+
+@media(max-width: 1130px){
+
+
+    .gridContainer {
+
+    display: grid;
+    place-content: center;
+    grid-template-columns: 1fr;
+
+    width: 90vw; 
+    margin: 9rem auto; 
+    
+	
+}
+
+
+.mainImage{
+
+
+    width: 90vw; 
+    height: 90vw; 
+
+
+
+
+}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+@media(max-width: 500px){
+
+
+    
+    .gridContainer {
+
+    display: grid;
+    place-content: center;
+    grid-template-columns: 1fr;
+
+    /* width: 1295px; */
+    width: 90vw; 
+    margin: 9rem auto; 
+    
+	
+}
+
+
+.mainImage{
+
+
+    width: 90vw; 
+    max-width: 90vw; 
+    margin: auto !important; 
+
+
+
+    height: 90vw; 
+    min-width: none;
+    min-height: none; 
+
+
+
+
+
+}
+
+
+.bulletPointListContainer{
+
+
+    font-size: 1rem !important;
+
+
+
+
+
+}
+
+.cta{
+
+
+    margin-bottom: 1rem; ;
+
+}
+
+
+
+
+
+}

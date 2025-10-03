@@ -233,7 +233,7 @@
     min-height: 470px; ;
 
     /* margin-top: 55%;  */
-    margin-top: 14rem;
+    /* margin-top: 14rem; */
 
 
 }
@@ -269,8 +269,6 @@
     display: grid;
     place-content: center;    
     grid-template-columns: 1fr 1fr;
-
-    outline: 5px solid lime;
 
 	
 }
@@ -364,9 +362,8 @@
 
 .heroSupportingText{
 
-
     min-width: 80vw !important; 
-
+    
     font-size: 1rem;
 
 
@@ -391,7 +388,6 @@
     width: 80vw; 
     height: 55vw; 
     overflow: hidden;
-    /* outline: 44px solid lime; */
     display: grid;
     place-content: center;
 
@@ -404,15 +400,14 @@
 .mainVideoFrame{
 
 width: 80vw; 
-min-width: 60vw !important; 
+min-width: 263px !important; 
 
 height: 55vw; 
 position: relative;
 z-index: 999;
 margin-top: 55vw; 
-outline: 4px solid red !important;
+margin-left: 2vw; 
 
-/* padding: 9rem; */
 
 }
 

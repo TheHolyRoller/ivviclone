@@ -175,3 +175,126 @@
 
 }
 
+@media(max-width: 1100px){
+
+
+    .gridContainer {
+
+    
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    width: 90vw; 
+    margin: 9rem auto; 
+	
+}
+
+
+.imageContainer{
+
+
+    display: grid;
+    place-content: center;
+    
+
+
+}
+
+
+.mainImage{
+
+
+    width: 60vw; 
+    height: 60vw;
+
+    min-width: 296px; 
+    min-height: 297px; 
+
+
+
+
+
+}
+
+
+.textContainer{
+
+
+    width: 70vw; 
+    margin-left: 5vw; 
+
+}
+
+
+}
+
+
+/* Mobile  */
+
+
+@media(max-width: 600px){
+
+
+    .mainImage{
+
+        width: 80vw; 
+        height: 80vw; 
+
+
+
+
+    }
+
+
+    .textContainer{
+
+
+    width: 88vw; 
+    margin: auto !important; 
+
+
+
+}
+
+.mainHeading{
+
+
+    font-size: 1.9rem; 
+
+
+
+}
+
+
+.bulletPointListContainer{
+
+    font-size: 1.1rem;
+
+
+}
+
+.lastText{
+
+
+    font-size: 1.1rem;
+
+
+
+}
+
+.bulletPointListContainer{
+
+
+    margin-left: 2.65rem; 
+
+
+
+
+
+}
+
+
+
+
+
+}

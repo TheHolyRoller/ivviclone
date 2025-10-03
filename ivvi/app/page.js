@@ -15,9 +15,13 @@ import FirstTextElement from "./Components/FirstTextElement";
 
 export default function Home() {
   return (
-    <div style={{position: "relative"}} >
+    <div style={{position: "relative", backgroundColor: '#013699'}} >
 
-        <VideoBlock/> 
+
+      <span style={{position: 'absolute', bottom: '0'}} >
+
+        <Footer/> 
+      </span>
 
       <div style={{width: '100vw', height: '100vh', backgroundColor: '#eeede8', paddingTop: '4rem', marginTop: '-5rem', overflow: 'hidden'}} >
 

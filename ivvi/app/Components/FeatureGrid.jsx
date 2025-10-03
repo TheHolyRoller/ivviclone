@@ -19,7 +19,6 @@ function FeatureGrid() {
 
       ivvi Notes Benefits in Lectures
 
-
       </div>
 
 
