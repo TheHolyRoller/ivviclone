@@ -10,6 +10,7 @@ import VideoBlock from "./Components/VideoBlock";
 import TextImage from "./Components/TextImage";
 import TextElement from "./Components/TextElement";
 import FirstTextElement from "./Components/FirstTextElement";
+import Hamburger from "./Components/Hamburger";
 
 
 
@@ -17,17 +18,25 @@ export default function Home() {
   return (
     <div style={{position: "relative", backgroundColor: '#013699'}} >
 
-
-      <span style={{position: 'absolute', bottom: '0'}} >
-
-        <Footer/> 
-      </span>
+      
 
       <div style={{width: '100vw', height: '100vh', backgroundColor: '#eeede8', paddingTop: '4rem', marginTop: '-5rem', overflow: 'hidden'}} >
 
+      <Hero/> 
+
       </div>
 
-      {/* <div>
+
+      {/* Add in the image text element here  */}
+      <div  style={{backgroundColor: '#eeede8', width: '100vw', height: '100vh'}} >
+
+      <ImageText/> 
+
+
+
+      </div>
+
+      <div>
         <VideoBlock/> 
 
       </div>
@@ -85,7 +94,7 @@ export default function Home() {
 
 
 
-      </div> */}
+      </div>
 
 
 

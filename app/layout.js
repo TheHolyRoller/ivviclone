@@ -15,14 +15,14 @@ export default function RootLayout({ children }) {
 
 
       <body>
+          <Hamburger/> 
         <div style={{position: 'relative', zIndex: '99999999999'}}>
 
-          {/* <Hamburger/>  */}
-    {/* <Navbar/>  */}
+    <Navbar/> 
+
         </div>
 
         {children}
-
 
       </body>
     </html>
