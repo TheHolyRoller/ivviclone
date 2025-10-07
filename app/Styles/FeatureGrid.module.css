@@ -9,6 +9,8 @@
 
 }
 
+
+
 .headlineContainer {
 
 
@@ -137,7 +139,6 @@
     grid-template-columns: 1fr;
     gap: 2.5rem; 
 
-    /* width: 995px;  */
     width: 60vw; 
     text-align: center;
 
@@ -164,6 +165,68 @@
 }
 
 
+
+
+
+
+}
+
+
+@media(max-width: 500px){
+
+
+    .headlineContainer{
+
+
+        width: 90vw; 
+        font-size: 1.875rem; 
+
+
+
+    }
+    
+
+    .gridSupportingText{
+
+
+
+        font-size: 20px;
+
+
+        text-align: center;
+        display: grid;
+        place-content: center;
+        min-width: 90vw !important;
+
+        line-height: 1.2;   
+
+
+
+
+
+    }
+
+    .featureGrid{
+
+        margin: auto !important; 
+        width: 99.99vw; 
+        
+
+
+
+    }
+
+    .gridItem {
+
+    display: grid;
+    place-content: center;
+    /* margin-left: 1.75rem;  */
+    margin: auto; 
+        
+
+
+
+}
 
 
 

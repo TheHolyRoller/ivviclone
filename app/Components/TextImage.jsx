@@ -8,7 +8,6 @@ import img from '../../public/images/lady.webp';
 
 
 
-
 function TextImage() {
   return (
     <section className={ti.featureMainContainer}>
