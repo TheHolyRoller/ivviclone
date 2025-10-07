@@ -37,6 +37,8 @@ function Hamburger() {
   return (
 
     <>
+    <div className='hamburgerNav' >
+
     <header className='hamburgerIconContainer' >
         <label htmlFor='menuToggle' className='spanLabel'>
               <button className='hamburgerIconButtonIconContainer'>
@@ -46,9 +48,6 @@ function Hamburger() {
              </button>
         <nav className='hamburgerIconNav' onClick={() => handleClicked} style={{}} >
 
-        {/* Add in the icon container here */}
-        
-      
 
         <input id="menuToggle" className='checkBox'  type='checkbox' defaultChecked={isChecked}></input>
 
@@ -232,6 +231,7 @@ function Hamburger() {
         </ul>
     </aside>
         </header>
+    </div>
     </>
 
 

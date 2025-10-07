@@ -5,25 +5,37 @@
 }
 
 
+.hamburgerNav{
+
+
+
+    width: 100vw; 
+    max-height: 90px;
+    min-height: 70px; 
+    
+    position: relative;
+
+
+    display: grid;
+    place-content: center;
+    z-index: 999999999999999;
+    background-color: #013699;
+
+    
+
+
+}
+
 
 
 .hamburgerIconContainer{
 
 
-    margin-top: 5rem;
-    margin-left: 9rem; 
-
     position: absolute;
     right: 0; 
-    top: -5rem; 
-
     width: 100vw; 
-    background-color: #013699 !important; 
-    
-
-    height: 4.375rem; 
-
-
+    max-height: 20px !important ;
+    /* z-index: 999999999999999; */
 
 
 
@@ -65,6 +77,8 @@
     z-index: 9999999;
     left: 1.5rem; 
     top: 1.45rem; 
+
+
 
 }
 
@@ -214,8 +228,10 @@
 
 
     font-weight: 600;
+    margin-bottom: 5rem;
+    
+    
 
-    margin-bottom: 5rem; 
 }
 
 #hamburgerSeeElement{
@@ -243,8 +259,6 @@
 
 .hamburgerResourceNestedListItem{
 
-
-    /* outline: 2px solid blue; */
 
     margin-bottom: var(--hamburgerListItemMargin);
 
@@ -385,7 +399,7 @@
 aside{
 
     transition: 1s ease;
-    transform: translate(0, -44rem);
+    transform: translate(0, -64rem);
     position: absolute;
     right: 0; 
     padding-top: 2rem; 
@@ -398,7 +412,7 @@ aside{
 .hamburgerIconContainer:has(input:checked) aside {
 
         
-        transform: translate(0, 3rem);
+        transform: translate(0, 2rem);
 
 
 }
@@ -406,11 +420,8 @@ aside{
 
 .hamburgerIconNav:has(input:checked) #firstBar {
 
-    /* transform: rotate(var(--rotationAngle)) translate(-7.6px, 6px) ; */
     transform: rotate(var(--rotationAngle)) translate(-7px, 6px) !important ;
-
     background-color: var(--activeBackgroundColor);
-
 
 
 }

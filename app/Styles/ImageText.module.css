@@ -14,6 +14,7 @@
      
     z-index: 99;
 	
+
 }
 
 .gridContainer {
@@ -209,6 +210,13 @@
 @media(max-width:630px){
 
 
+
+    /* Add in the main container here */
+
+
+
+
+
        .gridContainer {
 
     display: grid;
@@ -220,6 +228,7 @@
 
     margin: 19rem auto !important; 
     text-align: left; 
+
 
 	
 }
@@ -275,6 +284,87 @@
 
 }
 
+
+
+
+
+}
+
+
+
+@media(min-width: 370px) and (max-width: 550px){
+
+
+    .featureMainContainer {
+
+
+
+        height: 120vh; 
+        width: 100vw; 
+        margin-top: -5rem; 
+
+
+}
+
+.gridContainer {
+
+    margin: auto !important; 
+    margin-top: -15rem !important; 
+
+
+
+	
+}
+
+
+/* Add in the image here  */
+.mainImage{
+
+    width: 335px; 
+    height: 335px; 
+
+
+
+
+
+
+}
+
+.mainHeading{
+
+
+
+    font-size: 30px;
+    margin-top: 1.2rem;
+      color: #013699; 
+
+
+}
+
+
+.supportingText{
+
+
+
+    font-size: 16px;
+
+
+
+
+}
+
+.bulletPointListItem{
+
+
+
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+
+
+
+
+}
 
 
 

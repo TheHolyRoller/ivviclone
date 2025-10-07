@@ -35,7 +35,7 @@ function Hero() {
         </div>
 
         <h1 className={h.heroMainHeader}>
-        <span>
+        <span className={h.instantSpan} >
 
         Instant Visual
         </span>

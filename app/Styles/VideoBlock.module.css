@@ -437,10 +437,64 @@ margin-left: 2vw;
 
 
 
-@media(max-width: 450px){
+@media(min-width: 350px)  and (max-width: 550px) {
+
+
+    .heroTextContainer{
+
+          color: #eeede8 !important;
+        
+
+
+    }
+
+
+    .heroMainHeader{
+
+
+          color: #eeede8 !important;
 
 
 
+
+
+    }
+
+    .heroSupportingText{
+
+
+        margin-top: 0.5rem; 
+
+
+
+    }
+
+    /* .heroLaptopImageContainer{
+
+
+                min-width: 291px !important; 
+
+
+    }
+
+
+    .videoContainer{
+
+        min-width: 291px !important; 
+
+
+
+
+    }
+
+    .mainVideoFrame{
+
+
+        min-width: 291px !important; 
+
+
+
+    } */
 
 
 

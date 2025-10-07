@@ -20,12 +20,6 @@
     min-height: 100vh;
     position: relative; 
 
-    /* display: grid;   */
-    /* place-content: center; */
-
-
-
-
 	
 }
 
@@ -88,6 +82,8 @@
     font-family: "Nunito Sans", sans-serif !important;
 
 
+
+
 }
 
 .heroMainHeader {
@@ -96,6 +92,8 @@
     font-size: 48px;
     font-weight: 700;
     line-height: 1.2;
+
+
 
 	
 }
@@ -112,11 +110,7 @@
 .heroSupportingText {
 
 
-    /* width: 14vw;  */
-    /* Add in a fixed size here  */
     width: 333px; 
-
-
     
     font-size: clamp(1rem, 1vw + 1rem, 1.55rem);
 	
@@ -345,9 +339,6 @@
         width: 85vw; 
 
 
-
-
-
     }
 
     .heroLaptopImageContainer{
@@ -468,11 +459,95 @@
 
 
 
+
 }
 
 
 /* large phone */
 @media(min-width: 370px) and (max-width: 550px){
+
+    
+
+.heroLaptopImg{
+
+    min-height: 175px; 
+    min-width: 325px; 
+
+    position: relative;
+    z-index: 9;
+    margin-top: -6rem; 
+    margin-bottom: 3rem;
+
+
+}
+
+.DSASubHeading{
+
+
+    margin-bottom: 1rem;
+
+
+
+}
+
+.heroMainHeader{
+
+
+    line-height: 1.45;
+
+
+
+
+}
+
+.instantSpan{
+
+
+
+
+
+}
+
+
+
+.notesSpan{
+
+
+
+
+
+}
+
+.studentSpan{
+
+
+
+
+}
+
+
+.mobileHeader{
+
+
+
+
+
+}
+
+
+/* Add in the CTA here  */
+
+.heroCTAButton{
+
+    /* outline: 4px solid lime; */
+    margin-top: 1.5rem; 
+
+
+
+
+
+}
+
 
 
 

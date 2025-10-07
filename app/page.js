@@ -16,7 +16,7 @@ import Hamburger from "./Components/Hamburger";
 
 export default function Home() {
   return (
-    <div style={{position: "relative", backgroundColor: '#013699'}} >
+    <div style={{position: "relative", }} >
 
       
 
@@ -36,7 +36,7 @@ export default function Home() {
 
       </div>
 
-      <div>
+      <div style={{backgroundColor: '#013699'}} >
         <VideoBlock/> 
 
       </div>
