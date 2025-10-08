@@ -14,7 +14,6 @@
      
     z-index: 99;
     padding: 5rem 0; 
-
 	
 
 }
@@ -157,7 +156,7 @@
 
     display: grid;
     place-content: center;
-    grid-template-columns: 1fr;
+    /* grid-template-columns: 1fr; */
 
     width: 90vw; 
 
@@ -185,26 +184,58 @@
 
 }
 
-.mainImage{
+
+
+}
+
+
+@media(max-width: 1118px) and (min-width: 750px){
+
+
+    /* Add in the grid container here  */
+    .gridContainer{
+
+
+        gap: 2rem; 
 
 
 
-    
+
+    }
+
+    .supportingText{
+
+
+        max-width: 100%;
+
+
+
+
+    }
+
+
+    /* Add in the text here  */
+    .textContainer{
+
+
+        width: 40vw; 
+
+
+
+
+    }
 
 
 }
 
 
 
-
-
-}
 
 
 /* Add in the phone media query here  */
 
 
-@media(max-width:630px){
+@media(max-width:749px){
 
 
 
@@ -221,7 +252,6 @@
     grid-template-columns: 1fr;
 
     width: 90vw; 
-    /* height: 40vh; */
 
     margin: auto !important; 
     text-align: left; 
@@ -235,6 +265,7 @@
 
 
     width: 100vw; 
+    /* min-height: 125vh; */
     display: grid;
     place-content: center;
     margin: auto; 
@@ -243,6 +274,7 @@
     color: var(--primary-font-color);
     position: relative;
     z-index: 99;
+
 
     
 
@@ -254,8 +286,6 @@
     width: 90vw; 
     height: 90vw; 
     margin: 0 auto; 
-
-    margin-top: 4rem; 
 
 
 
@@ -288,15 +318,25 @@
 }
 
 
+/* Add in the limiting here  */
 
-@media(min-width: 370px) and (max-width: 550px){
+
+
+
+
+
+
+
+/* and (max-width: 550px) */
+@media(min-width: 370px){
 
 
     .featureMainContainer {
 
 
 
-        height: 100vh; 
+        /* height: 100vh;  */
+        
         width: 100vw; 
 
         outline: auto;
@@ -310,6 +350,8 @@
 .gridContainer {
 
     margin: auto !important; 
+    padding: 0; 
+
 
 
 	
@@ -318,11 +360,6 @@
 
 /* Add in the image here  */
 .mainImage{
-
-    width: 335px; 
-    height: 335px; 
-
-
 
 
 
