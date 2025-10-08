@@ -32,12 +32,8 @@
     z-index: 9999999;
     margin: 0 auto; 
 
-    padding-bottom: 10vh;
-    padding-top: 20vh;
-    
-    
+    padding-top: 15vh;
     display: flex;
-
 
 	
 }
@@ -63,8 +59,6 @@
     z-index: 2; 
     color: var(--primary-font-color); 
     font-family: "Lato", sans-serif !important; 
-    /* margin-left: 20vw;  */
-
     margin-left: 200px; 
 
 
@@ -246,9 +240,6 @@
     z-index: 2; 
     color: var(--primary-font-color); 
     font-family: "Lato", sans-serif !important; 
-    /* margin-left: 20vw;  */
-
-    /* margin-left: 150px;  */
     margin-left: 10vw; 
 
 
@@ -539,13 +530,19 @@
 
 .heroCTAButton{
 
-    /* outline: 4px solid lime; */
     margin-top: 1.5rem; 
 
 
 
 
+}
 
+
+.heroBackgroundImage{
+
+
+
+    
 }
 
 

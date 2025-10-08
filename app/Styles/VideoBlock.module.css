@@ -26,13 +26,11 @@
 
     width: 100vw;
     margin: 0 auto; 
-    padding-bottom: 10vh;
-    padding-top: 20vh;
     
     display: grid;
     place-content: center;    
     grid-template-columns: 1fr 1.4fr;
-
+    outline: 5px solid red; 
 
 	
 }
@@ -176,8 +174,6 @@
     -o-border-radius: var(--cta-border-radius);
 
     margin-top: 1rem; 
-    /* margin-left: 1rem;  */
-
     display: grid;
     place-content: center;
 
@@ -201,15 +197,8 @@
 .videoContainer{
 
 
-    /* 
-    
-    position: "relative", paddingBottom: "56.25%",width: "714px", height: "470px", maxHeight: '470px',overflow: 'hidden', height: 0, 
-    
-    
-    */
 
     position: relative;
-    /* padding-bottom: 56.25%; */
     width: 714px; 
     height: 470px; 
     overflow: hidden;
@@ -231,9 +220,6 @@
     width: 100%; 
     min-width: 714px; 
     min-height: 470px; ;
-
-    /* margin-top: 55%;  */
-    /* margin-top: 14rem; */
 
 
 }
@@ -263,14 +249,12 @@
 
     width: 90vw;
     margin: 0 auto; 
-    padding-bottom: 10vh;
-    padding-top: 20vh;
     
     display: grid;
     place-content: center;    
     grid-template-columns: 1fr 1fr;
 
-	
+	outline: 22px solid lime;
 }
 
 .heroTextContainer {
@@ -306,9 +290,6 @@
 
     width: 100vw;
     margin: 0 auto; 
-    padding-bottom: 10vh;
-    padding-top: 20vh;
-    
     display: grid;
     place-content: center;    
     grid-template-columns: 1fr 1fr;
@@ -338,7 +319,7 @@
     width: 90vw; 
     place-content: center;
     margin: auto; 
-
+    
 	
 }
 
@@ -373,23 +354,21 @@
 .videoContainer{
 
 
-    /* 
-    
-    position: "relative", paddingBottom: "56.25%",width: "714px", height: "470px", maxHeight: '470px',overflow: 'hidden', height: 0, 
-    
-    
-    */
 
     position: relative;
     z-index: 9999;
+    /* Necessary do not remove */
     padding-bottom: 56.25%;
     padding-right: 2rem;
     padding-left: 2rem; 
     width: 80vw; 
-    height: 55vw; 
+    height: auto;
+    max-height: 100vh;
+
     overflow: hidden;
     display: grid;
     place-content: center;
+
 
 
 
@@ -401,11 +380,15 @@
 
 width: 80vw; 
 min-width: 263px !important; 
+/* min-height: 80vh; */
+height: auto !important; 
+max-height: 100vh;
 
-height: 55vw; 
+
 position: relative;
 z-index: 999;
-margin-top: 55vw; 
+margin-top: 25.5%; 
+
 margin-left: 2vw; 
 
 
@@ -469,32 +452,20 @@ margin-left: 2vw;
 
     }
 
-    /* .heroLaptopImageContainer{
+    .heroContentContainer {
 
 
-                min-width: 291px !important; 
+    margin: 0 auto; 
+    padding-bottom: 1vh;
+    padding-top: 2vh;
+    outline: 22px solid lime;
 
 
-    }
+	
+}
 
 
-    .videoContainer{
-
-        min-width: 291px !important; 
-
-
-
-
-    }
-
-    .mainVideoFrame{
-
-
-        min-width: 291px !important; 
-
-
-
-    } */
+ 
 
 
 

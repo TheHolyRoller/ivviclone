@@ -24,7 +24,7 @@
     grid-template-columns: 1fr 1.3fr;
 
     width: 1080px; 
-    margin: 9rem auto; 
+    margin: auto; 
     
 	
 }
@@ -162,7 +162,7 @@
     width: 90vw; 
     height: 40vh;
 
-    margin: 19rem auto !important; 
+    margin: auto !important; 
     text-align: left; 
 
 	
@@ -175,7 +175,7 @@
     width: 100vw; 
     display: grid;
     place-content: center;
-    margin: 15rem auto; 
+    margin: auto; 
 
     background-color: #eeede8;
     color: var(--primary-font-color);
@@ -226,7 +226,7 @@
     width: 90vw; 
     height: 40vh;
 
-    margin: 19rem auto !important; 
+    margin: auto !important; 
     text-align: left; 
 
 
@@ -240,7 +240,7 @@
     width: 100vw; 
     display: grid;
     place-content: center;
-    margin: 15rem auto; 
+    margin: auto; 
 
     background-color: #eeede8;
     color: var(--primary-font-color);
@@ -299,9 +299,13 @@
 
 
 
-        height: 120vh; 
+        height: 100vh; 
         width: 100vw; 
-        margin-top: -5rem; 
+
+        outline: auto;
+        padding-bottom: 3rem;
+
+
 
 
 }
@@ -309,8 +313,6 @@
 .gridContainer {
 
     margin: auto !important; 
-    margin-top: -15rem !important; 
-
 
 
 	

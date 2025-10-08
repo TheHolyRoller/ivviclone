@@ -20,7 +20,7 @@
     grid-template-columns: 1fr 1.3fr;
 
     width: 1080px; 
-    margin: 9rem auto; 
+    margin: auto; 
 	
 }
 
@@ -185,7 +185,7 @@
     flex-direction: column;
     place-content: center;
     width: 90vw; 
-    margin: 9rem auto; 
+    margin:  auto; 
 	
 }
 

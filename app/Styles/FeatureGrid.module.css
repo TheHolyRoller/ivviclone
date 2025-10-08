@@ -2,10 +2,10 @@
 
 
     width: 60vw; 
-    margin: 9rem auto; 
+    margin: auto; 
     display: grid;  
     place-content: center;
-
+    outline: 22px solid lime;
 
 }
 
@@ -220,7 +220,6 @@
 
     display: grid;
     place-content: center;
-    /* margin-left: 1.75rem;  */
     margin: auto; 
         
 

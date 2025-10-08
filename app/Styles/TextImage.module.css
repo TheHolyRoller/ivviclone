@@ -20,7 +20,7 @@
     grid-template-columns: 1fr 1fr;
 
     width: 1295px;
-    margin: 9rem auto; 
+    margin: auto; 
     
 	
 }
@@ -223,7 +223,7 @@
 
     /* width: 1295px; */
     width: 80vw; 
-    margin: 9rem auto; 
+    margin: auto; 
     
 	
 }
@@ -245,7 +245,7 @@
     grid-template-columns: 1fr;
 
     width: 90vw; 
-    margin: 9rem auto; 
+    margin:  auto; 
     
 	
 }
@@ -284,10 +284,8 @@
     place-content: center;
     grid-template-columns: 1fr;
 
-    /* width: 1295px; */
     width: 90vw; 
-    margin: 9rem auto; 
-
+    margin: auto; 
 
     
 	
@@ -300,8 +298,6 @@
     font-size: 1.875rem;
     width: 85vw; 
 
-
-
     
 }
 
@@ -313,7 +309,6 @@
 
 
 }
-
 
 .mainImage{
 

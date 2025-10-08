@@ -2,8 +2,8 @@
 .contactFormContainer {
 
 
-
-    margin: 9rem auto; 
+    margin: auto; 
+    
     height: 90vh; 
     color: white;
     font-size: 64px;
@@ -152,7 +152,7 @@ height: 90%;
 
 
 
-    margin: 9rem auto; 
+    margin: 0rem auto; 
     height: 90vh; 
     color: white;
     font-size: 64px;
