@@ -160,7 +160,6 @@
     grid-template-columns: 1fr;
 
     width: 90vw; 
-    height: 40vh;
 
     margin: auto !important; 
     text-align: left; 
@@ -189,10 +188,9 @@
 .mainImage{
 
 
-    width: 90vw; 
-    height: 90vw; 
-    margin-top: 4rem; 
-
+    /* width: 90vw;  */
+    /* height: 90vw;  */
+    
 
 
 }

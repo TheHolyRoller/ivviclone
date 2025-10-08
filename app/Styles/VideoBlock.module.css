@@ -30,8 +30,6 @@
     display: grid;
     place-content: center;    
     grid-template-columns: 1fr 1.4fr;
-    outline: 5px solid red; 
-
 	
 }
 
@@ -254,7 +252,6 @@
     place-content: center;    
     grid-template-columns: 1fr 1fr;
 
-	outline: 22px solid lime;
 }
 
 .heroTextContainer {
@@ -458,9 +455,7 @@ margin-left: 2vw;
     margin: 0 auto; 
     padding-bottom: 1vh;
     padding-top: 2vh;
-    outline: 22px solid lime;
-
-
+        
 	
 }
 

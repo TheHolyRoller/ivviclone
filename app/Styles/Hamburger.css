@@ -351,9 +351,7 @@
 
 .hamburgerOpenIvviLink{
 
-    /* outline: 2px solid orange; */
     border-color: #ef7a1a;
-    /* border-radius: var(--cta-border-); */
     border-radius: 40px;;
     background-color: var(--cta-background-color); 
     padding: 8px 16px; 
