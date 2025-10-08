@@ -16,6 +16,7 @@ function ImageText() {
 
         <Image className={it.mainImage}  src={img} alt='woman' quality={100} loading='lazy' />
 
+
       </div>
 
       {/* Add in the text container here */}

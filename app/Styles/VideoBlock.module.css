@@ -97,9 +97,6 @@
 
 
     width: 14vw; 
-
-
-
     font-size: clamp(1rem, 1vw + 1rem, 1.55rem);
 
     width: 90%; 
@@ -140,9 +137,6 @@
     display: inline-block;
 
 
-
-
-
 }
 
 
@@ -150,10 +144,6 @@
 
 
 
-    width: 831px; 
-    /* height: 468px;  */
-
-    outline: 44px solid purple;
 
 
 
@@ -203,9 +193,6 @@
 
 
     position: relative;
-    width: 714px; 
-    min-width: 750px !important; 
-
 
     overflow: hidden;
     display: grid;
@@ -219,7 +206,6 @@
 
 .mainVideoFrame{
 
-    min-width: 100%; 
     
     
 
@@ -351,16 +337,15 @@
 
 
 
-    position: relative;
+    /* position: relative;
     z-index: 9999;
     padding-right: 2rem;
     padding-left: 2rem; 
-    width: 80vw; 
     height: min-content; 
 
     overflow: hidden;
     display: grid;
-    place-content: center;
+    place-content: center; */
 
 
 
@@ -372,7 +357,6 @@
 .mainVideoFrame{
 
 width: 80vw; 
-min-width: 263px !important; 
 height: auto !important; 
 max-height: 100vh;
 

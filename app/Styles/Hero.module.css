@@ -248,6 +248,9 @@
 
 }
 
+}
+
+
 @media(max-width: 1320px){
 
 
@@ -290,12 +293,22 @@
 
 }
 
+}
+
+
 
 /* Add in the text here and make it responsive  */
 
 @media(max-width: 1120px){
 
     /* make the here element stacked here */
+
+
+    .hero{
+
+
+
+    }
     .heroContentContainer {
 
 
@@ -304,7 +317,7 @@
         justify-items: flex-end;
         margin: 0 auto; 
         width: 90vw; 
-
+       
 
     }
 
@@ -324,6 +337,8 @@
 
 
         width: 85vw; 
+        /* height: 50vw;  */
+
 
 
     }
@@ -412,6 +427,52 @@
 
 
     font-size: 16px;
+}
+
+}
+
+
+@media(min-width: 800px) and (max-width: 1119px){
+
+/* add in the main container here  */
+
+.hero {
+
+    
+    width:100vw; 
+    height: 100vh; 
+    min-height: 100vh;
+    position: relative; 
+    
+    outline: 44px solid red;
+
+}
+
+.heroContentContainer {
+
+    width: 100vw;
+    width: 1400px; 
+    position: relative;
+    z-index: 9999999;
+    margin: 0 auto; 
+
+    padding-top: 15vh;
+    display: flex;
+	
+}
+
+
+.heroBackgroundImage{
+
+
+
+    
+        position: absolute;
+        width: 100vw; 
+        min-height: 150vh !important;
+
+    
+}
 
 
 
@@ -420,37 +481,6 @@
 
 
 
-}
-
-
-
-
-
-
-
-
-
-}
-
-
-
-
-}
-
-
-
-/* short phone */
-@media(min-width: 320px) and (max-width: 360px){
-
-
-
-
-
-
-}
-
-
-/* large phone */
 @media(min-width: 370px) and (max-width: 550px){
 
     
@@ -460,9 +490,8 @@
     min-height: 175px; 
     min-width: 325px; 
 
-    position: relative;
+    position: relative; 
     z-index: 9;
-    margin-top: -6rem; 
     margin-bottom: 3rem;
 
 
@@ -482,62 +511,19 @@
 
     line-height: 1.45;
 
-
-
-
 }
 
-.instantSpan{
-
-
-
-
-
-}
-
-
-
-.notesSpan{
-
-
-
-
-
-}
-
-.studentSpan{
-
-
-
-
-}
-
-
-.mobileHeader{
-
-
-
-
-
-}
-
-
-/* Add in the CTA here  */
 
 .heroCTAButton{
 
     margin-top: 1.5rem; 
-
-
-
 
 }
 
 
 .heroBackgroundImage{
 
-
-
+    max-height: 80vh; 
     
 }
 
@@ -546,54 +532,5 @@
 
 }
 
-/* Tablet */
-@media(min-width: 600px) and (max-width: 1050px){
-
-
-
-
-
-
-}
-
-
-/* Laptop  */
-@media(min-width: 1200px) and (max-width: 1900px) {
-
-
-
-
-
-
-}
-
-
-/* Desktop */
-
-@media(min-width: 1920px) {
-
-
-
-
-
-
-
-
-}
-
-
-
-
-/* Add in the media query here that Starts at laptop width and stops just before desktop width  */
-
-
-/* Add in the media query that starts at Tablet width and stops just before laptop width here */
-
-
-/* Add in media query that starts at wide phone width and stops just before tablet width  */
-
-
-
-/* Add in narrow short phone dimensions here  */
 
 

@@ -95,10 +95,12 @@
     display: grid;
     place-content: center;  
     grid-template-columns: 1fr 1fr;
-    gap: 2.5rem; 
+    gap: 1.2rem; 
+    margin: auto !important; 
+        
 
-    /* width: 995px;  */
-    width: 60vw; 
+
+    width: 90vw; 
     text-align: center;
 
 
@@ -108,7 +110,7 @@
 .gridSupportingText {
 
 
-    width:  330px; 
+    width:  290px; 
     max-width: 473px; 
     margin: 0 auto; 
     margin-top: 1.3rem; 
@@ -139,9 +141,23 @@
     place-content: center;  
     grid-template-columns: 1fr;
     gap: 2.5rem; 
+    margin: auto; 
 
-    width: 60vw; 
+    width: 100vw; 
     text-align: center;
+
+
+}
+
+
+/* Fix the text placement here */
+
+.headlineContainer{
+
+
+    width: 90vw; 
+
+
 
 
 }
@@ -156,7 +172,6 @@
     margin-top: 1.3rem; 
 
 
-
     font-size: calc( var(--main-section-font-size) );
 
     color: var(--primary-font-color);
@@ -164,8 +179,6 @@
 
 
 }
-
-
 
 
 
@@ -222,13 +235,7 @@
     display: grid;
     place-content: center;
     margin: auto; 
-        
-
-
 
 }
-
-
-
 
 }

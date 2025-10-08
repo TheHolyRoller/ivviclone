@@ -21,9 +21,6 @@ function FeatureGrid() {
 
       </div>
 
-
-      {/* Add in the grid container here */}
-
       <section className={g.featureGrid}>
         <div className={g.gridItem}>
             <Image className={g.gridImg} src={icon1} alt="sync" quality={100} loading='lazy'/> 

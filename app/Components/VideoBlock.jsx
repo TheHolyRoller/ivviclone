@@ -49,7 +49,9 @@ function VideoBlock() {
     {/* TO DO Add in a white background here  */}
     <figure className={v.videoContainer}  style={{}}>
 
+
   <iframe
+    style={{ }}
     className={v.mainVideoFrame}
     src="https://player.vimeo.com/video/1007634251?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
     
