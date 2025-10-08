@@ -3,14 +3,17 @@
 .featureMainContainer {
 
 
-    width: 70vw; 
+    width: 100vw;
+    padding: 5rem 0;
+
     display: grid;
     place-content: center;
     margin: 0 auto; 
 
     color: white; 
+    background-color: #ef7a1a;
 
-	
+    
 }
 
 .gridContainer {
@@ -127,9 +130,7 @@
 .bulletPointListItem {
 
 
-    /* color: var(--bullet-point-color);  */
-    color: #013699; 
-    /* color: white;  */
+    color: #eeede8; 
     line-height: 1.5;
     margin-top: 1rem; 
 

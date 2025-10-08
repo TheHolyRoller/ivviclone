@@ -2,11 +2,14 @@
 
 .featureMainContainer {
 
-    width: 70vw; 
+    width: 100vw; 
     display: grid;
     place-content: center;
-    margin: 0 auto; 
 
+    margin: 0 auto; 
+    padding: 5rem 0 !important;
+
+    background-color: #eeede8;  
     color: var(--primary-font-color); 
 
 	
@@ -39,8 +42,6 @@
     width: 507px; 
     min-width: 507px;
 
-    
-    
     
     border-radius: var(--image-border-radius);
     -webkit-border-radius: var(--image-border-radius);

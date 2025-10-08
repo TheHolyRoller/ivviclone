@@ -10,14 +10,19 @@
 
 .hero {
 
-    padding: 0 !important;
-    margin: 0 !important; 
+    padding: 4rem 0 !important;
 
     margin: 0 auto; 
+    height: auto;
 
     width:100vw; 
-    height: 100vh; 
     position: relative; 
+    display: grid;
+    place-content: center;
+
+    background-color: #013699;
+
+
 	
 }
 
@@ -41,7 +46,6 @@
     
         position: absolute;
         width: 100vw; 
-        max-height: 90vh; 
 
 
 
@@ -55,11 +59,13 @@
     position: relative; 
     z-index: 2; 
 
-    color: black; 
+    color: #eeede8; 
+
 
 
     font-family: "Lato", sans-serif !important; 
     margin-left: 20vw; 
+
 
 
 }
@@ -145,9 +151,9 @@
 
 
     width: 831px; 
-    height: 468px; 
+    /* height: 468px;  */
 
-
+    outline: 44px solid purple;
 
 
 
@@ -198,7 +204,9 @@
 
     position: relative;
     width: 714px; 
-    height: 470px; 
+    min-width: 750px !important; 
+
+
     overflow: hidden;
     display: grid;
     place-content: center;
@@ -211,14 +219,9 @@
 
 .mainVideoFrame{
 
-
-
+    min-width: 100%; 
     
-    height: 100%; 
-    width: 100%; 
-    min-width: 714px; 
-    min-height: 470px; ;
-
+    
 
 }
 
@@ -228,9 +231,6 @@
 .heroLaptopImg{
 
 
-
-    width: 33vw; 
-    height: 500px;
     position: relative;
     z-index: 9;
 
@@ -252,6 +252,7 @@
     place-content: center;    
     grid-template-columns: 1fr 1fr;
 
+
 }
 
 .heroTextContainer {
@@ -259,9 +260,7 @@
 
     position: relative; 
     z-index: 2; 
-    /* color: var(--primary-font-color);  */
-    /* color: white;  */
-    color: black; 
+    color: #eeede8; 
 
 
     font-family: "Lato", sans-serif !important; 
@@ -354,13 +353,10 @@
 
     position: relative;
     z-index: 9999;
-    /* Necessary do not remove */
-    padding-bottom: 56.25%;
     padding-right: 2rem;
     padding-left: 2rem; 
     width: 80vw; 
-    height: auto;
-    max-height: 100vh;
+    height: min-content; 
 
     overflow: hidden;
     display: grid;
@@ -377,16 +373,17 @@
 
 width: 80vw; 
 min-width: 263px !important; 
-/* min-height: 80vh; */
 height: auto !important; 
 max-height: 100vh;
 
 
 position: relative;
 z-index: 999;
-margin-top: 25.5%; 
+margin-top: 2rem; 
+min-height: 200px;
 
-margin-left: 2vw; 
+
+
 
 
 }
@@ -398,8 +395,6 @@ margin-left: 2vw;
 
 
 
-    width: 33vw; 
-    height: 500px;
     position: relative;
     z-index: 9;
 

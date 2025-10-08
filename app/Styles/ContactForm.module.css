@@ -6,9 +6,14 @@
     
     height: 90vh; 
     color: white;
+    width: 100vw; 
+    display: grid; 
+    place-content: center;
+    background-color: #013699;  
+
+
     font-size: 64px;
 
-    width: 538px; 
 	
 }
 
@@ -18,6 +23,8 @@
 
     display: grid;
     place-content: center;
+    width: 538px; 
+
 	
 }
 
@@ -146,14 +153,11 @@ height: 90%;
 
     .contactFormContainer {
 
-
-
     margin: 0rem auto; 
     height: 90vh; 
     color: white;
     font-size: 64px;
 
-    /* width: 538px;  */
     width: 90vw; 
 
 	

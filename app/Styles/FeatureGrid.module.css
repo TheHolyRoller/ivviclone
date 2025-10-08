@@ -1,10 +1,12 @@
 .featureGridContainer {
 
 
-    width: 60vw; 
+    width: 100vw; 
     margin: auto; 
     display: grid;  
     place-content: center;
+    background-color: #e1dad3;  
+    padding-bottom: 5rem;
 
 }
 

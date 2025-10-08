@@ -3,7 +3,7 @@
 .featureMainContainer {
 
 
-    width: 70vw; 
+    width: 100vw; 
     display: grid;
     place-content: center;
     margin: 0 auto; 
@@ -13,6 +13,9 @@
     position: relative;
      
     z-index: 99;
+
+    padding: 5rem 0; 
+
 	
 
 }
@@ -188,8 +191,7 @@
 .mainImage{
 
 
-    /* width: 90vw;  */
-    /* height: 90vw;  */
+
     
 
 
@@ -222,7 +224,7 @@
     grid-template-columns: 1fr;
 
     width: 90vw; 
-    height: 40vh;
+    /* height: 40vh; */
 
     margin: auto !important; 
     text-align: left; 
