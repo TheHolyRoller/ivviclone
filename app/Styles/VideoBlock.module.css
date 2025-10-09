@@ -13,7 +13,8 @@
     padding: 4rem 0 !important;
 
     margin: 0 auto; 
-    height: auto;
+    /* height: auto; */
+    /* max-height: 90vh; */
 
     width:100vw; 
     position: relative; 
@@ -22,14 +23,13 @@
 
     background-color: #013699;
 
-
 	
 }
 
 .heroContentContainer {
 
 
-    width: 100vw;
+    width: 99vw;
     margin: 0 auto; 
     
     display: grid;
@@ -184,29 +184,28 @@
 
     position: relative;
     z-index: 3;
+    height: min-content;
 
 	
 }
 
 .videoContainer{
 
-
-
     position: relative;
-
     overflow: hidden;
-    display: grid;
-    place-content: center;
 
-
+    height: min-content;
+    max-height: 100vh; 
 
 }
 
 
+/* Add this into the mobile media query  */
 
 .mainVideoFrame{
 
-    
+    min-width: 900px; 
+    aspect-ratio: 9 / 16;
     
 
 }
@@ -255,7 +254,69 @@
 
 }
 
+.mainVideoFrame{
 
+
+    width: 600px; 
+    padding-bottom: 80%;
+    margin-top: -10rem;      
+    outline: 5px solid red !important;
+
+
+}
+
+
+
+
+
+}
+
+
+
+@media(max-width: 1510px){
+
+
+    .mainVideoFrame{
+
+
+    /* width: 400px !important; */
+    max-width: 400px !important; 
+    min-width:65vw ;
+    
+    padding-bottom: 80%;
+    outline: 5px solid red;
+    margin: 0; 
+    margin-top: -19rem !important; 
+    margin-left: -5rem; 
+
+
+
+}
+
+
+  .heroContentContainer {
+
+    width: 90vw;
+    margin: 0 auto; 
+    
+    display: grid;
+    place-content: center;    
+    grid-template-columns: 1.5fr 1fr;
+
+
+}
+
+.heroTextContainer{
+
+
+
+    /* width: max-content;  */
+    width: 30vw; 
+
+
+
+
+}
 
 
 
@@ -269,18 +330,74 @@
 
     .heroContentContainer {
 
-
-    width: 100vw;
     margin: 0 auto; 
     display: grid;
     place-content: center;    
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
+
+    outline: 11px solid lime;
+    width: 90vw; 
+
+    max-height: 80vh;
 
 
 	
 }
 
 
+.heroTextContainer{
+
+
+
+    /* width: max-content;  */
+    width: 80vw; 
+
+    margin: auto !important; 
+
+
+
+
+
+}
+
+.heroSupportingText{
+
+    width: 80vw; 
+    outline: 5px solid greenyellow;
+    min-width: 80vw; 
+    padding-top: 19rem; 
+
+
+}
+
+.heroCTAButton{
+
+    margin-bottom: 2rem;;
+
+
+}
+
+
+.hero {
+
+    
+    padding: 0;
+    outline: 22px solid hotpink !important;
+    height: min-content;
+
+
+	
+}
+
+.mainVideoFrame{
+
+
+
+    margin: 0; 
+    margin-top: -9rem !important; 
+    outline: 5px solid red;
+    padding-bottom: 60%;
+
 
 
 }
@@ -288,12 +405,14 @@
 
 
 
-@media(max-width: 1150px){
 
 
+}
+
+
+/* @media(max-width: 1150px){
     
     .heroContentContainer {
-
 
     width: 100vw;
     grid-template-columns: 1fr;
@@ -334,21 +453,6 @@
 }
 
 .videoContainer{
-
-
-
-    /* position: relative;
-    z-index: 9999;
-    padding-right: 2rem;
-    padding-left: 2rem; 
-    height: min-content; 
-
-    overflow: hidden;
-    display: grid;
-    place-content: center; */
-
-
-
 
 }
 
@@ -391,7 +495,7 @@ min-height: 200px;
 
 
 
-}
+} */
 
 
 

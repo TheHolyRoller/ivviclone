@@ -128,9 +128,7 @@
 .bulletPointListItem {
 
 
-    /* color: var(--bullet-point-color);  */
     color: #013699; 
-
 
     font-weight: 600;
     max-width: 530px; 
