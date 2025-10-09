@@ -67,7 +67,9 @@
 
 .mainHeading {
 
-    font-size: var(--mainSectionHeadingFontSize);
+    /* font-size: var(--mainSectionHeadingFontSize); */
+    font-size: 48px !important; 
+
     font-weight: 600;
     line-height: 1.2;
 	
@@ -76,7 +78,9 @@
 .supportingText {
 
 
-    font-size: var(--main-section-font-size);
+    /* font-size: var(--main-section-font-size); */
+    font-size: 24px !important;
+
     width: 564.5px; 
     max-width: 564.3px;
     margin-top: 5px; 
@@ -131,8 +135,7 @@
     font-weight: 600;
     max-width: 530px; 
 
-  
-
+    font-size: 24px !important;
 
 	
 }
@@ -141,9 +144,6 @@
 
 
     color: #00143d; 
-
-
-
 
 }
 
@@ -351,9 +351,6 @@
 
     margin: auto !important; 
     padding: 0; 
-
-
-
 	
 }
 
