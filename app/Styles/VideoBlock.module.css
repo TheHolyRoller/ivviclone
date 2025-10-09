@@ -260,7 +260,6 @@
     width: 600px; 
     padding-bottom: 80%;
     margin-top: -10rem;      
-    outline: 5px solid red !important;
 
 
 }
@@ -284,7 +283,6 @@
     min-width:65vw ;
     
     padding-bottom: 80%;
-    outline: 5px solid red;
     margin: 0; 
     margin-top: -19rem !important; 
     margin-left: -5rem; 
@@ -335,7 +333,6 @@
     place-content: center;    
     grid-template-columns: 1fr;
 
-    outline: 11px solid lime;
     width: 90vw; 
 
     max-height: 80vh;
@@ -360,19 +357,25 @@
 
 }
 
+.heroMainHeader{
+
+
+    padding-top: 20rem; 
+
+
+}
+
 .heroSupportingText{
 
     width: 80vw; 
-    outline: 5px solid greenyellow;
     min-width: 80vw; 
-    padding-top: 19rem; 
 
 
 }
 
 .heroCTAButton{
 
-    margin-bottom: 2rem;;
+    margin-bottom: 0.5rem;;
 
 
 }
@@ -383,7 +386,10 @@
     
     padding: 0;
     outline: 22px solid hotpink !important;
-    height: min-content;
+    /* outline: 22px solid green; */
+    /* height: calc(min-content + 14rem) ; */
+    height: 100vh; 
+
 
 
 	
@@ -394,8 +400,7 @@
 
 
     margin: 0; 
-    margin-top: -9rem !important; 
-    outline: 5px solid red;
+    margin-top: -7rem !important; 
     padding-bottom: 60%;
 
 
@@ -410,7 +415,7 @@
 }
 
 
-/* @media(max-width: 1150px){
+@media(max-width: 1150px){
     
     .heroContentContainer {
 
@@ -420,6 +425,7 @@
     width: 90vw; 
     place-content: center;
     margin: auto; 
+
     
 	
 }
@@ -437,6 +443,8 @@
 
     
     font-size: 30px;
+    padding-top: 16rem;
+
 
 
 
@@ -445,8 +453,14 @@
 .heroSupportingText{
 
     min-width: 80vw !important; 
-    
     font-size: 1rem;
+
+
+
+}
+
+.heroSupportingText{
+
 
 
 
@@ -461,17 +475,7 @@
 .mainVideoFrame{
 
 width: 80vw; 
-height: auto !important; 
-max-height: 100vh;
-
-
-position: relative;
-z-index: 999;
-margin-top: 2rem; 
-min-height: 200px;
-
-
-
+aspect-ratio: 9 / 16;
 
 
 }
@@ -495,7 +499,24 @@ min-height: 200px;
 
 
 
-} */
+}
+
+
+@media(max-width:800px){
+
+
+    /* Adjust the video size here  */
+    .mainVideoFrame{
+
+        min-width: clamp(400px, 80vw, 800px); 
+        aspect-ratio: 9 / 16;
+
+
+}
+
+
+
+}
 
 
 
@@ -527,6 +548,7 @@ min-height: 200px;
 
 
         margin-top: 0.5rem; 
+
 
 
 
