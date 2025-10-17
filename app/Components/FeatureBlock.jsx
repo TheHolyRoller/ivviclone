@@ -11,6 +11,7 @@ function FeatureBlock() {
 
       <div className={ft.gridContainer}>
       <div className={ft.imageContainer}>
+        
 
         <Image className={ft.mainImage}  src={img} alt='woman' quality={100} loading='lazy' />
 
