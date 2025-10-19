@@ -16,7 +16,7 @@ function Navbar() {
 
       <div className={n.LogoContainer}>
 
-      <Image src={Logo} alt='ivvi' width={50} height={50} quality={100} loading="lazy"/>
+      <Image src={Logo} className={n.ivviLogo} alt='ivvi' width={48} height={48} quality={100} loading="lazy"/>
 
 
       </div>

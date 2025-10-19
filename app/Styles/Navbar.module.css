@@ -31,6 +31,17 @@
 	
 }
 
+
+.ivviLogo{
+
+
+	
+
+
+
+
+}
+
 .navigationContainer {
 
     display: flex;
@@ -44,6 +55,7 @@
 	color: var(--navbar-font-color); 
 	margin-top: 0.5px; 
     
+
 
 
 
@@ -65,11 +77,6 @@
 
 
 	margin-right: 35px; 
-	/* margin: 0 10px;  */
-
-
-
-
 
 	
 }
@@ -110,6 +117,9 @@
 	border-radius: var(--cta-border-radius); 
 	width: 108px; 
 	height: 43.5px; 
+
+
+
 	min-width: 108px; 
 
 	display: grid; 
@@ -124,6 +134,44 @@
 
 	
 }
+
+
+/* Laptop Contained Styles here  */
+
+@media(max-width: 1920px) and (min-width: 1180px){
+
+
+	/* Select the main button container here */
+	.navigationContainer{
+
+		/* outline: 5px solid red; */
+		width: 100vw; 
+
+	}
+
+
+	/* Select the logo container here  */
+	.LogoContainer{
+
+
+		/* outline: 3px solid lime; */
+
+		left: 2.92rem !important; 
+
+
+
+
+	}
+
+
+
+}
+
+
+
+
+
+
 
 /* Mobile Styles */
 @media (max-width: 768px) {
