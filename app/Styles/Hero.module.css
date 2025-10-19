@@ -20,6 +20,7 @@
     min-height: 100vh;
     position: relative; 
 
+
 	
 }
 
@@ -33,8 +34,12 @@
     margin: 0 auto; 
 
     padding-top: 15vh;
+    /* TO DO Add in vendor prefixes here  */
+    transform: translate(0, 3rem);
+
     display: flex;
-	
+
+    
 }
 
 
@@ -45,10 +50,9 @@
     
         position: absolute;
         width: 100vw; 
-        min-height: 100vh !important;
+        min-height: 120vh !important;
+        padding-bottom: 33rem;
 
-
-    
 }
 
 .heroTextContainer {
@@ -58,7 +62,9 @@
     z-index: 2; 
     color: var(--primary-font-color); 
     font-family: "Lato", sans-serif !important; 
-    margin-left: 200px; 
+    margin-left: 100px; 
+    margin-right: 100px; 
+
 
 
     
@@ -73,6 +79,7 @@
     font-weight: 700;
     font-size: 1.5rem;
     font-family: "Nunito Sans", sans-serif !important;
+    margin-bottom: 1.2rem;
 
 
 
@@ -126,7 +133,9 @@
 .compTitleType {
 
     
-    font-size: 1.1rem;
+    font-size: 1.5rem;
+    line-height: 0.5;
+    margin-right: 5px; 
 
 
 	
@@ -175,7 +184,7 @@
     -o-border-radius: var(--cta-border-radius);
 
 
-    margin-top: 1rem; 
+    margin-top: 1.3rem; 
     display: grid;
     place-content: center;
 
@@ -211,14 +220,8 @@
 
 .heroLaptopImg{
 
-
-
-    /* width: 33vw;  */
-    /* Add in a fixed width for the height here */
-    width: 829px;
-
+    width: 837px;
     height: 500px;
-
     position: relative;
     z-index: 9;
 
@@ -376,6 +379,7 @@
     margin-left: 0 !important; 
 
 
+
 }
 
 .heroMainHeader{
@@ -444,7 +448,6 @@
     min-height: 100vh;
     position: relative; 
     
-    outline: 44px solid red;
 
 }
 

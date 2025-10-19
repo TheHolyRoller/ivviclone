@@ -15,11 +15,9 @@ function Hero() {
   return (
 
     <main className={h.hero}>
-    <Image className={h.heroBackgroundImage} src={HeroBackground} alt="background" width={100} height={100} quality={100} loading='lazy'/> 
+    <Image className={h.heroBackgroundImage} style={{}}  src={HeroBackground} alt="background" width={100} height={100} quality={100} loading='lazy'/> 
 
     <section className={h.heroContentContainer} >
-
-      {/* Add in an img here that you will show on tablet mode  */}
 
       <div className={h.mobileHeroLaptopImageContainer}>
 
