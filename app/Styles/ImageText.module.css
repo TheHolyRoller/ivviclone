@@ -11,7 +11,6 @@
     background-color: #eeede8;
     color: var(--primary-font-color);
     position: relative;
-     
     z-index: 99;
     padding: 5rem 0; 
 	
@@ -178,6 +177,7 @@
     position: relative;
     z-index: 99;
 
+    padding: 2rem 0 !important; 
     
 
 }
@@ -263,7 +263,6 @@
 
 
     width: 100vw; 
-    /* min-height: 125vh; */
     display: grid;
     place-content: center;
     margin: auto; 
@@ -295,6 +294,8 @@
 
     width: 90vw; 
 
+    margin-left: 0.5rem; 
+
 }
 
 
@@ -302,10 +303,39 @@
 
 
 
-    width: 80vw; 
+    width: 90vw; 
+
+
+   
     
 
+}
 
+.mainHeading{
+
+
+    font-size: 30px !important;
+
+
+
+
+}
+
+
+.supportingText{
+
+
+    font-size: 1rem !important;
+
+
+}
+
+
+.bulletPointListItem{
+
+
+    font-size: 1rem !important; 
+    
 
 }
 
@@ -339,8 +369,6 @@
 
         outline: auto;
         padding-bottom: 3rem;
-
-
 
 
 }

@@ -3,13 +3,16 @@
 .Footer {
 
 
-    height: 292px; 
+    /* height: 292px;  */
+    height: 260px; 
+
     background-color: var(--footer-background-color);
     width: 100vw; 
     display: grid;
     place-content: center;
 
-    padding-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    
 
 
 	
@@ -116,9 +119,12 @@
     display: grid; 
     place-content: center;
 	
-    font-size: 1.3rem; 
+    /* font-size: 1.3rem;  */
+    font-size: 1.5rem; 
+    
     font-weight: 700;
     margin-bottom: 2rem;
+
 
 
 }
@@ -139,6 +145,8 @@
     place-content: center;
 
     padding-bottom: 1rem;
+    padding-top: 3rem; 
+
 
 	
 }

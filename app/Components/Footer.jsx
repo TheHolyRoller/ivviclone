@@ -12,7 +12,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 
-
 function Footer() {
   return (
 
@@ -116,7 +115,6 @@ function Footer() {
             </div>
 
           </li>
-
 
 
         </ul>

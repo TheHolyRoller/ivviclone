@@ -11,17 +11,16 @@ import Link from 'next/link';
 function Hero() {
 
 
-
   return (
 
     <main className={h.hero}>
-    <Image className={h.heroBackgroundImage} style={{}}  src={HeroBackground} alt="background" width={100} height={100} quality={100} loading='lazy'/> 
+    <Image className={h.heroBackgroundImagea} style={{}}  src={HeroBackground} alt="background" width={100} height={100} quality={100} loading='lazy'/> 
 
     <section className={h.heroContentContainer} >
 
       <div className={h.mobileHeroLaptopImageContainer}>
 
-      <Image className={h.heroLaptopImg}  src={laptop} alt='laptop'  quality={100} loading="lazy"/> 
+      <Image className={h.heroLaptopImg} id={h.mobileHeroLaptopImg} src={laptop} alt='laptop'  quality={100} loading="lazy"/> 
 
     </div>
 
