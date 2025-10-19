@@ -22,8 +22,6 @@ function VideoBlock() {
 
         Introducing ivvi Notes
         </span>
-
-
         
 
         </h1>
