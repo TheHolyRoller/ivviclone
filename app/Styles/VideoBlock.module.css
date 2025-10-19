@@ -10,14 +10,17 @@
 
 .hero {
 
-    padding: 4rem 0 !important;
+    padding: 7rem 0 !important;
 
     margin: 0 auto; 
 
     width:100vw; 
+
     position: relative; 
     display: grid;
     place-content: center;
+
+
 
     background-color: #013699;
 
