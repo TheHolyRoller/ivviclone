@@ -2,9 +2,6 @@ import React from 'react'
 import ft from '../Styles/FirstTextElement.module.css'; 
 
 
-
-
-
 function FirstTextElement() {
   return (
     <div className={ft.mainTextCotnainer} >
