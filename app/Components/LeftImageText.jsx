@@ -18,6 +18,7 @@ function LeftImageText() {
         <Image className={ti.mainImage}  src={img} alt='woman' quality={100} loading='lazy' />
 
       </div>
+      
 
       {/* Add in the image container here */}
     
