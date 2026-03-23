@@ -1,5 +1,5 @@
 import React from 'react'
-import g from '../Styles/FeatureGrid.module.css'; 
+import g from '../Styles/AssessorGrid.module.css'; 
 
 import icon1 from '../../public/icons/gridIcon1.webp'; 
 import icon2 from '../../public/icons/gridIcon2.webp'; 
@@ -18,6 +18,7 @@ import audience from '../../public/images/audience.png';
 import hug from '../../public/images/hug.png'; 
 
 
+
 function AssessorGrid() {
   return (
     <section className={g.featureGridContainer}>
@@ -32,35 +33,92 @@ function AssessorGrid() {
         <div className={g.gridItem}>
             <Image className={g.gridImg} src={icon1} alt="sync" quality={100} loading='lazy'/> 
 
+            <h4 className={g.gridHeadline}>
+
+            Real-time note-taking
+            </h4>
             <p className={g.gridSupportingText}>
-              Listen and learn, confident that everything is 
-              safely captured, synced, and transcribed.
+            Capture every important detail instantly
             </p>
         </div>
         <div className={g.gridItem}>
             <Image className={g.gridImg} src={icon2} alt="sync" quality={100} loading='lazy'/> 
+            <h4 className={g.gridHeadline}>
 
+            {/* Real-time note-taking */}
+            Multi-style learning
+            </h4>
             <p className={g.gridSupportingText}>
               
-                View a real-time mind map that captures everything being said.
+                {/* View a real-time mind map that captures everything being said. */}
+                Combine audio, visual, and text notes
 
             </p>
         </div>
         <div className={g.gridItem} id={g.thirdItem} >
             <Image className={g.gridImg} src={icon3} alt="sync" quality={100} loading='lazy'/> 
+            
+            <h4 className={g.gridHeadline}>
 
+            {/* Real-time note-taking */}
+            Highlight key info
+            </h4>
             <p className={g.gridSupportingText}>
               
-                  Say goodbye to the time-consuming task of re-listening to lectures and typing up notes after class.
+                  {/* Say goodbye to the time-consuming task of re-listening to lectures and typing up notes after class. */}
+                  Use tagging and mind mapping for quick review
 
             </p>
         </div>
         <div className={g.gridItem}>
             <Image className={g.gridImg} src={icon4} alt="sync" quality={100} loading='lazy'/> 
 
+            <h4 className={g.gridHeadline}>
+
+            {/* Real-time note-taking */}
+            All-in-one resource
+            </h4>
             <p className={g.gridSupportingText}>
               
-                  Your notes are complete when you leave the lecture.
+                  {/* Your notes are complete when you leave the lecture. */}
+                  Integrate slides and images with your notes
+
+            </p>
+        </div>
+
+        <div className={g.gridItem}>
+            <Image className={g.gridImg} src={icon4} alt="sync" quality={100} loading='lazy'/> 
+            <h4 className={g.gridHeadline}>
+
+            {/* Real-time note-taking */}
+            Study anywhere
+
+            </h4>
+
+            <p className={g.gridSupportingText}>
+              
+                  {/* Your notes are complete when you leave the lecture. */}
+                  Access your notes on any device, anytime
+
+            </p>
+        </div>
+
+
+        <div className={g.gridItem}>
+            <Image className={g.gridImg} src={icon4} alt="sync" quality={100} loading='lazy'/> 
+            
+            <h4 className={g.gridHeadline}>
+
+            {/* Real-time note-taking */}
+            Designed for you
+
+            
+            </h4>
+
+            <p className={g.gridSupportingText}>
+              
+                  {/* Your notes are complete when you leave the lecture. */}
+                  Accommodate SpLD, Dyslexia, ADHD, ASD, and more
 
             </p>
         </div>

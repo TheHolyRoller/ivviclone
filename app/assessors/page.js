@@ -1,6 +1,7 @@
 import React from 'react'
 import SecondaryHero from '../Components/SecondaryHero'
 import Justification from '../Components/Justification'
+import AssessorGrid from '../Components/AssessorGrid'
 
 
 function Assessors() {
@@ -9,10 +10,7 @@ function Assessors() {
 
     <SecondaryHero/>
     <Justification/> 
-    
-    
-
-
+    <AssessorGrid/>
 
     </div>
   )
