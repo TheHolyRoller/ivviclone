@@ -69,7 +69,8 @@
     /* font-size: var(--mainSectionHeadingFontSize); */
     font-size: 48px;
     /* width: 99%;  */
-    width: 455px; 
+    max-width: 650px;;  
+    
 
 
     font-weight: 600;
