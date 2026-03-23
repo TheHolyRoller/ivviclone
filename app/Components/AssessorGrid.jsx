@@ -16,16 +16,28 @@ import angle from '../../public/images/angle.webp'
 import car from '../../public/images/car.png'; 
 import audience from '../../public/images/audience.png'; 
 import hug from '../../public/images/hug.png'; 
+import Justification from './Justification';
 
 
 
 function AssessorGrid() {
   return (
-    <section className={g.featureGridContainer}>
+
+    <>
+
+
+    {/* TODO put this in the stylesheet and make it responsive  */}
+    <section className={g.featureGridContainer} style={{position: 'relative', paddingTop: '15rem'}} >
+    <div style={{position: 'absolute', top: '0', }} >
+    
+      <Justification/> 
+      
+      </div>
       
       <div className={g.headlineContainer}>
 
-      ivvi Notes Benefits in Lectures
+      {/* ivvi Notes Benefits in Lectures */}
+
 
       </div>
 
@@ -124,6 +136,8 @@ function AssessorGrid() {
         </div>
       </section>
     </section>
+    </>
+
   )
 }
 
