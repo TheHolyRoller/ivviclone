@@ -4,8 +4,8 @@ import Navbar from "./Components/Navbar";
 import Hamburger from "./Components/Hamburger";
 
 export const metadata = {
-  title: "myScreener",
-  description: "Your Dyslexia Screener",
+  title: "ivvi",
+  description: "Visual Notes",
 };
 
 export default function RootLayout({ children }) {

@@ -47,9 +47,20 @@ function LeftImageText() {
 
         <li className={ti.bulletPointListItem}>
 
-            
 
-        No Commitment
+        <h5 className={ti.mainImageTextHeadline}>
+
+          Dyslexia        
+          
+          
+          </h5>            
+
+        <p className={ti.supportingTextListItem}>
+
+        Organise information visually, reducing the need for re-reading. 
+
+
+        </p>
 
 
 

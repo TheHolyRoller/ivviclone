@@ -10,7 +10,9 @@
     place-content: center;
     margin: 0 auto; 
 
-    color: white; 
+    /* color: white;  */
+    color: #eeede8; 
+
     background-color: #79a479;
 
     
@@ -18,17 +20,18 @@
 
 .gridContainer {
 
-    display: grid;
-    place-content: center;
-    grid-template-columns: 1fr 1fr;
-
-    width: 1295px;
+    display: flex; 
+    
     margin: auto; 
     
 	
 }
 
 .imageContainer {
+
+
+    margin-right: 2rem; 
+
 
 
 	
@@ -38,8 +41,9 @@
      
     
     
-    height: 507px; 
-    width: 507px; 
+   width: 400px; 
+   height: 400px; 
+
     
     
     
@@ -66,24 +70,36 @@
 
 .mainHeading {
 
-    /* font-size: var(--mainSectionHeadingFontSize); */
+
     font-size: 48px;
-    /* width: 99%;  */
-    max-width: 650px;;  
-    
+    width: 650px; 
+    min-width: 700px; 
+
+    max-width: 700px;;  
+    color: #eeede8; 
+
 
 
     font-weight: 600;
     line-height: 1.2;
+
+    /* outline: 2px solid lime;  */
+    width: 640px; 
+
 	
 }
 
-.supportingText {
+.mainSupportingText {
 
 
-    font-size: var(--main-section-font-size);
-    width: 564.5px; 
-    max-width: 564.3px;
+    /* font-size: var(--main-section-font-size); */
+    font-size: 26px !important; 
+    /* outline: 3px solid lime; */
+    line-height: 1.2;   
+    font-weight: 600;
+    width: 644.5px; 
+
+    min-width: 700px;
     margin-top: 5px; 
 
 
@@ -120,7 +136,7 @@
 .bulletPointList {
 
 
-    list-style: disc;
+    list-style: none;
 
 
 
@@ -218,13 +234,7 @@
 
 .gridContainer {
 
-    display: grid;
-    place-content: center;
-    grid-template-columns: 1fr 1fr;
-
-    /* width: 1295px; */
-    width: 80vw; 
-    margin: auto; 
+ 
     
 	
 }
@@ -241,12 +251,12 @@
 
     .gridContainer {
 
-    display: grid;
+    /* display: grid;
     place-content: center;
     grid-template-columns: 1fr;
 
     width: 90vw; 
-    margin:  auto; 
+    margin:  auto;  */
     
 	
 }
@@ -281,12 +291,12 @@
     
     .gridContainer {
 
-    display: grid;
+    /* display: grid;
     place-content: center;
     grid-template-columns: 1fr;
 
     width: 90vw; 
-    margin: auto; 
+    margin: auto;  */
 
     
 	
