@@ -6,18 +6,20 @@ import CentralVideoBlock from '../Components/CentralVideoBlock'
 import LeftImageText from '../Components/LeftImageText'
 import TextImage from '../Components/TextImage'
 import TextImageVideo from '../Components/TextImageVideo'
+import ImageTextVideo from '../Components/ImageTextVideo'
 
 function Assessors() {
   return (
     <div>
 
     <SecondaryHero/>
-    {/* <Justification/>  */}
+
     <AssessorGrid/>
     <CentralVideoBlock/> 
     <LeftImageText/> 
     <TextImageVideo/> 
-    
+    <ImageTextVideo/> 
+
 
 
 
