@@ -11,6 +11,8 @@ import LiveMap from '../Components/LiveMap';
 import Highlight from '../Components/Highlight'
 import Edit from '../Components/Edit'
 import Outline from '../Components/Outline'
+import All from '../Components/All'
+import FreeTrial from '../Components/FreeTrial'
 
 
 
@@ -31,6 +33,10 @@ function Assessors() {
     <Highlight/> 
     <Edit/> 
     <Outline/> 
+    <All/> 
+    <FreeTrial/> 
+    
+    
     
     
 
