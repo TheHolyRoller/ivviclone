@@ -13,6 +13,7 @@ import Edit from '../Components/Edit'
 import Outline from '../Components/Outline'
 import All from '../Components/All'
 import FreeTrial from '../Components/FreeTrial'
+import Testimony from '../Components/Testimony'
 
 
 
@@ -35,6 +36,8 @@ function Assessors() {
     <Outline/> 
     <All/> 
     <FreeTrial/> 
+    <Testimony/> 
+    
     
     
     

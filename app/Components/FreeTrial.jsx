@@ -26,10 +26,13 @@ function FreeTrial() {
 
         </h2>
 
+        <div className={ti.supportingHeadlineContainer}>
+
         <div className={ti.supportingHeadline}>
 
         Free 30-day full trial.
 
+        </div>
 
         </div>
 
@@ -81,8 +84,6 @@ function FreeTrial() {
 
         <li className={ti.bulletPointListItem}>
 
-            
-
         DSA Approved
 
 
@@ -107,7 +108,7 @@ function FreeTrial() {
         <button className={ti.cta}>
 
 
-          Try ivvi now 
+          Try ivvi Notes Now 
         </button>
 
 

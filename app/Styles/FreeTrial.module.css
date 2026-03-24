@@ -22,8 +22,11 @@
     place-content: center;
     grid-template-columns: 1fr 1fr;
 
-    width: 1295px;
+    width: 985px;
     margin: auto; 
+
+    /* outline: 2px solid lime; */
+
     
 	
 }
@@ -76,6 +79,35 @@
     line-height: 1.2;
 	
 }
+
+
+.supportingHeadlineContainer{
+
+
+    /* outline: 2px solid lime; */
+    /* width: max-content; */
+    /* margin: 1rem auto;  */
+    width: 50%; 
+    margin-left: 10px; 
+
+
+
+
+}
+.supportingHeadline{
+
+
+    font-size: clamp(1rem, 1rem + 1vw, 1.85rem);
+    font-weight: 600;   
+
+
+
+
+
+}
+
+
+
 
 .supportingText {
 
@@ -158,17 +190,22 @@
 
 
 .cta{
-    width: 168px;
-    height: 50px;
+    width: 220px;
+    height: 44px;
     display: grid;
     place-content: center;
     outline:  2.4px solid #eeede8;
-    background-color: transparent;
-    color: #eeede8;
-    font-size: 18px;
+    background-color: #eeede8;
+    font-family: "Nunito" !important; 
+    font-size: 1.15rem;
     font-weight: 600;
+
+    color: #ef7a1a;
+    font-weight: 690;
     margin-top: 2em; 
     margin-left: -1rem; 
+    /* padding: 0 2rem;  */
+
 
 
 
