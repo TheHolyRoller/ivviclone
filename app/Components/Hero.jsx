@@ -11,7 +11,6 @@ import Link from 'next/link';
 function Hero() {
 
 
-
   return (
 
     <main className={h.hero}>

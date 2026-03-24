@@ -1,0 +1,630 @@
+/* Hero Component Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Michroma&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=WindSong:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Michroma&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=WindSong:wght@400;500&display=swap');
+
+
+
+.hero {
+
+    padding: 0 !important;
+    margin: 0 !important; 
+
+    margin: 0 auto; 
+    width:100vw; 
+    height: 100vh; 
+    min-height: 100vh;
+    position: relative; 
+	
+}
+
+
+
+
+.heroContentContainer {
+
+
+    height: 100vh;
+    min-height: 90vh;
+
+    position: relative;
+    z-index: 9999999;
+    margin: 0 auto; 
+
+    display: flex;
+	
+}
+
+
+.heroBackgroundImage{
+
+
+
+    
+        position: absolute;
+        left: 0;
+     
+        top: -8vh; 
+        width: 100%; 
+        height: 110vh;
+
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: contain;
+
+
+    
+}
+
+.heroTextContainer {
+
+
+    position: relative; 
+    z-index: 2; 
+    color: #eeede8; 
+    
+    margin: auto;
+    margin-top: 10rem; 
+
+
+    font-family: "Lato", sans-serif !important; 
+    /* outline: 2px solid lime; */
+
+
+    height: 80vh; 
+    /* max-width: 650px; */
+    text-align: center;
+
+
+    
+
+
+    
+
+
+}
+
+.DSASubHeadingContainer{
+
+
+
+    width: 100vw;
+    display: grid;
+    place-content: center;
+    margin: 0 auto; 
+
+
+
+
+
+}
+
+.DSASubHeading {
+
+
+    
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: "Nunito", sans-serif !important;
+    font-family: "Nunito" !important; 
+
+    margin: auto; 
+    margin-bottom: 1rem; 
+    width: max-content;
+
+
+
+    display: grid; 
+    place-content: center;  
+
+
+
+
+}
+
+.heroMainHeader {
+
+
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1.25;
+    max-width: 850px;
+    text-align: center;
+    margin: auto; 
+    position: relative; 
+
+
+
+
+	
+}
+
+
+.awards{
+
+
+    width: 185px; 
+    height: 154px; 
+    position: absolute;
+    left: 0; 
+    margin-left: -9.5rem; 
+    margin-top: -4.5rem; 
+
+
+
+
+
+
+}
+
+
+.mobileHeader{
+
+
+    display: none !important; 
+
+
+}
+
+.heroSupportingText {
+
+
+    text-align: center;
+    max-width: 700px;
+    font-weight: 400;
+    font-family: "Nunito", sans-serif; 
+    margin: auto; 
+
+    margin-bottom: 1rem; 
+
+    
+    font-size: clamp(1rem, 1vw + 1rem, 1.5rem);
+	
+}
+
+.ivvi{
+
+
+    display: inline;
+    font-weight: 700;   
+    margin: 0 6px; 
+
+
+
+
+}
+
+
+
+
+
+.heroCompTitle {
+
+
+    font-weight: 900;
+    font-size: 1.225rem;
+    display: inline; 
+
+
+ 
+
+
+	
+}
+
+.compTitleType {
+
+    
+    font-size: 1.1rem;
+
+
+	
+}
+
+.notesSpan{
+
+
+        display: block;
+
+
+
+}
+
+
+.mainSupportingText{
+
+    width: 333px; 
+    display: inline-block;
+
+
+
+
+
+}
+
+
+
+
+
+.heroCTAButton {
+    
+    
+    width: 223px;
+    height: 50px;
+    
+    background-color: var(--cta-background-color);
+    /* color: var(--cta-font-color);  */
+    color: #eeede8; 
+
+    font-weight: 700;
+    font-size: 1.17rem;
+    font-family: "Nunito";
+
+
+    border-radius: var(--cta-border-radius);
+    -webkit-border-radius: var(--cta-border-radius);
+    -moz-border-radius: var(--cta-border-radius);
+    -ms-border-radius: var(--cta-border-radius);
+    -o-border-radius: var(--cta-border-radius);
+
+    margin: 0 auto; 
+
+    margin-top: 1.5rem; 
+    display: grid;
+    place-content: center;
+
+
+}
+
+.heroCTALink {
+	
+}
+
+.heroLaptopImageContainer {
+
+
+    position: relative;
+    z-index: 3;
+
+	
+}
+
+.mobileHeroLaptopImageContainer{
+
+
+    display: none;
+
+
+
+
+}
+
+
+
+
+.heroLaptopImg{
+
+
+
+    /* width: 33vw;  */
+    /* Add in a fixed width for the height here */
+    width: 829px;
+
+    height: 500px;
+
+    position: relative;
+    z-index: 9;
+
+
+}
+
+
+
+/* Add in the media queries here  */
+
+@media(max-width: 1430px) {
+    
+
+    .heroTextContainer {
+
+
+    position: relative; 
+    z-index: 2; 
+    /* color: var(--primary-font-color);  */
+    color: #eeede8; 
+
+    font-family: "Lato", sans-serif !important; 
+    margin-left: 10vw; 
+
+
+
+    
+
+
+}
+
+}
+
+
+@media(max-width: 1320px){
+
+
+    
+    .heroTextContainer {
+
+
+    position: relative; 
+    z-index: 2; 
+    /* color: var(--primary-font-color);  */
+    color: #eeede8; 
+
+    font-family: "Lato", sans-serif !important; 
+    margin-left: 5.5vw; 
+
+
+
+    
+
+
+}
+
+/* Add in the laptop image here  */
+
+.heroLaptopImg{
+
+
+
+    /* width: 33vw;  */
+    /* Add in a fixed width for the height here */
+    /* width: 829px; */
+    /* aspect-ratio: ; */
+    width: 60vw; 
+    height: 40vw;
+    /* aspect-ratio: 1.7; */
+
+    /* height: 500px; */
+
+    position: relative;
+    z-index: 9;
+
+
+}
+
+}
+
+
+
+/* Add in the text here and make it responsive  */
+
+@media(max-width: 1120px){
+
+    /* make the here element stacked here */
+
+
+    .hero{
+
+
+
+    }
+    .heroContentContainer {
+
+
+        display: flex;
+        flex-direction: column;
+        justify-items: flex-end;
+        margin: 0 auto; 
+        width: 90vw; 
+       
+
+    }
+
+    .mobileHeroLaptopImageContainer{
+
+
+        display: inline-block;
+
+
+
+
+
+    }
+
+    /* Add in the hero lapto img here  */
+    .heroLaptopImg{
+
+
+        width: 85vw; 
+        /* height: 50vw;  */
+
+
+
+    }
+
+    .heroLaptopImageContainer{
+
+
+
+        display: none !important;
+
+
+
+
+
+    }
+
+
+    
+.heroCTAButton {
+    
+    
+    width: 223px;
+    height: 50px;
+    
+    font-size: 18px;
+
+
+
+}
+
+.heroTextContainer{
+
+
+    font-size: 30px !important;
+    text-align: left;
+    margin-left: 0 !important; 
+
+
+}
+
+.heroMainHeader{
+
+
+    font-size: 30px !important;
+
+
+}
+
+.studentSpan{
+
+
+    display: none !important;
+
+
+
+}
+
+.notesSpan{
+
+
+    display: none;
+
+
+}
+
+
+
+.DSASubHeading{
+
+
+    font-size: 18px;
+
+
+
+}
+
+.mobileHeader{
+
+
+
+    display: inline-block !important;
+
+
+}
+
+.heroSupportingText{
+
+
+    font-size: 16px;
+}
+
+}
+
+
+@media(min-width: 800px) and (max-width: 1119px){
+
+/* add in the main container here  */
+
+.hero {
+
+    width:100vw; 
+    height: 80vh; 
+    min-height: 80vh;
+    position: relative; 
+}
+
+.heroContentContainer {
+
+    width: 100vw;
+    width: 1400px; 
+    position: relative;
+    z-index: 9999999;
+    margin: 0 auto; 
+
+    padding-top: 15vh;
+    display: flex;
+	
+}
+
+
+.heroBackgroundImage{
+
+
+
+    
+        position: absolute;
+        width: 100vw; 
+        /* min-height: 150vh !important; */
+
+    
+}
+
+
+
+}
+
+
+
+
+@media(min-width: 370px) and (max-width: 550px){
+
+    
+
+.heroLaptopImg{
+
+    min-height: 175px; 
+    min-width: 325px; 
+
+    position: relative; 
+    z-index: 9;
+    margin-bottom: 3rem;
+
+
+}
+
+.DSASubHeading{
+
+
+    margin-bottom: 1rem;
+
+
+
+}
+
+.heroMainHeader{
+
+
+    line-height: 1.45;
+
+}
+
+
+.heroCTAButton{
+
+    margin-top: 1.5rem; 
+
+}
+
+
+.heroBackgroundImage{
+
+    max-height: 80vh; 
+    
+}
+
+
+
+
+}
+
+
+

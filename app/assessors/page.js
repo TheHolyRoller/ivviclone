@@ -14,6 +14,8 @@ import Outline from '../Components/Outline'
 import All from '../Components/All'
 import FreeTrial from '../Components/FreeTrial'
 import Testimony from '../Components/Testimony'
+import LeadMagnet from '../Components/LeadMagnet'
+import ContactForm from '../Components/ContactForm'
 
 
 
@@ -37,6 +39,10 @@ function Assessors() {
     <All/> 
     <FreeTrial/> 
     <Testimony/> 
+    <LeadMagnet/> 
+    <ContactForm/> 
+    
+    
     
     
     
