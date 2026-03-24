@@ -50,14 +50,16 @@ function LeftImageText() {
 
         <h5 className={ti.mainImageTextHeadline}>
 
-          Dyslexia        
+          {/* Dyslexia         */}
+          Dysgraphia & Dyspraxia
           
           
           </h5>            
 
         <p className={ti.supportingTextListItem}>
 
-        Organise information visually, reducing the need for re-reading. 
+        {/* Organise information visually, reducing the need for re-reading.  */}
+        Minimise writing and typing efforts.
 
 
         </p>
@@ -69,16 +71,42 @@ function LeftImageText() {
 
         <li className={ti.bulletPointListItem}>
 
-        No Credit Card
+        <h5 className={ti.mainImageTextHeadline}>
+
+          {/* Dyslexia         */}
+          ADD / ADHD
 
 
+          </h5>            
+
+          <p className={ti.supportingTextListItem}>
+
+          {/* Organise information visually, reducing the need for re-reading.  */}
+          Maintain focus and capture content without overwhelm.
+
+
+          </p>
 
         </li>
         <li className={ti.bulletPointListItem}>
 
             
 
-        No Subscription
+        <h5 className={ti.mainImageTextHeadline}>
+
+            {/* Dyslexia         */}
+            Executive Function
+
+
+            </h5>            
+
+            <p className={ti.supportingTextListItem}>
+
+            {/* Organise information visually, reducing the need for re-reading.  */}
+            Improves organisation and planning of information.
+
+
+            </p>
 
 
 
@@ -86,15 +114,41 @@ function LeftImageText() {
 
         <li className={ti.bulletPointListItem}>
 
-        No Catch
+        <h5 className={ti.mainImageTextHeadline}>
+
+            {/* Dyslexia         */}
+            ASD
+
+
+            </h5>            
+
+            <p className={ti.supportingTextListItem}>
+
+            {/* Organise information visually, reducing the need for re-reading.  */}
+            Manage sensory input and visualise complex information clearly.
+
+
+            </p>
 
           </li>
         <li className={ti.bulletPointListItem}>
 
             
+        <h5 className={ti.mainImageTextHeadline}>
 
-        Keep Lifetime Access to Your Maps
+            {/* Dyslexia         */}
+            Mental Health
 
+
+            </h5>            
+
+            <p className={ti.supportingTextListItem}>
+
+            {/* Organise information visually, reducing the need for re-reading.  */}
+            Alleviate stress and anxiety around note-taking.
+
+
+            </p>
 
 
         </li>
@@ -102,12 +156,45 @@ function LeftImageText() {
         <li className={ti.bulletPointListItem}>
 
             
+        <h5 className={ti.mainImageTextHeadline}>
 
-        DSA Approved
+            {/* Dyslexia         */}
+            Physical or Unseen Conditions
+
+
+            </h5>            
+
+            <p className={ti.supportingTextListItem}>
+
+            {/* Organise information visually, reducing the need for re-reading.  */}
+            Reduce cognitive load for various challenges, including mobility issues, sensory impairments, and chronic fatigue.
+
+
+            </p>    
 
 
 
         </li>
+
+        <li className={ti.bulletPointListItem}>
+
+                      
+          <h5 className={ti.mainImageTextHeadline}>
+
+              Dyslexia        
+
+
+              </h5>            
+
+              <p className={ti.supportingTextListItem}>
+
+              Organise information visually, reducing the need for re-reading. 
+
+
+              </p>    
+
+          </li>
+
 
 
 

@@ -1,0 +1,425 @@
+/* ImageText Component Styles */
+
+.featureMainContainer {
+
+
+    width: 100vw; 
+    display: grid;
+    place-content: center;
+    margin: 0 auto; 
+
+    background-color: #eeede8;
+    color: var(--primary-font-color);
+    position: relative;
+     
+    z-index: 99;
+    padding: 5rem 0; 
+    
+	
+
+}
+
+.gridContainer {
+
+    display: grid;
+    place-content: center;
+    grid-template-columns: 1fr 1.3fr;
+
+    width: 1080px; 
+    margin: auto; 
+    
+	
+}
+
+.imageContainer {
+
+
+    margin-right: 3rem; 
+    display: grid;
+    place-content: center;
+    
+
+	
+}
+
+.mainImage{
+     
+    
+    min-width: 722px; 
+    min-height: 456px; 
+    
+    
+    
+    border-radius: var(--image-border-radius);
+    -webkit-border-radius: var(--image-border-radius);
+    -moz-border-radius: var(--image-border-radius);
+    -ms-border-radius: var(--image-border-radius);
+    -o-border-radius: var(--image-border-radius);
+
+
+}
+
+
+
+
+.textContainer {
+
+
+    margin-top: -0.35rem; 
+
+	
+}
+
+.mainHeading {
+
+    /* font-size: var(--mainSectionHeadingFontSize); */
+
+    font-size: 48px !important; 
+    font-weight: 600;
+    line-height: 1.2;
+
+
+    
+}
+
+.supportingText {
+
+
+    /* font-size: var(--main-section-font-size); */
+    font-size: 24px !important;
+
+    width: 564.5px; 
+    max-width: 564.3px;
+    margin-top: 5px; 
+    font-family: "Nunito" !important;
+    color: #00143d; 
+
+
+
+	
+}
+
+
+
+.ivvi{
+
+
+    margin: 0 6px; 
+    font-weight: 700; 
+    display: inline;
+
+
+
+
+}
+
+.ivviSpan{
+
+
+
+    margin: 0 0.25em;
+
+
+
+
+}
+
+
+
+.bulletPointListContainer {
+
+
+    margin-left: 2.1rem; 
+
+    font-size: var(--main-section-font-size); 
+    margin-top: 1.35rem; 
+
+	
+}
+
+.bulletPointList {
+
+
+    list-style: disc;
+
+
+
+
+	
+}
+
+.bulletPointListItem {
+
+
+    color: #013699; 
+
+    font-weight: 600;
+    max-width: 530px; 
+
+    font-size: 24px !important;
+
+	
+}
+
+.bulletPointListItem::marker{
+
+
+    color: #00143d; 
+
+}
+
+
+@media(max-width: 1120px){
+
+
+
+    .gridContainer {
+
+    display: grid;
+    place-content: center;
+    /* grid-template-columns: 1fr; */
+
+    width: 90vw; 
+
+    margin: auto !important; 
+    text-align: left; 
+
+	
+}
+
+
+.featureMainContainer {
+
+
+    width: 100vw; 
+    display: grid;
+    place-content: center;
+    margin: auto; 
+
+    background-color: #eeede8;
+    color: var(--primary-font-color);
+    position: relative;
+    z-index: 99;
+
+    
+
+}
+
+
+
+}
+
+
+@media(max-width: 1118px) and (min-width: 750px){
+
+
+    /* Add in the grid container here  */
+    .gridContainer{
+
+
+        gap: 2rem; 
+
+
+
+
+    }
+
+    .supportingText{
+
+
+        max-width: 100%;
+
+
+
+
+    }
+
+
+    /* Add in the text here  */
+    .textContainer{
+
+
+        width: 40vw; 
+
+
+
+
+    }
+
+
+}
+
+
+
+
+
+/* Add in the phone media query here  */
+
+
+@media(max-width:749px){
+
+
+
+    /* Add in the main container here */
+
+
+
+
+
+       .gridContainer {
+
+    display: grid;
+    place-content: center;
+    grid-template-columns: 1fr;
+
+    width: 90vw; 
+
+    margin: auto !important; 
+    text-align: left; 
+
+
+	
+}
+
+
+.featureMainContainer {
+
+
+    width: 100vw; 
+    /* min-height: 125vh; */
+    display: grid;
+    place-content: center;
+    margin: auto; 
+
+    background-color: #eeede8;
+    color: var(--primary-font-color);
+    position: relative;
+    z-index: 99;
+
+
+    
+
+}
+
+.mainImage{
+
+
+    width: 90vw; 
+    height: 90vw; 
+    margin: 0 auto; 
+
+
+
+}
+
+/* Adjust the text elements here */
+.textContainer{
+
+
+    width: 90vw; 
+
+}
+
+
+.supportingText{
+
+
+
+    width: 80vw; 
+    
+
+
+
+}
+
+
+
+
+
+}
+
+
+/* Add in the limiting here  */
+
+
+
+
+
+
+
+
+/* and (max-width: 550px) */
+@media(min-width: 370px){
+
+
+    .featureMainContainer {
+
+
+
+        /* height: 100vh;  */
+        
+        width: 100vw; 
+
+        outline: auto;
+        padding-bottom: 3rem;
+
+
+
+
+}
+
+.gridContainer {
+
+    margin: auto !important; 
+    padding: 0; 
+	
+}
+
+
+/* Add in the image here  */
+.mainImage{
+
+
+
+
+}
+
+.mainHeading{
+
+
+
+    font-size: 30px;
+    margin-top: 1.2rem;
+      color: #013699; 
+
+
+}
+
+
+.supportingText{
+
+
+
+    font-size: 16px;
+
+
+
+
+}
+
+.bulletPointListItem{
+
+
+
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+
+
+}
+
+
+
+
+}
+
