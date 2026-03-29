@@ -90,16 +90,13 @@
 .mainSupportingText {
 
 
-    /* font-size: var(--main-section-font-size); */
     font-size: 30px !important; 
-    /* outline: 3px solid lime; */
     line-height: 1.2;   
     font-weight: 600;
     width: 644.5px; 
 
     min-width: 800px;
     margin-bottom: 3rem; 
-    
     margin-top: 5px; 
 
 
