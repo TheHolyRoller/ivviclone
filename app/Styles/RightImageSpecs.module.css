@@ -19,6 +19,7 @@
 
 }
 
+
 .gridContainer {
 
     display: grid;
@@ -64,8 +65,12 @@
 
 .textContainer {
 
+    
+    
+    
+    margin-top: 1rem; 
+    padding-right: 3rem; 
 
-    margin-top: -0.35rem; 
 
 	
 }

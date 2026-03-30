@@ -22,9 +22,7 @@ function All() {
 
         <h2 className={ts.mainHeading}>
 
-        {/* Neurodiverse Executive Functions */}
-        {/* Full Transcript */}
-        {/* Live Mindmap  */}
+  
         All in One App
 
 

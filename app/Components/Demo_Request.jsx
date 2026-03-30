@@ -6,7 +6,7 @@ import img from '../../public/images/lady.webp';
 
 
 
-function FreeTrial() {
+function DemoRequest() {
   return (
     <section className={ti.featureMainContainer}>
     
@@ -132,4 +132,4 @@ function FreeTrial() {
   )
 }
 
-export default FreeTrial; 
+export default DemoRequest

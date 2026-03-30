@@ -5,6 +5,7 @@ import AssessorGrid from '../Components/AssessorGrid'
 import RightImageText from '../Components/RigthImageText'
 import TechSpecs from '../Components/TechSpecs'; 
 import SpecGrid from '../Components/SpecGrid'; 
+import DemoRequest from '../Components/Demo_Request'
 
 
 
@@ -17,8 +18,9 @@ function Students() {
         <AssessorGrid/> 
         <RightImageText/>
         <SpecGrid/> 
-
-        
+        <TechSpecs/> 
+        <DemoRequest/>
+                
 
 
     </section>
