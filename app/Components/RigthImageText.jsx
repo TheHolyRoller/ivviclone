@@ -12,12 +12,6 @@ function RightImageText() {
       {/* Add in the grid container here  */}
       <div className={ti.gridContainer}>
 
-     
-      
-
-      {/* Add in the image container here */}
-    
-
       {/* Add in the text container here */}
       <div className={ti.textContainer}>
 
@@ -73,7 +67,8 @@ function RightImageText() {
         <h5 className={ti.mainImageTextHeadline}>
 
           {/* Dyslexia         */}
-          ADD / ADHD
+          {/* ADD / ADHD */}
+          Dysgraphia and Dyspraxia
 
 
           </h5>            
@@ -81,7 +76,8 @@ function RightImageText() {
           <p className={ti.supportingTextListItem}>
 
           {/* Organise information visually, reducing the need for re-reading.  */}
-          Maintain focus and capture content without overwhelm.
+          {/* Maintain focus and capture content without overwhelm. */}
+          Minimise writing efforts by providing digital note-taking tools, reducing physical strain and improving legibility.
 
 
           </p>
@@ -94,7 +90,8 @@ function RightImageText() {
         <h5 className={ti.mainImageTextHeadline}>
 
             {/* Dyslexia         */}
-            Executive Function
+            {/* Executive Function */}
+            ADD / ADHD
 
 
             </h5>            
@@ -102,7 +99,8 @@ function RightImageText() {
             <p className={ti.supportingTextListItem}>
 
             {/* Organise information visually, reducing the need for re-reading.  */}
-            Improves organisation and planning of information.
+            {/* Improves organisation and planning of information. */}
+            Maintain focus during lectures by allowing students to engage with content actively through tagging and mind mapping, capturing information without overwhelm.
 
 
             </p>
@@ -116,7 +114,8 @@ function RightImageText() {
         <h5 className={ti.mainImageTextHeadline}>
 
             {/* Dyslexia         */}
-            ASD
+            {/* ASD */}
+            Autism Spectrum Disorder (ASD)
 
 
             </h5>            
@@ -124,7 +123,8 @@ function RightImageText() {
             <p className={ti.supportingTextListItem}>
 
             {/* Organise information visually, reducing the need for re-reading.  */}
-            Manage sensory input and visualise complex information clearly.
+            {/* Manage sensory input and visualise complex information clearly. */}
+            Manage sensory input and visualise complex information clearly, allowing for personalised organisation of lecture content in a way that makes sense to the individual.
 
 
             </p>
@@ -136,6 +136,7 @@ function RightImageText() {
         <h5 className={ti.mainImageTextHeadline}>
 
             {/* Dyslexia         */}
+            {/* Mental Health */}
             Mental Health
 
 
@@ -144,7 +145,8 @@ function RightImageText() {
             <p className={ti.supportingTextListItem}>
 
             {/* Organise information visually, reducing the need for re-reading.  */}
-            Alleviate stress and anxiety around note-taking.
+            {/* Alleviate stress and anxiety around note-taking. */}
+            Alleviate stress and anxiety around note-taking and studying by ensuring comprehensive capture of lecture content, reducing worry about missed information.
 
 
             </p>
@@ -158,7 +160,8 @@ function RightImageText() {
         <h5 className={ti.mainImageTextHeadline}>
 
             {/* Dyslexia         */}
-            Physical or Unseen Conditions
+            {/* Physical or Unseen Conditions */}
+            Mobility Challenges
 
 
             </h5>            
@@ -166,7 +169,8 @@ function RightImageText() {
             <p className={ti.supportingTextListItem}>
 
             {/* Organise information visually, reducing the need for re-reading.  */}
-            Reduce cognitive load for various challenges, including mobility issues, sensory impairments, and chronic fatigue.
+            {/* Reduce cognitive load for various challenges, including mobility issues, sensory impairments, and chronic fatigue. */}
+            Enable effective note-taking without the need for extensive physical writing, supporting students with limited mobility or chronic pain conditions.
 
 
             </p>    
@@ -180,24 +184,68 @@ function RightImageText() {
                       
           <h5 className={ti.mainImageTextHeadline}>
 
-              Dyslexia        
+              {/* Dyslexia         */}
+              Hearing Impairment
 
 
               </h5>            
 
               <p className={ti.supportingTextListItem}>
 
-              Organise information visually, reducing the need for re-reading. 
+              {/* Organise information visually, reducing the need for re-reading.  */}
+              Provide visual note-taking tools and transcription services to support understanding of lecture content for students who may struggle to hear or process auditory information.
+              
 
 
               </p>    
 
+           
+
           </li>
+
+          <li className={ti.bulletPointListItem}>
+
+                      
+<h5 className={ti.mainImageTextHeadline}>
+
+    {/* Dyslexia         */}
+    {/* Hearing Impairment */}
+    Unseen Conditions
+
+
+    </h5>            
+
+    <p className={ti.supportingTextListItem}>
+
+    {/* Organise information visually, reducing the need for re-reading.  */}
+    {/* Provide visual note-taking tools and transcription services to support understanding of lecture content for students who may struggle to hear or process auditory information. */}
+    Reduce cognitive load for various challenges including chronic fatigue syndrome, fibromyalgia, and long COVID, by offering flexible, efficient note-taking solutions that can be used even on low-energy days.
+
+
+    </p>  
+
+              <div  className={ti.buttonIntroText}>
+              Download our Assessors Guide Here:
+                
+                 </div>
+
+              <button className={ti.downloadButton}>
+
+                Download Assessors Guide 
+
+
+              </button>  
+
+ 
+
+</li> 
 
 
 
 
         </ul>
+
+      
       </div>
       </div>
 
