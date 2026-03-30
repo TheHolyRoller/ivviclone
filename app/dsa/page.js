@@ -9,7 +9,8 @@ import GrantCover from '../Components/Grant_Cover';
 import DSA_Apply from '../Components/DSA_Apply';
 import DSASteps from '../Components/DSASteps';
 import Assessment from '../Components/Assessment';
-
+import Prepare from '../Components/Prepare';
+import Award from '../Components/Award';
 
 
 function page() {
@@ -27,6 +28,10 @@ function page() {
         <DSA_Apply/> 
         <DSASteps/> 
         <Assessment/> 
+        <Prepare/> 
+        <Award/> 
+        
+
         
         
         

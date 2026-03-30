@@ -10,9 +10,8 @@ import group from '../../public/images/dsa group.png';
 
 function Assessment() {
   return (
-    
 
-    <section className={v.hero}>
+
 
     <section className={v.heroContentContainer} >
 
@@ -36,7 +35,8 @@ function Assessment() {
 
     <div className={v.heroLaptopImageContainer}>
 
-      <Image src={help} alt="group" className={v.dsaImage} /> 
+      <Image src={help} alt="group" className={v.dsaImage}/> 
+
     </div>
 
     <div className={v.CTASupportingTextContainer}>
@@ -133,7 +133,6 @@ function Assessment() {
 
     </div>
 
-    </section>
     </section>
 
 
