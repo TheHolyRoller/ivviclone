@@ -3,6 +3,8 @@ import ds from '../Styles/DSA.module.css';
 import DSAHero from '../Components/DSAHero';
 import GrantSummary from '../Components/GrandSummary';
 import DSASpec from '../Components/DSASpec';
+import DSA_Allowance from '../Components/DSA_Allowance';
+import Eligible from '../Components/Elibible';
 
 
 function page() {
@@ -14,6 +16,10 @@ function page() {
         <DSAHero/> 
         <GrantSummary/> 
         <DSASpec/> 
+        <DSA_Allowance/> 
+        <Eligible/> 
+        
+        
         
         
 
