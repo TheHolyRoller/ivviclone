@@ -21,9 +21,6 @@ function DSASpec() {
 
         <h1 className={v.heroMainHeader}>
 
-
-
-        {/* ivvi Notes in Action */}
         What is the Disabled Students' Allowance?
         
 
