@@ -1,0 +1,382 @@
+/* ImageText Component Styles */
+
+.featureMainContainer {
+
+
+    width: 100vw;
+    padding: 5rem 0;
+
+    display: grid;
+    place-content: center;
+    margin: 0 auto; 
+
+    color: white; 
+    background-color: #013699;  
+
+
+    
+}
+
+.gridContainer {
+
+    display: grid;
+    place-content: center;
+    grid-template-columns: 1fr 1fr;
+
+    width: 985px;
+    margin: auto; 
+
+    /* outline: 2px solid lime; */
+
+    
+	
+}
+
+.imageContainer {
+
+
+	
+}
+
+.mainImage{
+     
+    
+    
+    height: 507px; 
+    width: 507px; 
+    border-radius: 4px !important;
+    
+    
+
+
+}
+
+
+
+
+.textContainer {
+	
+}
+
+.mainHeading {
+
+    /* font-size: var(--mainSectionHeadingFontSize); */
+    font-size: 48px;
+    /* width: 99%;  */
+    width: 455px; 
+
+
+    font-weight: 600;
+    line-height: 1.2;
+	
+}
+
+
+.supportingHeadlineContainer{
+
+
+    /* outline: 2px solid lime; */
+    /* width: max-content; */
+    /* margin: 1rem auto;  */
+    width: 50%; 
+    margin-left: 10px; 
+
+
+
+
+}
+.supportingHeadline{
+
+
+    font-size: clamp(1rem, 1rem + 1vw, 1.85rem);
+    font-weight: 600;   
+
+
+
+
+
+}
+
+
+
+
+.supportingText {
+
+
+    font-size: var(--main-section-font-size);
+    width: 564.5px; 
+    max-width: 564.3px;
+    margin-top: 5px; 
+
+
+
+	
+}
+
+.ivviSpan{
+
+
+
+    margin: 0 0.25em;
+
+
+
+
+}
+
+
+
+.bulletPointListContainer {
+
+
+    margin-left: 2.1rem; 
+
+    font-size: var(--main-section-font-size); 
+    margin-top: 1.35rem; 
+
+
+
+	
+}
+
+.bulletPointList {
+
+
+    list-style: disc;
+
+
+
+
+	
+}
+
+.bulletPointListItem {
+
+
+    color: #eeede8; 
+    line-height: 1.5;
+    margin-top: 1rem; 
+
+    
+
+
+    font-weight: 600;
+    max-width: 530px; 
+
+  
+
+
+	
+}
+
+
+
+.ctaLink{
+
+
+
+
+}
+
+
+
+.cta{
+    width: 220px;
+    height: 44px;
+    display: grid;
+    place-content: center;
+    outline:  2.4px solid #eeede8;
+    background-color: #eeede8;
+    font-family: "Nunito" !important; 
+    font-size: 1.15rem;
+    font-weight: 600;
+
+    color: #ef7a1a;
+    font-weight: 690;
+    margin-top: 2em; 
+    margin-left: -1rem; 
+    /* padding: 0 2rem;  */
+
+
+
+
+    border-radius:4px;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    -ms-border-radius:4px;
+    -o-border-radius:4px;
+
+
+
+}
+
+
+
+
+
+
+
+
+.bulletPointListItem::marker{
+
+
+    color: #00143d; 
+
+}
+
+@media(max-width: 1380px){
+
+
+
+    .featureMainContainer {
+
+
+    width: 100vw; 
+    display: grid;
+    place-content: center;
+    margin: 0 auto; 
+
+    color: white; 
+
+
+
+	
+}
+
+.gridContainer {
+
+    display: grid;
+    place-content: center;
+    grid-template-columns: 1fr 1fr;
+
+    /* width: 1295px; */
+    width: 80vw; 
+    margin: auto; 
+    
+	
+}
+
+
+
+
+}
+
+
+
+@media(max-width: 1130px){
+
+
+    .gridContainer {
+
+    display: grid;
+    place-content: center;
+    grid-template-columns: 1fr;
+
+    width: 90vw; 
+    margin:  auto; 
+    
+	
+}
+
+
+.mainImage{
+
+
+    width: 90vw; 
+    height: 90vw; 
+
+
+
+
+}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+@media(max-width: 500px){
+
+
+    
+    .gridContainer {
+
+    display: grid;
+    place-content: center;
+    grid-template-columns: 1fr;
+
+    width: 90vw; 
+    margin: auto; 
+
+    
+	
+}
+
+.mainHeading{
+
+
+
+    font-size: 1.875rem;
+    width: 85vw; 
+
+    
+}
+
+
+
+.bulletPointListItem{
+
+    color: #eeede8; 
+
+
+}
+
+.mainImage{
+
+    width: 90vw; 
+    max-width: 90vw; 
+    margin: auto !important; 
+
+
+
+    height: 90vw; 
+    min-width: none;
+    min-height: none; 
+
+
+
+
+
+}
+
+
+.bulletPointListContainer{
+
+
+    font-size: 1rem !important;
+
+
+
+
+
+}
+
+.cta{
+
+
+    margin-bottom: 1rem; ;
+
+}
+
+
+
+
+
+}

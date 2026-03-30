@@ -1,12 +1,12 @@
 import React from 'react'; 
-import ti from '../Styles/FreeTrial.module.css'; 
+import ti from '../Styles/GrantSummary.module.css'; 
 import Link from 'next/link';
 import Image from 'next/image';
 import img from '../../public/images/lady.webp'; 
+ 
 
 
-
-function FreeTrial() {
+function GrantSummary() {
   return (
     <section className={ti.featureMainContainer}>
     
@@ -133,4 +133,4 @@ function FreeTrial() {
   )
 }
 
-export default FreeTrial; 
+export default GrantSummary; 
