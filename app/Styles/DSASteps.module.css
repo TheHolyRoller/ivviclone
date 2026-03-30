@@ -1,0 +1,112 @@
+
+/* Main section container */
+.mainContainer {
+
+
+    margin: 0 auto; 
+    max-width: 1000px;
+    color: #013699; 
+
+
+
+
+}
+
+
+
+/* Inner wrapper */
+.subContainer {
+
+
+
+
+}
+
+
+
+/* Top headline */
+.headline {
+
+    font-size: 28px; 
+    font-weight: 500;   
+    margin-bottom: 2rem; 
+    margin-left: -2rem; 
+    font-family: "Lato";
+
+
+
+
+}
+
+
+
+/* UL flex/grid container */
+.flexContainer {
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem; 
+
+
+
+}
+
+
+
+/* Each list item */
+.gridSubContainer {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: "Nunito" !important;
+    
+
+
+}
+
+
+
+/* Image inside each item */
+.gridImage {
+
+    width: 242px; 
+    height: 175px; 
+    border-radius: 6px; 
+
+
+
+
+}
+
+
+
+/* Text wrapper */
+.textContainer {
+
+    font-size: 24px; 
+    width: 707px; 
+
+
+
+}
+
+
+
+/* Title inside each grid item */
+.gridHeadline {
+
+    font-weight: 700;   
+
+
+
+}
+
+
+
+/* Paragraph inside each grid item */
+.gridParagraph {
+
+
+
+
+}

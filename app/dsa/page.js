@@ -7,6 +7,7 @@ import DSA_Allowance from '../Components/DSA_Allowance';
 import Eligible from '../Components/Elibible';
 import GrantCover from '../Components/Grant_Cover';
 import DSA_Apply from '../Components/DSA_Apply';
+import DSASteps from '../Components/DSASteps';
 
 
 function page() {
@@ -22,6 +23,8 @@ function page() {
         <Eligible/> 
         <GrantCover/> 
         <DSA_Apply/> 
+        <DSASteps/> 
+        
         
         
         
