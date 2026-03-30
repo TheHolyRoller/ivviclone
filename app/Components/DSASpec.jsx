@@ -1,11 +1,11 @@
 import React from 'react'
-import v from '../Styles/CentralVideoBlock.module.css'; 
+import v from '../Styles/DSASpec.module.css'; 
 import Link from 'next/link';
 import Image from 'next/image';
 import background from '../../public/images/videoBackground.jpg'; 
 
 
-function CentralVideoBlock() {
+function DSASpec() {
   return (
 
     <section className={v.hero}>
@@ -94,4 +94,4 @@ function CentralVideoBlock() {
 )
 }
 
-export default CentralVideoBlock
+export default DSASpec

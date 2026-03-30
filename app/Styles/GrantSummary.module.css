@@ -42,8 +42,10 @@
      
     
     
-    height: 507px; 
-    width: 507px; 
+    height: 337px; 
+    min-width: 400px;
+    
+    width: 400px; 
     border-radius: 4px !important;
     
     
@@ -75,14 +77,7 @@
 .supportingHeadlineContainer{
 
 
-    /* outline: 2px solid lime; */
-    /* width: max-content; */
-    /* margin: 1rem auto;  */
     width: 50%; 
-    margin-left: 10px; 
-
-
-
 
 }
 .supportingHeadline{
@@ -129,10 +124,14 @@
 .bulletPointListContainer {
 
 
-    margin-left: 2.1rem; 
 
     font-size: var(--main-section-font-size); 
     margin-top: 1.35rem; 
+    padding-right: 2rem; 
+    width: 50vw; 
+    max-width: 618px; 
+    ;
+
 
 
 
@@ -200,7 +199,8 @@
 
 
 
-    border-radius:4px;
+    border-radius:none !important;   
+
     -webkit-border-radius:4px;
     -moz-border-radius:4px;
     -ms-border-radius:4px;

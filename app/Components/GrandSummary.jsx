@@ -3,7 +3,8 @@ import ti from '../Styles/GrantSummary.module.css';
 import Link from 'next/link';
 import Image from 'next/image';
 import img from '../../public/images/lady.webp'; 
- 
+ import girl from '../../public/images/girl_headphones.png'; 
+
 
 
 function GrantSummary() {
@@ -19,12 +20,11 @@ function GrantSummary() {
       {/* Add in the text container here */}
       <div className={ti.textContainer}>
 
-        <h2 className={ti.mainHeading}>
+        {/* <h2 className={ti.mainHeading}>
 
-        {/* Neurodiverse Executive Functions */}
-        Ready to Transform Your Learning?
+        Ready to Transform Your Learning? 
 
-        </h2>
+        </h2> */}
         
         
 
@@ -32,7 +32,8 @@ function GrantSummary() {
 
         <div className={ti.supportingHeadline}>
 
-        Free 30-day full trial.
+        Grant Summary: 
+
 
         </div>
 
@@ -40,81 +41,7 @@ function GrantSummary() {
 
       <div className={ti.bulletPointListContainer}>
 
-
-        <ul className={ti.bulletPointList}>
-
-        <li className={ti.bulletPointListItem}>
-
-            
-
-        No Commitment
-
-
-
-
-        </li>
-
-        <li className={ti.bulletPointListItem}>
-
-        No Credit Card
-
-
-
-        </li>
-
-        <li className={ti.bulletPointListItem}>
-
-                No Catch 
-
-
-
-                </li>
-
-
-
-
-        <li className={ti.bulletPointListItem}>
-
-            
-
-        No Subscription
-
-
-
-        </li>
-
-
-        <li className={ti.bulletPointListItem}>
-
-        DSA Approved
-
-
-
-        </li>
-
-        <li className={ti.bulletPointListItem}>
-
-            
-
-        Keep Lifetime Access to Your Maps
-
-
-
-        </li>
-
-
-        </ul>
-
-        <Link className={ti.ctaLink}  href='ivvi.dev' >
-
-        <button className={ti.cta}>
-
-
-          Try ivvi Notes Now 
-        </button>
-
-
-        </Link>
+          <p>If you are a university or college student studying full-time or half-time with a formal dyslexia report and eligible for student finance, you will get a DSA grant. The grant amount is tailored to your individual needs and is provided to help cover dyslexia-related study costs.</p>
 
 
       </div>
@@ -122,7 +49,10 @@ function GrantSummary() {
 
       <div className={ti.imageContainer}>
 
-        <Image className={ti.mainImage}  src={img} alt='woman' quality={100} loading='lazy' />
+        {/* <Image className={ti.mainImage}  src={img} alt='woman' quality={100} loading='lazy' /> */}
+        <Image className={ti.mainImage} src={girl} alt="woman" quality={100} loading='lazy'/> 
+
+
 
       </div>
 
