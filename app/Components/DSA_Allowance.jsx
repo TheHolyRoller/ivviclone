@@ -3,9 +3,9 @@ import img from '../../public/images/featureBlockIMG.webp';
 import Link from 'next/link';
 import Image from 'next/image';
 
-import it from '../Styles/ImageText.module.css'; 
+import it from '../Styles/DSA_Allowance.module.css'; 
 
-function ImageText() {
+function DSA_Allowance() {
   return (  
 
 
@@ -84,4 +84,4 @@ function ImageText() {
   )
 }
 
-export default ImageText
+export default DSA_Allowance

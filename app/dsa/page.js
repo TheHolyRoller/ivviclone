@@ -2,6 +2,7 @@ import React from 'react';
 import ds from '../Styles/DSA.module.css'; 
 import DSAHero from '../Components/DSAHero';
 import GrantSummary from '../Components/GrandSummary';
+import DSASpec from '../Components/DSASpec';
 
 
 function page() {
@@ -12,6 +13,7 @@ function page() {
 
         <DSAHero/> 
         <GrantSummary/> 
+        <DSASpec/> 
         
         
 

@@ -4,6 +4,8 @@ import Link from 'next/link';
 import Image from 'next/image';
 import background from '../../public/images/videoBackground.jpg'; 
 
+import group from '../../public/images/dsa group.png'; 
+
 
 function DSASpec() {
   return (
@@ -19,8 +21,10 @@ function DSASpec() {
 
         <h1 className={v.heroMainHeader}>
 
-        {/* Introducing ivvi Notes */}
-        ivvi Notes in Action
+
+
+        {/* ivvi Notes in Action */}
+        What is the Disabled Students' Allowance?
         
 
         </h1>
@@ -32,60 +36,40 @@ function DSASpec() {
 
     <div className={v.heroLaptopImageContainer}>
 
-    {/* TO DO Add in a white background here  */}
-    <figure className={v.videoContainer}  style={{}}>
-
-  <iframe
-
-    className={v.mainVideoFrame}
-    src="https://player.vimeo.com/video/1007634251?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-    
-    allow="autoplay; fullscreen; picture-in-picture"
-    allowFullScreen
-    title="ivvi Demo Video 30s"
-  />
-
-  
-</figure>
-
-
+      <Image src={group} alt="group" className={v.dsaImage} /> 
     </div>
-
-
 
     <div className={v.CTASupportingTextContainer}>
 
-        <p className={v.CTAText}>
-
-        Watch a 30 second video that shows what 
-        <div className={v.ivvi} >
-
-        ivvi
-        </div>
-        
-         Notes can do for you.
+      <p className={v.pargraph}>
+      The Disabled Students’ Allowance (DSA) is a grant to help cover any disability-related costs for your studies, including those related to dyslexia. It covers support and equipment to help you succeed at university or college.
 
 
-        </p>
+      </p>
+      <p className={v.pargraph}>
+      {/* The Disabled Students’ Allowance (DSA) is a grant to help cover any disability-related costs for your studies, including those related to dyslexia. It covers support and equipment to help you succeed at university or college. */}
+      The grant is based on your individual needs and not your household income, it’s not means tested and it doesn’t need to be paid back. 
 
+
+      </p>
+
+      <div className={v.headline}>
+
+      It's for everyone with dyslexia. 
+
+      </div>
+
+      <p className={v.pargraph}>
+      {/* The Disabled Students’ Allowance (DSA) is a grant to help cover any disability-related costs for your studies, including those related to dyslexia. It covers support and equipment to help you succeed at university or college. */}
+      {/* The grant is based on your individual needs and not your household income, it’s not means tested and it doesn’t need to be paid back.  */}
+      The DSA is available to all students with dyslexia, no matter how it affects them. It provides the tools and support needed to help you succeed.
+
+
+      </p>
+       
 
 
     </div>
-
-      <div className={v.buttonContainer}>
-
-
-    
-        <button className={v.heroCTAButton}>
-          <Link className={v.heroCTALink}  href='/ivvi' alt='ivvi'>
-
-            Try ivvi Notes now 
-
-          </Link>
-
-        </button>
-
-      </div>
 
     </section>
     </section>

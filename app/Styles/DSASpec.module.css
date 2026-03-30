@@ -16,10 +16,8 @@
     position: relative; 
     display: grid;
     place-content: center;
-
-
-    background-color: #cac9c7; 
-
+    background-color: #ffffff;  
+    
 
 	
 }
@@ -217,6 +215,22 @@
 	
 }
 
+
+.dsaImage{
+
+
+
+    max-width: 1045px;
+    border-radius: 4px;
+
+
+    
+
+
+
+
+}
+
 .videoContainer{
 
     position: relative;
@@ -268,6 +282,32 @@
 .CTAText{
 
 
+
+
+}
+
+.pargraph{
+
+
+    max-width: 1025px; 
+    text-align: center;
+    margin: 1rem auto; 
+
+
+
+}
+
+.headline{
+
+
+    margin: 0 auto; 
+    /* outline: 2px solid lime; */
+    display: grid;
+    place-content: center;
+    font-size: 2rem;
+    font-weight: 700;   
+    padding-top: 2rem; 
+    
 
 
 }
@@ -620,10 +660,6 @@ aspect-ratio: 9 / 16;
         
 	
 }
-
-
- 
-
 
 
 
