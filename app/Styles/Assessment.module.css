@@ -1,0 +1,543 @@
+/* Hero Component Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Michroma&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=WindSong:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Michroma&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=WindSong:wght@400;500&display=swap');
+
+
+.hero {
+
+    padding: 4rem 0 !important;
+
+    margin: 0 auto; 
+    outline: 2px solid lime;
+
+
+    width:90vw;
+    overflow-x: hidden;
+
+    position: relative; 
+    display: grid;
+    place-content: center;
+    background-color: #eeede8;  
+    
+	
+
+}
+
+.heroContentContainer {
+
+
+    width: 99vw;
+    margin: 0 auto; 
+
+    /* display: grid;
+    place-content: center;     */
+	
+}
+
+
+
+
+
+.heroMainHeader {
+
+
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.2;
+    width: max-content; 
+    margin-bottom: 2rem; 
+    color: #013699; 
+
+    outline: 2px solid red;
+    position: relative; 
+    z-index: 99;
+
+
+
+
+
+	
+}
+
+.headerContainer{
+
+
+    /* width: 100vw; */
+    max-width: 99.9999vw;
+    min-width: 99vw;
+
+    display: grid;
+    place-content: center;
+    text-align: left;
+    margin: 0 auto; 
+
+
+
+
+
+}
+
+
+
+
+
+.dsaImage{
+
+
+
+    max-width: 1045px;
+    outline: 4px solid red;
+    margin: auto; 
+
+    border-radius: 4px;
+
+
+    
+
+
+
+
+}
+
+
+.CTASupportingTextContainer{
+
+
+    outline: 2px solid lime;
+
+    /* max-width: 99.999vw; */
+    width: 50vw; 
+    place-self: center; 
+
+    margin: 0 auto; 
+
+
+    font-size: clamp(1rem, 1vw + 1rem, 1.5rem);
+    font-family: "Nunito";
+    font-weight: 500;   
+    color: #00143d; 
+
+
+
+
+
+}
+
+
+.CTAText{
+
+
+
+
+}
+
+.pargraph{
+
+
+    max-width: 1025px; 
+    text-align: left;
+    margin: 1rem auto; 
+
+
+
+}
+
+
+
+.list{
+
+
+    margin: 0 auto; 
+    max-width: 980px; 
+    list-style-type: disc;
+    padding-bottom: 2rem; 
+
+
+
+
+}
+
+.list{
+
+
+    text-align: left;
+
+
+
+
+}
+
+
+
+
+
+.headline{
+
+
+    margin: 0 auto; 
+    /* outline: 2px solid lime; */
+    display: grid;
+    place-content: center;
+    font-size: 2rem;
+    font-weight: 700;   
+    padding-top: 2rem; 
+    
+
+
+}
+
+
+.ivvi{
+
+
+display: inline-block; 
+
+margin-left: 7px; 
+margin-right: 5px; 
+font-weight: 600;   
+
+
+}
+
+
+
+.heroLaptopImg{
+
+
+    position: relative;
+    z-index: 9;
+
+
+}
+
+
+
+/* laptop Media query here */
+
+@media(max-width: 1600px){
+
+    .heroContentContainer {
+
+    width: 90vw;
+    margin: 0 auto; 
+    
+    display: grid;
+    place-content: center;    
+    grid-template-columns: 1fr 1fr;
+
+
+}
+
+
+
+.mainVideoFrame{
+
+
+    width: 600px; 
+    padding-bottom: 80%;
+    margin-top: -10rem;      
+
+
+}
+
+
+
+
+
+}
+
+
+
+@media(max-width: 1510px){
+
+
+    .mainVideoFrame{
+
+
+    /* width: 400px !important; */
+    max-width: 400px !important; 
+    min-width:65vw ;
+    
+    padding-bottom: 80%;
+    margin: 0; 
+
+
+
+}
+
+
+  .heroContentContainer {
+
+    width: 90vw;
+    margin: 0 auto; 
+    
+    display: grid;
+    place-content: center;    
+    grid-template-columns: 1.5fr 1fr;
+
+
+}
+
+.heroTextContainer{
+
+
+
+    /* width: max-content;  */
+    width: 30vw; 
+
+
+
+
+}
+
+
+
+
+}
+
+
+
+@media(max-width: 1300px){
+
+
+    .heroContentContainer {
+
+    margin: 0 auto; 
+    display: grid;
+    place-content: center;    
+    grid-template-columns: 1fr;
+
+    width: 90vw; 
+
+    max-height: 80vh;
+
+
+	
+}
+
+
+.heroTextContainer{
+
+
+
+    /* width: max-content;  */
+    width: 80vw; 
+
+    margin: auto !important; 
+
+
+
+
+
+}
+
+.heroMainHeader{
+
+
+    padding-top: 20rem; 
+
+
+}
+
+
+
+
+.heroSupportingText{
+
+    width: 80vw; 
+    min-width: 80vw; 
+
+
+}
+
+.heroCTAButton{
+
+    margin-bottom: 0.5rem;;
+
+
+}
+
+
+.hero {
+
+    
+    padding: 0;
+    height: 100vh; 
+
+
+
+	
+}
+
+.mainVideoFrame{
+
+
+
+    margin: 0; 
+    margin-top: -7rem !important; 
+    padding-bottom: 60%;
+
+
+
+}
+
+
+
+
+
+
+}
+
+
+@media(max-width: 1150px){
+    
+    .heroContentContainer {
+
+    width: 100vw;
+    grid-template-columns: 1fr;
+
+    width: 90vw; 
+    place-content: center;
+    margin: auto; 
+
+    
+	
+}
+
+.heroTextContainer{
+
+
+    margin: auto !important; 
+
+
+}
+
+.heroMainHeader{
+
+
+    
+    font-size: 30px;
+    padding-top: 16rem;
+
+}
+
+.heroSupportingText{
+
+    min-width: 80vw !important; 
+    font-size: 1rem;
+
+
+
+}
+
+.heroSupportingText{
+
+
+
+
+}
+
+.videoContainer{
+
+}
+
+
+
+.mainVideoFrame{
+
+width: 80vw; 
+aspect-ratio: 9 / 16;
+
+
+}
+
+
+
+
+.heroLaptopImg{
+
+
+
+    position: relative;
+    z-index: 9;
+
+
+}
+
+
+
+
+
+
+
+}
+
+
+@media(max-width:800px){
+
+
+    /* Adjust the video size here  */
+    .mainVideoFrame{
+
+        min-width: clamp(400px, 80vw, 800px); 
+        aspect-ratio: 9 / 16;
+
+
+}
+
+
+
+}
+
+
+
+
+@media(min-width: 350px)  and (max-width: 550px) {
+
+
+    .heroTextContainer{
+
+          color: #eeede8 !important;
+        
+
+
+    }
+
+
+    .heroMainHeader{
+
+
+          color: #eeede8 !important;
+
+
+
+
+
+    }
+
+    .heroSupportingText{
+
+
+        margin-top: 0.5rem; 
+
+
+
+
+    }
+
+    .heroContentContainer {
+
+
+    margin: 0 auto; 
+    padding-bottom: 1vh;
+    padding-top: 2vh;
+        
+	
+}
+
+
+
+
+
+}
