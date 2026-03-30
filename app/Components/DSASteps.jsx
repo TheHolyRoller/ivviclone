@@ -13,6 +13,7 @@ function DSASteps() {
   return (
     <section className={sp.mainContainer}>
 
+
     <div className={sp.subContainer}>
 
         {/* Add in the headline here  */}
@@ -39,13 +40,13 @@ function DSASteps() {
                 <div className={sp.gridHeadline}>
 
                 {/* 1. Contact your university's Disabilities and Wellbeing Team. */}
-                2. Find your dyslexia assessment.
+                {/* 2. Find your dyslexia assessment. */}
+                1. Contact your university's Disabilities and Wellbeing Team.
 
                 </div>
                 <p className={sp.gridParagraph}>
 
-                {/* This is a great first step. They are extremely helpful and can guide you through the process and the short form. */}
-                Look for a PDF in your emails or locate your paper copy
+                This is a great first step. They are extremely helpful and can guide you through the process and the short form.
 
                 </p>
 
@@ -68,13 +69,17 @@ function DSASteps() {
     <div className={sp.gridHeadline}>
 
     {/* 1. Contact your university's Disabilities and Wellbeing Team. */}
-    3. Apply online.
+    {/* 3. Apply online. */}
 
     </div>
     <p className={sp.gridParagraph}>
+    <strong style={{marginRight: '6px'}}>
 
-    {/* This is a great first step. They are extremely helpful and can guide you through the process and the short form. */}
-    You can do this at the same time as your student finance application, or separately at any time. The application form can be found in your student portal or on the relevant DSA webpage for the country you are applying from. 
+    2. Find your dyslexia assessment. 
+    </strong>
+
+        Look for a PDF in your emails or locate your paper copy
+
 
     </p>
 
@@ -94,17 +99,25 @@ function DSASteps() {
  {/* Add in the Text Container here   */}
 
 <div className={sp.textContainer}>
-
-    <div className={sp.gridHeadline}>
-
-    1. Contact your university's Disabilities and Wellbeing Team.
-
-    </div>
+   
     <p className={sp.gridParagraph}>
+    <strong style={{marginRight: '6px'}}>
 
-    This is a great first step. They are extremely helpful and can guide you through the process and the short form.
+
+    3. Apply online.
+    </strong>
+    {/* This is a great first step. They are extremely helpful and can guide you through the process and the short form. */}
+    You can do this at the same time as your student finance application, or separately at any time. The application form can be found in your student portal or on the relevant DSA webpage for the country you are applying from. 
+
 
     </p>
+
+    <button className={sp.button}>
+
+        Check out the links here 
+
+
+    </button>
 
 
 
@@ -124,12 +137,21 @@ function DSASteps() {
 
     <div className={sp.gridHeadline}>
 
-    1. Contact your university's Disabilities and Wellbeing Team.
 
     </div>
     <p className={sp.gridParagraph}>
+    <strong style={{marginRight: '6px'}}>
 
-    This is a great first step. They are extremely helpful and can guide you through the process and the short form.
+    {/* 1. Contact your university's Disabilities and Wellbeing Team. */}
+    4. Get a Needs Assessment.
+    
+    </strong>
+    
+    
+    
+    {/* This is a great first step. They are extremely helpful and can guide you through the process and the short form. */}
+    You should hear from the student finance body within six weeks with a DSA1 letter and instructions on how to meet your needs assessor.
+
 
     </p>
 
@@ -149,14 +171,19 @@ function DSASteps() {
 
 <div className={sp.textContainer}>
 
-    <div className={sp.gridHeadline}>
-
-    1. Contact your university's Disabilities and Wellbeing Team.
-
-    </div>
+   
     <p className={sp.gridParagraph}>
 
-    This is a great first step. They are extremely helpful and can guide you through the process and the short form.
+
+            <strong style={{marginRight: '6px'}}>
+        5. The Award.
+
+            </strong>
+
+    {/* This is a great first step. They are extremely helpful and can guide you through the process and the short form. */}
+    
+    You will receive a letter (a DSA2 entitlement letter) listing what you will get, and be assigned a supplier who will be your main point of contact to deliver it to you.
+    
 
     </p>
 
