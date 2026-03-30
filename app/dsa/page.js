@@ -11,7 +11,7 @@ import DSASteps from '../Components/DSASteps';
 import Assessment from '../Components/Assessment';
 import Prepare from '../Components/Prepare';
 import Award from '../Components/Award';
-
+import Query from '../Components/Query';
 
 function page() {
   return (
@@ -30,6 +30,8 @@ function page() {
         <Assessment/> 
         <Prepare/> 
         <Award/> 
+        <Query/> 
+
         
 
         
