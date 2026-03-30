@@ -1,0 +1,416 @@
+/* ImageText Component Styles */
+
+.featureMainContainer {
+
+
+    width: 100vw;
+    padding: 5rem 0;
+
+    display: grid;
+    place-content: center;
+    margin: 0 auto; 
+    color: #eeede8; 
+
+    background-color: #79a479;
+
+    
+}
+
+.gridContainer {
+
+    display: flex; 
+    
+    margin: auto; 
+    
+	
+}
+
+.imageContainer {
+
+
+    margin-right: 2rem; 
+
+
+
+	
+}
+
+.mainImage{
+     
+    
+    
+   width: 400px; 
+   height: 400px; 
+
+    
+    
+    
+    
+    border-radius: var(--image-border-radius);
+    -webkit-border-radius: var(--image-border-radius);
+    -moz-border-radius: var(--image-border-radius);
+    -ms-border-radius: var(--image-border-radius);
+    -o-border-radius: var(--image-border-radius);
+
+
+
+
+
+
+}
+
+
+
+
+.textContainer {
+	
+}
+
+.mainHeading {
+
+
+    font-size: 48px;
+    width: 650px; 
+    min-width: 800px; 
+
+    max-width: 900px;;  
+    color: #eeede8; 
+
+
+
+
+    font-weight: 600;
+    line-height: 1.2;
+    width: 640px; 
+
+	
+}
+
+.mainSupportingText {
+
+
+    font-size: 30px !important; 
+    font-family: "Nunito", sans-serif !important;
+    /* outline: 2px solid lime; */
+
+
+    line-height: 1.2;   
+    font-weight: 600;
+    width: 644.5px;
+
+
+    min-width: 800px;
+    margin-bottom: 3rem; 
+    margin-top: 5px; 
+
+	
+}
+
+.ivviSpan{
+
+
+
+    margin: 0 0.25em;
+
+
+
+
+}
+
+
+
+.bulletPointListContainer {
+
+
+    margin-left: 2.1rem; 
+
+    font-size: var(--main-section-font-size); 
+    margin-top: 1.35rem; 
+    font-family: "Nunito", sans-serif !important;
+
+
+
+	
+}
+
+.bulletPointList {
+
+
+    list-style: none;
+
+
+
+
+	
+}
+
+.bulletPointListItem {
+
+
+    color: #eeede8; 
+    line-height: 1.5;
+    margin-top: 1rem; 
+
+    
+
+
+    font-weight: 600;
+    max-width: 785px; 
+
+  
+
+
+	
+}
+
+
+.mainImageTextHeadline{
+
+
+
+
+
+
+
+}
+
+
+.supportingTextListItem{
+
+
+    font-weight: 500;   
+    text-align: left;
+
+
+
+
+
+}
+
+
+.buttonIntroText{
+
+
+    margin-top: 2rem;
+
+
+
+
+}
+
+
+
+
+.downloadButton{
+
+
+    width: 300px;
+    height: 50px; 
+    background-color: #ef7a1a;  
+    color: white; 
+    font-size: 1.15rem;
+    border-radius: 22px; 
+    margin-top: 1rem; 
+    font-weight: 700;   
+
+
+
+
+}
+
+
+
+.ctaLink{
+
+
+
+
+}
+
+
+
+.cta{
+    width: 168px;
+    height: 50px;
+    display: grid;
+    place-content: center;
+    outline:  2.4px solid #eeede8;
+    background-color: transparent;
+    color: #eeede8;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 2em; 
+    margin-left: -1rem; 
+
+
+
+    border-radius:40px;
+    -webkit-border-radius:40px;
+    -moz-border-radius:40px;
+    -ms-border-radius:40px;
+    -o-border-radius:40px;
+
+
+
+}
+
+
+
+
+
+
+
+
+.bulletPointListItem::marker{
+
+
+    color: #00143d; 
+
+}
+
+@media(max-width: 1380px){
+
+
+
+    .featureMainContainer {
+
+
+    width: 100vw; 
+    display: grid;
+    place-content: center;
+    margin: 0 auto; 
+
+    color: white; 
+
+
+
+	
+}
+
+.gridContainer {
+
+ 
+    
+	
+}
+
+
+
+
+}
+
+
+
+@media(max-width: 1130px){
+
+
+    .gridContainer {
+
+    /* display: grid;
+    place-content: center;
+    grid-template-columns: 1fr;
+
+    width: 90vw; 
+    margin:  auto;  */
+    
+	
+}
+
+
+.mainImage{
+
+
+    width: 90vw; 
+    height: 90vw; 
+
+
+
+
+}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+@media(max-width: 500px){
+
+
+    
+    .gridContainer {
+
+    /* display: grid;
+    place-content: center;
+    grid-template-columns: 1fr;
+
+    width: 90vw; 
+    margin: auto;  */
+
+    
+	
+}
+
+.mainHeading{
+
+
+
+    font-size: 1.875rem;
+    width: 85vw; 
+
+    
+}
+
+
+
+.bulletPointListItem{
+
+    color: #eeede8; 
+
+
+}
+
+.mainImage{
+
+    width: 90vw; 
+    max-width: 90vw; 
+    margin: auto !important; 
+
+
+
+    height: 90vw; 
+    min-width: none;
+    min-height: none; 
+
+
+
+
+
+}
+
+
+.bulletPointListContainer{
+
+
+    font-size: 1rem !important;
+
+
+
+
+
+}
+
+.cta{
+
+
+    margin-bottom: 1rem; ;
+
+}
+
+}

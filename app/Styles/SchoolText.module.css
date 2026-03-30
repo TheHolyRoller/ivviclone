@@ -1,0 +1,44 @@
+
+
+
+.mainContainer{
+
+
+    padding: 11rem 0;
+    width: 100vw; 
+    margin: 0 auto; 
+
+    display: grid;
+    place-content: center;
+    color: #00143d; 
+    background-color: #d3c9bf;  
+
+
+}
+
+
+.mainParagraph{
+
+    max-width: 800px;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 1rem; 
+    font-family: "Nunito";
+
+     
+
+
+}
+
+
+
+.details{
+
+    margin: 0 auto; 
+    text-align: center;
+    font-size: 24px;
+    font-family: "Nunito";
+
+
+
+}

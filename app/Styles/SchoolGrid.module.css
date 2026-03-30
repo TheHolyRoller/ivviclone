@@ -1,0 +1,282 @@
+.featureGridContainer {
+
+
+    width: 100vw; 
+    margin: auto; 
+    display: grid;  
+    place-content: center;
+    background-color: #eeede8;  
+    padding-bottom: 5rem;
+
+}
+
+
+
+.headlineContainer {
+
+
+    display: grid;
+    place-content: center;
+    margin: 1em auto; 
+
+    font-size: var(--mainSectionHeadingFontSize);
+    font-weight: 600;   
+    color: var(--main-heading-emphasis-color); 
+    
+
+}
+
+.featureGrid {
+
+
+    display: grid;
+    place-content: center;  
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2.5rem; 
+
+    width: 995px; 
+    text-align: center;
+
+
+}
+
+.gridItem {
+
+    display: grid;
+    place-content: center;
+    margin-left: 1.75rem; 
+
+
+}
+
+
+.thirdItem{
+
+
+
+
+
+
+
+}
+
+.gridImg{
+
+
+    width: 200px; 
+    height: 200px; 
+    align-self: center; 
+    margin: 0 auto;
+
+
+}
+
+
+
+.gridHeadline{
+
+
+    /* font-size: clamp(1.1rem, 1rem + 1vw, 1.65rem);  */
+    font-size: 30px;
+
+    font-weight: 600;   
+    margin-top: 1rem; 
+
+    color: #013699;
+
+
+
+
+
+}
+
+
+
+
+.gridSupportingText {
+
+
+    width: 400px; 
+    max-width: 473px; 
+    margin: 0 auto; 
+    margin-top: 0.3rem; 
+    font-size: var(--main-section-font-size);
+    color: var(--primary-font-color);
+    font-weight: 400;
+    font-family: "Nunito";
+    color: #00143d; 
+
+
+
+}
+
+.ivvi{
+
+
+    display: inline;
+    margin: 0 6px; 
+    font-weight: 700;
+
+
+
+
+
+
+}
+
+
+
+
+@media(max-width: 1100px){ 
+
+
+    .featureGrid {
+
+
+    display: grid;
+    place-content: center;  
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem; 
+    margin: auto !important; 
+        
+
+
+    width: 90vw; 
+    text-align: center;
+
+
+}
+
+
+.gridSupportingText {
+
+
+    width:  290px; 
+    max-width: 473px; 
+    margin: 0 auto; 
+    margin-top: 1.3rem; 
+
+
+
+    font-size: calc( var(--main-section-font-size) - 5px );
+
+    color: var(--primary-font-color);
+    font-weight: 600;
+
+
+}
+
+
+
+
+}
+
+
+
+@media(max-width: 700px){
+
+     .featureGrid {
+
+
+    display: grid;
+    place-content: center;  
+    grid-template-columns: 1fr;
+    gap: 2.5rem; 
+    margin: auto; 
+
+    width: 100vw; 
+    text-align: center;
+
+
+}
+
+
+/* Fix the text placement here */
+
+.headlineContainer{
+
+
+    width: 90vw; 
+
+
+
+
+}
+
+
+.gridSupportingText {
+
+
+    width: 80vw; 
+    max-width: 80vw;
+    margin: 0 auto; 
+    margin-top: 1.3rem; 
+
+
+    font-size: calc( var(--main-section-font-size) );
+
+    color: var(--primary-font-color);
+    font-weight: 600;
+
+
+}
+
+
+
+
+}
+
+
+@media(max-width: 500px){
+
+
+    .headlineContainer{
+
+
+        width: 90vw; 
+        font-size: 1.875rem; 
+
+
+
+    }
+    
+
+    .gridSupportingText{
+
+
+
+        font-size: 20px;
+
+
+        text-align: center;
+        display: grid;
+        place-content: center;
+        min-width: 90vw !important;
+
+        line-height: 1.2;   
+
+
+
+
+
+    }
+
+    .featureGrid{
+
+        margin: auto !important; 
+        width: 99.99vw; 
+        
+
+
+
+    }
+
+    .gridItem {
+
+    display: grid;
+    place-content: center;
+    margin: auto; 
+
+}
+
+}
