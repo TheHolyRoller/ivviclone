@@ -1,0 +1,157 @@
+.section {
+	width: 100%;
+	padding: 84px 24px 96px;
+	background: #efede8
+}
+
+.container {
+	width: fit-content;
+	max-width: 100%;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 620px 340px;
+	gap: 1rem;
+	align-items: center
+}
+
+.formBlock {
+	width: 620px;
+	max-width: 620px;
+	display: grid;
+	justify-items: center
+}
+
+.heading {
+	margin: 0;
+	font-family: "Lato", sans-serif;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 1.1;
+	color: #013699;
+	text-align: center
+}
+
+.bodyCopy {
+	margin: 8px 0 14px;
+	font-family: "Nunito", sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 1.35;
+	color: #00143d;
+	text-align: center
+}
+
+.form {
+	width: 100%;
+	display: grid;
+	gap: 12px
+}
+
+.formInput {
+	width: 100%;
+	height: 58px;
+	padding: 0 14px;
+	border: 1px solid #d9d9d9;
+	background: #f5f5f5;
+	border-radius: 2px;
+	font-family: "Nunito", sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 1.2;
+	color: #00143d
+}
+
+.formInput::placeholder {
+	color: #a5a5a5
+}
+
+#textAreaInput {
+	min-height: 76px;
+	padding: 13px 14px;
+	resize: vertical
+}
+
+.submitButton {
+	width: 126px;
+	height: 50px;
+	margin: 2px auto 0;
+	border: 0;
+	border-radius: 999px;
+	background: #ef7a1a;
+	font-family: "Nunito", sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 1;
+	color: #ffffff;
+	cursor: pointer;
+	transition: background-color 0.2s ease
+}
+
+.submitButton:hover {
+	background: #d86711
+}
+
+.successText {
+	margin: 12px 0 0;
+	font-family: "Nunito", sans-serif;
+	font-size: 16px;
+	color: #1e7a2f;
+	text-align: center
+}
+
+.imageWrap {
+	width: 340px;
+	height: 340px;
+	max-width: 100%;
+	border-radius: 999px;
+	overflow: hidden;
+	justify-self: start
+}
+
+.contactImage {
+	width: 100%;
+	height: 100%;
+	display: block;
+	object-fit: cover;
+	object-position: center
+}
+
+@media (max-width: 980px) {
+	.container {
+		width: 100%;
+		grid-template-columns: 1fr;
+		gap: 28px
+	}
+
+	.imageWrap {
+		justify-self: center
+	}
+
+	.heading {
+		font-size: 40px
+	}
+
+	.bodyCopy,
+	.formInput {
+		font-size: 22px
+	}
+}
+
+@media (max-width: 640px) {
+	.section {
+		padding: 64px 20px 72px
+	}
+
+	.heading {
+		font-size: 34px
+	}
+
+	.bodyCopy,
+	.formInput {
+		font-size: 20px
+	}
+
+	.submitButton {
+		font-size: 18px
+	}
+}

@@ -1,0 +1,144 @@
+.section {
+	width: 100%;
+	padding: 70px 24px 90px;
+	background: #efede8
+}
+
+.grid {
+	width: 100%;
+	max-width: 1262px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 615px));
+	justify-content: center;
+	gap: 2rem
+}
+
+.card {
+	width: 100%;
+	max-width: 615px;
+	height: 620px;
+	padding: 28px 40px 26px;
+	border-radius: 2px;
+	background: #ffffff;
+	display: grid;
+	grid-template-rows: auto auto auto 1fr auto;
+	align-content: start;
+	justify-items: center;
+	box-shadow: 0 8px 20px rgba(0, 20, 61, 0.08)
+}
+
+.planLabel {
+	margin: 0;
+	text-align: center;
+	font-family: "Lato", sans-serif;
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 1.1;
+	color: #013699
+}
+
+.priceText {
+	margin: 8px 0 0;
+	text-align: center;
+	font-family: "Lato", sans-serif;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 1.1;
+	color: #013699
+}
+
+.planNote {
+	margin: 6px 0 0;
+	text-align: center;
+	font-family: "Nunito", sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.3;
+	color: #739a78
+}
+
+.featureList {
+	margin: 26px 0 0;
+	padding: 0;
+	list-style: none;
+	display: grid;
+	gap: 11px;
+	justify-items: center
+}
+
+.featureItem {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	font-family: "Nunito", sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 1.2;
+	color: #00143d;
+	text-align: center
+}
+
+.featureItem::before {
+	content: "\2713";
+	display: inline-block;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 1;
+	color: #86a782
+}
+
+.ctaButton {
+	width: 535px;
+	height: 50px;
+	max-width: 100%;
+	margin: 26px auto 0;
+	border: 0;
+	border-radius: 999px;
+	background: #ef7a1a;
+	font-family: "Nunito", sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 1;
+	color: #ffffff;
+	cursor: pointer
+}
+
+@media (max-width: 1320px) {
+	.grid {
+		grid-template-columns: 1fr;
+		max-width: 615px
+	}
+}
+
+@media (max-width: 760px) {
+	.section {
+		padding: 48px 20px 64px
+	}
+
+	.card {
+		height: auto;
+		min-height: 620px;
+		padding: 24px 20px
+	}
+
+	.planLabel {
+		font-size: 28px
+	}
+
+	.priceText {
+		font-size: 40px
+	}
+
+	.planNote {
+		font-size: 18px
+	}
+
+	.featureItem {
+		font-size: 20px
+	}
+
+	.ctaButton {
+		font-size: 18px
+	}
+}

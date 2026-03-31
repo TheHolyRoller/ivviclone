@@ -109,7 +109,6 @@ function FreeTrial() {
 
         <button className={ti.cta}>
 
-
           Try ivvi Notes Now 
         </button>
 

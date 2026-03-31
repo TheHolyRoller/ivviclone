@@ -1,0 +1,44 @@
+import styles from "../Styles/GrantOffer.module.css"
+
+const OFFER_ITEMS = [
+	"Speech-to-text software (around £600) and training (£275)",
+	"Text-to-speech software (£405) and training (£275)",
+	"Mind mapping software (£405) and training (£275 - £405)",
+	"12 sessions of one-to-one coaching (£1,120)"
+]
+
+function GrantOffer({
+	title = "What Does the Grant Offer?",
+	intro = "A typical Access to Work grant includes:",
+	note = "(This is indicative only. The final grant offered will be dependent on needs.)",
+	imageSrc = "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=900&q=80",
+	imageAlt = "Professional using a laptop and tablet"
+}) {
+	return (
+		<section className={styles.section}>
+			<div className={styles.container}>
+				<div className={styles.imageBlock}>
+					<img className={styles.image} src={imageSrc} alt={imageAlt} loading="lazy" />
+				</div>
+
+				<div className={styles.textBlock}>
+					<h2 className={styles.heading}>{title}</h2>
+
+					<p className={styles.bodyCopy}>{intro}</p>
+
+					<ul className={styles.list}>
+						{OFFER_ITEMS.map((item) => (
+							<li key={item} className={styles.listItem}>
+								{item}
+							</li>
+						))}
+					</ul>
+
+					<p className={styles.bodyCopy}>{note}</p>
+				</div>
+			</div>
+		</section>
+	)
+}
+
+export default GrantOffer

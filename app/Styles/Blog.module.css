@@ -1,0 +1,51 @@
+.mainContainer {
+	width: 100%;
+	padding: 56px 24px 80px;
+	background: #efede8
+}
+
+.layout {
+	width: 100%;
+	max-width: 1261px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 937px 300px;
+	gap: 24px;
+	align-items: start;
+	justify-content: center
+}
+
+.mainContent {
+	width: 937px;
+	max-width: 100%;
+	display: grid;
+	gap: 64px
+}
+
+.sidebarWrap {
+	position: sticky;
+	top: 24px;
+	width: 300px;
+	z-index: 5
+}
+
+@media (max-width: 1100px) {
+	.mainContainer {
+		padding: 48px 20px 68px
+	}
+
+	.layout {
+		max-width: 100%;
+		grid-template-columns: 1fr;
+		gap: 34px
+	}
+
+	.mainContent {
+		width: 100%
+	}
+
+	.sidebarWrap {
+		position: static;
+		width: 100%
+	}
+}
