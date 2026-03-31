@@ -47,70 +47,64 @@
 
         background-repeat: no-repeat;
         background-position: top;
-        background-size: contain;
+        background-size: cover;
+
 
 
     
 }
 
-.heroTextContainer {
 
-
-    position: relative; 
-    z-index: 2; 
-    color: white;
-
-
-
-    margin: auto;
-    margin-top: 10rem; 
-
-
-    font-family: "Lato", sans-serif !important; 
-
-
-    height: 80vh; 
-    text-align: center;
+.imageOverlay{
 
 
     
+    position: absolute;
+    left: 0;
+ 
+    top: -10vh; 
+    width: 100%; 
+    height: 90vh;
 
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-color: black;    
 
-    
-
-
-}
-
-.DSASubHeading {
-
-
-    
-    font-weight: 700;
-    font-size: 1.5rem;
-    font-family: "Nunito", sans-serif !important;
-    font-family: "Nunito" !important; 
-
-    margin: auto; 
-    margin-bottom: 1rem; 
-
-
-    display: grid; 
-    place-content: center;  
+    z-index: 99;
+    opacity: 0.3;
 
 
 
 
 }
+
 
 .heroMainHeader {
 
 
     font-size: 64px;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 1.35;
+    
     max-width: 850px;
     text-align: center;
+    /* outline: 2px solid lime; */
+
     margin: auto; 
+    
+    position: absolute; 
+    left: 50%; 
+    top:  50%; 
+    
+    
+    transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+
+
 
 
 
