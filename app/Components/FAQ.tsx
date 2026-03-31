@@ -4,10 +4,12 @@ import { useState } from "react";
 import styles from "../Styles/FAQ.module.css";
 
 
+
 interface FAQItem {
   question: string;
   answer: string;
 }
+
 
 const faqData: FAQItem[] = [
   {
@@ -20,6 +22,7 @@ const faqData: FAQItem[] = [
     answer:
       "ivvi presents information visually and spatially rather than as dense blocks of text, which significantly reduces cognitive load. Color-coded branches, clear hierarchies, and interactive maps make it easier for students with dyslexia or ADHD to follow along, retain information, and review key concepts at their own pace.",
   },
+
   {
     question: "Is ivvi only for students with learning differences?",
     answer:

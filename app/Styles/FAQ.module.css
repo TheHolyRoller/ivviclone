@@ -19,10 +19,11 @@
     font-size: clamp(2rem, 5vw, 3.4rem);
     font-weight: 900;
     color: #ffffff;
-    margin-bottom: 48px;
+    margin-bottom: 64px;
     letter-spacing: -0.5px;
     line-height: 1.1;
   }
+
   
   .list {
     list-style: none;
@@ -30,16 +31,20 @@
     padding: 0;
   }
   
-  .item {
+  /* .item {
     border-bottom: 1px solid rgba(255, 255, 255, 0.25);
-  }
+  } */
   
-  .item:first-child {
+  
+
+  /* .item:first-child {
     border-top: 1px solid rgba(255, 255, 255, 0.25);
-  }
+  } */
   
   .button {
     width: 100%;
+    max-width: 645px;
+    margin: 0 auto;  /* ← add this */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -54,7 +59,9 @@
     font-weight: 800;
     color: #ffffff;
     transition: color 0.2s ease;
-  }
+}
+
+
   
   .button:hover {
     color: #f4e4c1;
@@ -104,12 +111,15 @@
   }
   
   .answer {
-    padding: 0 12px 26px;
+    /* padding: 0 12px 26px; */
     font-size: clamp(0.9rem, 1.8vw, 1.05rem);
     font-weight: 600;
     color: rgba(255, 255, 255, 0.9);
     line-height: 1.75;
-    max-width: 700px;
+    max-width: 620px;
+    margin: 0 auto; 
+
+
   }
   
   .cta {
