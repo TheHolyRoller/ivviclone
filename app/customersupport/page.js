@@ -1,6 +1,8 @@
 import React from 'react'
 import cm from '../Styles/CustomerSupport.module.css'
 import SupportHero from '../Components/SupportHero'
+import CustomerContactForm from '../Components/CustomerContactForm'
+import FAQ from '../Components/FAQ'
 
 
 function page() {
@@ -8,6 +10,9 @@ function page() {
     <div className={cm.mainContainer} >
         
       <SupportHero/> 
+      <CustomerContactForm/> 
+      <FAQ/> 
+      
       
 
 

@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import styles from "..Styles/FAQ.module.css";
+import styles from "../Styles/FAQ.module.css";
 
 
 interface FAQItem {
@@ -56,6 +56,8 @@ export default function FAQ() {
   const handleToggle = (index: number) => {
     setOpenIndex((prev) => (prev === index ? null : index));
   };
+
+
 
   return (
     <section className={styles.section}>
