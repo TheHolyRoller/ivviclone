@@ -12,6 +12,8 @@ import Assessment from '../Components/Assessment';
 import Prepare from '../Components/Prepare';
 import Award from '../Components/Award';
 import Query from '../Components/Query';
+import LeadMagnet from '../Components/LeadMagnet';
+import Resources from '../Components/Resources';
 
 function page() {
   return (
@@ -31,6 +33,10 @@ function page() {
         <Prepare/> 
         <Award/> 
         <Query/> 
+        <LeadMagnet/> 
+        <Resources/> 
+        
+
 
         
 

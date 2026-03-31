@@ -223,6 +223,7 @@ function RightImageText() {
 
 
     </p>  
+    
 
               <div  className={ti.buttonIntroText}>
               Download our Assessors Guide Here:

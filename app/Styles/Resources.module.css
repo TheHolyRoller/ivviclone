@@ -1,0 +1,70 @@
+.mainContainer {
+
+
+    max-width: 1014px;
+    margin: 3rem auto; 
+    color: #013699; 
+
+
+}
+
+.mainHeader {
+
+    font-size: 48px; 
+    font-weight: 600;   
+
+
+}
+
+.mainParagraph {
+
+
+    font-size: 24px;
+    font-family: "Nunito";
+
+
+}
+
+.paragraph {
+
+    
+    font-size: 24px;
+    font-family: "Nunito";
+
+    margin: 1rem auto;
+
+
+
+
+}
+
+.list {
+
+    
+    font-size: 24px;
+    font-family: "Nunito";
+
+
+
+}
+
+.item {
+    margin: 1rem auto; 
+
+
+}
+
+.strong {
+
+    margin-right: 7px; 
+
+
+}
+
+.link {
+
+
+    color: #ef7a1a; 
+
+
+}

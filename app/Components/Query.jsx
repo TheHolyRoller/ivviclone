@@ -113,7 +113,6 @@ function Query() {
     
       <div className={c.contactFormSubContainer}>
 
-        <Image src={darius} alt="people showing how to use software" className={c.image}/> 
 
         <div className={c.inputFormContainer}>
 
@@ -121,6 +120,8 @@ function Query() {
 
 
         <form className={c.contactForm} action="https://submit-form.com/YRsAOjssR" >
+        <Image src={darius} alt="people showing how to use software" className={c.image}/> 
+
 
           <input className={c.formInput} placeholder='Name*' name="name" value={formInput.name} type='text' required onChange={handleInput}  /> 
 

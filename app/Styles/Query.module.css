@@ -63,7 +63,7 @@
 .inputFormContainer {
 
 
-    outline: 22px solid lime;
+    /* outline: 22px solid lime; */
     margin-right: -9rem;
 
     
@@ -76,8 +76,9 @@
     height: 225px;
     border-radius: 4px; 
     position: absolute;
-    left: 3rem; 
-    top: 8rem; 
+    left: -75%;    
+
+    top: -0.5rem; 
 
     
 
@@ -89,6 +90,9 @@
 
 /* Contact Form */
 .contactForm {
+
+    position: relative; 
+
 	
 }
 

@@ -1,0 +1,145 @@
+.section {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #7aaa7a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 24px;
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 860px;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: clamp(2rem, 5vw, 3.4rem);
+    font-weight: 900;
+    color: #ffffff;
+    margin-bottom: 48px;
+    letter-spacing: -0.5px;
+    line-height: 1.1;
+  }
+  
+  .list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .item {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+  }
+  
+  .item:first-child {
+    border-top: 1px solid rgba(255, 255, 255, 0.25);
+  }
+  
+  .button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 26px 12px;
+    text-align: left;
+    font-family: 'Nunito', sans-serif;
+    font-size: clamp(1rem, 2.2vw, 1.18rem);
+    font-weight: 800;
+    color: #ffffff;
+    transition: color 0.2s ease;
+  }
+  
+  .button:hover {
+    color: #f4e4c1;
+  }
+  
+  .buttonText {
+    flex: 1;
+  }
+  
+  .iconWrapper {
+    flex-shrink: 0;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .iconWrapper svg {
+    width: 18px;
+    height: 18px;
+    stroke: #ffffff;
+    stroke-width: 2.5;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+  
+  .iconOpen {
+    transform: rotate(90deg);
+  }
+  
+  .answerWrapper {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.38s cubic-bezier(0.4, 0, 0.2, 1);
+    overflow: hidden;
+  }
+  
+  .answerWrapperOpen {
+    grid-template-rows: 1fr;
+  }
+  
+  .answerInner {
+    overflow: hidden;
+  }
+  
+  .answer {
+    padding: 0 12px 26px;
+    font-size: clamp(0.9rem, 1.8vw, 1.05rem);
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 1.75;
+    max-width: 700px;
+  }
+  
+  .cta {
+    margin-top: 52px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .ctaButton {
+    background-color: #e8793a;
+    color: #ffffff;
+    border: none;
+    border-radius: 999px;
+    padding: 18px 52px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.15rem;
+    font-weight: 800;
+    cursor: pointer;
+    letter-spacing: 0.2px;
+    transition: background-color 0.2s ease, transform 0.15s ease, box-shadow 0.2s ease;
+    box-shadow: 0 4px 18px rgba(232, 121, 58, 0.35);
+  }
+  
+  .ctaButton:hover {
+    background-color: #d96a2b;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 28px rgba(232, 121, 58, 0.5);
+  }
+  
+  .ctaButton:active {
+    transform: translateY(0px);
+    box-shadow: 0 4px 18px rgba(232, 121, 58, 0.35);
+  }
