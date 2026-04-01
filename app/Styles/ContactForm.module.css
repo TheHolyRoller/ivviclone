@@ -4,15 +4,16 @@
 
     margin: auto; 
     
-    height: 90vh; 
+    min-height: 90vh;
+    padding: 4rem 1rem;
     color: white;
-    width: 100vw; 
+    width: 100%;
     display: grid; 
     place-content: center;
     background-color: #013699;  
 
 
-    font-size: 64px;
+    font-size: inherit;
 
 	
 }
@@ -23,7 +24,7 @@
 
     display: grid;
     place-content: center;
-    width: 538px; 
+    width: min(760px, 100%); 
 
 	
 }
@@ -42,14 +43,17 @@
 
 /* Contact Form Headline */
 .contactFormHeadline {
-	
+	font-size: clamp(2rem, 3.8vw, 2.75rem);
+	line-height: 1.15;
 }
 
 /* Contact Form Supporting Text */
 .contactFormSupportingText {
 
 
-    font-size: 24px;
+    font-size: clamp(1rem, 1.3vw, 1.2rem);
+    margin-top: 0.5rem;
+    line-height: 1.5;
 
 	
 }
@@ -70,9 +74,9 @@
     color: black;
 
     font-weight: 500;
-    font-size: 24px;
-    width: 615px;
-    height: 58.3px;
+    font-size: clamp(1rem, 1.3vw, 1.1rem);
+    width: min(760px, 100%);
+    min-height: 58px;
     padding: 1rem;
     display: block;
     margin: 1.3rem auto;
@@ -97,7 +101,8 @@
 
 
 
-height: 90%;
+min-height: 160px;
+resize: vertical;
 
 
 
@@ -146,6 +151,11 @@ height: 90%;
     -o-border-radius:40px;
 }
 
+.submitButton:disabled {
+    opacity: 0.75;
+    cursor: not-allowed;
+}
+
 
 @media(max-width: 640px){
 
@@ -154,11 +164,11 @@ height: 90%;
     .contactFormContainer {
 
     margin: 0rem auto; 
-    height: 90vh; 
+    min-height: 90vh;
     color: white;
-    font-size: 64px;
+    font-size: inherit;
 
-    width: 100vw; 
+    width: 100%;
 
 	
 }
@@ -169,10 +179,10 @@ height: 90%;
     color: black;
 
     font-weight: 500;
-    font-size: 24px;
+    font-size: 1rem;
     /* width: 615px; */
-    width: 85vw; 
-    height: 58.3px;
+    width: 100%;
+    min-height: 58px;
     padding: 1rem;
     display: block;
     margin: 1.3rem auto;
@@ -197,7 +207,7 @@ height: 90%;
 
 
 
-height: 90%;
+min-height: 140px;
 
 
 

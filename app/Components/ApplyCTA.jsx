@@ -13,13 +13,15 @@ function ApplyCTA({
 
 				<p className={styles.bodyCopy}>{copy}</p>
 
-				<button type="button" className={styles.primaryButton}>
+				<div className={styles.buttonGroup}>
+					<button type='button' className={styles.primaryButton}>
 					{primaryLabel}
-				</button>
+					</button>
 
-				<button type="button" className={styles.secondaryButton}>
+					<button type='button' className={styles.secondaryButton}>
 					{secondaryLabel}
-				</button>
+					</button>
+				</div>
 			</div>
 		</section>
 	)

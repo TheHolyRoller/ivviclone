@@ -1,18 +1,17 @@
-import route from "../Styles/Pricing.module.css"
 import PricingHero from "../Components/PricingHero"
 import Pricing from "../Components/Pricing"
 import EnterprisePlan from "../Components/EnterprisePlan"
 import PricingDetails from "../Components/PricingDetails"
 
-function page() {
+function Page() {
 	return (
-		<section className={route.mainContainer}>
+		<main>
 			<PricingHero />
 			<Pricing />
 			<EnterprisePlan />
 			<PricingDetails />
-		</section>
+		</main>
 	)
 }
 
-export default page
+export default Page

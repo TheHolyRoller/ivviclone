@@ -1,67 +1,25 @@
 import React from 'react'
-import v from '../Styles/LeadMagnet.module.css'; 
-import Link from 'next/link';
-import Image from 'next/image';
-import background from '../../public/images/lead.png'; 
-
+import v from '../Styles/LeadMagnet.module.css'
+import Link from 'next/link'
+import Image from 'next/image'
+import background from '../../public/images/lead.png'
 
 function LeadMagnet() {
-  return (
+	return (
+		<section className={v.section}>
+			<div className={v.container}>
+				<h2 className={v.heading}>Download our free ivvi guide to applying for the Disabled Students&apos; Allowance</h2>
 
-    <section className={v.hero}>
+				<div className={v.imageWrap}>
+					<Image className={v.image} src={background} alt='Cover image of DSA guide' />
+				</div>
 
-    <section className={v.heroContentContainer} >
-
-    <div className={v.heroTextContainer}>
-
-      
-      <div className={v.headerContainer}>
-
-        <h1 className={v.heroMainHeader}>
-
-        {/* Introducing ivvi Notes */}
-        {/* ivvi Notes in Action */}
-        Download our free ivvi Guide to applying for the Disabled Students' Allowance   
-
-        </h1>
-        
-
-
-      </div>
-
-
-    </div>
-
-    <div className={v.heroLaptopImageContainer}>
-
-    {/* TO DO Add in a white background here  */}
-    
-    <Image  className={v.leadMagnetImg} src={background} alt="laptop desk background" />
-
-
-
-    </div>
-
-      <div className={v.buttonContainer}>
-
-
-    
-        <button className={v.heroCTAButton}>
-          <Link className={v.heroCTALink}  href='/ivvi' alt='ivvi'>
-
-            Download PDF here 
-
-          </Link>
-
-        </button>
-
-      </div>
-
-    </section>
-    </section>
-
-
-)
+				<Link className={v.ctaButton} href='/ivvi'>
+					Download PDF here
+				</Link>
+			</div>
+		</section>
+	)
 }
 
 export default LeadMagnet

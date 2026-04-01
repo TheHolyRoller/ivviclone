@@ -2,7 +2,8 @@
 
 
     max-width: 1014px;
-    margin: 3rem auto; 
+    margin: clamp(2.4rem, 5vw, 3.5rem) auto;
+    padding: 0 1rem;
     color: #013699; 
 
 
@@ -10,7 +11,7 @@
 
 .mainHeader {
 
-    font-size: 48px; 
+    font-size: clamp(2rem, 4vw, 3rem);
     font-weight: 600;   
 
 
@@ -19,8 +20,9 @@
 .mainParagraph {
 
 
-    font-size: 24px;
+    font-size: clamp(1rem, 1.4vw, 1.25rem);
     font-family: "Nunito";
+    line-height: 1.65;
 
 
 }
@@ -28,8 +30,9 @@
 .paragraph {
 
     
-    font-size: 24px;
+    font-size: clamp(1rem, 1.35vw, 1.2rem);
     font-family: "Nunito";
+    line-height: 1.65;
 
     margin: 1rem auto;
 
@@ -41,8 +44,9 @@
 .list {
 
     
-    font-size: 24px;
+    font-size: clamp(1rem, 1.35vw, 1.2rem);
     font-family: "Nunito";
+    line-height: 1.6;
 
 
 
@@ -64,7 +68,18 @@
 .link {
 
 
-    color: #ef7a1a; 
+    color: #ef7a1a;
+    word-break: break-word;
+    overflow-wrap: anywhere;
 
 
+}
+
+@media (max-width: 700px) {
+    .mainParagraph,
+    .paragraph,
+    .list {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
 }

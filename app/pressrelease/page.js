@@ -1,12 +1,11 @@
-import route from "../Styles/PressReleaseRoute.module.css"
 import PressRelease from "../Components/PressRelease"
 
-function page() {
+function Page() {
 	return (
-		<section className={route.mainContainer}>
+		<main>
 			<PressRelease />
-		</section>
+		</main>
 	)
 }
 
-export default page
+export default Page

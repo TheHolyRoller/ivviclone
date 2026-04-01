@@ -17,7 +17,7 @@ function PressRelease() {
 			<div className={styles.container}>
 				<p className={styles.kicker}>Press Release</p>
 
-				<h1 className={styles.heading}>Scottish ai startup, ivvi notes for dyslexia, wins prestigious Bett Award.</h1>
+				<h1 className={styles.heading}>Scottish AI startup ivvi Notes for dyslexia wins prestigious Bett Award</h1>
 
 				<p className={styles.subheading}>
 					Scottish AI Startup ivvi Notes for Dyslexia Makes History as First AI Software to Win Prestigious Bett Award
@@ -32,8 +32,19 @@ function PressRelease() {
 				</div>
 
 				<div className={styles.metaBlock}>
-					<p className={styles.bodyCopy}>Website: www.ivvi.app</p>
-					<p className={styles.bodyCopy}>Media contact: Jo Lee COO and Co founder, jo@ivvi.app, 07971920560</p>
+					<p className={styles.metaText}>
+						Website:
+						<a className={styles.metaLink} href='https://www.ivvi.app' target='_blank' rel='noreferrer'>
+							www.ivvi.app
+						</a>
+					</p>
+					<p className={styles.metaText}>
+						Media contact: Jo Lee (COO and Co-founder),
+						<a className={styles.metaLink} href='mailto:jo@ivvi.app'>
+							jo@ivvi.app
+						</a>
+						, 07971920560
+					</p>
 				</div>
 
 				<button type="button" className={styles.ctaButton}>

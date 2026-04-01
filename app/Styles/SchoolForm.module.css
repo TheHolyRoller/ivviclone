@@ -1,294 +1,79 @@
-/* Contact Form Container */
 .contactFormContainer {
-
-
-    margin: auto; 
-    
-    height: 90vh; 
-    color: white;
-    width: 100vw; 
-    display: grid; 
-    place-content: center;
-    background-color: #013699;  
-    padding: 33rem 0; 
-
-     /* outline: 3px solid lime; */
-    font-size: 64px;
-
-	
+	width: 100%;
+	padding: 4rem 1.25rem;
+	background-color: #013699;
+	color: #fff;
 }
 
-/* Contact Form Sub Container */
 .contactFormSubContainer {
-
-
-    display: grid;
-    place-content: center;
-    width: 538px; 
-
-	
+	max-width: 920px;
+	margin: 0 auto;
 }
 
-/* Contact Form Headline Container */
 .contactFormHeadlineContainer {
-
-
-    display: grid;
-    place-content: center;
-    text-align: center;
-
-    font-weight: 600;
-	
+	text-align: center;
 }
 
-/* Contact Form Headline */
 .contactFormHeadline {
-
-    font-size: 48px;
-
-	
+	font-size: clamp(2rem, 3.8vw, 3rem);
+	line-height: 1.15;
+	font-weight: 700;
 }
 
-/* Contact Form Supporting Text */
 .contactFormSupportingText {
-
-
-    font-size: 24px;
-    margin: 1rem auto; 
-
-
-
-	
+	font-size: clamp(1rem, 1.4vw, 1.3rem);
+	margin: 0.9rem auto;
 }
 
-.list{
-
-
-    font-size: 24px;
-    
-
-
-
+.list {
+	display: grid;
+	gap: 0.45rem;
+	font-size: clamp(1rem, 1.28vw, 1.2rem);
+	margin-bottom: 1.3rem;
 }
 
-
-.listItem{
-
-
-    margin: 1rem auto; 
-
-
-
+.listItem {
+	list-style: none;
 }
 
-
-
-
-
-/* Input Form Container */
-.inputFormContainer {
-	
-}
-
-/* Contact Form */
 .contactForm {
-	
+	display: grid;
+	gap: 0.9rem;
 }
 
-/* Form Input */
 .formInput {
-    background-color: white;
-    color: black;
-
-    font-weight: 500;
-    font-size: 24px;
-    width: 815px;
-    height: 58.3px;
-    padding: 1rem;
-    display: block;
-    margin: 1.3rem auto;
-
-    display: grid;
-    place-content: center;
-
-
-
-    border-radius: var(--input-border-radius);
-    -webkit-border-radius: var(--input-border-radius);
-    -moz-border-radius: var(--input-border-radius);
-    -ms-border-radius: var(--input-border-radius);
-    -o-border-radius: var(--input-border-radius);
-
-
-
+	width: min(760px, 100%);
+	margin: 0 auto;
+	padding: 0.95rem 1rem;
+	background-color: #fff;
+	color: #000;
+	font-size: clamp(1rem, 1.2vw, 1.15rem);
+	border-radius: var(--input-border-radius);
 }
 
-
-#textAreaInput{
-
-
-
-height: 90%;
-
-
-
+#textAreaInput {
+	min-height: 130px;
+	resize: vertical;
 }
 
-
-#textAreaInput::placeholder{
-
-
-    display: grid;
-    align-items: center;
-    /* color: #7f7f89;  */
-    color: #a8a8a8; 
-
-    font-family: var(--text-font-family);
-
-
-
-}
-
-
-
-
-
-/* Submit Button */
 .submitButton {
-    width: 125px;
-    height: 50px;
-    background-color: var( --cta-background-color);
-
-    display: grid;
-    place-content: center;
-    margin: 1.85rem auto;
-
-
-    font-size: 18px; 
-    font-weight: 600; 
-
-
-
-
-    border-radius:40px;
-    -webkit-border-radius:40px;
-    -moz-border-radius:40px;
-    -ms-border-radius:40px;
-    -o-border-radius:40px;
+	width: 125px;
+	height: 50px;
+	margin: 1rem auto 0;
+	border-radius: 40px;
+	background-color: var(--cta-background-color);
+	color: #fff;
+	font-size: 1.1rem;
+	font-weight: 700;
 }
 
-
-@media(max-width: 640px){
-
-
-
-    .contactFormContainer {
-
-    margin: 0rem auto; 
-    height: 90vh; 
-    color: white;
-    font-size: 64px;
-
-    width: 100vw; 
-
-	
+.submitButton:disabled {
+	opacity: 0.75;
+	cursor: not-allowed;
 }
 
-
-.formInput {
-    background-color: white;
-    color: black;
-
-    font-weight: 500;
-    font-size: 24px;
-    /* width: 615px; */
-    width: 85vw; 
-    height: 58.3px;
-    padding: 1rem;
-    display: block;
-    margin: 1.3rem auto;
-
-    display: grid;
-    place-content: center;
-
-
-
-    border-radius: var(--input-border-radius);
-    -webkit-border-radius: var(--input-border-radius);
-    -moz-border-radius: var(--input-border-radius);
-    -ms-border-radius: var(--input-border-radius);
-    -o-border-radius: var(--input-border-radius);
-
-
-
-}
-
-
-#textAreaInput{
-
-
-
-height: 90%;
-
-
-
-}
-
-/* Change the font size here  */
-.contactFormHeadline{
-
-
-    font-size: 2.2rem;
-
-
-
-}
-
-
-.contactFormSupportingText{
-
-
-    font-size: 1rem;
-
-
-
-
-}
-
-
-
-.inputFormContainer{
-
-
-
-    font-size: 1rem;
-
-
-
-
-}
-
-.formInput{
-
-
-    font-size: 1rem;
-
-
-
-}
-
-
-.textAreaInput{
-
-
-
-    font-size: 0.98rem;
-
-
-
-
-}
-
-
-
+@media (max-width: 640px) {
+	.contactFormContainer {
+		padding: 3rem 1rem;
+	}
 }

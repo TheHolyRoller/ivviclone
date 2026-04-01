@@ -1,30 +1,15 @@
-
-
-
-.specGrid{
-
-
-
-
-
+.specGrid {
+	width: 100%;
+	background-color: #eeede8;
+	padding-top: 3rem;
 }
 
-.mainHeadline{
-
-
-    outline: 2px solid lime;
-    display: grid;
-    place-content: center;  
-    margin: 0rem auto; 
-    font-size: 4rem !important;
-    font-weight: 600;
-    color: #013699; 
-    background-color: #eeede8;  
-    padding-top: 7rem; 
-
-
-
-
-
+.mainHeadline {
+	display: grid;
+	place-items: center;
+	text-align: center;
+	padding: 0 1rem 1.6rem;
+	font-size: clamp(2rem, 4vw, 3.2rem);
+	font-weight: 600;
+	color: #013699;
 }
-

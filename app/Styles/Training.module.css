@@ -1,6 +1,6 @@
 .section {
 	width: 100%;
-	padding: 72px 24px;
+	padding: clamp(3rem, 6vw, 4.5rem) 1.25rem;
 	background: #efede8
 }
 
@@ -9,8 +9,8 @@
 	max-width: 1160px;
 	margin: 0 auto;
 	display: grid;
-	grid-template-columns: minmax(0, 690px) minmax(260px, 420px);
-	gap: 36px;
+	grid-template-columns: minmax(0, 1fr) minmax(260px, 420px);
+	gap: 2rem;
 	align-items: start
 }
 
@@ -23,9 +23,9 @@
 .heading {
 	margin: 0;
 	font-family: "Lato", sans-serif;
-	font-size: 48px;
+	font-size: clamp(2rem, 3.8vw, 3rem);
 	font-weight: 700;
-	line-height: 1.12;
+	line-height: 1.15;
 	color: #013699
 }
 
@@ -33,17 +33,17 @@
 	margin: 0;
 	max-width: 690px;
 	font-family: "Nunito", sans-serif;
-	font-size: 24px;
+	font-size: clamp(1rem, 1.45vw, 1.35rem);
 	font-weight: 400;
-	line-height: 1.4;
+	line-height: 1.6;
 	color: #00143d
 }
 
 .imageBlock {
-	width: 615px;
-	height: 345px;
+	width: min(100%, 615px);
+	aspect-ratio: 1.78 / 1;
 	max-width: 100%;
-	border-radius: 2px;
+	border-radius: 8px;
 	overflow: hidden
 }
 
@@ -58,34 +58,17 @@
 @media (max-width: 1080px) {
 	.container {
 		grid-template-columns: 1fr;
-		gap: 24px
+		gap: 1.5rem
 	}
 
 	.imageBlock {
 		width: 100%;
-		height: auto;
 		aspect-ratio: 1.85 / 1
-	}
-
-	.heading {
-		font-size: 40px
-	}
-
-	.bodyCopy {
-		font-size: 22px
 	}
 }
 
 @media (max-width: 640px) {
 	.section {
-		padding: 56px 20px
-	}
-
-	.heading {
-		font-size: 34px
-	}
-
-	.bodyCopy {
-		font-size: 20px
+		padding: 3rem 1rem
 	}
 }

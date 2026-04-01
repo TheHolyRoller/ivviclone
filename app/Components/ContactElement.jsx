@@ -18,6 +18,7 @@ function ContactElement({
 }) {
 	const [formInput, setFormInput] = useState(INITIAL_FORM)
 	const [submitted, setSubmitted] = useState(false)
+	const [isSubmitting, setIsSubmitting] = useState(false)
 
 	const handleInput = (event) => {
 		const { name, value } = event.target
@@ -30,8 +31,10 @@ function ContactElement({
 
 	const handleSubmit = (event) => {
 		event.preventDefault()
+		setIsSubmitting(true)
 		setSubmitted(true)
 		setFormInput(INITIAL_FORM)
+		setIsSubmitting(false)
 	}
 
 	return (
@@ -85,8 +88,8 @@ function ContactElement({
 							aria-label="Message"
 						/>
 
-						<button className={styles.submitButton} type="submit">
-							Submit
+						<button className={styles.submitButton} type="submit" disabled={isSubmitting}>
+							{isSubmitting ? "Submitting..." : "Submit"}
 						</button>
 					</form>
 

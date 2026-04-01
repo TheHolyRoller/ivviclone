@@ -4,9 +4,9 @@
 .mainContainer{
 
 
-    padding: 11rem 0;
-    width: 100vw; 
-    margin: 0 auto; 
+    padding: clamp(3.5rem, 7vw, 7rem) 1.25rem;
+    width: 100%; 
+    margin: 0 auto;
 
     display: grid;
     place-content: center;
@@ -21,9 +21,11 @@
 
     max-width: 800px;
     text-align: center;
-    font-size: 24px;
+    font-size: clamp(1.1rem, 1.5vw, 1.5rem);
+    line-height: 1.65;
     margin-bottom: 1rem; 
     font-family: "Nunito";
+    font-style: normal;
 
      
 
@@ -36,7 +38,7 @@
 
     margin: 0 auto; 
     text-align: center;
-    font-size: 24px;
+    font-size: clamp(1rem, 1.2vw, 1.3rem);
     font-family: "Nunito";
 
 

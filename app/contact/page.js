@@ -1,12 +1,12 @@
 import route from "../Styles/Contact.module.css"
 import ContactElement from "../Components/ContactElement"
 
-function page() {
+function Page() {
 	return (
-		<section className={route.mainContainer}>
+		<main className={route.mainContainer}>
 			<ContactElement />
-		</section>
+		</main>
 	)
 }
 
-export default page
+export default Page

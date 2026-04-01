@@ -1,6 +1,6 @@
 .section {
 	width: 100%;
-	padding: 88px 24px 92px;
+	padding: clamp(3.5rem, 7vw, 5.5rem) 1.25rem;
 	background: #013fb0
 }
 
@@ -10,39 +10,44 @@
 	margin: 0 auto;
 	display: grid;
 	justify-items: center;
-	gap: 28px
+	gap: 1.35rem
 }
 
 .heading {
 	margin: 0;
 	font-family: "Lato", sans-serif;
-	font-size: 48px;
+	font-size: clamp(2rem, 3.8vw, 3rem);
 	font-weight: 700;
-	line-height: 1.12;
+	line-height: 1.15;
 	color: #ffffff;
 	text-align: center
 }
 
 .bodyCopy {
 	margin: 0;
-	max-width: 714px;
+	max-width: 70ch;
 	font-family: "Nunito", sans-serif;
-	font-size: 24px;
+	font-size: clamp(1rem, 1.45vw, 1.35rem);
 	font-weight: 400;
-	line-height: 1.45;
+	line-height: 1.6;
 	color: #ffffff;
 	text-align: center
 }
 
+.buttonGroup {
+	width: min(100%, 722px);
+	display: grid;
+	gap: 0.85rem
+}
+
 .primaryButton {
-	width: 722px;
-	height: 71px;
-	max-width: 100%;
+	width: 100%;
+	min-height: 64px;
 	border: 0;
 	border-radius: 999px;
 	background: #ef7a1a;
 	font-family: "Nunito", sans-serif;
-	font-size: 24px;
+	font-size: clamp(1rem, 1.5vw, 1.4rem);
 	font-weight: 700;
 	line-height: 1;
 	color: #ffffff;
@@ -55,14 +60,13 @@
 }
 
 .secondaryButton {
-	width: 722px;
-	height: 57px;
-	max-width: 100%;
+	width: 100%;
+	min-height: 54px;
 	border: 2px solid rgba(255, 255, 255, 0.75);
 	border-radius: 999px;
 	background: transparent;
 	font-family: "Nunito", sans-serif;
-	font-size: 24px;
+	font-size: clamp(1rem, 1.3vw, 1.25rem);
 	font-weight: 600;
 	line-height: 1;
 	color: #ffffff;
@@ -76,45 +80,21 @@
 }
 
 @media (max-width: 1080px) {
-	.heading {
-		font-size: 40px
-	}
-
-	.bodyCopy {
-		font-size: 22px
-	}
-
-	.primaryButton {
-		font-size: clamp(1.8rem, 4.5vw, 2.7rem)
-	}
-
-	.secondaryButton {
-		font-size: clamp(1.4rem, 3.8vw, 2.2rem)
+	.buttonGroup {
+		width: min(100%, 620px)
 	}
 }
 
 @media (max-width: 640px) {
 	.section {
-		padding: 64px 20px 70px
-	}
-
-	.container {
-		gap: 22px
-	}
-
-	.heading {
-		font-size: 34px
-	}
-
-	.bodyCopy {
-		font-size: 20px
+		padding: 3.5rem 1rem 4rem
 	}
 
 	.primaryButton {
-		height: 64px
+		min-height: 56px
 	}
 
 	.secondaryButton {
-		height: 52px
+		min-height: 50px
 	}
 }

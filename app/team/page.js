@@ -1,11 +1,10 @@
-import team from "../Styles/Team.module.css"
 import TeamHero from "../Components/TeamHero"
 import TeamProfile from "../Components/TeamProfile"
 import LeftTeamProfile from "../Components/LeftTeamProfile"
 
-function page() {
+function Page() {
 	return (
-		<section className={team.mainContainer}>
+		<main>
 			<TeamHero />
 			<TeamProfile
 				name="Darius Namdaran LLb"
@@ -50,8 +49,8 @@ function page() {
 				imageSrc="/images/kerry.png"
 				imageAlt="Portrait of Kerry Pace"
 			/>
-		</section>
+		</main>
 	)
 }
 
-export default page
+export default Page

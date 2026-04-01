@@ -1,11 +1,5 @@
 import React from 'react'
-// import img from '../../public/images/featureBlockIMG.webp'; 
-import img from '../../public/images/mind_map.png'; 
-
-import Link from 'next/link';
-import Image from 'next/image';
-
-import it from '../Styles/All.module.css'; 
+import it from '../Styles/All.module.css'
 
 
 function All() {
@@ -31,25 +25,15 @@ function All() {
         </h2>
 
         <p className={it.supportingText}>
-
-        Everything happens with one click. The audio, transcript and map are synchronised with each other. It is a dream for visual thinkers to use! 
-        <div className={it.extraSupportingText}>
-
-        Watch a 3 Min Demo:
-
-
-        </div>
-
-
+        Everything happens with one click. The audio, transcript and map are synchronised with each other. It is a dream for visual thinkers to use!
         </p>
+        <p className={it.extraSupportingText}>Watch a 3 Min Demo:</p>
      
       </div>
 
       <div className={it.imageContainer}>
 
-{/* <Image className={it.mainImage}  src={img} alt='woman' quality={100} loading='lazy' /> */}
-
-<figure className={it.videoContainer}  style={{}}>
+<figure className={it.videoContainer}>
 
 <iframe
 

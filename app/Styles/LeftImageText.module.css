@@ -20,7 +20,8 @@
 
 .gridContainer {
 
-    display: flex; 
+    display: flex;
+    gap: 2rem;
     
     margin: auto; 
     
@@ -41,8 +42,8 @@
      
     
     
-   width: 400px; 
-   height: 400px; 
+   width: min(400px, 92vw);
+   height: auto;
 
     
     
@@ -72,17 +73,16 @@
 
 
     font-size: 48px;
-    width: 650px; 
-    min-width: 700px; 
-
-    max-width: 700px;;  
+    width: min(700px, 100%);
+    min-width: 0;
+    max-width: 700px;  
     color: #eeede8; 
 
 
 
     font-weight: 600;
     line-height: 1.2;
-    width: 640px; 
+    width: min(640px, 100%);
 
 	
 }
@@ -95,9 +95,8 @@
     /* outline: 3px solid lime; */
     line-height: 1.2;   
     font-weight: 600;
-    width: 644.5px; 
-
-    min-width: 700px;
+    width: min(644.5px, 100%);
+    min-width: 0;
     margin-top: 5px; 
 
 
@@ -140,6 +139,18 @@
 
 
 	
+}
+
+.mainImageTextHeadline {
+    font-size: 1.45rem;
+    font-weight: 700;
+    line-height: 1.35;
+}
+
+.supportingTextListItem {
+    margin-top: 0.4rem;
+    font-size: 1.1rem;
+    line-height: 1.55;
 }
 
 .bulletPointListItem {
@@ -248,13 +259,9 @@
 
 
     .gridContainer {
-
-    /* display: grid;
-    place-content: center;
-    grid-template-columns: 1fr;
-
-    width: 90vw; 
-    margin:  auto;  */
+    flex-direction: column;
+    width: 92vw;
+    margin: auto;
     
 	
 }
@@ -347,6 +354,14 @@
 
 
 
+}
+
+.mainImageTextHeadline {
+    font-size: 1.2rem;
+}
+
+.supportingTextListItem {
+    font-size: 1rem;
 }
 
 .cta{

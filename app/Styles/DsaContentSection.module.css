@@ -1,0 +1,86 @@
+.section {
+	width: 100%;
+	padding: 4rem 1.25rem;
+}
+
+.grid {
+	max-width: 1160px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: minmax(0, 1.2fr) minmax(280px, 0.8fr);
+	gap: 2.5rem;
+	align-items: center;
+}
+
+.reverse .text {
+	order: 2;
+}
+
+.reverse .mediaWrap {
+	order: 1;
+}
+
+.text {
+	color: #013699;
+}
+
+.title {
+	font-size: clamp(2rem, 3.2vw, 3rem);
+	line-height: 1.15;
+	font-weight: 600;
+	margin-bottom: 1rem;
+}
+
+.subtitle {
+	font-size: clamp(1.2rem, 2vw, 1.5rem);
+	line-height: 1.4;
+	font-weight: 700;
+	margin-bottom: 0.75rem;
+}
+
+.list {
+	padding-left: 1.2rem;
+	margin-bottom: 1rem;
+}
+
+.item {
+	font-size: clamp(1rem, 1.4vw, 1.4rem);
+	line-height: 1.5;
+	margin-bottom: 0.55rem;
+	color: #013699;
+}
+
+.paragraph {
+	font-size: clamp(1rem, 1.4vw, 1.4rem);
+	line-height: 1.6;
+	color: #00143d;
+	margin-bottom: 0.85rem;
+	max-width: 65ch;
+}
+
+.mediaWrap {
+	display: grid;
+	place-items: center;
+}
+
+.media {
+	width: min(100%, 420px);
+	height: auto;
+	border-radius: 6px;
+}
+
+@media (max-width: 920px) {
+	.section {
+		padding: 3rem 1rem;
+	}
+
+	.grid {
+		grid-template-columns: 1fr;
+		gap: 1.75rem;
+	}
+
+	.reverse .text,
+	.reverse .mediaWrap {
+		order: initial;
+	}
+}
