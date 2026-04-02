@@ -23,9 +23,6 @@ function All({
             {/* {title} */}
             All in One App
             
-            
-            
-            
             </h2>
 					<p className={s.description}>
             {/* {description} */}

@@ -85,3 +85,21 @@
 		order: -1;
 	}
 }
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+	.gridContainer {
+
+		grid-template-columns: minmax(0, 1fr) minmax(220px, min(360px, 38vw));
+		gap: 1.5rem;
+		align-items: center;
+
+	}
+
+	.imageContainer {
+
+		order: 0;
+
+	}
+
+}

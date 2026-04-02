@@ -390,23 +390,24 @@
 
 
 
-aside{
+/* Off-screen by full panel height (fixed -64rem leaked on tall / 110vh menus, e.g. tablet) */
+.hamburgerMenu{
 
-    transition: 1s ease;
-    transform: translate(0, -64rem);
+    transition: transform 1s ease;
+    transform: translateY(calc(-100% - 5rem));
     position: absolute;
-    right: 0; 
-    padding-top: 2rem; 
-
+    right: 0;
+    padding-top: 2rem;
+    pointer-events: none;
 
 
 }
 
 
-.hamburgerIconContainer:has(input:checked) aside {
+.hamburgerIconContainer:has(input:checked) .hamburgerMenu {
 
-        
-        transform: translate(0, 2rem);
+    transform: translate(0, 2rem);
+    pointer-events: auto;
 
 
 }

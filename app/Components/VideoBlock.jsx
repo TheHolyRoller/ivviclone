@@ -15,8 +15,6 @@ function VideoBlock() {
 
     <div className={v.heroTextContainer}>
 
-      
-
         <h1 className={v.heroMainHeader}>
         <span>
 

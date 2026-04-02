@@ -10,7 +10,8 @@
 
 .hero {
 
-    padding: 4rem 0 !important;
+    padding-top: 2.75rem !important;
+    padding-bottom: 0.875rem !important;
 
     margin: 0 auto; 
 
@@ -110,10 +111,6 @@
     font-size: 1.225rem;
     display: inline; 
 
-
- 
-
-
 	
 }
 
@@ -121,8 +118,6 @@
 
     
     font-size: 1.1rem;
-
-
 	
 }
 
@@ -194,6 +189,25 @@
 
     height: min-content;
     max-height: 100vh; 
+    /* outline: 55px solid red; */
+
+
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    .videoContainer {
+
+        position: relative;
+        overflow: hidden;
+
+        height: min-content;
+        max-height: 100vh;
+        /* outline: 55px solid red; */
+        max-height: 30vh;
+
+    }
 
 }
 
@@ -358,7 +372,7 @@
 .heroMainHeader{
 
 
-    padding-top: 20rem; 
+    padding-top: 2rem;
 
 
 }
@@ -381,21 +395,12 @@
 
 .hero {
 
-    
-    padding: 0;
-    outline: 22px solid hotpink !important;
-    /* outline: 22px solid green; */
-    /* height: calc(min-content + 14rem) ; */
-    height: 100vh; 
-
-
-
+    padding-top: 2rem !important;
+    padding-bottom: 0.75rem !important;
 	
 }
 
 .mainVideoFrame{
-
-
 
     margin: 0; 
     margin-top: -7rem !important; 
@@ -439,9 +444,8 @@
 .heroMainHeader{
 
 
-    
     font-size: 30px;
-    padding-top: 16rem;
+    padding-top: 1.5rem;
 
 }
 
@@ -552,9 +556,9 @@ aspect-ratio: 9 / 16;
     .heroContentContainer {
 
 
-    margin: 0 auto; 
-    padding-bottom: 1vh;
-    padding-top: 2vh;
+    margin: 0 auto;
+    padding-top: 1rem;
+    padding-bottom: 0.25rem;
         
 	
 }

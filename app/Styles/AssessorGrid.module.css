@@ -5,13 +5,21 @@
     place-content: center;
     background-color: #eeede8;
     padding: 1rem 1.25rem 4rem;
-    
-    padding-top: 6rem !important;
-    margin-top: -6rem !important; 
 
-    
-    
+    /* outline: 44px solid red; */
+
         
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    .featureGridContainer {
+
+        padding-top: 6rem !important;
+        margin-top: -8.5rem !important;
+
+    }
+
 }
 
 .justificationContainer {
@@ -19,7 +27,6 @@
     max-width: 1120px;
     width: 100%;
     margin: 0 auto 2rem;
-
 
 }
 

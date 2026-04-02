@@ -1,7 +1,7 @@
 .contactFormContainer {
 	width: 100%;
 	padding: 4rem 1rem;
-	background-color: #013699;
+	background-color: var(--blue-background);
 	color: #fff;
 }
 
@@ -32,7 +32,14 @@
 	border-radius: var(--input-border-radius);
 	border: none;
 	font-size: 1rem;
-	color: #111;
+	font-weight: 500;
+	background-color: #fff;
+	color: #000;
+}
+
+.formInput::placeholder {
+	color: #a8a8a8;
+	font-family: var(--text-font-family);
 }
 
 #textAreaInput {
@@ -44,10 +51,10 @@
 	min-width: 175px;
 	height: 46px;
 	padding: 0 1rem;
-	border-radius: 999px;
-	background-color: #ef7a1a;
-	color: #fff;
-	font-weight: 700;
+	border-radius: var(--cta-border-radius);
+	background-color: var(--cta-background-color);
+	color: var(--cta-font-color);
+	font-weight: var(--cta-font-weight);
 }
 
 .submitButton:disabled {
@@ -59,4 +66,59 @@
 	.contactFormSubContainer {
 		grid-template-columns: 1fr;
 	}
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+	.contactFormContainer {
+
+		display: grid;
+		place-content: center;
+		justify-items: center;
+
+	}
+
+	.contactFormSubContainer {
+
+		width: 100%;
+		max-width: min(640px, 92vw);
+		margin-left: auto;
+		margin-right: auto;
+		justify-items: center;
+		text-align: center;
+
+	}
+
+	.contactFormHeadlineContainer {
+
+		text-align: center;
+		justify-items: center;
+
+	}
+
+	.inputFormContainer {
+
+		width: 100%;
+		max-width: 615px;
+		margin-left: auto;
+		margin-right: auto;
+
+	}
+
+	.contactForm {
+
+		width: 100%;
+		max-width: 615px;
+		margin-left: auto;
+		margin-right: auto;
+
+	}
+
+	.submitButton {
+
+		margin-left: auto;
+		margin-right: auto;
+
+	}
+
 }

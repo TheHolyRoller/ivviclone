@@ -15,8 +15,6 @@
 	gap: 1rem;
 	align-items: center;
 
-    
-
 
 }
 
@@ -168,5 +166,17 @@
 		
 	}
 
+
+}
+
+@media (max-width: 768px), (min-width: 769px) and (max-width: 1024px) {
+
+	.section {
+
+		padding: 4rem 1.25rem;
+		padding-top: 7rem;
+		margin-top: -4rem;
+
+	}
 
 }

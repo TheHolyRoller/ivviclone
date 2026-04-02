@@ -59,3 +59,50 @@
 		grid-template-columns: 1fr;
 	}
 }
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+	.gridContainer {
+
+		grid-template-columns: 1fr;
+		justify-items: center;
+		text-align: center;
+
+	}
+
+	.imageContainer {
+
+		width: 100%;
+		max-width: 440px;
+
+	}
+
+	.textContainer {
+
+		max-width: min(100%, 440px);
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+
+	}
+
+	.mainHeading {
+
+		text-align: center;
+
+	}
+
+	.supportingText {
+
+		text-align: center;
+
+	}
+
+	.linkStyle {
+
+		margin-left: auto;
+		margin-right: auto;
+
+	}
+
+}

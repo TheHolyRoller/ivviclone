@@ -18,8 +18,6 @@
     return (
       <div style={{position: "relative", }} >
 
-        
-
         <div style={{width: '100vw', height: '100vh', backgroundColor: '#eeede8', paddingTop: '4rem', marginTop: '-5rem', overflow: 'hidden'}} >
 
         <Hero/> 

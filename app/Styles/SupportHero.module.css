@@ -7,68 +7,66 @@
 .hero {
 
     padding: 0 !important;
-    margin: 0 auto; 
+    margin: 0 auto;
     width: 100%;
     max-width: 100%;
     box-sizing: border-box;
-    height: 80vh; 
-    min-height: 80vh;
-    position: relative; 
-	/* color: #00143d !important;  */
-     
-
+    height: 38vh;
+    min-height: 38vh;
+    max-height: 40vh;
+    position: relative;
+    overflow: hidden;
 
 }
 
 .heroContentContainer {
 
-
-    height: 100vh;
-    min-height: 90vh;
-
+    height: 100%;
+    min-height: 0;
     position: relative;
-    z-index: 9999999;
-    margin: 0 auto; 
-
+    z-index: 1;
+    margin: 0;
     display: flex;
-	
+    align-items: center;
+    justify-content: flex-start;
+    padding: clamp(1rem, 3vw, 1.75rem) clamp(1rem, 5vw, 3rem);
+    box-sizing: border-box;
+
 }
 
 
-.heroBackgroundImage{
+.heroBackgroundImage {
 
-        position: absolute;
-        left: 0;
-        top: -10vh; 
-        width: 100%;
-        max-width: 100%;
-        height: 90vh;
-        object-fit: cover;
-        object-position: center top;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    z-index: 0;
+    pointer-events: none;
 
-        background-repeat: no-repeat;
-        background-position: top;
-        background-size: cover;
+}
+
+
+.text {
+
+    margin: 0.65rem 0 0;
+    color: #fff;
+
 }
 
 .heroTextContainer {
 
-
-    position: relative; 
-    z-index: 2; 
-    color: white;
-
-
-
-    margin: auto;
-    margin-top: 10rem; 
-
-
-    font-family: "Lato", sans-serif !important; 
-
-    height: 80vh; 
-    text-align: center;
-
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    margin: 0;
+    font-family: "Lato", sans-serif !important;
+    height: auto;
+    max-width: min(36rem, 85vw);
+    text-align: left;
 
 }
 
@@ -95,17 +93,16 @@
 
 .heroMainHeader {
 
-
-    font-size: clamp(1.85rem, 5vw + 1rem, 4rem);
+    font-size: clamp(1.35rem, 3.5vw + 0.5rem, 2.25rem);
     font-weight: 700;
-    line-height: 1.35;
-    max-width: 850px;
-    text-align: center;
-    margin: auto;
-    padding: 0 clamp(0.75rem, 4vw, 1.5rem);
+    line-height: 1.2;
+    max-width: 20ch;
+    text-align: left;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    color: #fff;
 
-	
 }
 
 
@@ -119,17 +116,15 @@
 
 .heroSupportingText {
 
+    max-width: 32ch;
+    font-weight: 400;
+    font-family: "Nunito", sans-serif;
+    font-size: clamp(0.9rem, 1.5vw + 0.5rem, 1.1rem);
+    line-height: 1.45;
+    text-align: left;
+    margin: 0.75rem 0 0;
+    color: #fff;
 
-    max-width: 850px;
-    font-weight: 700;
-    font-size: 24px; 
-    
-    font-family: "Nunito", sans-serif; 
-    font-size: clamp(1rem, 1vw + 1rem, 1.45rem);
-    text-align: center;
-
-    margin-bottom: 1rem; 
-	
 }
 
 .heroCompTitle {
@@ -253,71 +248,33 @@
 /* Add in the media queries here  */
 
 @media(max-width: 1430px) {
-    
 
     .heroTextContainer {
 
+        position: relative;
+        z-index: 2;
+        color: #fff;
+        font-family: "Lato", sans-serif !important;
+        margin-left: 0;
 
-    position: relative; 
-    z-index: 2; 
-    color: var(--primary-font-color); 
-    font-family: "Lato", sans-serif !important; 
-    margin-left: 10vw; 
-
-
-
-    
-
-
-}
+    }
 
 }
 
 
-@media(max-width: 1320px){
+@media(max-width: 1320px) {
 
-
-    
     .heroTextContainer {
 
+        position: relative;
+        z-index: 2;
+        color: #fff;
+        font-family: "Lato", sans-serif !important;
+        margin-left: 0;
 
-    position: relative; 
-    z-index: 2; 
-    color: var(--primary-font-color); 
-    font-family: "Lato", sans-serif !important; 
-    margin-left: 5.5vw; 
-
-
-
-    
-
+    }
 
 }
-
-/* Add in the laptop image here  */
-
-.heroLaptopImg{
-
-
-
-    /* width: 33vw;  */
-    /* Add in a fixed width for the height here */
-    /* width: 829px; */
-    /* aspect-ratio: ; */
-    width: 60vw; 
-    height: 40vw;
-    /* aspect-ratio: 1.7; */
-
-    /* height: 500px; */
-
-    position: relative;
-    z-index: 9;
-
-
-}
-
-}
-
 
 
 /* Add in the text here and make it responsive  */
@@ -334,13 +291,12 @@
     }
     .heroContentContainer {
 
-
         display: flex;
-        flex-direction: column;
-        justify-items: flex-end;
-        margin: 0 auto; 
-        width: 90vw; 
-       
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 0;
+        width: 100%;
 
     }
 
@@ -392,21 +348,17 @@
 
 }
 
-.heroTextContainer{
+.heroTextContainer {
 
-
-    font-size: 30px !important;
     text-align: left;
-    margin-left: 0 !important; 
-
+    margin-left: 0 !important;
 
 }
 
-.heroMainHeader{
+.heroMainHeader {
 
-
-    font-size: 30px !important;
-
+    font-size: clamp(1.25rem, 4vw, 1.85rem) !important;
+    color: #fff;
 
 }
 
@@ -447,54 +399,54 @@
 
 }
 
-.heroSupportingText{
-
+.heroSupportingText {
 
     font-size: 16px;
-}
+    color: #fff;
 
 }
 
-
-@media(min-width: 800px) and (max-width: 1119px){
-
-.hero {
-
-    width: 100%;
-    height: auto;
-    min-height: min(80vh, 640px);
-    position: relative; 
-}
-
-.heroContentContainer {
-
-    width: 100%;
-    max-width: min(100%, 1200px);
-    position: relative;
-    z-index: 9999999;
-    margin: 0 auto; 
-    padding: clamp(4rem, 12vh, 8rem) clamp(1.25rem, 4vw, 2rem) clamp(3rem, 8vh, 5rem);
-    box-sizing: border-box;
-    min-height: 0;
-    display: flex;
-	
 }
 
 
-.heroBackgroundImage{
+@media (min-width: 800px) and (max-width: 1119px) {
 
-        position: absolute;
+    .hero {
+
         width: 100%;
-        height: min(95vh, 900px);
-        aspect-ratio: 16 / 9 !important;
-        object-fit: cover;
-}
+        height: 38vh;
+        min-height: 38vh;
+        max-height: 40vh;
+        position: relative;
 
-.heroTextContainer {
-    margin-top: 0;
-    height: auto;
-    min-height: 0;
-}
+    }
+
+    .heroContentContainer {
+
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        padding: clamp(1rem, 2.5vw, 1.5rem) clamp(1.25rem, 4vw, 2.5rem);
+        align-items: center;
+        justify-content: flex-start;
+
+    }
+
+    .heroBackgroundImage {
+
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+
+    }
+
+    .heroTextContainer {
+
+        margin-top: 0;
+        height: auto;
+        min-height: 0;
+
+    }
 
 }
 
@@ -541,10 +493,10 @@
 }
 
 
-.heroBackgroundImage{
+.heroBackgroundImage {
 
-    max-height: 80vh; 
-    
+    height: 100%;
+
 }
 
 
@@ -555,62 +507,102 @@
 @media (max-width: 799px) {
 
     .hero {
+
         width: 100%;
-        height: auto;
-        min-height: min(70vh, 560px);
+        height: 38vh;
+        min-height: 36vh;
+        max-height: 40vh;
+
     }
 
     .heroContentContainer {
+
         width: 100%;
         min-height: 0;
-        height: auto;
-        padding: clamp(3rem, 10vw, 5rem) clamp(1rem, 5vw, 1.5rem) clamp(2.5rem, 8vw, 4rem);
+        height: 100%;
+        padding: clamp(0.85rem, 3vw, 1.35rem) clamp(1rem, 4vw, 1.5rem);
         box-sizing: border-box;
+        justify-content: flex-start;
+
     }
 
     .heroTextContainer {
-        margin-top: clamp(1.5rem, 6vw, 3rem);
+
+        margin-top: 0;
         height: auto;
         min-height: 0;
-        padding: 0 0.5rem;
+        padding: 0;
+        text-align: left;
+
     }
 
     .heroBackgroundImage {
+
         top: 0;
-        height: min(75vh, 520px);
+        height: 100%;
         object-fit: cover;
+
     }
 
     .heroSupportingText {
-        padding: 0 clamp(0.5rem, 3vw, 1rem);
+
+        padding: 0;
+
     }
+
 }
 
 @media (max-width: 479px) {
 
     .hero {
-        min-height: min(65vh, 480px);
+
+        min-height: 35vh;
+        height: 35vh;
+        max-height: 40vh;
+
     }
 
     .heroTextContainer {
-        text-align: center;
+
+        text-align: left;
+
     }
 
     .heroBackgroundImage {
-        height: min(70vh, 420px);
+
+        height: 100%;
+
     }
+
 }
 
 @media (max-width: 1023px) {
 
+    .heroContentContainer {
+
+        justify-content: flex-start;
+        padding-left: clamp(1rem, 4vw, 2rem);
+
+    }
+
     .heroTextContainer {
-        text-align: center;
+
+        text-align: left;
+
     }
 
     .heroMainHeader {
-        text-align: center;
+
+        text-align: left;
+        color: #fff;
+
     }
+
+    .heroSupportingText {
+
+        color: #fff;
+
+    }
+
 }
-
-
 

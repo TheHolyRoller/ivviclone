@@ -16,8 +16,6 @@ import LeadMagnet from '../Components/LeadMagnet'
 import ContactForm from '../Components/ContactForm'
 
 
-
-
 function Assessors() {
   return (
     <main>
@@ -26,7 +24,10 @@ function Assessors() {
 
     <AssessorGrid/>
 
-    <CentralVideoBlock/> 
+    <CentralVideoBlock/>
+
+
+  
     <LeftImageText/> 
 
     {/* Add in the main section container here  */}

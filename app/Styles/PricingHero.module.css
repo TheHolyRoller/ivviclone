@@ -118,6 +118,34 @@
 	}
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+
+	.section {
+
+		min-height: auto;
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+
+	}
+
+	.contentGrid {
+
+		grid-template-columns: minmax(0, 1fr) minmax(220px, min(320px, 36vw));
+		gap: 1.25rem;
+		align-items: center;
+
+	}
+
+	.imageWrap {
+
+		width: min(100%, 320px);
+		max-width: 320px;
+		justify-self: end;
+
+	}
+
+}
+
 @media (max-width: 640px) {
 	.section {
 		min-height: auto;

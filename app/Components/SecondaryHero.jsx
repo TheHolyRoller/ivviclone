@@ -16,7 +16,15 @@ function SecondaryHero() {
     return (
 
     <main className={h.hero}>
-    <Image className={h.heroBackgroundImage} src={hero} alt="background"    /> 
+    <Image
+      className={h.heroBackgroundImage}
+      src={hero}
+      alt="Ivvi Notes secondary hero"
+      fill
+      priority
+      sizes="100vw"
+      quality={95}
+    />
 
     <section className={h.heroContentContainer} >
 

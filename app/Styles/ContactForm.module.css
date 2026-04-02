@@ -17,6 +17,17 @@
 	
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    .contactFormContainer {
+
+        height: 62vh;
+
+    }
+
+}
+
+
 /* Contact Form Sub Container */
 .contactFormSubContainer {
 

@@ -12,6 +12,7 @@ function ResourcesPage() {
 			<ExecutiveFunctionPodcast />
 			<DyslexiaScreenerApp />
 		</main>
+		
 	)
 }
 
