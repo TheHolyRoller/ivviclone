@@ -10,9 +10,6 @@ function All() {
 
         <div className={v.textContainer}>
 
-
-
-
 				<h2 className={v.heading}>ivvi Notes in Action</h2>
 
         <p className={v.mainSupportingText}>
