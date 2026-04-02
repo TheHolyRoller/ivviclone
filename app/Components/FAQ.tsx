@@ -60,8 +60,6 @@ export default function FAQ() {
     setOpenIndex((prev) => (prev === index ? null : index));
   };
 
-
-
   return (
     <section className={styles.section}>
       <div className={styles.container}>
