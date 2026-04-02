@@ -11,8 +11,9 @@ function StudentsFeatureSection({
 	children,
 	className = ''
 }) {
+	
 	return (
-		
+
 		<section className={`${s.section} ${className}`}>
 			<div className={`${s.grid} ${reverse ? s.gridReverse : ''}`}>
 				<div className={s.textContainer}>

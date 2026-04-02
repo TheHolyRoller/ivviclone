@@ -243,16 +243,14 @@
 @media(max-width: 500px){
     .featureGridContainer {
         padding: 1rem 1rem 3rem;
-
-        /* outline: 443px solid lime;  */
-        margin-top: -17rem; 
-
+        margin-top: -22rem !important; 
 
     }
+
+
     .gridImg{
 
 
-        /* width: clamp(120px, 17vw, 380px); */
         width: 293px; 
 
         height: auto;

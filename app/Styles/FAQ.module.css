@@ -153,3 +153,40 @@
     transform: translateY(0px);
     box-shadow: 0 4px 18px rgba(232, 121, 58, 0.35);
   }
+
+@media (max-width: 1023px) {
+
+  .section {
+    padding: clamp(48px, 10vw, 80px) clamp(16px, 4vw, 24px);
+    min-height: auto;
+  }
+
+  .title {
+    margin-bottom: clamp(32px, 8vw, 64px);
+  }
+
+  .button {
+    max-width: 100%;
+    padding: clamp(18px, 3vw, 26px) clamp(8px, 2vw, 12px);
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .answer {
+    max-width: 100%;
+    padding: 0 2px clamp(16px, 3vw, 24px);
+  }
+
+  .cta {
+    margin-top: clamp(36px, 8vw, 52px);
+  }
+}
+
+@media (max-width: 639px) {
+
+  .ctaButton {
+    width: 100%;
+    max-width: min(320px, 100%);
+    padding: 16px 28px;
+    font-size: 1rem;
+  }
+}

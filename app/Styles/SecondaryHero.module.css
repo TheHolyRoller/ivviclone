@@ -27,12 +27,6 @@
 .heroContentContainer {
 
 
-    /* height: 100vh; */
-    /* min-height: 90vh; */
-
-    /* outline: 33px solid blue;  */
-
-
     position: relative;
     z-index: 9999999;
     margin: 0 auto; 
@@ -41,10 +35,6 @@
 
     display: grid; 
     place-content: center; 
-
-
-
-
 
 	
 }

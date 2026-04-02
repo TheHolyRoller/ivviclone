@@ -1,40 +1,62 @@
 import React from 'react'
-import v from '../Styles/All.module.css'
-import Link from 'next/link'
+import Image from 'next/image'
+import s from '../Styles/All.module.css'
 
-
-function All() {
+function All({
+	title,
+	description,
+	image,
+	imageAlt,
+	reverse = false,  
+	children,
+	className = ''
+}) {
+	
 	return (
-		<section className={v.section}>
-			<div className={v.container}>
 
-        <div className={v.textContainer}>
+		<section className={`${s.section} ${className}`}>
+			<div className={`${s.grid} ${reverse ? s.gridReverse : ''}`}>
+				<div className={s.textContainer}>
+					<h2 className={s.heading}>
+            
+            
+            {/* {title} */}
+            All in One App
+            
+            
+            
+            
+            </h2>
+					<p className={s.description}>
+            {/* {description} */}
+            
+          Everything happens with one click. The audio, transcript and map are synchronised with each other. It is a dream for visual thinkers to use! 
+            
+            </p>
+					{/* {children} */}
 
-				<h2 className={v.heading}>ivvi Notes in Action</h2>
+          
+          <div className={s.supportingCTAText}>
 
-        <p className={v.mainSupportingText}>
+          Watch a 3 Min Demo:
 
-        Everything happens with one click. The audio, transcript and map are synchronised with each other. It is a dream for visual thinkers to use! 
+          </div>
 
-        <div className={v.ctaSupportingText}>
 
-        Watch a 3 Min Demo:
+				</div>
 
-        </div>
-
-        </p>
-        </div>
-
-				<figure className={v.videoContainer}>
+				<div className={s.mediaContainer}>
+					{/* <Image className={s.media} src={image} alt={imageAlt} quality={100} loading='lazy' /> */}
+          <figure className={s.media}>
 					<iframe
-						className={v.mainVideoFrame}
+						className={s.mainVideoFrame}
 						src='https://player.vimeo.com/video/1007634251?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479'
 						allow='autoplay; fullscreen; picture-in-picture'
 						allowFullScreen
 						title='ivvi Demo Video 30s'
 					/>
 				</figure>
-
+				</div>
 			</div>
 		</section>
 	)

@@ -1,119 +1,172 @@
-
 .section {
 	width: 100%;
-	padding: clamp(3rem, 6vw, 4.5rem) 1.25rem;
-	background-color: #cac9c7;
+	background-color: #eeede8;
+	padding: 4rem 1.25rem;
+
+}
+
+.grid {
+	
+
+	width: 80vw; 
+
+	margin: 0 auto;
+	display: flex;
+	gap: 1rem;
+	align-items: center;
 
     
-}
-
-.container {
-	max-width: 1120px;
-	margin: 0 auto;
-	display: grid;
-	justify-items: center;
-    grid-template-columns: 1fr 1fr; 
-	gap: 1.2rem;
-
-    outline: 2px solid lime; 
-}
-
-
-.textContainer{
-
-
-
-
 
 
 }
+
+.gridReverse .textContainer {
+	order: 2;
+
+	
+}
+
+.gridReverse .mediaContainer {
+	order: 1;
+}
+
+
+.textContainer {
+	color: #00143d;
+
+	min-width: 470px; 
+	
+}
+
+
 
 .heading {
-	
-	margin: 1rem auto;
-	font-family: "Lato Sans";
-	color: #013699;
-	font-size: clamp(2rem, 3.8vw, 3rem);
+	font-size: clamp(2rem, 3.5vw, 3rem);
 	line-height: 1.15;
-	font-weight: 100 !important;
-	text-align: center;
-
-
-
-}
-
-
-.mainSupportingText{
-
+	font-weight: 600;
+	margin-bottom: 1rem;
+	color: #013699; 
 
 
 
 
 }
 
-
-.ctaSupportingText{
-
-
-
-
-
-
-
-
-}
-
-
-
-
-.videoContainer {
-	width: min(100%, 980px);
-	border-radius: 10px;
-	overflow: hidden;
-	background-color: #fff;
-	box-shadow: 0 10px 28px rgba(1, 20, 61, 0.12);
-}
-
-.mainVideoFrame {
-	width: 100%;
-	aspect-ratio: 16 / 9;
-	border: none;
-	display: block;
-}
-
-.ctaText {
-	max-width: 62ch;
-	margin: 0;
-	font-size: clamp(1rem, 1.45vw, 1.25rem);
+.description {
+	font-size: clamp(1rem, 1.25vw + 2rem, 1.5rem);
 	line-height: 1.6;
-	color: #00143d;
-	text-align: center;
+	/* max-width: 62ch; */
+    max-width: 325px; 
+
 }
 
-.ivvi {
-	display: inline;
-	font-weight: 700;
-	margin: 0 0.2rem;
+.supportingCTAText{
+
+
+    font-size: clamp(1rem, 1.25vw + 2rem, 1.5rem);
+	line-height: 1;
+	/* max-width: 62ch; */
+    max-width: 325px; 
+
+
+
 }
 
-.ctaButton {
-	display: inline-grid;
+.mediaContainer {
+	width: 100%;
+	display: grid;
 	place-items: center;
-	min-width: 220px;
-	height: 50px;
-	padding: 0 1.1rem;
-	border-radius: 999px;
-	background-color: #ef7a1a;
-	color: #fff;
-	font-size: 1.05rem;
-	font-weight: 700;
-	font-family: "Nunito"; 
 
-	text-decoration: none;
 }
 
-@media (max-width: 640px) {
+.media {
+	min-width: 722px; 
+
+	height: auto;
+	border-radius: var(--image-border-radius);
+}
+
+
+.mainVideoFrame{
+
+
+    width: 100%; 
+    height: 467px; 
+    
+    
+    }
+    
+
+
+
+.supportingCTAText{
+
+
+
+    margin-top: 2rem; 
+
+
+
+}
+
+
+
+
+
+
+@media (max-width: 920px) {
 	.section {
 		padding: 3rem 1rem;
 	}
+
+	.grid {
+		grid-template-columns: 1fr;
+		gap: 1.75rem;
+	}
+
+	.gridReverse .textContainer,
+	.gridReverse .mediaContainer {
+		order: initial;
+	}
+
+	.media {
+
+        width: 80vw; 
+		min-width: 50vw; 
+		margin: auto; 
+
+	
+	
+		height: auto;
+		border-radius: var(--image-border-radius);
+	}
+
+
+	.grid {
+	
+
+		width: 80vw; 
+	
+		margin: 0 auto;
+		display: grid; 
+		grid-template-columns: 1fr; 
+		justify-content: center; 
+
+	
+	}
+
+
+	.textContainer {
+		color: #00143d;
+	
+		/* min-width: 470px;  */
+		/* max-width: 477px;  */
+		min-width: 50vw; 
+		width: 80vw; 
+		text-align: left; 
+		
+		
+	}
+
+
 }

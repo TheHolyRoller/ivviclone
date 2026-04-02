@@ -1,0 +1,127 @@
+.section {
+	background: #7aaa7a;
+	padding: clamp(2.5rem, 6vw, 4.75rem) clamp(1.25rem, 4vw, 3rem);
+	box-sizing: border-box;
+	width: 100%;
+	max-width: 100%;
+}
+
+.container {
+	width: 100%;
+	max-width: 1120px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: minmax(220px, 420px) minmax(0, 1fr);
+	gap: clamp(2rem, 5vw, 3.75rem);
+	align-items: center;
+	box-sizing: border-box;
+}
+
+.copy {
+	display: grid;
+	gap: clamp(1rem, 3vw, 1.5rem);
+	justify-items: start;
+}
+
+.headline {
+	margin: 0;
+	font-family: "Lato", sans-serif;
+	font-size: clamp(1.75rem, 4vw + 0.6rem, 2.65rem);
+	font-weight: 700;
+	line-height: 1.15;
+	color: #e8f6ef;
+	letter-spacing: -0.02em;
+}
+
+.body {
+	margin: 0;
+	max-width: 55ch;
+	font-family: "Nunito", sans-serif;
+	font-size: clamp(1rem, 1.2vw + 0.85rem, 1.2rem);
+	font-weight: 400;
+	line-height: 1.65;
+	color: rgba(255, 255, 255, 0.92);
+}
+
+.cta {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 52px;
+	padding: 0.65rem 1.75rem;
+	margin-top: 0.25rem;
+	border-radius: 999px;
+	background: #f08421;
+	color: #ffffff;
+	font-family: "Nunito", sans-serif;
+	font-size: clamp(0.95rem, 1vw + 0.85rem, 1.08rem);
+	font-weight: 700;
+	text-decoration: none;
+	line-height: 1.2;
+	transition: background-color 0.2s ease, transform 0.15s ease;
+	-webkit-tap-highlight-color: transparent;
+}
+
+.cta:hover {
+	background: #e07718;
+}
+
+.cta:active {
+	transform: translateY(1px);
+}
+
+.media {
+	width: 100%;
+	max-width: 380px;
+	justify-self: start;
+}
+
+.imageWrap {
+	position: relative;
+	width: 100%;
+	aspect-ratio: 1;
+	border-radius: 12px;
+	overflow: hidden;
+	box-shadow: 0 12px 40px rgba(0, 0, 0, 0.07);
+}
+
+.image {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+	display: block;
+}
+
+@media (max-width: 900px) {
+	.container {
+		grid-template-columns: 1fr;
+		justify-items: stretch;
+	}
+
+	.media {
+		justify-self: center;
+		max-width: min(340px, 88vw);
+	}
+
+	.copy {
+		justify-items: center;
+		text-align: center;
+	}
+
+	.headline {
+		text-align: center;
+		max-width: 22ch;
+	}
+
+	.body {
+		max-width: 40rem;
+		text-align: center;
+	}
+}
+
+@media (max-width: 479px) {
+	.section {
+		padding: 2rem 1rem 2.5rem;
+	}
+}

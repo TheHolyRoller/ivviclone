@@ -150,7 +150,7 @@ function CustomerContactForm() {
 
           <input className={c.formInput} placeholder="Email*" name="email" value={formInput.email} type="text" required onChange={handleInput} /> 
           <input className={c.formInput} placeholder="Mobile" name="mobile" value={formInput.mobile} type="text" required onChange={handleInput}/> 
-          <textarea rows={1} className={c.formInput} id={c.textAreaInput} placeholder="Please tell us what you would like to know" name="message" value={formInput.message} type="text" required onChange={handleInput}/>
+          <textarea rows={4} className={`${c.formInput} ${c.textArea}`} placeholder="Please tell us what you would like to know" name="message" value={formInput.message} required onChange={handleInput}/>
 
 
 
@@ -176,7 +176,7 @@ function CustomerContactForm() {
       </div>
 
 
-    <Image src={support} alt="customer support" className={c.image} /> 
+    <Image src={support} alt="customer support" width={722} height={722} className={c.image} sizes="(max-width: 1023px) min(480px, 92vw), 722px" /> 
 
 
 
