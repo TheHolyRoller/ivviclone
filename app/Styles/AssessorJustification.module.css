@@ -11,7 +11,7 @@
     place-content: center;  
     text-align: center;
     background-color: #eeede8;  
-    
+
 
 
 }
@@ -71,8 +71,38 @@
 @media(max-width: 950px){
 
 
+    /* Add in extra padding here  */
+    
+
+.mainContainer{
 
 
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 4rem; 
+    padding-bottom: 1.5rem; 
+
+    display: grid; 
+    place-content: center;  
+    text-align: left;   
+
+    background-color: #eeede8;  
+
+
+
+}
+
+.supportingText{
+
+
+    font-size: clamp(1rem, 1vw + 0.95rem, 1rem);
+    line-height: 1.6;
+    color: #00143d; 
+    font-family: "Nunito";
+
+
+
+}
 
 
     

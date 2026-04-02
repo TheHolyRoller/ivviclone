@@ -5,16 +5,21 @@ import img from '../../public/images/girl_study.png'
 
 const supportItems = [
 	{
-		title: 'Dysgraphia & Dyspraxia',
-		description: 'Minimise writing and typing effort during lectures.'
+		title: 'Dyslexia',
+		description: 'Organise information visually, reducing the need for re-reading.'
 	},
 	{
+		title: 'Dysgraphia & Dyspraxia',
+		description: 'Minimise writing and typing efforts.'
+	},
+
+	{
 		title: 'ADD / ADHD',
-		description: 'Maintain focus and capture key content without overwhelm.'
+		description: 'Maintain focus and capture content without overwhelm.'
 	},
 	{
 		title: 'Executive Function',
-		description: 'Improve organisation and planning of information.'
+		description: 'Improves organisation and planning of information.'
 	},
 	{
 		title: 'ASD',
@@ -23,10 +28,11 @@ const supportItems = [
 	{
 		title: 'Mental Health',
 		description: 'Alleviate stress and anxiety around note-taking.'
-	},
+	}, 
+
 	{
 		title: 'Physical or Unseen Conditions',
-		description: 'Reduce cognitive load for mobility, sensory, and fatigue-related challenges.'
+		description: 'Reduce cognitive load for various challenges, including mobility issues, sensory impairments, and chronic fatigue.'
 	}
 ]
 
@@ -41,7 +47,8 @@ function LeftImageText() {
 				<div className={ti.textContainer}>
 					<h2 className={ti.mainHeading}>How ivvi Notes Supports Your Learning</h2>
 					<p className={ti.mainSupportingText}>
-						ivvi Notes is designed to support different learning needs and remove friction from live note-taking.
+						{/* ivvi Notes is designed to support different learning needs and remove friction from live note-taking. */}
+						ivvi Notes is designed to support various learning needs, helping students with:
 					</p>
 
 					<div className={ti.bulletPointListContainer}>

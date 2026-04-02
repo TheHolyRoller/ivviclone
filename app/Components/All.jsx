@@ -1,59 +1,46 @@
 import React from 'react'
-import it from '../Styles/All.module.css'
+import v from '../Styles/All.module.css'
+import Link from 'next/link'
 
 
 function All() {
-  return (  
+	return (
+		<section className={v.section}>
+			<div className={v.container}>
+
+        <div className={v.textContainer}>
 
 
-    <section className={it.featureMainContainer}>
-      <div className={it.gridContainer}>
-
-   
-
-      {/* Add in the text container here */}
-      <div className={it.textContainer}>
-
-        <h2 className={it.mainHeading}>
-
-        {/* Neurodiverse Executive Functions */}
-        {/* Full Transcript */}
-        {/* Live Mindmap  */}
-        All in One App
 
 
-        </h2>
+				<h2 className={v.heading}>ivvi Notes in Action</h2>
 
-        <p className={it.supportingText}>
-        Everything happens with one click. The audio, transcript and map are synchronised with each other. It is a dream for visual thinkers to use!
+        <p className={v.mainSupportingText}>
+
+        Everything happens with one click. The audio, transcript and map are synchronised with each other. It is a dream for visual thinkers to use! 
+
+        <div className={v.ctaSupportingText}>
+
+        Watch a 3 Min Demo:
+
+        </div>
+
         </p>
-        <p className={it.extraSupportingText}>Watch a 3 Min Demo:</p>
-     
-      </div>
+        </div>
 
-      <div className={it.imageContainer}>
+				<figure className={v.videoContainer}>
+					<iframe
+						className={v.mainVideoFrame}
+						src='https://player.vimeo.com/video/1007634251?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479'
+						allow='autoplay; fullscreen; picture-in-picture'
+						allowFullScreen
+						title='ivvi Demo Video 30s'
+					/>
+				</figure>
 
-<figure className={it.videoContainer}>
-
-<iframe
-
-  className={it.mainVideoFrame}
-  src="https://player.vimeo.com/video/1007634251?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-  
-  allow="autoplay; fullscreen; picture-in-picture"
-  allowFullScreen
-  title="ivvi Demo Video 30s"
-/>
-
-
-</figure>
-
-</div>
-
-
-      </div>
-    </section>
-  )
+			</div>
+		</section>
+	)
 }
 
 export default All

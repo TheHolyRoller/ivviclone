@@ -25,16 +25,40 @@ function Assessors() {
     <SecondaryHero/>
 
     <AssessorGrid/>
+
     <CentralVideoBlock/> 
     <LeftImageText/> 
+
+    {/* Add in the main section container here  */}
+    <section className="mainSpecGrid">
+
+
+    {/* Add in the section heading */}
+
+    <h5 className="mainSectionSpecHeading">
+
+    {`Key Features You'll Love`}
+
+    </h5>
+
+
     <TextImageVideo/> 
     <ImageTextVideo/> 
+
 
     <LiveMap/> 
     <Highlight/> 
     <Edit/> 
     <Outline/> 
+
+    {/* Add in the end of the section here */}
+    </section>
+
+
+
+
     <All/> 
+
     <FreeTrial/> 
     <Testimony/> 
     <LeadMagnet/> 

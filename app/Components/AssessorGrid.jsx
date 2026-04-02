@@ -11,32 +11,32 @@ const featureItems = [
 	{
 		icon: icon1,
 		title: 'Real-time note-taking',
-		content: 'can be used to instantly capture information visually, ensuring students do not miss important details.'
+		content: 'Capture every important detail instantly'
 	},
 	{
 		icon: icon2,
-		title: 'Combined learning styles',
-		content: 'allows for a combination of audio, visual, and written notes, catering to multimodal learners.'
+		title: 'Multi-style learning',
+		content: 'Combine audio, visual, and text notes'
 	},
 	{
 		icon: icon3,
-		title: 'Identify key information',
-		content: 'visual tagging and mind mapping allow for quick and easy reference, saving valuable study time.'
+		title: 'Highlight key info',
+		content: 'Use tagging and mind mapping for quick review'
 	},
 	{
 		icon: icon4,
-		title: 'Seamless integration',
-		content: 'allows students to integrate slides, images, and other materials with their notes, providing a comprehensive study resource.'
+		title: 'All-in-one resource',
+		content: 'Integrate slides and images with your notes'
 	},
 	{
 		icon: icon4,
-		title: 'Flexible learning',
-		content: "can be accessed across any device or browser, anytime and anywhere, maximising students' access to their notes."
+		title: 'Study anywhere',
+		content: "Access your notes on any device, anytime"
 	},
 	{
 		icon: icon4,
-		title: 'Note-taking support for all',
-		content: 'is designed to support neurodiverse students who experience executive functioning and working memory difficulties (e.g. SpLD, ADHD, ASD).'
+		title: 'Designed for you',
+		content: 'Accommodate SpLD, Dyslexia, ADHD, ASD, and more'
 	}
 ]
 
@@ -53,7 +53,7 @@ function AssessorGrid() {
 						<Image className={g.gridImg} src={feature.icon} alt='' quality={100} loading='lazy' />
 						<h4 className={g.gridHeadline}>{feature.title}</h4>
 						<p className={g.gridSupportingText}>
-							<span className={g.ivvi}>ivvi</span>
+							{/* <span className={g.ivvi}>ivvi</span> */}
 							{feature.content}
 						</p>
 					</article>

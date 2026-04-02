@@ -5,16 +5,22 @@ function AssessorJustification() {
 	return (
 		<article className={j.mainContainer}>
 			<div className={j.subContainer}>
-				<h2 className={j.mainHeadline}>Assessors: Why ivvi Notes?</h2>
+				<h2 className={j.mainHeadline}> Why ivvi Notes?</h2>
 
 				<p className={j.supportingText}>
-					Lectures can be overwhelming, traditional note-taking is slow, and building visual notes in real time feels impossible.
+					We get it - lectures can be overwhelming, traditional note-taking is slow, and making visual notes on the fly feels impossible. That's why we created 
+					
 					<span className={j.ivvi}>ivvi</span>
-					Notes uses Speech-to-Map™ technology to support students with clear structure and better recall.
+					
+					Notes just for you!
+
 				</p>
 			</div>
 		</article>
+
+
 	)
 }
+
 
 export default AssessorJustification

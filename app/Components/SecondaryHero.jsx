@@ -20,6 +20,8 @@ function SecondaryHero() {
 
     <section className={h.heroContentContainer} >
 
+      <div className={h.heroMainContainer}>
+
     <div className={h.heroTextContainer}>
 
         <div className={h.DSASubHeading}>
@@ -52,6 +54,8 @@ Note-Taking Superpower
         </article>
 
 
+        <div className={h.buttonContainer}>
+
         <button className={h.heroCTAButton}>
           <Link className={h.heroCTALink}  href='/ivvi' alt='ivvi'>
 
@@ -60,8 +64,19 @@ Note-Taking Superpower
           </Link>
 
         </button>
+        </div>
 
     </div>
+
+
+    {/* Add in the main container here  */}
+    </div>
+
+
+
+
+
+
 
     </section>
     </main>

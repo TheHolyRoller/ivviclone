@@ -1,464 +1,119 @@
 
-.featureMainContainer {
-
-
-    width: 100vw; 
-    display: grid;
-    place-content: center;
-    margin: 0 auto; 
-
-    background-color: #eeede8;
-    color: var(--primary-font-color);
-    position: relative;
-     
-    z-index: 99;
-    padding: 5rem 0; 
-    
-	
-
-}
-
-.gridContainer {
-
-    display: grid;
-    place-content: center;
-    grid-template-columns: 1fr 1.3fr;
-
-    width: 1080px; 
-    margin: auto; 
-    
-	
-}
-
-.imageContainer {
-
-
-    display: grid;
-    place-content: center;
-    
-
-	
-}
-
-
-.videoContainer{
-
-
-    width: 829px; 
-    height: 466px; 
-    /* outline: 2px solid red; */
-
-
-
-}
-
-
-
-.mainVideoFrame{
-
-
-    width: 100%;
-    height: 100%; 
-
-
-
-
-}
-
-
-
-
-
-
-.mainImage{
-     
-    
-    min-width: 722px; 
-    min-height: 456px; 
-    
-    
-    
-    border-radius: var(--image-border-radius);
-    -webkit-border-radius: var(--image-border-radius);
-    -moz-border-radius: var(--image-border-radius);
-    -ms-border-radius: var(--image-border-radius);
-    -o-border-radius: var(--image-border-radius);
-
-
-}
-
-
-
-
-.textContainer {
-
-
-    margin-top: 1rem; 
-    margin-right: 1rem; 
-
-
-	
-}
-
-.mainHeading {
-
-    /* font-size: var(--mainSectionHeadingFontSize); */
-
-    font-size: 48px !important; 
-    font-weight: 600;
-    line-height: 1.2;
-
+.section {
+	width: 100%;
+	padding: clamp(3rem, 6vw, 4.5rem) 1.25rem;
+	background-color: #cac9c7;
 
     
 }
 
-.supportingText {
+.container {
+	max-width: 1120px;
+	margin: 0 auto;
+	display: grid;
+	justify-items: center;
+    grid-template-columns: 1fr 1fr; 
+	gap: 1.2rem;
 
-
-    /* font-size: var(--main-section-font-size); */
-    font-size: 24px !important;
-
-    width: 524.5px; 
-    max-width: 320.3px;
-    margin-top: 0.5rem; 
-    font-family: "Nunito" !important;
-    color: #00143d; 
-
-
-
-
-	
+    outline: 2px solid lime; 
 }
 
 
-.extraSupportingText{
-
-
-    margin-top: 1rem; 
-
-
-
-}
-
-
-
-.ivvi{
-
-
-    margin: 0 6px; 
-    font-weight: 700; 
-    display: inline;
-
-
-
-
-}
-
-.ivviSpan{
-
-
-
-    margin: 0 0.25em;
-
-
-
-
-}
-
-
-
-.bulletPointListContainer {
-
-
-    margin-left: 2.1rem; 
-
-    font-size: var(--main-section-font-size); 
-    margin-top: 1.35rem; 
-
-	
-}
-
-.bulletPointList {
-
-
-    list-style: disc;
-
-
-
-
-	
-}
-
-.bulletPointListItem {
-
-
-    color: #013699; 
-
-    font-weight: 600;
-    max-width: 530px; 
-
-    font-size: 24px !important;
-
-	
-}
-
-.bulletPointListItem::marker{
-
-
-    color: #00143d; 
-
-}
-
-
-@media(max-width: 1120px){
-
-
-
-    .gridContainer {
-
-    display: grid;
-    place-content: center;
-    /* grid-template-columns: 1fr; */
-
-    width: 90vw; 
-
-    margin: auto !important; 
-    text-align: left; 
-
-	
-}
-
-
-.featureMainContainer {
-
-
-    width: 100vw; 
-    display: grid;
-    place-content: center;
-    margin: auto; 
-
-    background-color: #eeede8;
-    color: var(--primary-font-color);
-    position: relative;
-    z-index: 99;
-
-    
-
-}
-
-
-
-}
-
-
-@media(max-width: 1118px) and (min-width: 750px){
-
-
-    /* Add in the grid container here  */
-    .gridContainer{
-
-
-        gap: 2rem; 
-
-
-
-
-    }
-
-    .supportingText{
-
-
-        max-width: 100%;
-
-
-
-
-    }
-
-
-    /* Add in the text here  */
-    .textContainer{
-
-
-        width: 40vw; 
-
-
-
-
-    }
-
-
-}
-
-
-
-
-
-/* Add in the phone media query here  */
-
-
-@media(max-width:749px){
-
-
-
-    /* Add in the main container here */
-
-
-
-
-
-       .gridContainer {
-
-    display: grid;
-    place-content: center;
-    grid-template-columns: 1fr;
-
-    width: 90vw; 
-
-    margin: auto !important; 
-    text-align: left; 
-
-
-	
-}
-
-
-.featureMainContainer {
-
-
-    width: 100vw; 
-    /* min-height: 125vh; */
-    display: grid;
-    place-content: center;
-    margin: auto; 
-
-    background-color: #eeede8;
-    color: var(--primary-font-color);
-    position: relative;
-    z-index: 99;
-
-
-    
-
-}
-
-.mainImage{
-
-
-    width: 90vw; 
-    height: 90vw; 
-    margin: 0 auto; 
-
-
-
-}
-
-/* Adjust the text elements here */
 .textContainer{
 
 
-    width: 90vw; 
-
-}
-
-
-.supportingText{
-
-
-
-    width: 80vw; 
-    
-
-
-
-}
-
 
 
 
 
 }
 
-
-/* Add in the limiting here  */
-
-
-
-
-
-
-
-
-/* and (max-width: 550px) */
-@media(min-width: 370px){
-
-
-    .featureMainContainer {
-
-
-
-        /* height: 100vh;  */
-        
-        width: 100vw; 
-
-        outline: auto;
-        padding-bottom: 3rem;
-
-
-
-
-}
-
-.gridContainer {
-
-    margin: auto !important; 
-    padding: 0; 
+.heading {
 	
-}
+	margin: 1rem auto;
+	font-family: "Lato Sans";
+	color: #013699;
+	font-size: clamp(2rem, 3.8vw, 3rem);
+	line-height: 1.15;
+	font-weight: 100 !important;
+	text-align: center;
 
-
-/* Add in the image here  */
-.mainImage{
-
-
-
-
-}
-
-.mainHeading{
-
-
-
-    font-size: 30px;
-    margin-top: 1.2rem;
-      color: #013699; 
 
 
 }
 
 
-.supportingText{
+.mainSupportingText{
 
-
-
-    font-size: 16px;
 
 
 
 
 }
 
-.bulletPointListItem{
+
+.ctaSupportingText{
 
 
 
-    font-size: 1rem;
-    line-height: 1.5;
-    margin-bottom: 1rem;
+
+
+
 
 
 }
 
 
+
+
+.videoContainer {
+	width: min(100%, 980px);
+	border-radius: 10px;
+	overflow: hidden;
+	background-color: #fff;
+	box-shadow: 0 10px 28px rgba(1, 20, 61, 0.12);
 }
 
+.mainVideoFrame {
+	width: 100%;
+	aspect-ratio: 16 / 9;
+	border: none;
+	display: block;
+}
+
+.ctaText {
+	max-width: 62ch;
+	margin: 0;
+	font-size: clamp(1rem, 1.45vw, 1.25rem);
+	line-height: 1.6;
+	color: #00143d;
+	text-align: center;
+}
+
+.ivvi {
+	display: inline;
+	font-weight: 700;
+	margin: 0 0.2rem;
+}
+
+.ctaButton {
+	display: inline-grid;
+	place-items: center;
+	min-width: 220px;
+	height: 50px;
+	padding: 0 1.1rem;
+	border-radius: 999px;
+	background-color: #ef7a1a;
+	color: #fff;
+	font-size: 1.05rem;
+	font-weight: 700;
+	font-family: "Nunito"; 
+
+	text-decoration: none;
+}
+
+@media (max-width: 640px) {
+	.section {
+		padding: 3rem 1rem;
+	}
+}

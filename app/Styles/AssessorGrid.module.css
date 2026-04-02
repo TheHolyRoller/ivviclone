@@ -5,6 +5,13 @@
     place-content: center;
     background-color: #eeede8;
     padding: 1rem 1.25rem 4rem;
+    
+    padding-top: 6rem !important;
+    margin-top: -6rem !important; 
+
+    
+    
+        
 }
 
 .justificationContainer {
@@ -12,6 +19,8 @@
     max-width: 1120px;
     width: 100%;
     margin: 0 auto 2rem;
+
+
 }
 
 
@@ -36,7 +45,7 @@
     display: grid;
     place-content: center;  
     grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 2.5rem; 
+    gap: 4rem; 
 
     width: min(1140px, 100%);
     text-align: center;
@@ -68,8 +77,10 @@
 .gridImg{
 
 
-    width: clamp(120px, 17vw, 180px);
-    height: auto;
+    /* width: clamp(120px, 17vw, 180px); */
+    width: 300px; 
+    height: 300px; 
+
     align-self: center; 
     margin: 0 auto;
 
@@ -105,7 +116,7 @@
     max-width: 340px;
     margin: 0 auto; 
     margin-top: 0.65rem;
-    font-size: clamp(1rem, 1.25vw, 1.25rem);
+    font-size: clamp(1rem, 1.25vw + 2rem, 1.45rem);
     line-height: 1.6;
     color: var(--primary-font-color);
     font-weight: 400;
@@ -226,15 +237,31 @@
 }
 
 
-
-
 }
 
 
 @media(max-width: 500px){
     .featureGridContainer {
         padding: 1rem 1rem 3rem;
+
+        /* outline: 443px solid lime;  */
+        margin-top: -17rem; 
+
+
     }
+    .gridImg{
+
+
+        /* width: clamp(120px, 17vw, 380px); */
+        width: 293px; 
+
+        height: auto;
+        align-self: center; 
+        margin: 0 auto;
+    
+    
+    }
+    
 
 
     .headlineContainer{
@@ -261,6 +288,9 @@
         min-width: 0;
         line-height: 1.55;
 
+        color: #00143d; 
+
+
 
 
 
@@ -282,6 +312,12 @@
     display: grid;
     place-content: center;
     margin: auto; 
+        
+
+
+
+
+    
 
 }
 

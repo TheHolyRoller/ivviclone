@@ -15,6 +15,9 @@
 
     background-color: #79a479;
 
+
+
+
     
 }
 
@@ -24,7 +27,9 @@
     gap: 2rem;
     
     margin: auto; 
-    
+    width: 75vw; 
+
+
 	
 }
 
@@ -42,18 +47,14 @@
      
     
     
-   width: min(400px, 92vw);
-   height: auto;
+   width: 400px;
+   min-width: 400px !important; 
+   
+   height: 400px; 
+    
+    
+    
 
-    
-    
-    
-    
-    border-radius: var(--image-border-radius);
-    -webkit-border-radius: var(--image-border-radius);
-    -moz-border-radius: var(--image-border-radius);
-    -ms-border-radius: var(--image-border-radius);
-    -o-border-radius: var(--image-border-radius);
 
 
 
@@ -90,16 +91,13 @@
 .mainSupportingText {
 
 
-    /* font-size: var(--main-section-font-size); */
-    font-size: 26px !important; 
-    /* outline: 3px solid lime; */
+    font-size: 28px !important; 
     line-height: 1.2;   
     font-weight: 600;
-    width: min(644.5px, 100%);
+    width: min(750.5px, 100%);
     min-width: 0;
-    margin-top: 5px; 
-
-
+    margin-top: 5px;
+    
 
 	
 }
@@ -120,7 +118,6 @@
 .bulletPointListContainer {
 
 
-    margin-left: 2.1rem; 
 
     font-size: var(--main-section-font-size); 
     margin-top: 1.35rem; 
