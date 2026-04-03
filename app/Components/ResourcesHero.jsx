@@ -19,8 +19,7 @@ function ResourcesHero({
 					fill
 					className={styles.bgImage}
 					sizes="100vw"
-					quality={100}
-					priority
+					loading="lazy"
 				/>
 				{showOverlay ? <div className={styles.overlay} aria-hidden /> : null}
 			</div>

@@ -43,7 +43,15 @@ function Hamburger() {
         <label htmlFor='menuToggle' className='spanLabel'>
               <button className='hamburgerIconButtonIconContainer'>
 
-            <Image className='logoIconImage'  src={ivvi} alt='ivvi' quality={100} loading='lazy' height={30} width={30}/> 
+            <Image
+              className="logoIconImage"
+              src={ivvi}
+              alt="ivvi"
+              width={214}
+              height={92}
+              priority
+              sizes="53px"
+            />
 
              </button>
         <nav className='hamburgerIconNav' onClick={() => handleClicked} style={{}} >

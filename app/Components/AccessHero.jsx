@@ -6,7 +6,7 @@ import access from '../../public/images/access.jpeg'
 function AccessHero() {
 	return (
 		<section className={h.hero}>
-			<Image className={h.heroBackgroundImage} src={access} alt='Office team discussing work' />
+			<Image className={h.heroBackgroundImage} src={access} alt='Office team discussing work' sizes='100vw' loading="lazy" />
 			<div className={h.imageOverlay} />
 
 			<div className={h.heroContentContainer}>

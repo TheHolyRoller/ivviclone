@@ -1,55 +1,52 @@
-  import Image from "next/image";
-  import Hero from "./Components/Hero";
-  import Footer from './Components/Footer'; 
-  import FeatureBlock from "./Components/FeatureBlock";
-  import ImageText from "./Components/ImageText";
-  // import FeatureBlock from "./Components/FeatureBlock";
-  import FeatureGrid from "./Components/FeatureGrid";
-  import ContactForm from "./Components/ContactForm";
-  import VideoBlock from "./Components/VideoBlock";
-  import TextImage from "./Components/TextImage";
-  import TextElement from "./Components/TextElement";
-  import FirstTextElement from "./Components/FirstTextElement";
-  import Hamburger from "./Components/Hamburger";
+import dynamic from "next/dynamic";
+import Hero from "./Components/Hero";
+
+const ImageText = dynamic(() => import("./Components/ImageText"));
+const VideoBlock = dynamic(() => import("./Components/VideoBlock"));
+const FeatureGrid = dynamic(() => import("./Components/FeatureGrid"));
+const FirstTextElement = dynamic(() => import("./Components/FirstTextElement"));
+const FeatureBlock = dynamic(() => import("./Components/FeatureBlock"));
+const TextImage = dynamic(() => import("./Components/TextImage"));
+const TextElement = dynamic(() => import("./Components/TextElement"));
+const ContactForm = dynamic(() => import("./Components/ContactForm"));
+const Footer = dynamic(() => import("./Components/Footer"));
+
+import Head from 'next/head';
 
 
 
-  export default function Home() {
-    return (
-      <div style={{position: "relative", }} >
-
-        <div style={{width: '100vw', height: '100vh', backgroundColor: '#eeede8', paddingTop: '4rem', marginTop: '-5rem', overflow: 'hidden'}} >
-
-        <Hero/> 
-
-        </div>
-
-
-        {/* Add in the image text element here  */}
-        <ImageText/> 
-          <VideoBlock/> 
-
-
-
-          <FeatureGrid/> 
-
-          <FirstTextElement/>
-
-
-        <FeatureBlock/> 
-
-
-          <TextImage/> 
-      
-
-        <TextElement/> 
-
-       
-          <ContactForm/> 
-
-       
-        <Footer/> 
-
+export default function Home() {
+  return (
+    <div style={{ position: "relative" }}>
+      <div
+        style={{
+          width: "100vw",
+          height: "100vh",
+          backgroundColor: "#eeede8",
+          paddingTop: "4rem",
+          marginTop: "-5rem",
+          overflow: "hidden",
+        }}
+      >
+        <Hero />
       </div>
-    );
-  }
+
+      <ImageText />
+      <VideoBlock />
+
+      <FeatureGrid />
+
+      <FirstTextElement />
+
+      <FeatureBlock />
+
+      <TextImage />
+
+      <TextElement />
+
+      <ContactForm />
+
+      <Footer />
+    </div>
+  );
+}

@@ -46,7 +46,7 @@ function DSASteps() {
 				<ul className={sp.flexContainer}>
 					{steps.map((step) => (
 						<li className={sp.gridSubContainer} key={step.title}>
-							<Image src={step.image} alt={step.title} className={sp.gridImage} />
+							<Image src={step.image} alt={step.title} className={sp.gridImage} loading="lazy" />
 
 							<div className={sp.textContainer}>
 								<h3 className={sp.gridHeadline}>{step.title}</h3>

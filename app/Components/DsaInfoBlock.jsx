@@ -15,7 +15,7 @@ function DsaInfoBlock({
 				<h2 className={s.title}>{title}</h2>
 
 				<div className={s.imageWrap}>
-					<Image src={image} alt={imageAlt} className={s.image} quality={100} loading='lazy' />
+					<Image src={image} alt={imageAlt} className={s.image} loading="lazy" />
 				</div>
 
 				<div className={s.content}>

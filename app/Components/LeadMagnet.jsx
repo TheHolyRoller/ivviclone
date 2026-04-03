@@ -11,7 +11,7 @@ function LeadMagnet() {
 				<h2 className={v.heading}>Download our free ivvi guide to applying for the Disabled Students&apos; Allowance</h2>
 
 				<div className={v.imageWrap}>
-					<Image className={v.image} src={background} alt='Cover image of DSA guide' />
+					<Image className={v.image} src={background} alt='Cover image of DSA guide' loading="lazy" />
 				</div>
 
 				<Link className={v.ctaButton} href='/ivvi'>

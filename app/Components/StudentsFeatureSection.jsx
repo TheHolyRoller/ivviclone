@@ -23,7 +23,7 @@ function StudentsFeatureSection({
 				</div>
 
 				<div className={s.mediaContainer}>
-					<Image className={s.media} src={image} alt={imageAlt} quality={100} loading='lazy' />
+					<Image className={s.media} src={image} alt={imageAlt} loading="lazy" />
 				</div>
 			</div>
 		</section>

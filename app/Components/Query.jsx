@@ -40,7 +40,7 @@ function Query() {
 			<div className={c.contactFormSubContainer}>
 				<div className={c.inputFormContainer}>
 					<form className={c.contactForm} action='https://submit-form.com/YRsAOjssR' onSubmit={handleSubmit}>
-						<Image src={darius} alt='People discussing study support' className={c.image} />
+						<Image src={darius} alt='People discussing study support' className={c.image} loading="lazy" />
 
 						<input className={c.formInput} placeholder='Name*' name='name' value={formInput.name} type='text' required onChange={handleInput} />
 						<input className={c.formInput} placeholder='Email*' name='email' value={formInput.email} type='email' required onChange={handleInput} />

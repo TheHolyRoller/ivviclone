@@ -59,7 +59,7 @@ function SchoolsImageText() {
 				</div>
 
 				<div className={ti.imageContainer}>
-					<Image className={ti.mainImage} src={img} alt='Student studying with laptop' quality={100} loading='lazy' />
+					<Image className={ti.mainImage} src={img} alt='Student studying with laptop' loading="lazy" />
 				</div>
 			</div>
 		</section>

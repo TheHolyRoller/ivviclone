@@ -1,4 +1,5 @@
 import styles from "../Styles/ProcessGuide.module.css"
+import Image from "next/image"
 
 const DEFAULT_COPY = [
 	"We understand that the application process can seem daunting, however, we are here to help.",
@@ -27,7 +28,15 @@ function ProcessGuide({
 				</div>
 
 				<div className={styles.imageBlock}>
-					<img className={styles.image} src={imageSrc} alt={imageAlt} loading="lazy" />
+					<Image
+						className={styles.image}
+						src={imageSrc}
+						alt={imageAlt}
+						width={900}
+						height={600}
+						sizes="(max-width: 768px) 100vw, 45vw"
+						loading="lazy"
+					/>
 				</div>
 			</div>
 		</section>

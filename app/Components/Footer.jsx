@@ -38,22 +38,22 @@ function Footer() {
 
           <li className={f.footerSocialListItem}>
           
-              <Image className={f.footerSocialIcon} src={X} alt="x" height={50} width={50} quality={100} loading='lazy'/> 
+              <Image className={f.footerSocialIcon} src={X} alt="x" height={50} width={50} loading="lazy"/> 
           
            </li>
            <li className={f.footerSocialListItem}>
           
-              <Image className={f.footerSocialIcon} src={LinkedIn} alt="x" height={50} width={50} quality={100} loading='lazy'/> 
+              <Image className={f.footerSocialIcon} src={LinkedIn} alt="x" height={50} width={50} loading="lazy"/> 
           
            </li>
            <li className={f.footerSocialListItem}>
           
-          <Image className={f.footerSocialIcon} src={TikTok} alt="x" height={50} width={50} quality={100} loading='lazy'/> 
+          <Image className={f.footerSocialIcon} src={TikTok} alt="x" height={50} width={50} loading="lazy"/> 
       
        </li>
        <li className={f.footerSocialListItem}>
           
-          <Image className={f.footerSocialIcon} src={podcast} alt="x" height={50} width={50} quality={100} loading='lazy'/> 
+          <Image className={f.footerSocialIcon} src={podcast} alt="x" height={50} width={50} loading="lazy"/> 
       
        </li>
 

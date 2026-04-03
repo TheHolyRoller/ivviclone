@@ -1,9 +1,6 @@
 import React from 'react'
 import v from '../Styles/VideoBlock.module.css'; 
 import Link from 'next/link';
-import Image from 'next/image';
-import background from '../../public/images/videoBackground.jpg'; 
-
 
 function VideoBlock() {
   return (

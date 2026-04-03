@@ -6,7 +6,6 @@ import laptop from '../../public/images/laptop.webp';
 import Image from 'next/image';
 import Link from 'next/link';
 import hero from '../../public/images/secondary_hero_img.png'; 
-// import hero from '../../public/images/a_hero.png'; 
 
 
 
@@ -21,9 +20,8 @@ function SecondaryHero() {
       src={hero}
       alt="Ivvi Notes secondary hero"
       fill
-      priority
       sizes="100vw"
-      quality={95}
+      loading="lazy"
     />
 
     <section className={h.heroContentContainer} >

@@ -65,7 +65,7 @@ function RightImageText() {
 				</div>
 
 				<div className={ti.imageContainer}>
-					<Image className={ti.mainImage} src={img} alt='Student using laptop for note-taking' quality={100} loading='lazy' />
+					<Image className={ti.mainImage} src={img} alt='Student using laptop for note-taking' loading="lazy" />
 				</div>
 			</div>
 		</section>

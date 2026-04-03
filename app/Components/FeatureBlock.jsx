@@ -13,7 +13,7 @@ function FeatureBlock() {
       <div className={ft.imageContainer}>
         
 
-        <Image className={ft.mainImage}  src={img} alt='woman' quality={100} loading='lazy' />
+        <Image className={ft.mainImage}  src={img} alt='woman' loading="lazy" />
 
       </div>
 

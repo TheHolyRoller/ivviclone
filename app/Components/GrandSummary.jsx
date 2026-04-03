@@ -1,4 +1,5 @@
 import ti from "../Styles/GrantSummary.module.css"
+import Image from "next/image"
 
 const DEFAULT_PARAGRAPHS = [
 	"We understand that the application process can seem daunting, however, we are here to help.",
@@ -28,7 +29,15 @@ function GrantSummary({
 
 				<div className={ti.imageContainer}>
 					<div className={ti.imageFrame}>
-						<img className={ti.mainImage} src={imageSrc} alt={imageAlt} loading="lazy" />
+						<Image
+							className={ti.mainImage}
+							src={imageSrc}
+							alt={imageAlt}
+							width={900}
+							height={600}
+							sizes="(max-width: 768px) 100vw, 45vw"
+							loading="lazy"
+						/>
 					</div>
 				</div>
 			</div>

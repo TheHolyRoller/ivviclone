@@ -14,7 +14,7 @@ function Hero() {
   return (
 
     <main className={h.hero}>
-    <Image className={h.heroBackgroundImage} src={HeroBackground} alt="background" width={100} height={100} quality={100} loading='lazy'/> 
+    <Image className={h.heroBackgroundImage} src={HeroBackground} alt="background" width={100} height={100} priority sizes="100vw"/> 
 
     <section className={h.heroContentContainer} >
 
@@ -22,7 +22,7 @@ function Hero() {
 
       <div className={h.mobileHeroLaptopImageContainer}>
 
-      <Image className={h.heroLaptopImg}  src={laptop} alt='laptop'  quality={100} loading="lazy"/> 
+      <Image className={h.heroLaptopImg}  src={laptop} alt='laptop' priority sizes="(max-width: 768px) 80vw, 40vw"/> 
 
     </div>
 
@@ -89,7 +89,7 @@ function Hero() {
     <div className={h.heroLaptopImageContainer}>
 
 
-      <Image className={h.heroLaptopImg}  src={laptop} alt='laptop'  quality={100} loading="lazy"/> 
+      <Image className={h.heroLaptopImg}  src={laptop} alt='laptop' priority sizes="(max-width: 768px) 80vw, 40vw"/> 
 
 
     </div>

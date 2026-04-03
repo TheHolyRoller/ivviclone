@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import styles from "../Styles/ContactElement.module.css"
+import Image from "next/image"
 
 const INITIAL_FORM = {
 	name: "",
@@ -97,7 +98,15 @@ function ContactElement({
 				</div>
 
 				<div className={styles.imageWrap}>
-					<img className={styles.contactImage} src={imageSrc} alt={imageAlt} loading="lazy" />
+					<Image
+						className={styles.contactImage}
+						src={imageSrc}
+						alt={imageAlt}
+						width={900}
+						height={900}
+						sizes="(max-width: 768px) 100vw, 45vw"
+						loading="lazy"
+					/>
 				</div>
 			</div>
 		</section>

@@ -1,5 +1,4 @@
 import React from 'react'
-import Image from 'next/image'
 import s from '../Styles/All.module.css'
 
 function All({
@@ -43,7 +42,7 @@ function All({
 				</div>
 
 				<div className={s.mediaContainer}>
-					{/* <Image className={s.media} src={image} alt={imageAlt} quality={100} loading='lazy' /> */}
+					{/* <Image className={s.media} src={image} alt={imageAlt} loading="lazy" /> */}
           <figure className={s.media}>
 					<iframe
 						className={s.mainVideoFrame}

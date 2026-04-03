@@ -22,6 +22,7 @@ function ExecutiveFunctionPodcast({
 							width={760}
 							height={760}
 							sizes="(max-width: 900px) 88vw, 380px"
+							loading="lazy"
 						/>
 					</div>
 				</div>

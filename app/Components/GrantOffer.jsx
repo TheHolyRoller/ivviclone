@@ -1,4 +1,5 @@
 import styles from "../Styles/GrantOffer.module.css"
+import Image from "next/image"
 
 const OFFER_ITEMS = [
 	"Speech-to-text software (around £600) and training (£275)",
@@ -18,7 +19,15 @@ function GrantOffer({
 		<section className={styles.section}>
 			<div className={styles.container}>
 				<div className={styles.imageBlock}>
-					<img className={styles.image} src={imageSrc} alt={imageAlt} loading="lazy" />
+					<Image
+						className={styles.image}
+						src={imageSrc}
+						alt={imageAlt}
+						width={900}
+						height={600}
+						sizes="(max-width: 768px) 100vw, 45vw"
+						loading="lazy"
+					/>
 				</div>
 
 				<div className={styles.textBlock}>

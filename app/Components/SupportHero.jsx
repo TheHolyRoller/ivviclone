@@ -12,9 +12,8 @@ function SupportHero() {
 				src={lamp}
 				alt=""
 				fill
-				priority
 				sizes="100vw"
-				quality={95}
+				loading="lazy"
 			/>
 
 			<section className={h.heroContentContainer}>

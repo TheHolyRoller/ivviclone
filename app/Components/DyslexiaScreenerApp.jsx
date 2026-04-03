@@ -29,7 +29,7 @@ function DyslexiaScreenerApp({
 							fill
 							className={styles.image}
 							sizes="(max-width: 900px) 88vw, 440px"
-							priority
+							loading="lazy"
 						/>
 					</div>
 				</div>

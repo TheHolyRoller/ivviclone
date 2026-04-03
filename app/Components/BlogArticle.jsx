@@ -1,4 +1,5 @@
 import styles from "../Styles/BlogArticle.module.css"
+import Image from "next/image"
 
 function BlogArticle({
 	imageSrc = "/images/bett%20award.jpg",
@@ -14,7 +15,15 @@ function BlogArticle({
 	return (
 		<article className={styles.card}>
 			<div className={styles.imageWrap}>
-				<img className={styles.image} src={imageSrc} alt={imageAlt} loading="lazy" />
+				<Image
+					className={styles.image}
+					src={imageSrc}
+					alt={imageAlt}
+					width={1200}
+					height={720}
+					sizes="(max-width: 768px) 100vw, 50vw"
+					loading="lazy"
+				/>
 			</div>
 
 			<div className={styles.content}>

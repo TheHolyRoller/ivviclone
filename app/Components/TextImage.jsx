@@ -108,7 +108,7 @@ function TextImage() {
 
       <div className={ti.imageContainer}>
 
-        <Image className={ti.mainImage}  src={img} alt='woman' quality={100} loading='lazy' />
+        <Image className={ti.mainImage}  src={img} alt='woman' loading="lazy" />
 
       </div>
 
