@@ -103,7 +103,7 @@ function Footer() {
             </div>
 
           </li>
-           <li className={f.footerLegalListItem} id={f.footerLastItem} >
+           <li className={f.footerLegalListItem}>
 
             <div className={f.footerLegalButton} >
 
@@ -112,6 +112,34 @@ function Footer() {
             Cookie Preferences
 
             </Link> 
+
+            </div>
+
+          </li>
+
+          <li className={f.footerLegalListItem}>
+
+            <div className={f.footerLegalButton}>
+
+            <Link href="/login" className={f.footerLegalLink}>
+
+            Login
+
+            </Link>
+
+            </div>
+
+          </li>
+
+          <li className={f.footerLegalListItem} id={f.footerLastItem}>
+
+            <div className={f.footerLegalButton}>
+
+            <Link href="/ivvi" className={f.footerLegalLink}>
+
+            ivvi
+
+            </Link>
 
             </div>
 

@@ -1,5 +1,14 @@
 import React from 'react'
 import DSAHero from '../Components/DSAHero'
+
+export const metadata = {
+	title: "DSA funding guide — ivvi Notes for university | ivvi",
+	description:
+		"How Disabled Students' Allowance (DSA) can fund ivvi Notes for dyslexia and ADHD. Apply for assessments, understand allowances and get assistive tech at university.",
+	alternates: {
+		canonical: "/dsa",
+	},
+}
 import GrantSummary from '../Components/GrandSummary'
 import DSASpec from '../Components/DSASpec'
 import DSA_Allowance from '../Components/DSA_Allowance'

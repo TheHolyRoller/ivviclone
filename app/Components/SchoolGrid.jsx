@@ -11,31 +11,37 @@ const featureItems = [
 	{
 		icon: icon1,
 		title: 'Real-time note-taking',
+		alt: 'Icon for real-time note-taking: capture important lecture content instantly',
 		content: 'helps students capture important content instantly so they can focus on understanding.'
 	},
 	{
 		icon: icon2,
 		title: 'Combined learning styles',
+		alt: 'Icon for combined learning styles: audio, visual, and written formats together',
 		content: 'blends audio, visual, and written formats for multimodal learners.'
 	},
 	{
 		icon: icon3,
 		title: 'Identify key information',
+		alt: 'Icon for identifying key information: tagging and mind maps for faster review',
 		content: 'supports faster review through tagging and mind map structure.'
 	},
 	{
 		icon: icon4,
 		title: 'Seamless integration',
+		alt: 'Icon for seamless integration: slides, images, and notes in one workspace',
 		content: 'lets students combine slides, images, and notes in one place.'
 	},
 	{
 		icon: icon4,
 		title: 'Flexible learning',
+		alt: 'Icon for flexible learning: access on different devices and browsers in class and at home',
 		content: 'works across devices and browsers for access in class and at home.'
 	},
 	{
 		icon: icon4,
 		title: 'Inclusive support',
+		alt: 'Icon for inclusive support: neurodiverse learners and executive-function needs',
 		content: 'is designed for students with neurodiverse and executive-functioning needs.'
 	}
 ]
@@ -50,7 +56,7 @@ function SchoolGrid() {
 			<section className={g.featureGrid}>
 				{featureItems.map((feature) => (
 					<article key={feature.title} className={g.gridItem}>
-						<Image className={g.gridImg} src={feature.icon} alt="" loading="lazy" />
+						<Image className={g.gridImg} src={feature.icon} alt={feature.alt} loading="lazy" />
 						<h4 className={g.gridHeadline}>{feature.title}</h4>
 						<p className={g.gridSupportingText}>
 							<span className={g.ivvi}>ivvi</span>

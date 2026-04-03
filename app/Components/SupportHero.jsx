@@ -1,6 +1,6 @@
 import React from 'react'
 import h from '../Styles/SupportHero.module.css'
-import lamp from '../../public/images/lamp.webp'
+import lamp from '../../public/images/lamp-1.webp'
 
 import Image from 'next/image'
 
@@ -11,6 +11,8 @@ function SupportHero() {
 				className={h.heroBackgroundImage}
 				src={lamp}
 				alt=""
+				width={1600}
+				height={900}
 				fill
 				sizes="100vw"
 				loading="lazy"

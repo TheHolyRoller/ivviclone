@@ -17,10 +17,10 @@ function PressRelease() {
 			<div className={styles.container}>
 				<p className={styles.kicker}>Press Release</p>
 
-				<h1 className={styles.heading}>Scottish AI startup ivvi Notes for dyslexia wins prestigious Bett Award</h1>
+				<h1 className={styles.heading}>ivvi Notes wins Bett Award for dyslexia support</h1>
 
 				<p className={styles.subheading}>
-					Scottish AI Startup ivvi Notes for Dyslexia Makes History as First AI Software to Win Prestigious Bett Award
+					Scottish AI startup ivvi Notes for dyslexia wins prestigious Bett Award — first AI software in SEND category history
 				</p>
 
 				<div className={styles.copyBlock}>

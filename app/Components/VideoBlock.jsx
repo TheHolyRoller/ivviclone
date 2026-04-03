@@ -13,7 +13,7 @@ function VideoBlock() {
 
     <div className={v.heroTextContainer}>
 
-        <h1 className={v.heroMainHeader}>
+        <h2 className={v.heroMainHeader}>
         <span>
 
         Introducing ivvi Notes
@@ -22,7 +22,7 @@ function VideoBlock() {
 
         
 
-        </h1>
+        </h2>
 
         <p  className={v.heroSupportingText}>
 

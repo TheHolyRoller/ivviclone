@@ -23,7 +23,7 @@ function FeatureGrid() {
 
       <section className={g.featureGrid}>
         <div className={g.gridItem}>
-            <Image className={g.gridImg} src={icon1} alt="sync" loading="lazy"/> 
+            <Image className={g.gridImg} src={icon1} alt="Lecture capture: audio safely recorded, synced, and transcribed" loading="lazy"/> 
 
             <p className={g.gridSupportingText}>
               Listen and learn, confident that everything is 
@@ -31,7 +31,7 @@ function FeatureGrid() {
             </p>
         </div>
         <div className={g.gridItem}>
-            <Image className={g.gridImg} src={icon2} alt="sync" loading="lazy"/> 
+            <Image className={g.gridImg} src={icon2} alt="Real-time mind map reflecting everything said in the lecture" loading="lazy"/> 
 
             <p className={g.gridSupportingText}>
               
@@ -40,7 +40,7 @@ function FeatureGrid() {
             </p>
         </div>
         <div className={g.gridItem} id={g.thirdItem} >
-            <Image className={g.gridImg} src={icon3} alt="sync" loading="lazy"/> 
+            <Image className={g.gridImg} src={icon3} alt="Less time re-listening to recordings and retyping notes after class" loading="lazy"/> 
 
             <p className={g.gridSupportingText}>
               
@@ -49,7 +49,7 @@ function FeatureGrid() {
             </p>
         </div>
         <div className={g.gridItem}>
-            <Image className={g.gridImg} src={icon4} alt="sync" loading="lazy"/> 
+            <Image className={g.gridImg} src={icon4} alt="Complete lecture notes ready when you leave the session" loading="lazy"/> 
 
             <p className={g.gridSupportingText}>
               

@@ -11,6 +11,15 @@ const TextElement = dynamic(() => import("./Components/TextElement"));
 const ContactForm = dynamic(() => import("./Components/ContactForm"));
 const Footer = dynamic(() => import("./Components/Footer"));
 
+export const metadata = {
+	title: "ivvi Notes — live mind maps for dyslexia & ADHD | ivvi",
+	description:
+		"Turn lectures into live visual mind maps with ivvi Notes. Speech-to-Map™ transcription for dyslexia and ADHD. DSA approved — start your free trial.",
+	alternates: {
+		canonical: "/",
+	},
+}
+
 export default function Home() {
   return (
     <div style={{ position: "relative" }}>

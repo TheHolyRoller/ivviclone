@@ -6,7 +6,7 @@ import laptop from '../../public/images/laptop.webp';
 import Image from 'next/image';
 import Link from 'next/link';
 import { IVVI_APP_URL } from './ivviAppUrl';
-import hero from '../../public/images/secondary_hero_img.webp';
+import hero from '../../public/images/secondary_hero_img-2.webp';
 
 
 
@@ -20,6 +20,8 @@ function SecondaryHero() {
       className={h.heroBackgroundImage}
       src={hero}
       alt="Ivvi Notes secondary hero"
+      width={2880}
+      height={1126}
       fill
       sizes="100vw"
       loading="lazy"
@@ -39,18 +41,7 @@ function SecondaryHero() {
 
         <h1 className={h.heroMainHeader}>
 
-
-        ivvi Notes- Your Instant Visual
-Note-Taking Superpower
-
-        <span className={h.mobileHeader} >
-
-          Notes for
-
-          Students
-
-
-        </span>
+        ivvi Notes — instant visual notes for students
 
         </h1>
 

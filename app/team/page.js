@@ -1,5 +1,14 @@
 import TeamHero from "../Components/TeamHero"
 import TeamProfile from "../Components/TeamProfile"
+
+export const metadata = {
+	title: "Meet the ivvi team — founders and leadership | ivvi",
+	description:
+		"Meet the ivvi team behind ivvi Notes — founders and specialists building assistive visual note-taking for dyslexia and neurodiverse learners.",
+	alternates: {
+		canonical: "/team",
+	},
+}
 import LeftTeamProfile from "../Components/LeftTeamProfile"
 
 function Page() {

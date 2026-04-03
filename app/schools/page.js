@@ -12,6 +12,15 @@ const SchoolsForm = dynamic(() => import("../Components/SchoolForm"));
 const SchoolPricingForm = dynamic(() => import("../Components/SchoolPricingForm"));
 const SchoolText = dynamic(() => import("../Components/SchoolText"));
 
+export const metadata = {
+	title: "ivvi Notes for schools and colleges | ivvi",
+	description:
+		"ivvi Notes for schools and colleges: demo licences, training and visual lecture notes for neurodiverse learners. DSA aligned — request a demo from ivvi.",
+	alternates: {
+		canonical: "/schools",
+	},
+}
+
 export default function Schools() {
   return (
     <main>

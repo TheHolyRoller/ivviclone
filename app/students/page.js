@@ -1,5 +1,14 @@
 import React from 'react'
 import SecondaryHero from '../Components/SecondaryHero'
+
+export const metadata = {
+	title: "ivvi Notes for students — dyslexia, ADHD and DSA | ivvi",
+	description:
+		"ivvi Notes for university and college students: record lectures as live visual mind maps. Ideal for dyslexia, ADHD and DSA-funded assistive technology.",
+	alternates: {
+		canonical: "/students",
+	},
+}
 import AssessorGrid from '../Components/AssessorGrid'
 import CentralVideoBlock from '../Components/CentralVideoBlock'
 import LeftImageText from '../Components/LeftImageText'

@@ -2,10 +2,15 @@ import "./globals.css";
 import Navbar from "./Components/Navbar";
 import Hamburger from "./Components/Hamburger";
 import { Analytics } from "@vercel/analytics/next"
+import { getMetadataBaseUrl } from "./siteUrl"
 
 export const metadata = {
-  title: "ivvi",
-  description: "Visual Notes",
+  metadataBase: new URL(getMetadataBaseUrl()),
+  title: {
+    default: "ivvi Notes — DSA-approved visual mind maps | ivvi",
+  },
+  description:
+    "ivvi Assistant Ltd — ivvi Notes turns lectures into live visual mind maps. DSA-approved assistive technology for dyslexia and ADHD.",
 };
 
 export default function RootLayout({ children }) {

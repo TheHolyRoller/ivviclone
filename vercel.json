@@ -1,0 +1,25 @@
+{
+	"headers": [
+		{
+			"source": "/(.*)",
+			"headers": [
+				{
+					"key": "Content-Security-Policy",
+					"value": "default-src 'self'; script-src 'self' 'unsafe-inline' https://va.vercel-scripts.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https://images.unsplash.com https://*.vimeocdn.com; font-src 'self'; connect-src 'self' https://vitals.vercel-insights.com https://*.vercel-insights.com https://vercel.live https://va.vercel-scripts.com https://submit-form.com; frame-src https://player.vimeo.com; form-action 'self' https://submit-form.com; base-uri 'self'; object-src 'none'; worker-src 'self' blob:; upgrade-insecure-requests"
+				},
+				{
+					"key": "X-Content-Type-Options",
+					"value": "nosniff"
+				},
+				{
+					"key": "X-Frame-Options",
+					"value": "SAMEORIGIN"
+				},
+				{
+					"key": "Referrer-Policy",
+					"value": "strict-origin-when-cross-origin"
+				}
+			]
+		}
+	]
+}

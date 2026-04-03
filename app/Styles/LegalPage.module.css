@@ -1,0 +1,123 @@
+/* Legal / policy document layout — cream page, navy headings (reference design) */
+
+.main {
+	min-height: 60vh;
+	width: 100%;
+	max-width: 100%;
+	box-sizing: border-box;
+	background: #f9f7f2;
+	padding: clamp(2.5rem, 6vw, 4.5rem) clamp(1.25rem, 4vw, 2rem) clamp(3.5rem, 8vw, 5rem);
+}
+
+.inner {
+	max-width: 42rem;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.title {
+	margin: 0 0 clamp(2rem, 4vw, 2.75rem);
+	font-family: "Lato", sans-serif;
+	font-size: clamp(1.75rem, 4vw + 0.5rem, 2.35rem);
+	font-weight: 700;
+	line-height: 1.15;
+	color: #013699;
+	text-align: center;
+	letter-spacing: -0.02em;
+}
+
+.body {
+	font-family: "Nunito", sans-serif;
+	font-size: clamp(1rem, 0.35vw + 0.92rem, 1.0625rem);
+	line-height: 1.65;
+	color: #1a1a1a;
+}
+
+.body p {
+	margin: 0 0 1rem;
+}
+
+.body p:last-child {
+	margin-bottom: 0;
+}
+
+.h2 {
+	margin: clamp(1.75rem, 3vw, 2.25rem) 0 0.65rem;
+	font-family: "Lato", sans-serif;
+	font-size: clamp(1.15rem, 1.5vw + 0.85rem, 1.35rem);
+	font-weight: 700;
+	line-height: 1.25;
+	color: #013699;
+	text-align: left;
+}
+
+.body .h2:first-of-type {
+	margin-top: 0;
+}
+
+.h3 {
+	margin: 1.25rem 0 0.5rem;
+	font-family: "Lato", sans-serif;
+	font-size: 1.05rem;
+	font-weight: 700;
+	color: #013699;
+	text-align: left;
+}
+
+.list {
+	margin: 0.5rem 0 1.25rem;
+	padding-left: 1.35rem;
+	list-style-type: disc;
+}
+
+.list li {
+	margin-bottom: 0.65rem;
+	padding-left: 0.35rem;
+}
+
+.list li::marker {
+	color: #013699;
+}
+
+.listPlain {
+	margin: 0.5rem 0 1.25rem;
+	padding-left: 1.35rem;
+	list-style-type: disc;
+}
+
+.listPlain li {
+	margin-bottom: 0.5rem;
+}
+
+.listPlain li::marker {
+	color: #013699;
+}
+
+.link {
+	color: #013699;
+	font-weight: 600;
+	text-decoration: underline;
+	text-underline-offset: 0.15em;
+}
+
+.link:hover {
+	opacity: 0.85;
+}
+
+.introBlock {
+	margin-bottom: 1.5rem;
+}
+
+.subList {
+	margin: 0.35rem 0 1rem;
+	padding-left: 1.25rem;
+	list-style-type: disc;
+}
+
+.subList li {
+	margin-bottom: 0.4rem;
+}
+
+.subList li::marker {
+	color: #013699;
+}

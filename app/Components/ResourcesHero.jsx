@@ -16,6 +16,8 @@ function ResourcesHero({
 				<Image
 					src={imageSrc}
 					alt={imageAlt}
+					width={1024}
+					height={293}
 					fill
 					className={styles.bgImage}
 					sizes="100vw"

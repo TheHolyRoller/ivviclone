@@ -1,5 +1,14 @@
 import route from "../Styles/Blog.module.css"
 import BlogHero from "../Components/BlogHero"
+
+export const metadata = {
+	title: "ivvi blog — dyslexia, DSA and education news | ivvi",
+	description:
+		"Read the ivvi blog: DSA updates, dyslexia strategies, product news and ideas for visual note-taking in higher education.",
+	alternates: {
+		canonical: "/blog",
+	},
+}
 import BlogArticle from "../Components/BlogArticle"
 import BlogSearch from "../Components/BlogSearch"
 

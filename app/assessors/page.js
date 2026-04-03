@@ -12,6 +12,15 @@ const AssessorForm = dynamic(() => import("../Components/AssessorForm"));
 const SpecialistForm = dynamic(() => import("../Components/SpecialistForm"));
 const Testimonial = dynamic(() => import("../Components/Testimonial"));
 
+export const metadata = {
+	title: "ivvi Notes for assessors and specialists | ivvi",
+	description:
+		"ivvi Notes for assessors and education specialists: evaluate DSA-ready visual note-taking with demo licences, technical specs and training from ivvi.",
+	alternates: {
+		canonical: "/assessors",
+	},
+}
+
 function AssessorsPage() {
   return (
     <main>
