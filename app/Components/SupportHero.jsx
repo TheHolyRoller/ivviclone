@@ -10,7 +10,7 @@ function SupportHero() {
 			<Image
 				className={h.heroBackgroundImage}
 				src={lamp}
-				alt=""
+				alt="Desk lamp with warm light beside a workspace, suggesting a calm, welcoming space for ivvi customer support"
 				width={1600}
 				height={900}
 				fill
