@@ -1,6 +1,7 @@
 import React from 'react'; 
 import ti from '../Styles/TextImage.module.css'; 
 import Link from 'next/link';
+import { IVVI_APP_URL } from './ivviAppUrl';
 import Image from 'next/image';
 import img from '../../public/images/lady.webp'; 
 
@@ -91,15 +92,13 @@ function TextImage() {
 
         </ul>
 
-        <Link className={ti.ctaLink}  href='ivvi.dev' >
-
-        <button className={ti.cta}>
-
-
-          Try ivvi now 
-        </button>
-
-
+        <Link
+          className={ti.cta}
+          href={IVVI_APP_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Try ivvi now
         </Link>
 
 

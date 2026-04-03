@@ -3,6 +3,8 @@
 .Footer {
 
 
+    position: relative;
+    z-index: 1;
     height: 292px; 
     background-color: var(--footer-background-color);
     width: 100vw; 

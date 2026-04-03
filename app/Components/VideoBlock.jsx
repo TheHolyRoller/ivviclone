@@ -1,4 +1,5 @@
 import React from 'react'
+import { IVVI_APP_URL } from './ivviAppUrl'
 import v from '../Styles/VideoBlock.module.css'; 
 import Link from 'next/link';
 import Image from 'next/image';
@@ -31,14 +32,14 @@ function VideoBlock() {
           We understand these challenges, so we built ivvi Notes for you with our revolutionary Speech-to-Map™ technology. As you  listen, ivvi Notes transcribes the lecture and transforms it into a visual mind map with keywords and images. ivvi Notes is the ultimate solution for visual thinkers.
         </p>
 
-        <button className={v.heroCTAButton}>
-          <Link className={v.heroCTALink}  href='/ivvi' alt='ivvi'>
-
-            Try ivvi Notes now 
-
-          </Link>
-
-        </button>
+        <Link
+          className={v.heroCTAButton}
+          href={IVVI_APP_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Try ivvi Notes now
+        </Link>
 
     </div>
 

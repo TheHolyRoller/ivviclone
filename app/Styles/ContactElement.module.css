@@ -83,11 +83,18 @@
 	line-height: 1;
 	color: #ffffff;
 	cursor: pointer;
-	transition: background-color 0.2s ease
+	transition: background-color 0.2s ease, transform 0.12s ease;
 }
 
-.submitButton:hover {
-	background: #d86711
+.submitButton:hover:not(:disabled) {
+	background: #d86711;
+	filter: brightness(1.03);
+}
+
+.submitButton:active:not(:disabled) {
+
+	transform: scale(0.98);
+
 }
 
 .submitButton:disabled {

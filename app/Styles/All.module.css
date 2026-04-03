@@ -180,3 +180,13 @@
 	}
 
 }
+
+@media (min-width: 1025px) {
+
+	.section {
+
+		margin-top: -3rem;
+
+	}
+
+}

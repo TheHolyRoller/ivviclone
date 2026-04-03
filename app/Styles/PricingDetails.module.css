@@ -62,7 +62,20 @@
 	font-weight: 700;
 	line-height: 1;
 	color: #ef7a1a;
-	cursor: pointer
+	cursor: pointer;
+	transition: background-color 0.2s ease, color 0.2s ease, transform 0.12s ease;
+}
+
+.subscribeButton:hover {
+
+	background: rgba(239, 122, 26, 0.08);
+
+}
+
+.subscribeButton:active {
+
+	transform: scale(0.99);
+
 }
 
 .activationTitle {
@@ -96,7 +109,20 @@
 	font-weight: 700;
 	line-height: 1;
 	color: #ffffff;
-	cursor: pointer
+	cursor: pointer;
+	transition: filter 0.2s ease, transform 0.12s ease;
+}
+
+.activateButton:hover {
+
+	filter: brightness(1.08);
+
+}
+
+.activateButton:active {
+
+	transform: scale(0.98);
+
 }
 
 .downloadBlock {
@@ -127,7 +153,20 @@
 	font-weight: 700;
 	line-height: 1;
 	color: #ffffff;
-	cursor: pointer
+	cursor: pointer;
+	transition: filter 0.2s ease, transform 0.12s ease;
+}
+
+.downloadButton:hover {
+
+	filter: brightness(1.08);
+
+}
+
+.downloadButton:active {
+
+	transform: scale(0.98);
+
 }
 
 @media (max-width: 1100px) {

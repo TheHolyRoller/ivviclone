@@ -1,6 +1,7 @@
 import React from 'react'
 import v from '../Styles/Demo.module.css'
 import Link from 'next/link'
+import { IVVI_APP_URL } from './ivviAppUrl'
 
 function Demo() {
 	return (
@@ -18,7 +19,7 @@ function Demo() {
 					/>
 				</figure>
 
-				<Link className={v.heroCTAButton} href='/ivvi'>
+				<Link className={v.heroCTAButton} href={IVVI_APP_URL} target="_blank" rel="noopener noreferrer">
 					Get a Demo Licence
 				</Link>
 			</div>

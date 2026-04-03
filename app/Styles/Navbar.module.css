@@ -75,7 +75,16 @@
 }
 
 .navLink {
-	
+	text-decoration: none;
+	color: inherit;
+	transition: opacity 0.15s ease;
+}
+
+.navLink:hover,
+.navLink:focus-visible {
+
+	opacity: 0.88;
+
 }
 
 
@@ -95,12 +104,85 @@
 
 
 
-#resourceDropDown {
-	
+.navDropdown {
+	position: relative;
+	z-index: 0;
 }
 
-#teamDropdown {
-	
+.navDropdown:hover,
+.navDropdown:focus-within {
+	z-index: 20;
+}
+
+.dropdownTrigger {
+	background: none;
+	border: none;
+	padding: 0;
+	margin: 0;
+	cursor: pointer;
+	font: inherit;
+	color: inherit;
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
+	transition: opacity 0.15s ease;
+}
+
+.dropdownTrigger:hover,
+.dropdownTrigger:focus-visible {
+
+	opacity: 0.85;
+
+}
+
+.dropdownMenu {
+	position: absolute;
+	top: calc(100% + 0.35rem);
+	left: 50%;
+	transform: translateX(-50%);
+	min-width: 11.25rem;
+	width: max-content;
+	max-width: min(16rem, 92vw);
+	margin: 0;
+	padding: 0.35rem 0;
+	list-style: none;
+	background-color: #fff;
+	border: 1px solid rgba(0, 20, 61, 0.1);
+	border-radius: 8px;
+	box-shadow: 0 10px 28px rgba(0, 20, 61, 0.12);
+	opacity: 0;
+	visibility: hidden;
+	pointer-events: none;
+	transition: opacity 0.15s ease, visibility 0.15s ease;
+	z-index: 1;
+}
+
+.dropdownMenuItem {
+	margin: 0;
+	padding: 0;
+}
+
+.dropdownMenuLink {
+	display: block;
+	padding: 0.45rem 0.85rem;
+	color: var(--primary-font-color);
+	text-decoration: none;
+	font-size: 1rem;
+	line-height: 1.35;
+	white-space: normal;
+}
+
+.dropdownMenuLink:hover,
+.dropdownMenuLink:focus-visible {
+	background-color: rgba(1, 54, 153, 0.08);
+	outline: none;
+}
+
+.navDropdown:hover .dropdownMenu,
+.navDropdown:focus-within .dropdownMenu {
+	opacity: 1;
+	visibility: visible;
+	pointer-events: auto;
 }
 
 #cta {
@@ -117,12 +199,25 @@
 	/* font-weight: var(--cta-font-weight);  */
 	font-weight: 700; 
 	font-size: 90%; 
+	transition: filter 0.2s ease, transform 0.12s ease;
 
 
 
 
 
 	
+}
+
+#cta:hover {
+
+	filter: brightness(1.08);
+
+}
+
+#cta:active {
+
+	transform: scale(0.98);
+
 }
 
 /* Mobile Styles */
@@ -162,14 +257,6 @@
 		
 	}
 	
-	#resourceDropDown {
-		
-	}
-	
-	#teamDropdown {
-		
-	}
-	
 	#cta {
 		
 	}
@@ -200,14 +287,6 @@
 	}
 	
 	.navLink {
-		
-	}
-	
-	#resourceDropDown {
-		
-	}
-	
-	#teamDropdown {
 		
 	}
 	
@@ -255,14 +334,6 @@
 	}
 	
 	.navLink {
-		
-	}
-	
-	#resourceDropDown {
-		
-	}
-	
-	#teamDropdown {
 		
 	}
 	

@@ -22,7 +22,17 @@ export default function RootLayout({ children }) {
 
         </div>
 
-        {children}
+        <div
+          style={{
+            position: "relative",
+            zIndex: 0,
+            isolation: "isolate",
+          }}
+        >
+          {children}
+        </div>
+
+        <Footer />
 
       </body>
     </html>

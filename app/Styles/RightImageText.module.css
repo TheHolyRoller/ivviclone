@@ -66,6 +66,21 @@
 	color: #fff;
 	font-weight: 700;
 	text-decoration: none;
+	box-sizing: border-box;
+	cursor: pointer;
+	transition: filter 0.2s ease, transform 0.12s ease;
+}
+
+.downloadButton:hover {
+
+	filter: brightness(1.08);
+
+}
+
+.downloadButton:active {
+
+	transform: scale(0.98);
+
 }
 
 .imageContainer {

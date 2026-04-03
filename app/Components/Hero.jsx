@@ -6,6 +6,7 @@ import laptop from '../../public/images/laptop.webp';
 
 import Image from 'next/image';
 import Link from 'next/link';
+import { IVVI_APP_URL } from './ivviAppUrl';
 
 
 function Hero() {
@@ -75,14 +76,14 @@ function Hero() {
           transforms lectures into mind maps as you listen, helping you learn faster and graduate successfully.
         </article>
 
-        <button className={h.heroCTAButton}>
-          <Link className={h.heroCTALink}  href='/ivvi' alt='ivvi'>
-
-            Try ivvi Notes now 
-
-          </Link>
-
-        </button>
+        <Link
+          className={h.heroCTAButton}
+          href={IVVI_APP_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Try ivvi Notes now
+        </Link>
 
     </div>
 

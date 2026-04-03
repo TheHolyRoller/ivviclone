@@ -1,4 +1,6 @@
+import Link from "next/link"
 import styles from "../Styles/PricingPlans.module.css"
+import { IVVI_APP_URL } from "./ivviAppUrl"
 
 const DEFAULT_PLANS = [
 	{
@@ -51,9 +53,14 @@ function Pricing({ plans = DEFAULT_PLANS }) {
 							))}
 						</ul>
 
-						<button type="button" className={styles.ctaButton}>
+						<Link
+							className={styles.ctaButton}
+							href={IVVI_APP_URL}
+							target="_blank"
+							rel="noopener noreferrer"
+						>
 							{plan.ctaLabel}
-						</button>
+						</Link>
 					</article>
 				))}
 			</div>

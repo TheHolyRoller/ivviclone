@@ -177,8 +177,24 @@
     -moz-border-radius:40px;
     -ms-border-radius:40px;
     -o-border-radius:40px;
+    text-decoration: none;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease, transform 0.12s ease;
 
 
+
+}
+
+.cta:hover {
+
+    background-color: rgba(238, 237, 232, 0.18);
+
+}
+
+.cta:active {
+
+    transform: scale(0.98);
 
 }
 

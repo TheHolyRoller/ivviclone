@@ -4,6 +4,7 @@ import React from 'react'
 import '../Styles/Hamburger.css'; 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import { IVVI_APP_URL } from './ivviAppUrl';
 import Image from 'next/image';
 import ivvi from '../../public/icons/ivvi.svg'; 
 
@@ -70,7 +71,7 @@ function Hamburger() {
         </li>
            <li className='hamburgerMenuListItem'>
 
-            <Link className='hamburgerSectionLink'  href='/assesors'>
+            <Link className='hamburgerSectionLink'  href='/assessors'>
             For Assessors 
             </Link>
 
@@ -82,8 +83,8 @@ function Hamburger() {
 
         <li className='hamburgerMenuListItem'>
 
-            <Link className='hamburgerSectionLink'  href='/training'>
-            Training 
+            <Link className='hamburgerSectionLink'  href='/schools'>
+            For Schools 
             </Link>
 
         </li>
@@ -99,7 +100,7 @@ function Hamburger() {
             <ul className='hamburgerResourceNestedList'>
                 <li className='hamburgerResourceNestedListItem' id='hamburgerSeeElement' >
 
-                    <Link className='hamburgerNestedListLink' href='/demo'>
+                    <Link className='hamburgerNestedListLink' href='/action'>
                     See ivvi in Action 
                     </Link>
                     
@@ -107,7 +108,7 @@ function Hamburger() {
                     </li>
                     <li className='hamburgerResourceNestedListItem'>
 
-                    <Link className='hamburgerNestedListLink' href='/guide'>
+                    <Link className='hamburgerNestedListLink' href='/dsa'>
                     
                     Guide to the DSA for Dyslexia 
 
@@ -117,7 +118,7 @@ function Hamburger() {
                     </li>
                     <li className='hamburgerResourceNestedListItem'>
 
-                    <Link className='hamburgerNestedListLink' href='/demo'>
+                    <Link className='hamburgerNestedListLink' href='/customersupport'>
                     Customer Support 
                     </Link>
                     
@@ -125,16 +126,16 @@ function Hamburger() {
                     </li>
                     <li className='hamburgerResourceNestedListItem'>
 
-                    <Link className='hamburgerNestedListLink' href='/demo'>
-                    Resource page 
+                    <Link className='hamburgerNestedListLink' href='/resources'>
+                    Resources Page 
                     </Link>
                     
                     
                     </li>
                     <li className='hamburgerResourceNestedListItem'>
 
-                    <Link className='hamburgerNestedListLink' href='/demo'>
-                    Access to work 
+                    <Link className='hamburgerNestedListLink' href='/accesstowork'>
+                    Access to Work 
                     </Link>
                     
                     
@@ -182,7 +183,7 @@ function Hamburger() {
                 </li>
                 <li className='hamburgerAboutNestedListItem'>
 
-                    <Link className='hamburgerAboutNestListLink' href="/team">
+                    <Link className='hamburgerAboutNestListLink' href="/contact">
                     
                         Contact Us 
                     
@@ -193,9 +194,20 @@ function Hamburger() {
                 </li>
                 <li className='hamburgerAboutNestedListItem'>
 
-                    <Link className='hamburgerAboutNestListLink' href="/team">
+                    <Link className='hamburgerAboutNestListLink' href="/blog">
                     
-                        News and Events 
+                        Our Blog 
+                    
+                    </Link>
+
+
+
+                </li>
+                <li className='hamburgerAboutNestedListItem'>
+
+                    <Link className='hamburgerAboutNestListLink' href="/pressrelease">
+                    
+                        Press Release 
                     
                     </Link>
 
@@ -224,7 +236,7 @@ function Hamburger() {
 
 
         <li className='hamburgerSectionListItem' id='ivviCTA'>
-        <Link className='hamburgerOpenIvviLink' href='/ivvi'>
+        <Link className='hamburgerOpenIvviLink' href={IVVI_APP_URL} target='_blank' rel='noopener noreferrer'>
             Open ivvi 
         </Link>
         </li>

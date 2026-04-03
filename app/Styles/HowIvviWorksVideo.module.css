@@ -78,6 +78,21 @@
 	font-weight: 700;
 	text-decoration: none;
 	margin-top: 0.15rem;
+	box-sizing: border-box;
+	cursor: pointer;
+	transition: filter 0.2s ease, transform 0.12s ease;
+
+}
+
+.ctaButton:hover {
+
+	filter: brightness(1.08);
+
+}
+
+.ctaButton:active {
+
+	transform: scale(0.98);
 
 }
 

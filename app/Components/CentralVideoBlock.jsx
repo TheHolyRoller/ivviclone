@@ -1,6 +1,7 @@
 import React from 'react'
 import v from '../Styles/CentralVideoBlock.module.css'
 import Link from 'next/link'
+import { IVVI_APP_URL } from './ivviAppUrl'
 
 function CentralVideoBlock() {
 	return (
@@ -21,7 +22,7 @@ function CentralVideoBlock() {
 					Watch a 30 second video that shows what <span className={v.ivvi}>ivvi</span> Notes can do for you.
 				</p>
 
-				<Link className={v.ctaButton} href='/ivvi'>
+				<Link className={v.ctaButton} href={IVVI_APP_URL} target="_blank" rel="noopener noreferrer">
 					Try ivvi Notes now
 				</Link>
 			</div>

@@ -1,7 +1,9 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import styles from "../Styles/FAQ.module.css";
+import { IVVI_APP_URL } from "./ivviAppUrl";
 
 
 
@@ -100,7 +102,14 @@ export default function FAQ() {
         </ul>
 
         <div className={styles.cta}>
-          <button className={styles.ctaButton}>Try ivvi Now</button>
+          <Link
+            className={styles.ctaButton}
+            href={IVVI_APP_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Try ivvi Now
+          </Link>
         </div>
       </div>
     </section>

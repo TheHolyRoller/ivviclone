@@ -43,11 +43,22 @@
 	font-weight: 700;
 	line-height: 1;
 	cursor: pointer;
-	transition: background-color 0.2s ease
+	transition: background-color 0.2s ease, filter 0.2s ease, transform 0.12s ease;
+	text-decoration: none;
+	display: inline-grid;
+	place-items: center;
+	box-sizing: border-box;
 }
 
 .ctaButton:hover {
-	background: #db6811
+	background: #db6811;
+	filter: brightness(1.03);
+}
+
+.ctaButton:active {
+
+	transform: scale(0.98);
+
 }
 
 @media (max-width: 640px) {

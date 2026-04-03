@@ -6,6 +6,7 @@ import Logo from '../../public/icons/ivvi.svg';
 
 import Image from 'next/image';
 import Link from 'next/link';
+import { IVVI_APP_URL } from './ivviAppUrl';
 
 
 
@@ -47,7 +48,7 @@ function Navbar() {
               <Link 
                 className={n.navLink}
               
-              href="/students" alt="https://www.ivvi.app/">
+              href="/assessors" alt="https://www.ivvi.app/">
 
                 For Assessors 
 
@@ -62,9 +63,9 @@ function Navbar() {
               <Link
                 className={n.navLink}
               
-               href="/students" alt="https://www.ivvi.app/">
+               href="/schools" alt="https://www.ivvi.app/">
 
-                Training 
+                For Schools
 
               </Link>
 
@@ -72,25 +73,51 @@ function Navbar() {
             </li>
               
             
-            <li className={n.navigationListItem}>
-
-              <Link 
-                className={n.navLink}
-                id={n.resourceDropDown}
-              href="/students" alt="https://www.ivvi.app/">
-
+            <li
+              className={`${n.navigationListItem} ${n.navDropdown}`}
+            >
+              <button
+                type="button"
+                className={`${n.navLink} ${n.dropdownTrigger}`}
+                aria-haspopup="true"
+              >
                 Resources
+              </button>
 
-              </Link>
-
-
+              <ul className={n.dropdownMenu} role="list">
+                <li className={n.dropdownMenuItem}>
+                  <Link className={n.dropdownMenuLink} href="/action">
+                    See ivvi in Action
+                  </Link>
+                </li>
+                <li className={n.dropdownMenuItem}>
+                  <Link className={n.dropdownMenuLink} href="/dsa">
+                    Guide to the DSA for Dyslexia
+                  </Link>
+                </li>
+                <li className={n.dropdownMenuItem}>
+                  <Link className={n.dropdownMenuLink} href="/customersupport">
+                    Customer Support
+                  </Link>
+                </li>
+                <li className={n.dropdownMenuItem}>
+                  <Link className={n.dropdownMenuLink} href="/resources">
+                    Resources Page
+                  </Link>
+                </li>
+                <li className={n.dropdownMenuItem}>
+                  <Link className={n.dropdownMenuLink} href="/accesstowork">
+                    Access to Work
+                  </Link>
+                </li>
+              </ul>
             </li>
               
             <li className={n.navigationListItem}>
 
               <Link 
                 className={n.navLink}
-              href="/students" alt="https://www.ivvi.app/">
+              href="/pricing" alt="https://www.ivvi.app/">
 
                 Pricing 
 
@@ -101,19 +128,39 @@ function Navbar() {
 
 
               
-            <li className={n.navigationListItem}>
+            <li
+              className={`${n.navigationListItem} ${n.navDropdown}`}
+            >
+              <button
+                type="button"
+                className={`${n.navLink} ${n.dropdownTrigger}`}
+                aria-haspopup="true"
+              >
+                About Us
+              </button>
 
-              <Link
-                className={n.navLink}
-                id={n.teamDropdown}
-               href="/students" alt="https://www.ivvi.app/"
-               >
-
-                About Us 
-
-              </Link>
-
-
+              <ul className={n.dropdownMenu} role="list">
+                <li className={n.dropdownMenuItem}>
+                  <Link className={n.dropdownMenuLink} href="/team">
+                    The Team
+                  </Link>
+                </li>
+                <li className={n.dropdownMenuItem}>
+                  <Link className={n.dropdownMenuLink} href="/contact">
+                    Contact Us
+                  </Link>
+                </li>
+                <li className={n.dropdownMenuItem}>
+                  <Link className={n.dropdownMenuLink} href="/blog">
+                    Our Blog
+                  </Link>
+                </li>
+                <li className={n.dropdownMenuItem}>
+                  <Link className={n.dropdownMenuLink} href="/pressrelease">
+                    Press Release
+                  </Link>
+                </li>
+              </ul>
             </li>
 
 
@@ -136,11 +183,13 @@ function Navbar() {
             
             <li className={n.navigationListItem} id={n.cta}  >
 
-              <Link className={n.navLink}  href="/students" alt="https://www.ivvi.app/">
-
-
-                Open ivvi 
-
+              <Link
+                className={n.navLink}
+                href={IVVI_APP_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Open ivvi
               </Link>
 
 

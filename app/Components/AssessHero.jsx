@@ -2,6 +2,7 @@ import React from 'react'
 import h from '../Styles/AssessHero.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
+import { IVVI_APP_URL } from './ivviAppUrl'
 import hero from '../../public/images/assess.png'
 import awards from '../../public/images/bett.png'
 
@@ -23,7 +24,7 @@ function AssessHero() {
 					transforms lecture content into dynamic visual notes in real time, giving neurodiverse students clearer structure while they listen.
 				</p>
 
-				<Link className={h.heroCTAButton} href='/ivvi'>
+				<Link className={h.heroCTAButton} href={IVVI_APP_URL} target="_blank" rel="noopener noreferrer">
 					Get Demo Licence
 				</Link>
 			</div>

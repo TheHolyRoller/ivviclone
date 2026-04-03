@@ -77,8 +77,25 @@
     z-index: 9999999;
     left: 1.5rem; 
     top: 1.45rem; 
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    padding: 0.25rem;
+    border-radius: 6px;
+    transition: background-color 0.15s ease, opacity 0.15s ease;
 
 
+}
+
+.hamburgerIconButtonIconContainer:hover {
+
+    background-color: rgba(255, 255, 255, 0.08);
+
+}
+
+.hamburgerIconButtonIconContainer:active {
+
+    opacity: 0.85;
 
 }
 
@@ -363,10 +380,26 @@
 
     max-width: 101px;
     max-height: 41.7px;
+    text-decoration: none;
+    color: var(--cta-font-color);
+    box-sizing: border-box;
+    transition: filter 0.2s ease, transform 0.12s ease;
 
 
 
 
+
+}
+
+.hamburgerOpenIvviLink:hover {
+
+    filter: brightness(1.08);
+
+}
+
+.hamburgerOpenIvviLink:active {
+
+    transform: scale(0.98);
 
 }
 

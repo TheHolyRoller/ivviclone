@@ -49,6 +49,24 @@
 	font-size: 1rem;
 	font-weight: 600;
 	border-radius: 40px;
+	border: none;
+	color: var(--cta-font-color);
+	cursor: pointer;
+	display: grid;
+	place-content: center;
+	transition: filter 0.2s ease, transform 0.12s ease;
+}
+
+.submitButton:hover:not(:disabled) {
+
+	filter: brightness(1.08);
+
+}
+
+.submitButton:active:not(:disabled) {
+
+	transform: scale(0.98);
+
 }
 
 .submitButton:disabled {

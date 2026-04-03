@@ -1,4 +1,6 @@
+import Link from "next/link"
 import styles from "../Styles/EnterprisePlan.module.css"
+import { IVVI_APP_URL } from "./ivviAppUrl"
 
 const DEFAULT_FEATURES = [
 	"All yearly features",
@@ -30,9 +32,14 @@ function EnterprisePlan({
 					))}
 				</ul>
 
-				<button type="button" className={styles.ctaButton}>
+				<Link
+					className={styles.ctaButton}
+					href={IVVI_APP_URL}
+					target="_blank"
+					rel="noopener noreferrer"
+				>
 					{ctaLabel}
-				</button>
+				</Link>
 			</article>
 		</section>
 	)

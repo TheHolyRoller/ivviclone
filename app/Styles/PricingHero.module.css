@@ -82,7 +82,24 @@
 	font-weight: 700;
 	line-height: 1;
 	color: #ef7a1a;
-	cursor: pointer
+	cursor: pointer;
+	text-decoration: none;
+	display: inline-grid;
+	place-items: center;
+	box-sizing: border-box;
+	transition: filter 0.2s ease, transform 0.12s ease, background-color 0.2s ease;
+}
+
+.ctaButton:hover {
+
+	filter: brightness(0.96);
+
+}
+
+.ctaButton:active {
+
+	transform: scale(0.98);
+
 }
 
 .imageWrap {

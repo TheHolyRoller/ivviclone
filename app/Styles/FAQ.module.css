@@ -58,13 +58,15 @@
     font-size: clamp(1rem, 2.2vw, 1.18rem);
     font-weight: 800;
     color: #ffffff;
-    transition: color 0.2s ease;
+    transition: color 0.2s ease, background-color 0.2s ease;
+    border-radius: 8px;
 }
 
 
   
   .button:hover {
     color: #f4e4c1;
+    background-color: rgba(255, 255, 255, 0.08);
   }
   
   .buttonText {
@@ -149,6 +151,11 @@
     letter-spacing: 0.2px;
     transition: background-color 0.2s ease, transform 0.15s ease, box-shadow 0.2s ease;
     box-shadow: 0 4px 18px rgba(232, 121, 58, 0.35);
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
   }
   
   .ctaButton:hover {

@@ -1,6 +1,7 @@
 import React from 'react'
 import ti from '../Styles/FreeTrial.module.css'
 import Link from 'next/link'
+import { IVVI_APP_URL } from './ivviAppUrl'
 import Image from 'next/image'
 import img from '../../public/images/lady.webp'
 
@@ -29,7 +30,7 @@ function FreeTrial() {
 						))}
 					</ul>
 
-					<Link className={ti.cta} href='https://ivvi.dev'>
+					<Link className={ti.cta} href={IVVI_APP_URL} target="_blank" rel="noopener noreferrer">
 						Try ivvi Notes now
 					</Link>
 				</div>

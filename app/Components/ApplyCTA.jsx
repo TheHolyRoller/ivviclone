@@ -1,3 +1,4 @@
+import Link from "next/link"
 import styles from "../Styles/ApplyCTA.module.css"
 
 function ApplyCTA({
@@ -18,9 +19,9 @@ function ApplyCTA({
 					{primaryLabel}
 					</button>
 
-					<button type='button' className={styles.secondaryButton}>
-					{secondaryLabel}
-					</button>
+					<Link className={styles.secondaryButton} href="/pricing">
+						{secondaryLabel}
+					</Link>
 				</div>
 			</div>
 		</section>

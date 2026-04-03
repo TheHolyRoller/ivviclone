@@ -1,4 +1,6 @@
+import Link from "next/link"
 import styles from "../Styles/PricingHero.module.css"
+import { IVVI_APP_URL } from "./ivviAppUrl"
 
 const DEFAULT_BULLETS = [
 	"Free 15 hours of transcription",
@@ -33,9 +35,14 @@ function PricingHero({
 							))}
 						</ul>
 
-						<button type="button" className={styles.ctaButton}>
+						<Link
+							className={styles.ctaButton}
+							href={IVVI_APP_URL}
+							target="_blank"
+							rel="noopener noreferrer"
+						>
 							{ctaLabel}
-						</button>
+						</Link>
 					</div>
 
 					<div className={styles.imageWrap}>

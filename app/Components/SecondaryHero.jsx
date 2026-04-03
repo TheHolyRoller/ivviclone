@@ -5,6 +5,7 @@ import laptop from '../../public/images/laptop.webp';
 
 import Image from 'next/image';
 import Link from 'next/link';
+import { IVVI_APP_URL } from './ivviAppUrl';
 import hero from '../../public/images/secondary_hero_img.png'; 
 // import hero from '../../public/images/a_hero.png'; 
 
@@ -64,14 +65,14 @@ Note-Taking Superpower
 
         <div className={h.buttonContainer}>
 
-        <button className={h.heroCTAButton}>
-          <Link className={h.heroCTALink}  href='/ivvi' alt='ivvi'>
-
-            Try ivvi Notes now 
-
-          </Link>
-
-        </button>
+        <Link
+          className={h.heroCTAButton}
+          href={IVVI_APP_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Try ivvi Notes now
+        </Link>
         </div>
 
     </div>

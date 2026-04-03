@@ -12,11 +12,6 @@ function page() {
       <SupportHero/> 
       <CustomerContactForm/> 
       <FAQ/> 
-      
-      
-      
-
-
 
     </div>
   )

@@ -606,3 +606,15 @@
 
 }
 
+@media (min-width: 1120px) {
+
+	.hero {
+
+		height: 60vh;
+		min-height: 24rem;
+		max-height: none;
+
+	}
+
+}
+

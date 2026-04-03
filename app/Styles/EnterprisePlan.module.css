@@ -97,7 +97,24 @@
 	font-weight: 700;
 	line-height: 1;
 	color: #ffffff;
-	cursor: pointer
+	cursor: pointer;
+	text-decoration: none;
+	display: inline-grid;
+	place-items: center;
+	box-sizing: border-box;
+	transition: filter 0.2s ease, transform 0.12s ease;
+}
+
+.ctaButton:hover {
+
+	filter: brightness(1.08);
+
+}
+
+.ctaButton:active {
+
+	transform: scale(0.98);
+
 }
 
 @media (max-width: 1320px) {

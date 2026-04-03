@@ -1,6 +1,8 @@
 "use client"
 
+import Link from "next/link"
 import styles from "../Styles/GetStarted.module.css"
+import { IVVI_APP_URL } from "./ivviAppUrl"
 
 export default function GetStarted() {
 	return (
@@ -18,7 +20,14 @@ export default function GetStarted() {
 					note-taking during meetings, you can apply for the grant and use part of it to fund 3 years of ivvi.
 				</p>
 
-				<button type='button' className={styles.ctaButton}>Try it now</button>
+				<Link
+					className={styles.ctaButton}
+					href={IVVI_APP_URL}
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					Try it now
+				</Link>
 			</div>
 		</section>
 	)

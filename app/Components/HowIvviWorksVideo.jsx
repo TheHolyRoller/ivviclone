@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import v from '../Styles/HowIvviWorksVideo.module.css'
+import { IVVI_APP_URL } from './ivviAppUrl'
 
 const DEFAULT_VIMEO_SRC =
 	'https://player.vimeo.com/video/1007634251?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479'
@@ -28,7 +29,7 @@ function HowIvviWorksVideo({
 					Watch a 3 min video that shows what ivvi Notes can do for you.
 				</p>
 
-				<Link className={v.ctaButton} href='/ivvi'>
+				<Link className={v.ctaButton} href={IVVI_APP_URL} target="_blank" rel="noopener noreferrer">
 					Try ivvi now
 				</Link>
 			</div>

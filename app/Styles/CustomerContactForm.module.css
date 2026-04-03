@@ -144,6 +144,21 @@
     -moz-border-radius:40px;
     -ms-border-radius:40px;
     -o-border-radius:40px;
+    border: none;
+    cursor: pointer;
+    transition: filter 0.2s ease, transform 0.12s ease;
+}
+
+.submitButton:hover:not(:disabled) {
+
+    filter: brightness(1.08);
+
+}
+
+.submitButton:active:not(:disabled) {
+
+    transform: scale(0.98);
+
 }
 
 

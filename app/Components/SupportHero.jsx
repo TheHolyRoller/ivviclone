@@ -16,6 +16,7 @@ function SupportHero() {
 				sizes="100vw"
 				quality={95}
 			/>
+			
 
 			<section className={h.heroContentContainer}>
 				<div className={h.heroTextContainer}>

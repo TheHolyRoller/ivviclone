@@ -1,6 +1,5 @@
   import Image from "next/image";
   import Hero from "./Components/Hero";
-  import Footer from './Components/Footer'; 
   import FeatureBlock from "./Components/FeatureBlock";
   import ImageText from "./Components/ImageText";
   // import FeatureBlock from "./Components/FeatureBlock";
@@ -10,9 +9,6 @@
   import TextImage from "./Components/TextImage";
   import TextElement from "./Components/TextElement";
   import FirstTextElement from "./Components/FirstTextElement";
-  import Hamburger from "./Components/Hamburger";
-
-
 
   export default function Home() {
     return (
@@ -46,9 +42,6 @@
 
        
           <ContactForm/> 
-
-       
-        <Footer/> 
 
       </div>
     );

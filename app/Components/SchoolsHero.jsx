@@ -2,6 +2,7 @@ import React from 'react'
 import h from '../Styles/SchoolsHero.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
+import { IVVI_APP_URL } from './ivviAppUrl'
 import awards from '../../public/images/bett.png'
 import schools from '../../public/images/schools.png'
 
@@ -21,7 +22,7 @@ function SchoolsHero() {
 					helps schools support neurodiverse learners by turning taught content into clear, visual notes in real time.
 				</p>
 
-				<Link className={h.heroCTAButton} href='/ivvi'>
+				<Link className={h.heroCTAButton} href={IVVI_APP_URL} target="_blank" rel="noopener noreferrer">
 					Get Demo Licence
 				</Link>
 			</div>

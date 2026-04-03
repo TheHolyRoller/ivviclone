@@ -67,6 +67,19 @@
 	text-decoration: none;
 	font-weight: 700;
 	font-size: 0.95rem;
+	transition: background-color 0.2s ease, color 0.2s ease, transform 0.12s ease;
+}
+
+.button:hover {
+
+	background-color: rgba(239, 122, 26, 0.12);
+
+}
+
+.button:active {
+
+	transform: scale(0.98);
+
 }
 
 @media (max-width: 760px) {
