@@ -13,20 +13,20 @@
     "@vercel/analytics": "^2.0.1",
     "airtable": "^0.12.2",
     "autoprefixer": "^10.4.21",
-    "next": "^16.2.2",
+    "next": "16.2.2",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
     "react-vimeo": "^2.0.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
-    "@next/bundle-analyzer": "^16.2.2",
+    "@next/bundle-analyzer": "16.2.2",
     "@tailwindcss/postcss": "^4",
     "@types/node": "25.5.0",
     "@types/react": "19.2.14",
     "cross-env": "^10.1.0",
     "eslint": "^9",
-    "eslint-config-next": "15.5.4",
+    "eslint-config-next": "16.2.2",
     "tailwindcss": "^4"
   }
 }
