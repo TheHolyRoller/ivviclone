@@ -1,12 +1,12 @@
 import React from 'react'
 import ts from '../Styles/TechSpecs.module.css'
 
-function TechSpecs() {
+function TechSpecs({ heading = "All in One App" }) {
 	return (
 		<section className={ts.featureMainContainer}>
 			<div className={ts.gridContainer}>
 				<div className={ts.textContainer}>
-					<h2 className={ts.mainHeading}>All in One App</h2>
+					<h2 className={ts.mainHeading}>{heading}</h2>
 					<p className={ts.supportingText}>
 						Everything happens in one place. Audio, transcript, and map stay synchronised so students can switch views instantly.
 					</p>

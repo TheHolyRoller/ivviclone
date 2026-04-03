@@ -4,7 +4,7 @@ import Image from "next/image"
 function BlogHero({
 	imageSrc = "/images/blog.webp",
 	imageAlt = "Student using ivvi mind mapping in a library",
-	title = "Why the First AI Tool to Win a Bett SEND Award Is Against AI Summaries",
+	title = "Why ivvi opposes AI summaries — a Bett SEND Award perspective",
 	paragraphs = [
 		"The day ivvi won the 2026 Bett Award for SEND & Inclusion, the Education Secretary opened the Bett conference and announced the government's new AI safety standards for schools.",
 		"She said something that stopped me in my tracks:",

@@ -1,0 +1,50 @@
+/* Readability and spacing for the accessibility statement page */
+
+.article {
+	margin: 0;
+	padding: 0;
+}
+
+.statementBody {
+	font-size: clamp(1.0625rem, 0.45vw + 0.95rem, 1.125rem);
+	line-height: 1.75;
+	letter-spacing: 0.01em;
+}
+
+.statementBody h2 {
+	line-height: 1.35;
+	scroll-margin-top: 1.25rem;
+}
+
+.statementBody ul {
+	margin-top: 0.35rem;
+	margin-bottom: 1.35rem;
+}
+
+.statementBody li {
+	margin-bottom: 0.85rem;
+}
+
+.statementBody abbr {
+	text-decoration: underline dotted;
+	text-underline-offset: 0.12em;
+}
+
+.kbd {
+	display: inline-block;
+	font-family: ui-monospace, "Cascadia Code", "Consolas", monospace;
+	font-size: 0.88em;
+	font-weight: 600;
+	padding: 0.12em 0.4em;
+	border: 1px solid #c5c0b8;
+	border-radius: 4px;
+	background: #f0ebe3;
+	color: #1a1a1a;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
+}
+
+.kbdGap {
+	margin: 0 0.2em;
+	font-weight: 600;
+	color: #1a1a1a;
+}

@@ -14,12 +14,14 @@ const benefits = [
 	'Keep lifetime access to your maps'
 ]
 
-function FreeTrial() {
+function FreeTrial({
+	heading = "Ready to Transform Your Learning?"
+}) {
 	return (
 		<section className={ti.featureMainContainer}>
 			<div className={ti.gridContainer}>
 				<div className={ti.textContainer}>
-					<h2 className={ti.mainHeading}>Ready to Transform Your Learning?</h2>
+					<h2 className={ti.mainHeading}>{heading}</h2>
 					<p className={ti.supportingHeadline}>Free 30-day full trial.</p>
 
 					<ul className={ti.bulletPointList}>

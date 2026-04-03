@@ -44,7 +44,7 @@ function RightImageText() {
 		<section className={ti.featureMainContainer}>
 			<div className={ti.gridContainer}>
 				<div className={ti.textContainer}>
-					<h2 className={ti.mainHeading}>Who can benefit from ivvi Notes?</h2>
+					<h2 className={ti.mainHeading}>Who can benefit from ivvi Notes in higher education?</h2>
 					<p className={ti.mainSupportingText}>ivvi Notes supports a wide range of learning needs across higher education.</p>
 
 					<div className={ti.bulletPointListContainer}>

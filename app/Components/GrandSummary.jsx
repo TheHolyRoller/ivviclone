@@ -2,14 +2,14 @@ import ti from "../Styles/GrantSummary.module.css"
 import Image from "next/image"
 
 const DEFAULT_PARAGRAPHS = [
-	"We understand that the application process can seem daunting, however, we are here to help.",
-	"The Access to Work journey involves five stages: applying, being assessed, receiving the award, training, and paying for the services. We're here to provide moral support and guidance every step of the way.",
-	"We'll meet with you on Zoom for 30 minutes and help you complete the application form. No formal dyslexia assessment is required - simply explain how dyslexia impacts your work life.",
-	"If you're in employment, we will work with your HR and Finance Departments to support them through the process."
+	"We understand that the DSA application process can seem daunting — we are here to help.",
+	"The DSA path usually includes applying to your funding body, sharing evidence, attending a needs assessment, receiving your entitlement letter, and arranging equipment, software and training.",
+	"We can meet with you on Zoom for 30 minutes and help you prepare what to include. For dyslexia, a diagnostic report or assessment history is often enough as evidence.",
+	"If you are unsure which form to use or how to describe your study needs, we will help you map it to the student finance process for your nation."
 ]
 
 function GrantSummary({
-	title = "We'll Guide You Through the Process",
+	title = "DSA applications: how we support you at each step",
 	paragraphs = DEFAULT_PARAGRAPHS,
 	imageSrc = "https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=900&q=80",
 	imageAlt = "Two colleagues reviewing a tablet together"

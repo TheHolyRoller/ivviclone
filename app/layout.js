@@ -1,6 +1,7 @@
 import "./globals.css";
 import Navbar from "./Components/Navbar";
 import Hamburger from "./Components/Hamburger";
+import Footer from "./Components/Footer";
 import { Analytics } from "@vercel/analytics/next"
 import { getMetadataBaseUrl } from "./siteUrl"
 
@@ -59,6 +60,8 @@ export default function RootLayout({ children }) {
         >
           {children}
         </div>
+
+        <Footer />
 
         <Analytics />
 

@@ -23,16 +23,16 @@ export const metadata = {
 
 export default function Schools() {
   return (
-    <main>
+    <main aria-labelledby="schools-hero-heading">
       <SchoolsHero />
-      <Demo />
+      <Demo heading="Three-minute ivvi demo for schools and colleges" />
       <SchoolGrid />
       <SchoolsImageText />
-      <SpecGrid />
-      <TechSpecs />
+      <SpecGrid sectionTitle="Key assistive features for schools and colleges" />
+      <TechSpecs heading="Audio, transcript and mind map in one school app" />
 
       <DemoRequest
-        mainHeading="Request a Demo License"
+        mainHeading="Request a demo licence for your school"
         supportingHeadline=""
         bulletPoints={[
           "Free licence for assessment, demonstration and training purposes.",

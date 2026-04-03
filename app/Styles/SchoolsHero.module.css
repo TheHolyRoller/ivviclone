@@ -24,6 +24,13 @@
 	text-align: center;
 }
 
+.heroTitleBlock {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+
 .heroMainHeader {
 	font-size: clamp(2rem, 4.8vw, 3.9rem);
 	line-height: 1.15;

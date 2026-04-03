@@ -1,19 +1,25 @@
 import React from "react"
 import styles from "../Styles/LegalPage.module.css"
 
-function LegalPage({ title, children }) {
+function LegalPage({ title, children, titleId, bodyClassName }) {
+	const bodyClasses = [styles.body, bodyClassName].filter(Boolean).join(" ")
+
 	return (
 		<main className={styles.main}>
 			<div className={styles.inner}>
-				<h1 className={styles.title}>{title}</h1>
-				<div className={styles.body}>{children}</div>
+				<h1 className={styles.title} id={titleId}>{title}</h1>
+				<div className={bodyClasses}>{children}</div>
 			</div>
 		</main>
 	)
 }
 
-export function LegalH2({ children }) {
-	return <h2 className={styles.h2}>{children}</h2>
+export function LegalH2({ children, id }) {
+	return (
+		<h2 id={id} className={styles.h2}>
+			{children}
+		</h2>
+	)
 }
 
 export function LegalH3({ children }) {

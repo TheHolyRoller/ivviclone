@@ -17,12 +17,8 @@ function All({
 			<div className={`${s.grid} ${reverse ? s.gridReverse : ''}`}>
 				<div className={s.textContainer}>
 					<h2 className={s.heading}>
-            
-            
-            {/* {title} */}
-            All in One App
-            
-            </h2>
+						Sync audio, transcript and mind map in one workspace
+					</h2>
 					<p className={s.description}>
             {/* {description} */}
             

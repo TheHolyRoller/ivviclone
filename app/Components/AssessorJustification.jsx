@@ -5,7 +5,7 @@ function AssessorJustification() {
 	return (
 		<article className={j.mainContainer}>
 			<div className={j.subContainer}>
-				<h2 className={j.mainHeadline}> Why ivvi Notes?</h2>
+				<h2 className={j.mainHeadline}>Why ivvi Notes for assessment?</h2>
 
 				<p className={j.supportingText}>
 					We get it - lectures can be overwhelming, traditional note-taking is slow, and making visual notes on the fly feels impossible. That's why we created 

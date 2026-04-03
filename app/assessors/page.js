@@ -23,16 +23,16 @@ export const metadata = {
 
 function AssessorsPage() {
   return (
-    <main>
+    <main aria-labelledby="assessors-hero-heading">
       <AssessHero />
-      <Demo />
+      <Demo heading="Three-minute ivvi demo for assessors and specialists" />
       <AssessorGrid />
       <RightImageText />
-      <SpecGrid />
-      <TechSpecs />
+      <SpecGrid sectionTitle="Key assistive features for assessment and study" />
+      <TechSpecs heading="Audio, transcript and mind map in one assessment app" />
 
       <DemoRequest
-        mainHeading="Request a Demo License"
+        mainHeading="Request a demo licence for assessment use"
         bulletPoints={[
           "Free licence for assessment, demonstration and training purposes.",
           "Experience the functionality of ivvi",

@@ -20,7 +20,7 @@ function Page() {
 
 			<HowIvviWorksVideo/>
 
-			<FreeTrial/>
+			<FreeTrial heading="Try ivvi Notes free after exploring the demo" />
 
 			<ContactForm/>
 

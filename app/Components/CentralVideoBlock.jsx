@@ -3,11 +3,11 @@ import v from '../Styles/CentralVideoBlock.module.css'
 import Link from 'next/link'
 import { IVVI_APP_URL } from './ivviAppUrl'
 
-function CentralVideoBlock() {
+function CentralVideoBlock({ heading = "ivvi Notes in Action" }) {
 	return (
 		<section className={v.section}>
 			<div className={v.container}>
-				<h2 className={v.heading}>ivvi Notes in Action</h2>
+				<h2 className={v.heading}>{heading}</h2>
 				<figure className={v.videoContainer}>
 					<iframe
 						className={v.mainVideoFrame}

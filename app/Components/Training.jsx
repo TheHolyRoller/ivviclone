@@ -4,8 +4,8 @@ import Image from "next/image"
 function Training({
 	title = "Training",
 	copy = "Once you receive your award letter, you can purchase the recommended software, hardware, and training from providers of your choice. We offer mind mapping training and can guide you to other reputable speech-to-text and text-to-speech service providers.",
-	imageSrc = "https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?auto=format&fit=crop&w=1200&q=80",
-	imageAlt = "Person attending an online training call"
+	imageSrc = "/images/zoom.webp",
+	imageAlt = "Laptop showing a video conference call on a wooden desk next to a teal mug"
 }) {
 	return (
 		<section className={styles.section}>

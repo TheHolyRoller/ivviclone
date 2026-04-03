@@ -12,10 +12,17 @@ function SchoolsHero() {
 			<Image className={h.heroBackgroundImage} src={schools} alt='School classroom background' sizes='100vw' loading="lazy" />
 
 			<div className={h.heroContentContainer}>
-				<h1 className={h.heroMainHeader}>
-					<Image className={h.awards} src={awards} alt='Bett award sticker' loading="lazy" />
-					ivvi Notes - Instant Visual Note-Taking Assistive Technology
-				</h1>
+				<div className={h.heroTitleBlock}>
+					<Image
+						className={h.awards}
+						src={awards}
+						alt="Bett Awards winner badge"
+						loading="lazy"
+					/>
+					<h1 className={h.heroMainHeader} id="schools-hero-heading">
+						ivvi Notes - Instant Visual Note-Taking Assistive Technology
+					</h1>
+				</div>
 
 				<p className={h.heroSupportingText}>
 					<span className={h.ivvi}>ivvi Notes™</span>

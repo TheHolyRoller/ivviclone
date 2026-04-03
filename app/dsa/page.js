@@ -4,7 +4,7 @@ import DSAHero from '../Components/DSAHero'
 export const metadata = {
 	title: "DSA funding guide — ivvi Notes for university | ivvi",
 	description:
-		"How Disabled Students' Allowance (DSA) can fund ivvi Notes for dyslexia and ADHD. Apply for assessments, understand allowances and get assistive tech at university.",
+		"UK DSA guide for dyslexia: who qualifies, how to apply, needs assessments and assistive tech funding — including ivvi Notes.",
 	alternates: {
 		canonical: "/dsa",
 	},

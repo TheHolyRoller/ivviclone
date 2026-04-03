@@ -104,6 +104,15 @@
 	opacity: 0.85;
 }
 
+.link:focus-visible {
+	outline: 2px solid #013699;
+	outline-offset: 3px;
+}
+
+.link:focus:not(:focus-visible) {
+	outline: none;
+}
+
 .introBlock {
 	margin-bottom: 1.5rem;
 }

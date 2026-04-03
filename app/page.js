@@ -9,7 +9,6 @@ const FeatureBlock = dynamic(() => import("./Components/FeatureBlock"));
 const TextImage = dynamic(() => import("./Components/TextImage"));
 const TextElement = dynamic(() => import("./Components/TextElement"));
 const ContactForm = dynamic(() => import("./Components/ContactForm"));
-const Footer = dynamic(() => import("./Components/Footer"));
 
 export const metadata = {
 	title: "ivvi Notes — live mind maps for dyslexia & ADHD | ivvi",
@@ -50,8 +49,6 @@ export default function Home() {
       <TextElement />
 
       <ContactForm />
-
-      <Footer />
     </div>
   );
 }

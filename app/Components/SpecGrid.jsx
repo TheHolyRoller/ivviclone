@@ -57,10 +57,10 @@ const specItems = [
 	}
 ]
 
-function SpecGrid() {
+function SpecGrid({ sectionTitle = "Key Assistive Technology Features" }) {
 	return (
 		<section className={it.specGrid}>
-			<h2 className={it.mainHeadline}>Key Assistive Technology Features</h2>
+			<h2 className={it.mainHeadline}>{sectionTitle}</h2>
 
 			{specItems.map((item) => {
 				const FeatureComponent = item.component

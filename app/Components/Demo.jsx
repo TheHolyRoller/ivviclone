@@ -3,11 +3,11 @@ import v from '../Styles/Demo.module.css'
 import Link from 'next/link'
 import { IVVI_APP_URL } from './ivviAppUrl'
 
-function Demo() {
+function Demo({ heading = "3 Minute ivvi Demo" }) {
 	return (
 		<section className={v.hero}>
 			<div className={v.heroContentContainer}>
-				<h2 className={v.heroMainHeader}>3 Minute ivvi Demo</h2>
+				<h2 className={v.heroMainHeader}>{heading}</h2>
 
 				<figure className={v.videoContainer}>
 					<iframe

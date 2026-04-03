@@ -33,7 +33,7 @@ function Assessors() {
 
     <AssessorGrid/>
 
-    <CentralVideoBlock/>
+    <CentralVideoBlock heading="Watch ivvi Notes map live speech for students" />
 
 
   
@@ -69,9 +69,9 @@ function Assessors() {
 
     <All/> 
 
-    <FreeTrial/> 
+    <FreeTrial heading="Try ivvi Notes free: 30-day full trial for students" />
     <Testimony/> 
-    <LeadMagnet/> 
+    <LeadMagnet title="Free DSA guide PDF from ivvi — download below" /> 
     <ContactForm/> 
     
     

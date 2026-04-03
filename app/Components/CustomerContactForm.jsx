@@ -117,13 +117,13 @@ function CustomerContactForm() {
         <div className={c.contactFormHeadlineContainer}>
 
           {/* Add in the main headline here  */}
-          <h5 className={c.contactFormHeadline}>
+          <h2 className={c.contactFormHeadline}>
 
           {/* Get in Touch */}
           Contact Us With Questions
 
 
-          </h5>
+          </h2>
 
           <div className={c.contactFormSupportingText}>
 

@@ -30,6 +30,13 @@
 	margin-bottom: 0.8rem;
 }
 
+.heroTitleBlock {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+
 .heroMainHeader {
 	position: relative;
 	font-size: clamp(2rem, 4.7vw, 3.9rem);

@@ -14,10 +14,17 @@ function AssessHero() {
 			<div className={h.heroContentContainer}>
 				<p className={h.subHeading}>DSA Approved</p>
 
-				<h1 className={h.heroMainHeader}>
-					<Image className={h.awards} src={awards} alt='Bett award sticker' loading="lazy" />
-					ivvi Notes - Instant Visual Note-Taking Assistive Technology
-				</h1>
+				<div className={h.heroTitleBlock}>
+					<Image
+						className={h.awards}
+						src={awards}
+						alt="Bett Awards winner badge"
+						loading="lazy"
+					/>
+					<h1 className={h.heroMainHeader} id="assessors-hero-heading">
+						ivvi Notes - Instant Visual Note-Taking Assistive Technology
+					</h1>
+				</div>
 
 				<p className={h.heroSupportingText}>
 					<span className={h.ivvi}>ivvi Notes™</span>

@@ -43,7 +43,7 @@ function SchoolsImageText() {
 		<section className={ti.featureMainContainer}>
 			<div className={ti.gridContainer}>
 				<div className={ti.textContainer}>
-					<h2 className={ti.mainHeading}>Who can benefit from ivvi Notes?</h2>
+					<h2 className={ti.mainHeading}>Who can benefit from ivvi Notes at school?</h2>
 					<p className={ti.mainSupportingText}>
 						ivvi Notes is designed to support a wide range of learning and accessibility needs.
 					</p>
