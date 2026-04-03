@@ -1,7 +1,8 @@
 import styles from "../Styles/BlogArticle.module.css"
+import Image from "next/image"
 
 function BlogArticle({
-	imageSrc = "/images/bett%20award.jpg",
+	imageSrc = "/images/bett%20award.webp",
 	imageAlt = "ivvi team receiving a Bett award",
 	title = "Our Story So Far. From Our Daughter's Bedroom Floor to Bett Award Winners",
 	paragraphs = [
@@ -14,7 +15,15 @@ function BlogArticle({
 	return (
 		<article className={styles.card}>
 			<div className={styles.imageWrap}>
-				<img className={styles.image} src={imageSrc} alt={imageAlt} loading="lazy" />
+				<Image
+					className={styles.image}
+					src={imageSrc}
+					alt={imageAlt}
+					width={1200}
+					height={720}
+					sizes="(max-width: 768px) 100vw, 50vw"
+					loading="lazy"
+				/>
 			</div>
 
 			<div className={styles.content}>

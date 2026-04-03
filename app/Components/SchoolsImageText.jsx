@@ -1,7 +1,7 @@
 import React from 'react'
 import ti from '../Styles/SchoolsImageText.module.css'
 import Image from 'next/image'
-import img from '../../public/images/girl_study.png'
+import img from '../../public/images/girl_study.webp'
 
 const supportItems = [
 	{
@@ -59,7 +59,7 @@ function SchoolsImageText() {
 				</div>
 
 				<div className={ti.imageContainer}>
-					<Image className={ti.mainImage} src={img} alt='Student studying with laptop' quality={100} loading='lazy' />
+					<Image className={ti.mainImage} src={img} alt='Student studying with laptop' loading="lazy" />
 				</div>
 			</div>
 		</section>

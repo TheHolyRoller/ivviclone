@@ -1,4 +1,5 @@
 import styles from "../Styles/LeftTeamProfile.module.css"
+import Image from "next/image"
 
 function LeftTeamProfile({
 	name,
@@ -10,7 +11,15 @@ function LeftTeamProfile({
 		<section className={styles.section}>
 			<div className={styles.container}>
 				<div className={styles.imageWrap}>
-					<img className={styles.profileImage} src={imageSrc} alt={imageAlt} loading="lazy" />
+					<Image
+						className={styles.profileImage}
+						src={imageSrc}
+						alt={imageAlt}
+						width={700}
+						height={900}
+						sizes="(max-width: 768px) 100vw, 40vw"
+						loading="lazy"
+					/>
 				</div>
 
 				<div className={styles.textBlock}>

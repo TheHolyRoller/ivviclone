@@ -1,44 +1,41 @@
 @import "tailwindcss";
 
-/* Local font definition */
 @font-face {
 	font-family: 'Nunito Sans';
 	src: url('/fonts/NunitoSans-VariableFont_YTLC,opsz,wdth,wght.woff2') format('woff2');
-
-  font-style: normal;
+	font-style: normal;
 	font-display: swap;
 }
-
-@font-face{
-
-
-  font-family: "Nunito";
-  src: url("../public/fonts//Nunito.woff2");
-  font-style: normal;
-  font-display: swap;
-  
-
-
-
-}
-
-
 
 @font-face {
-  font-family: 'Lato Sans';
-  src: url('../public/fonts/Lato-Black.woff2');
-
-  font-style: normal;
+	font-family: "Nunito";
+	src: url('/fonts/Nunito.woff2') format('woff2');
+	font-style: normal;
 	font-display: swap;
-
 }
 
+@font-face {
+	font-family: 'Lato';
+	src: url('/fonts/Lato-Black.woff2') format('woff2');
+	font-style: normal;
+	font-weight: 100 900;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Lato Sans';
+	src: url('/fonts/Lato-Black.woff2') format('woff2');
+	font-style: normal;
+	font-weight: 100 900;
+	font-display: swap;
+}
 
 :root {
+	--font-nunito-sans: 'Nunito Sans', ui-sans-serif, system-ui, sans-serif;
+	--font-geist-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
 
-
-  --text-font-family: 'Nunito Sans';
-  --heading-font-family: 'Lato Sans', system-ui, -apple-system, sans-serif;
+	--text-font-family: 'Nunito Sans';
+	--heading-font-family: 'Lato Sans', system-ui, -apple-system, sans-serif;
 
 
   --primary-font-color: #15317e; 

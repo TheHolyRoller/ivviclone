@@ -1,6 +1,6 @@
 import React from 'react'
 import h from '../Styles/SupportHero.module.css'
-import lamp from '../../public/images/lamp.png'
+import lamp from '../../public/images/lamp.webp'
 
 import Image from 'next/image'
 
@@ -12,9 +12,8 @@ function SupportHero() {
 				src={lamp}
 				alt=""
 				fill
-				priority
 				sizes="100vw"
-				quality={95}
+				loading="lazy"
 			/>
 			
 

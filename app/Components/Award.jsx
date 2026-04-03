@@ -1,5 +1,5 @@
 import React from 'react'
-import boy from '../../public/images/BOY laptop.png'
+import boy from '../../public/images/BOY laptop.webp'
 import DsaContentSection from './DsaContentSection'
 
 

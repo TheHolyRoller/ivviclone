@@ -14,7 +14,7 @@ function ImageText() {
 
       <div className={it.imageContainer}>
 
-        <Image className={it.mainImage}  src={img} alt='woman' quality={100} loading='lazy' />
+        <Image className={it.mainImage}  src={img} alt='woman' loading="lazy" />
 
       </div>
 

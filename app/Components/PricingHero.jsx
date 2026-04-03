@@ -1,5 +1,6 @@
 import Link from "next/link"
 import styles from "../Styles/PricingHero.module.css"
+import Image from "next/image"
 import { IVVI_APP_URL } from "./ivviAppUrl"
 
 const DEFAULT_BULLETS = [
@@ -46,7 +47,15 @@ function PricingHero({
 					</div>
 
 					<div className={styles.imageWrap}>
-						<img className={styles.image} src={imageSrc} alt={imageAlt} loading="lazy" />
+						<Image
+							className={styles.image}
+							src={imageSrc}
+							alt={imageAlt}
+							width={900}
+							height={900}
+							loading="lazy"
+							sizes="(max-width: 768px) 100vw, 40vw"
+						/>
 					</div>
 				</div>
 			</div>

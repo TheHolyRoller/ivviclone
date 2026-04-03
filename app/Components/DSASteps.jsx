@@ -1,11 +1,11 @@
 import React from 'react'
 import sp from '../Styles/DSASteps.module.css'
-import table from '../../public/images/table group.png'
+import table from '../../public/images/table group.webp'
 import Image from 'next/image'
-import cert from '../../public/images/cert.png'
-import boy from '../../public/images/boy lp.png'
-import lpt from '../../public/images/lap t.png'
-import grant from '../../public/images/grant.png'
+import cert from '../../public/images/cert.webp'
+import boy from '../../public/images/boy lp.webp'
+import lpt from '../../public/images/lap t.webp'
+import grant from '../../public/images/grant.webp'
 import Link from 'next/link'
 
 const steps = [
@@ -46,7 +46,7 @@ function DSASteps() {
 				<ul className={sp.flexContainer}>
 					{steps.map((step) => (
 						<li className={sp.gridSubContainer} key={step.title}>
-							<Image src={step.image} alt={step.title} className={sp.gridImage} />
+							<Image src={step.image} alt={step.title} className={sp.gridImage} loading="lazy" />
 
 							<div className={sp.textContainer}>
 								<h3 className={sp.gridHeadline}>{step.title}</h3>

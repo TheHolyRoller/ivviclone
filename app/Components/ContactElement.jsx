@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import styles from "../Styles/ContactElement.module.css"
+import Image from "next/image"
 
 const INITIAL_FORM = {
 	name: "",
@@ -13,7 +14,7 @@ const INITIAL_FORM = {
 function ContactElement({
 	title = "Contact us",
 	subtitle = "Kindly fill out the form below to send us a message",
-	imageSrc = "/images/contact%20image.png",
+	imageSrc = "/images/contact%20image.webp",
 	imageAlt = "Support advisor with a headset"
 }) {
 	const [formInput, setFormInput] = useState(INITIAL_FORM)
@@ -97,7 +98,15 @@ function ContactElement({
 				</div>
 
 				<div className={styles.imageWrap}>
-					<img className={styles.contactImage} src={imageSrc} alt={imageAlt} loading="lazy" />
+					<Image
+						className={styles.contactImage}
+						src={imageSrc}
+						alt={imageAlt}
+						width={900}
+						height={900}
+						sizes="(max-width: 768px) 100vw, 45vw"
+						loading="lazy"
+					/>
 				</div>
 			</div>
 		</section>

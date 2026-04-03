@@ -36,7 +36,7 @@ function FreeTrial() {
 				</div>
 
 				<div className={ti.imageContainer}>
-					<Image className={ti.mainImage} src={img} alt='Learner using ivvi Notes' quality={100} loading='lazy' />
+					<Image className={ti.mainImage} src={img} alt='Learner using ivvi Notes' loading="lazy" />
 				</div>
 			</div>
 		</section>

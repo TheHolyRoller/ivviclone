@@ -1,4 +1,5 @@
 import styles from "../Styles/TeamProfile.module.css"
+import Image from "next/image"
 
 function TeamProfile({
 	name,
@@ -20,7 +21,15 @@ function TeamProfile({
 				</div>
 
 				<div className={styles.imageWrap}>
-					<img className={styles.profileImage} src={imageSrc} alt={imageAlt} loading="lazy" />
+					<Image
+						className={styles.profileImage}
+						src={imageSrc}
+						alt={imageAlt}
+						width={700}
+						height={900}
+						sizes="(max-width: 768px) 100vw, 40vw"
+						loading="lazy"
+					/>
 				</div>
 			</div>
 		</section>

@@ -1,4 +1,5 @@
 import styles from "../Styles/Training.module.css"
+import Image from "next/image"
 
 function Training({
 	title = "Training",
@@ -15,7 +16,15 @@ function Training({
 				</div>
 
 				<div className={styles.imageBlock}>
-					<img className={styles.image} src={imageSrc} alt={imageAlt} loading="lazy" />
+					<Image
+						className={styles.image}
+						src={imageSrc}
+						alt={imageAlt}
+						width={1200}
+						height={720}
+						sizes="(max-width: 768px) 100vw, 45vw"
+						loading="lazy"
+					/>
 				</div>
 			</div>
 		</section>

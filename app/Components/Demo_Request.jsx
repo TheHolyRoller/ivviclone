@@ -45,7 +45,7 @@ function DemoRequest({
 
 				{imageSrc ? (
 					<div className={ti.imageContainer}>
-						<Image className={ti.mainImage} src={imageSrc} alt={imageAlt || 'Demo request illustration'} quality={100} loading='lazy' />
+						<Image className={ti.mainImage} src={imageSrc} alt={imageAlt || 'Demo request illustration'} loading="lazy" />
 					</div>
 				) : null}
 			</div>

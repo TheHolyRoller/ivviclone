@@ -1,5 +1,5 @@
 import React from 'react'
-import think from '../../public/images/think.png'
+import think from '../../public/images/think.webp'
 import DsaContentSection from './DsaContentSection'
 
 function DSA_Apply() {

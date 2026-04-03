@@ -51,7 +51,7 @@ function AssessorGrid() {
 			<section className={g.featureGrid}>
 				{featureItems.map((feature) => (
 					<article key={feature.title} className={g.gridItem}>
-						<Image className={g.gridImg} src={feature.icon} alt='' quality={100} loading='lazy' />
+						<Image className={g.gridImg} src={feature.icon} alt="" loading="lazy" />
 						<h4 className={g.gridHeadline}>{feature.title}</h4>
 						<p className={g.gridSupportingText}>
 							{/* <span className={g.ivvi}>ivvi</span> */}

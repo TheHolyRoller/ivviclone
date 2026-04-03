@@ -1,7 +1,7 @@
 import React from 'react'
 import ti from '../Styles/LeftImageText.module.css'
 import Image from 'next/image'
-import img from '../../public/images/girl_study.png'
+import img from '../../public/images/girl_study.webp'
 
 const supportItems = [
 	{
@@ -41,7 +41,7 @@ function LeftImageText() {
 		<section className={ti.featureMainContainer}>
 			<div className={ti.gridContainer}>
 				<div className={ti.imageContainer}>
-					<Image className={ti.mainImage} src={img} alt='Student revising with ivvi Notes' quality={100} loading='lazy' />
+					<Image className={ti.mainImage} src={img} alt='Student revising with ivvi Notes' loading="lazy" />
 				</div>
 
 				<div className={ti.textContainer}>

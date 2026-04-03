@@ -2,8 +2,8 @@ import React from 'react'
 import it from '../Styles/SpecGrid.module.css'
 import LeftImageSpecs from './LeftImageSpecs'
 import RightImageSpecs from './RightImageSpecs'
-import sync from '../../public/images/sync.png'
-import recording from '../../public/images/recording.png'
+import sync from '../../public/images/sync.webp'
+import recording from '../../public/images/recording.webp'
 
 const specItems = [
 	{

@@ -17,7 +17,15 @@ function Navbar() {
 
       <div className={n.LogoContainer}>
 
-      <Image src={Logo} alt='ivvi' width={50} height={50} quality={100} loading="lazy"/>
+      <Image
+        src={Logo}
+        alt="ivvi"
+        width={214}
+        height={92}
+        priority
+        className={n.navLogo}
+        sizes="140px"
+      />
 
 
       </div>

@@ -11,7 +11,7 @@ function page() {
 					<BlogHero />
 					<BlogArticle />
 					<BlogArticle
-						imageSrc="/images/ivvi%20logo.png"
+						imageSrc="/images/ivvi%20logo.webp"
 						imageAlt="ivvi logo"
 						title="Introducing ivvi to the DSA market."
 						paragraphs={[

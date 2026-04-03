@@ -17,7 +17,7 @@ function LeftImageSpecs({
 		<section className={it.featureMainContainer}>
 			<div className={it.gridContainer}>
 				<div className={it.imageContainer}>
-					<Image className={it.mainImage} src={imageSrc} alt={imageAlt} quality={100} loading='lazy' />
+					<Image className={it.mainImage} src={imageSrc} alt={imageAlt} loading="lazy" />
 				</div>
 
 				<div className={it.textContainer}>

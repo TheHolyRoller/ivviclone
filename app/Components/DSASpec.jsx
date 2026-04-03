@@ -1,5 +1,5 @@
 import React from 'react'
-import group from '../../public/images/dsa group.png'
+import group from '../../public/images/dsa group.webp'
 import DsaInfoBlock from './DsaInfoBlock'
 
 function DSASpec() {

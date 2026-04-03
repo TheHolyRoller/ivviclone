@@ -4,7 +4,7 @@ import styles from "../Styles/ResourcesHero.module.css"
 
 function ResourcesHero({
 	title = "Resources Page",
-	imageSrc = "/images/resources-hero.png",
+	imageSrc = "/images/resources-hero.webp",
 	imageAlt = "Team collaborating around a table with notes and laptops",
 	showText = true,
 	showOverlay = true,
@@ -19,8 +19,7 @@ function ResourcesHero({
 					fill
 					className={styles.bgImage}
 					sizes="100vw"
-					quality={100}
-					priority
+					loading="lazy"
 				/>
 				{showOverlay ? <div className={styles.overlay} aria-hidden /> : null}
 			</div>

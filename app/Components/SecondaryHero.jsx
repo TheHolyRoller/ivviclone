@@ -1,13 +1,12 @@
 import React from 'react'
 import h from '../Styles/SecondaryHero.module.css'; 
-import HeroBackground from '../../public/images/HeroBackground.png'; 
+import HeroBackground from '../../public/images/HeroBackground.webp'; 
 import laptop from '../../public/images/laptop.webp'; 
 
 import Image from 'next/image';
 import Link from 'next/link';
 import { IVVI_APP_URL } from './ivviAppUrl';
-import hero from '../../public/images/secondary_hero_img.png'; 
-// import hero from '../../public/images/a_hero.png'; 
+import hero from '../../public/images/secondary_hero_img.webp';
 
 
 
@@ -22,9 +21,8 @@ function SecondaryHero() {
       src={hero}
       alt="Ivvi Notes secondary hero"
       fill
-      priority
       sizes="100vw"
-      quality={95}
+      loading="lazy"
     />
 
     <section className={h.heroContentContainer} >

@@ -1,5 +1,5 @@
 import React from 'react'
-import help from '../../public/images/help.png'
+import help from '../../public/images/help.webp'
 import DsaInfoBlock from './DsaInfoBlock'
 
 function GrantCover() {

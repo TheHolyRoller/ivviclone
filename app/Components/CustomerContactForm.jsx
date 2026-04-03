@@ -2,7 +2,7 @@
 import React from 'react'
 import c from '../Styles/CustomerContactForm.module.css'; 
 import {useState, useEffect } from 'react'; 
-import support from '../../public/images/support.png'; 
+import support from '../../public/images/support.webp'; 
 import Image from 'next/image';
 
 function CustomerContactForm() {
@@ -176,7 +176,7 @@ function CustomerContactForm() {
       </div>
 
 
-    <Image src={support} alt="customer support" width={722} height={722} className={c.image} sizes="(max-width: 1023px) min(480px, 92vw), 722px" /> 
+    <Image src={support} alt="customer support" width={722} height={722} className={c.image} sizes="(max-width: 1023px) min(480px, 92vw), 722px" loading="lazy" /> 
 
 
 

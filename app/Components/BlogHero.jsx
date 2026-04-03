@@ -1,7 +1,8 @@
 import styles from "../Styles/BlogHero.module.css"
+import Image from "next/image"
 
 function BlogHero({
-	imageSrc = "/images/blog.png",
+	imageSrc = "/images/blog.webp",
 	imageAlt = "Student using ivvi mind mapping in a library",
 	title = "Why the First AI Tool to Win a Bett SEND Award Is Against AI Summaries",
 	paragraphs = [
@@ -14,7 +15,15 @@ function BlogHero({
 	return (
 		<article className={styles.card}>
 			<div className={styles.imageWrap}>
-				<img className={styles.image} src={imageSrc} alt={imageAlt} loading="lazy" />
+				<Image
+					className={styles.image}
+					src={imageSrc}
+					alt={imageAlt}
+					width={1200}
+					height={720}
+					loading="lazy"
+					sizes="(max-width: 768px) 100vw, 50vw"
+				/>
 			</div>
 
 			<div className={styles.content}>

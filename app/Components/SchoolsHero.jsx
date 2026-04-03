@@ -3,17 +3,17 @@ import h from '../Styles/SchoolsHero.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
 import { IVVI_APP_URL } from './ivviAppUrl'
-import awards from '../../public/images/bett.png'
-import schools from '../../public/images/schools.png'
+import awards from '../../public/images/bett.webp'
+import schools from '../../public/images/schools.webp'
 
 function SchoolsHero() {
 	return (
 		<section className={h.hero}>
-			<Image className={h.heroBackgroundImage} src={schools} alt='School classroom background' />
+			<Image className={h.heroBackgroundImage} src={schools} alt='School classroom background' sizes='100vw' loading="lazy" />
 
 			<div className={h.heroContentContainer}>
 				<h1 className={h.heroMainHeader}>
-					<Image className={h.awards} src={awards} alt='Bett award sticker' />
+					<Image className={h.awards} src={awards} alt='Bett award sticker' loading="lazy" />
 					ivvi Notes - Instant Visual Note-Taking Assistive Technology
 				</h1>
 
