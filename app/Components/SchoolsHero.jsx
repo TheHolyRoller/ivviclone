@@ -20,7 +20,7 @@ function SchoolsHero() {
 						loading="lazy"
 					/>
 					<h1 className={h.heroMainHeader} id="schools-hero-heading">
-						ivvi Notes - Instant Visual Note-Taking Assistive Technology
+						ivvi Notes for schools and colleges
 					</h1>
 				</div>
 

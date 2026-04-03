@@ -5,6 +5,7 @@ import StudentsFeatureSection from './StudentsFeatureSection'
 function ImageTextVideo() {
 	return (
 		<StudentsFeatureSection
+			titleTag="h3"
 			title='Audio Recording'
 			image={img}
 			imageAlt='Audio recording timeline in ivvi Notes'

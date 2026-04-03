@@ -6,6 +6,7 @@ function Edit() {
 	return (
 		<StudentsFeatureSection
 			reverse
+			titleTag="h3"
 			title='Edit Freely'
 			image={img}
 			imageAlt='Editing mode in ivvi Notes'

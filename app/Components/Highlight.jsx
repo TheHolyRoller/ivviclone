@@ -5,6 +5,7 @@ import StudentsFeatureSection from './StudentsFeatureSection'
 function Highlight() {
 	return (
 		<StudentsFeatureSection
+			titleTag="h3"
 			title='Highlight Quotes'
 			image={img}
 			imageAlt='Quote highlighting in ivvi Notes'

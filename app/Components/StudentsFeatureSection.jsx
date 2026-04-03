@@ -9,15 +9,17 @@ function StudentsFeatureSection({
 	imageAlt,
 	reverse = false,
 	children,
-	className = ''
+	className = '',
+	titleTag = 'h2'
 }) {
-	
+	const Heading = titleTag === 'h3' ? 'h3' : 'h2'
+
 	return (
 
 		<section className={`${s.section} ${className}`}>
 			<div className={`${s.grid} ${reverse ? s.gridReverse : ''}`}>
 				<div className={s.textContainer}>
-					<h2 className={s.heading}>{title}</h2>
+					<Heading className={s.heading}>{title}</Heading>
 					<p className={s.description}>{description}</p>
 					{children}
 				</div>

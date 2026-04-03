@@ -46,11 +46,11 @@ const featureItems = [
 	}
 ]
 
-function AssessorGrid() {
+function AssessorGrid({ Justification = AssessorJustification }) {
 	return (
 		<section className={g.featureGridContainer}>
 			<div className={g.justificationContainer}>
-				<AssessorJustification />
+				<Justification />
 			</div>
 			
 

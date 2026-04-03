@@ -4,7 +4,7 @@ import Image from "next/image"
 function BlogArticle({
 	imageSrc = "/images/bett%20award.webp",
 	imageAlt = "ivvi team receiving a Bett award",
-	title = "Our Story So Far. From Our Daughter's Bedroom Floor to Bett Award Winners",
+	title = "From our daughter's bedroom floor to Bett Award winners",
 	paragraphs = [
 		"Nine and a half years ago, a 15-year-old girl was sobbing on her bedroom floor, surrounded by notes.",
 		"She was top of her class. She'd rewritten and reread her notes for months. Nothing stuck. She failed an important exam. It was like a wall of words had collapsed on her.",

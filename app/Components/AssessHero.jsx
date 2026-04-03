@@ -22,7 +22,7 @@ function AssessHero() {
 						loading="lazy"
 					/>
 					<h1 className={h.heroMainHeader} id="assessors-hero-heading">
-						ivvi Notes - Instant Visual Note-Taking Assistive Technology
+						ivvi Notes for assessors and specialists
 					</h1>
 				</div>
 

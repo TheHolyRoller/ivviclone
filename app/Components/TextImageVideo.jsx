@@ -6,6 +6,7 @@ function TextImageVideo() {
 	return (
 		<StudentsFeatureSection
 			reverse
+			titleTag="h3"
 			title='Full Transcript'
 			image={img}
 			imageAlt='Full transcript view in ivvi Notes'

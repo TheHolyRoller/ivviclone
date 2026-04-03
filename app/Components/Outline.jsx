@@ -6,6 +6,7 @@ function Outline() {
 	return (
 		<StudentsFeatureSection
 			reverse
+			titleTag="h3"
 			title='Outline Visually'
 			image={img}
 			imageAlt='Outline mode connected with a mind map'

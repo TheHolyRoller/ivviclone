@@ -10,6 +10,7 @@ export const metadata = {
 	},
 }
 import AssessorGrid from '../Components/AssessorGrid'
+import StudentJustification from '../Components/StudentJustification'
 import CentralVideoBlock from '../Components/CentralVideoBlock'
 import LeftImageText from '../Components/LeftImageText'
 import TextImageVideo from '../Components/TextImageVideo'
@@ -45,11 +46,11 @@ function Assessors() {
 
     {/* Add in the section heading */}
 
-    <h5 className="mainSectionSpecHeading">
+    <h2 className="mainSectionSpecHeading">
 
     {`Key Features You'll Love`}
 
-    </h5>
+    </h2>
 
 
     <TextImageVideo/> 
