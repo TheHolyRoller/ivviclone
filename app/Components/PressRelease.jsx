@@ -23,6 +23,8 @@ function PressRelease() {
 					Scottish AI startup ivvi Notes for dyslexia wins prestigious Bett Award — first AI software in SEND category history
 				</p>
 
+				<h2 className={styles.sectionHeading}>Release details</h2>
+
 				<div className={styles.copyBlock}>
 					{PRESS_PARAGRAPHS.map((paragraph) => (
 						<p key={paragraph} className={styles.bodyCopy}>
@@ -30,6 +32,8 @@ function PressRelease() {
 						</p>
 					))}
 				</div>
+
+				<h2 className={styles.sectionHeading}>Media enquiries</h2>
 
 				<div className={styles.metaBlock}>
 					<p className={styles.metaText}>

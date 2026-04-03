@@ -43,6 +43,7 @@ function ContactElement({
 			<div className={styles.container}>
 				<div className={styles.formBlock}>
 					<h1 className={styles.heading}>{title}</h1>
+					<h2 className={styles.sectionHeading}>Send us a message</h2>
 					<p className={styles.bodyCopy}>{subtitle}</p>
 
 					<form className={styles.form} onSubmit={handleSubmit}>

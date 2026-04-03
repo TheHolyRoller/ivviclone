@@ -1,12 +1,13 @@
 import React from "react"
 import Link from "next/link"
-import LegalPage, { LegalA } from "../LegalPage"
+import LegalPage, { LegalA, LegalH2 } from "../LegalPage"
 import { IVVI_APP_URL } from "../ivviAppUrl"
 import styles from "../../Styles/LegalPage.module.css"
 
 export default function IvviContent() {
 	return (
 		<LegalPage title="ivvi">
+			<LegalH2>Visual note-taking with ivvi Notes</LegalH2>
 			<p>
 				ivvi Notes is instant visual note-taking assistive technology: it turns lecture and meeting content into structured
 				visual notes in real time, designed to support neurodiverse learners and anyone who benefits from mind maps and
@@ -16,6 +17,7 @@ export default function IvviContent() {
 				Whether you access ivvi through education, Access to Work, or as an individual, you get tools that work alongside
 				how you think—so you can listen, capture, and review with less friction.
 			</p>
+			<LegalH2>Try ivvi and explore this site</LegalH2>
 			<p>
 				<LegalA href={IVVI_APP_URL}>Try ivvi Notes</LegalA> or explore{" "}
 				<Link href="/students" className={styles.link}>

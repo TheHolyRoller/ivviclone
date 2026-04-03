@@ -41,6 +41,16 @@
 	color: #013699
 }
 
+.sectionHeading {
+	margin: 0.35rem 0 0;
+	max-width: 1080px;
+	font-family: "Lato", sans-serif;
+	font-size: clamp(1.2rem, 2vw, 1.5rem);
+	font-weight: 700;
+	line-height: 1.25;
+	color: #013699
+}
+
 .copyBlock {
 	display: grid;
 	gap: 1rem;
