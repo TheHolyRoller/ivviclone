@@ -7,7 +7,7 @@ function DyslexiaScreenerApp({
 	body = "We have created the top dyslexia screener on the Apple App Store. This free, multimedia interactive quiz gives you an indication of your potential level of dyslexia and the areas you might be feeling it the most.",
 	ctaLabel = "Download the Screener",
 	ctaHref = "#",
-	imageSrc = "/images/screener.jpg",
+	imageSrc = "/images/screener.webp",
 	imageAlt = "Dyslexia quiz app preview",
 }) {
 	return (

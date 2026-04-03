@@ -1,7 +1,7 @@
 import React from 'react'
 import h from '../Styles/AccessHero.module.css'
 import Image from 'next/image'
-import access from '../../public/images/access.jpeg'
+import access from '../../public/images/access.webp'
 
 function AccessHero() {
 	return (

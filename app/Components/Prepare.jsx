@@ -1,5 +1,5 @@
 import React from 'react'
-import zoom from '../../public/images/mic.png'
+import zoom from '../../public/images/mic.webp'
 import DsaContentSection from './DsaContentSection'
 
 function Prepare() {

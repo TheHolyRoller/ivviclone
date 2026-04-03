@@ -2,7 +2,7 @@ import React from 'react'
 import v from '../Styles/LeadMagnet.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
-import background from '../../public/images/lead.png'
+import background from '../../public/images/lead.webp'
 
 function LeadMagnet() {
 	return (

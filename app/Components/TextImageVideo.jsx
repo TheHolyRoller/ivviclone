@@ -1,5 +1,5 @@
 import React from 'react'
-import img from '../../public/images/full_transcript.png'
+import img from '../../public/images/full_transcript.webp'
 import StudentsFeatureSection from './StudentsFeatureSection'
 
 function TextImageVideo() {

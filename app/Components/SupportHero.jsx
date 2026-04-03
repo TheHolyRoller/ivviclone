@@ -1,6 +1,6 @@
 import React from 'react'
 import h from '../Styles/SupportHero.module.css'
-import lamp from '../../public/images/lamp.png'
+import lamp from '../../public/images/lamp.webp'
 
 import Image from 'next/image'
 

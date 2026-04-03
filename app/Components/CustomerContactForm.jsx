@@ -2,7 +2,7 @@
 import React from 'react'
 import c from '../Styles/CustomerContactForm.module.css'; 
 import {useState, useEffect } from 'react'; 
-import support from '../../public/images/support.png'; 
+import support from '../../public/images/support.webp'; 
 import Image from 'next/image';
 
 function CustomerContactForm() {

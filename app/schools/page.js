@@ -1,6 +1,6 @@
 import dynamic from "next/dynamic";
 import SchoolsHero from "../Components/SchoolsHero";
-import girl from "../../public/images/girl_laptop.png";
+import girl from "../../public/images/girl_laptop.webp";
 
 const Demo = dynamic(() => import("../Components/Demo"));
 const SchoolGrid = dynamic(() => import("../Components/SchoolGrid"));

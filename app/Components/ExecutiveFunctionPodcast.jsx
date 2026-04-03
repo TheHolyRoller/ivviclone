@@ -7,7 +7,7 @@ function ExecutiveFunctionPodcast({
 	body = "Darius Namdaran, founder of ivvi, co-hosts the Executive Function Podcast. Ideal for understanding how your brain gets things done (executive function) and how it affects the organisation in the workplace. Very helpful for dyslexia and ADHD.",
 	ctaLabel = "Listen to the Podcast",
 	ctaHref = "https://podcasts.apple.com/us/podcast/executive-function-brain-trainer-podcast/id1588400094",
-	imageSrc = "/images/brain.jpg",
+	imageSrc = "/images/brain.webp",
 	imageAlt = "Executive Function Brain Trainer podcast cover",
 }) {
 	return (

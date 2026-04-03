@@ -10,7 +10,7 @@ function DyslexiaExploredPodcast({
 	body = DEFAULT_BODY,
 	ctaLabel = "Listen to the Podcast",
 	ctaHref = "https://podcasts.apple.com/gb/podcast/dyslexia-explored/id1387645599",
-	imageSrc = "/images/explored.jpg",
+	imageSrc = "/images/explored.webp",
 	imageAlt = "Illustration representing thinking and learning",
 }) {
 	return (

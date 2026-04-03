@@ -2,7 +2,7 @@ import styles from "../Styles/BlogArticle.module.css"
 import Image from "next/image"
 
 function BlogArticle({
-	imageSrc = "/images/bett%20award.jpg",
+	imageSrc = "/images/bett%20award.webp",
 	imageAlt = "ivvi team receiving a Bett award",
 	title = "Our Story So Far. From Our Daughter's Bedroom Floor to Bett Award Winners",
 	paragraphs = [

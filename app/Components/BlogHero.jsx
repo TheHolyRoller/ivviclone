@@ -2,7 +2,7 @@ import styles from "../Styles/BlogHero.module.css"
 import Image from "next/image"
 
 function BlogHero({
-	imageSrc = "/images/blog.png",
+	imageSrc = "/images/blog.webp",
 	imageAlt = "Student using ivvi mind mapping in a library",
 	title = "Why the First AI Tool to Win a Bett SEND Award Is Against AI Summaries",
 	paragraphs = [

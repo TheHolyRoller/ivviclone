@@ -1,11 +1,11 @@
 import React from 'react'
 import h from '../Styles/SecondaryHero.module.css'; 
-import HeroBackground from '../../public/images/HeroBackground.png'; 
+import HeroBackground from '../../public/images/HeroBackground.webp'; 
 import laptop from '../../public/images/laptop.webp'; 
 
 import Image from 'next/image';
 import Link from 'next/link';
-import hero from '../../public/images/secondary_hero_img.png'; 
+import hero from '../../public/images/secondary_hero_img.webp'; 
 
 
 

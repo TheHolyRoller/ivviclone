@@ -1,5 +1,5 @@
 import React from 'react'
-import img from '../../public/images/edit.png'
+import img from '../../public/images/edit.webp'
 import StudentsFeatureSection from './StudentsFeatureSection'
 
 function Edit() {

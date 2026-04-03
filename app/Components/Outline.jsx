@@ -1,5 +1,5 @@
 import React from 'react'
-import img from '../../public/images/outline.png'
+import img from '../../public/images/outline.webp'
 import StudentsFeatureSection from './StudentsFeatureSection'
 
 function Outline() {

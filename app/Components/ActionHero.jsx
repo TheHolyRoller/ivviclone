@@ -1,7 +1,7 @@
 import React from 'react'
 import h from '../Styles/ActionHero.module.css'
 import Image from 'next/image'
-import action from '../../public/images/action.png'
+import action from '../../public/images/action.webp'
 
 function ActionHero() {
 	return (

@@ -1,5 +1,5 @@
 import React from 'react'
-import img from '../../public/images/mind_map.png'
+import img from '../../public/images/mind_map.webp'
 import StudentsFeatureSection from './StudentsFeatureSection'
 
 function LiveMap() {

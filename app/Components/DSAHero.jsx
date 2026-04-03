@@ -1,7 +1,7 @@
 import React from 'react'
 import h from '../Styles/DSAHero.module.css'
 import Image from 'next/image'
-import HeroBackground from '../../public/images/HeroBackground.png'
+import HeroBackground from '../../public/images/HeroBackground.webp'
 
 function DSAHero() {
 	return (

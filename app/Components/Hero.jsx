@@ -1,6 +1,6 @@
 import React from 'react'
 import h from '../Styles/Hero.module.css'; 
-import HeroBackground from '../../public/images/HeroBackground.png'; 
+import HeroBackground from '../../public/images/HeroBackground.webp'; 
 import laptop from '../../public/images/laptop.webp'; 
 
 

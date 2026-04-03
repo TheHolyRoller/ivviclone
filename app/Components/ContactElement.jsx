@@ -14,7 +14,7 @@ const INITIAL_FORM = {
 function ContactElement({
 	title = "Contact us",
 	subtitle = "Kindly fill out the form below to send us a message",
-	imageSrc = "/images/contact%20image.png",
+	imageSrc = "/images/contact%20image.webp",
 	imageAlt = "Support advisor with a headset"
 }) {
 	const [formInput, setFormInput] = useState(INITIAL_FORM)

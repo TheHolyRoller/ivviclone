@@ -1,5 +1,5 @@
 import React from 'react'
-import laptop from '../../public/images/lp.png'
+import laptop from '../../public/images/lp.webp'
 import DsaContentSection from './DsaContentSection'
 
 function DSA_Allowance() {

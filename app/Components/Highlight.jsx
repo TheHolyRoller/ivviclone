@@ -1,5 +1,5 @@
 import React from 'react'
-import img from '../../public/images/high.png'
+import img from '../../public/images/high.webp'
 import StudentsFeatureSection from './StudentsFeatureSection'
 
 function Highlight() {

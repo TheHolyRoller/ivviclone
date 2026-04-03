@@ -2,7 +2,7 @@ import React from 'react'
 import ti from '../Styles/RightImageText.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
-import img from '../../public/images/girl_study.png'
+import img from '../../public/images/girl_study.webp'
 
 const supportItems = [
 	{

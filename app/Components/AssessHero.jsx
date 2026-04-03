@@ -2,8 +2,8 @@ import React from 'react'
 import h from '../Styles/AssessHero.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
-import hero from '../../public/images/assess.png'
-import awards from '../../public/images/bett.png'
+import hero from '../../public/images/assess.webp'
+import awards from '../../public/images/bett.webp'
 
 function AssessHero() {
 	return (

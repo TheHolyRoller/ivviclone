@@ -2,8 +2,8 @@ import React from 'react'
 import h from '../Styles/SchoolsHero.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
-import awards from '../../public/images/bett.png'
-import schools from '../../public/images/schools.png'
+import awards from '../../public/images/bett.webp'
+import schools from '../../public/images/schools.webp'
 
 function SchoolsHero() {
 	return (

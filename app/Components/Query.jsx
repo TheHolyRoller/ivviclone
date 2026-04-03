@@ -3,7 +3,7 @@ import React from 'react'
 import c from '../Styles/Query.module.css'
 import Image from 'next/image'
 import { useState } from 'react'
-import darius from '../../public/images/darius.jpg'
+import darius from '../../public/images/darius.webp'
 
 const initialFormInput = {
 	name: '',

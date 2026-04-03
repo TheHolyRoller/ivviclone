@@ -1,7 +1,7 @@
 import React from 'react'
 import ti from '../Styles/SchoolsImageText.module.css'
 import Image from 'next/image'
-import img from '../../public/images/girl_study.png'
+import img from '../../public/images/girl_study.webp'
 
 const supportItems = [
 	{
