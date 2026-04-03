@@ -11,8 +11,8 @@ const DEFAULT_PARAGRAPHS = [
 function GrantSummary({
 	title = "DSA applications: how we support you at each step",
 	paragraphs = DEFAULT_PARAGRAPHS,
-	imageSrc = "https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=900&q=80",
-	imageAlt = "Two colleagues reviewing a tablet together"
+	imageSrc = "/images/access.webp",
+	imageAlt = "Three students collaborating with a laptop and notebooks on grass in a bright, modern setting"
 }) {
 	return (
 		<section className={ti.featureMainContainer}>
