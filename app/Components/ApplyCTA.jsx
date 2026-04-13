@@ -15,9 +15,14 @@ function ApplyCTA({
 				<p className={styles.bodyCopy}>{copy}</p>
 
 				<div className={styles.buttonGroup}>
-					<button type='button' className={styles.primaryButton}>
-					{primaryLabel}
-					</button>
+					<a
+						className={styles.primaryButton}
+						href="https://scheduler.zoom.us/darius-namdaran/apply"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						{primaryLabel}
+					</a>
 
 					<Link className={styles.secondaryButton} href="/pricing">
 						{secondaryLabel}

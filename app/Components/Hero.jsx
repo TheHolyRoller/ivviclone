@@ -2,6 +2,7 @@ import React from 'react'
 import h from '../Styles/Hero.module.css'; 
 import HeroBackground from '../../public/images/HeroBackground.webp'; 
 import laptop from '../../public/images/laptop.webp'; 
+import bett from '../../public/images/bett.webp'; 
 
 
 import Image from 'next/image';
@@ -10,7 +11,6 @@ import { IVVI_APP_URL } from './ivviAppUrl';
 
 
 function Hero() {
-
 
   return (
 
@@ -24,6 +24,13 @@ function Hero() {
       <div className={h.mobileHeroLaptopImageContainer}>
 
       <Image className={h.heroLaptopImg}  src={laptop} alt='laptop' priority sizes="(max-width: 768px) 80vw, 40vw"/> 
+      <Image
+        className={h.bettBadgeMobile}
+        src={bett}
+        alt="BETT award badge"
+        priority
+        sizes="(max-width: 1120px) 18vw, 110px"
+      />
 
     </div>
 
@@ -91,6 +98,13 @@ function Hero() {
 
 
       <Image className={h.heroLaptopImg}  src={laptop} alt='laptop' priority sizes="(max-width: 768px) 80vw, 40vw"/> 
+      <Image
+        className={h.bettBadge}
+        src={bett}
+        alt="BETT award badge"
+        priority
+        sizes="(max-width: 1320px) 10vw, 120px"
+      />
 
 
     </div>

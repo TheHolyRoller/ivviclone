@@ -1,0 +1,39 @@
+.section {
+	width: 100%;
+	padding: 2.75rem 1rem 3.25rem;
+	background: #efede8;
+}
+
+.inner {
+	width: min(1040px, 92vw);
+	margin: 0 auto;
+}
+
+.heading {
+	margin: 0;
+	color: #013699;
+	font-family: "Lato", sans-serif;
+	font-size: clamp(2rem, 3vw, 3rem);
+	font-weight: 700;
+	line-height: 1.1;
+}
+
+.copy {
+	margin: 1.25rem 0 0;
+	max-width: 900px;
+	color: #00143d;
+	font-family: "Nunito", sans-serif;
+	font-size: clamp(1rem, 1.35vw, 1.35rem);
+	font-weight: 500;
+	line-height: 1.5;
+}
+
+@media (max-width: 640px) {
+	.section {
+		padding: 2.25rem 1rem 2.75rem;
+	}
+
+	.inner {
+		width: 94vw;
+	}
+}

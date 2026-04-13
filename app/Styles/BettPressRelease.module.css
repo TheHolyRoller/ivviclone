@@ -1,0 +1,144 @@
+.page {
+	width: 100%;
+	background: #efede8;
+}
+
+.hero {
+	min-height: 90vh;
+	display: grid;
+	place-items: center;
+	padding: clamp(2rem, 4vw, 3rem) 1rem;
+}
+
+.container {
+	width: min(1040px, 100%);
+	display: grid;
+	justify-items: center;
+	gap: clamp(1rem, 2vw, 1.5rem);
+}
+
+.title {
+	margin: 0;
+	color: #013699;
+	font-family: "Lato", sans-serif;
+	font-size: clamp(2rem, 4.2vw, 3.2rem);
+	font-weight: 700;
+	line-height: 1.1;
+	text-align: center;
+}
+
+.imageFrame {
+	width: min(980px, 92vw);
+}
+
+.heroImage {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.supportingTextBlock {
+	margin-top: 2rem;
+	width: min(1040px, 92vw);
+}
+
+.supportingHeading {
+	margin: 0 0 0.75rem;
+	color: #013699;
+	font-family: "Lato", sans-serif;
+	font-size: clamp(1.5rem, 2.3vw, 2.3rem);
+	font-weight: 700;
+	line-height: 1.2;
+}
+
+.supportingText {
+	margin: 0;
+	color: #00143d;
+	font-family: "Nunito", sans-serif;
+	font-size: clamp(1.05rem, 1.35vw, 2rem);
+	font-weight: 500;
+	line-height: 1.5;
+}
+
+.demoSection {
+	margin-top: 3rem;
+	width: min(1040px, 92vw);
+	display: grid;
+	gap: 1.25rem;
+}
+
+.demoHeading {
+	margin: 0;
+	color: #013699;
+	font-family: "Lato", sans-serif;
+	font-size: clamp(1.7rem, 2.4vw, 2.5rem);
+	font-weight: 700;
+	line-height: 1.2;
+}
+
+.videoWrap {
+	width: 100%;
+	aspect-ratio: 16 / 9;
+	background: #000;
+	border: 2px solid #0f1421;
+}
+
+.videoFrame {
+	width: 100%;
+	height: 100%;
+	border: none;
+	display: block;
+}
+
+.demoButton {
+	width: min(430px, 100%);
+	min-height: 52px;
+	margin: 0 auto;
+	border-radius: 999px;
+	background: #ef7a1a;
+	color: #ffffff;
+	font-family: "Nunito", sans-serif;
+	font-size: clamp(1rem, 1.5vw, 1.2rem);
+	font-weight: 700;
+	line-height: 1;
+	text-decoration: none;
+	display: inline-grid;
+	place-items: center;
+	transition: filter 0.2s ease;
+}
+
+.demoButton:hover {
+	filter: brightness(1.05);
+}
+
+.foundersGroup {
+	width: 100%;
+	margin-top: 3rem;
+	padding: 5.25rem 0;
+	background-color: #79a479;
+	display: grid;
+	gap: 1.5rem;
+}
+
+.preApprovedWrapper {
+	width: 100%;
+	background: #ef7a1a;
+}
+
+@media (max-width: 640px) {
+	.hero {
+		padding: 1.5rem 0.85rem;
+	}
+
+	.imageFrame {
+		width: min(980px, 94vw);
+	}
+
+	.supportingTextBlock {
+		width: 94vw;
+	}
+
+	.demoSection {
+		width: 94vw;
+	}
+}

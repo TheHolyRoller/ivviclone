@@ -16,25 +16,22 @@ function Navbar() {
     <nav className={n.navbar}> 
 
       <div className={n.LogoContainer}>
-
-      <Image
-        src={Logo}
-        alt="ivvi"
-        width={214}
-        height={92}
-        priority
-        className={n.navLogo}
-        sizes="140px"
-      />
-
-
+      <Link href="/" aria-label="Go to homepage">
+        <Image
+          src={Logo}
+          alt="ivvi"
+          width={214}
+          height={92}
+          priority
+          className={n.navLogo}
+          sizes="140px"
+        />
+      </Link>
       </div>
 
 
-      {/* Add in the button section container here  */}
       <article className={n.navigationContainer}>
 
-            {/* Add in the list here  */}
         <ul className={n.navigationButtonList}>
 
             <li className={n.navigationListItem}>

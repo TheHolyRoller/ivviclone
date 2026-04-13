@@ -90,12 +90,14 @@
 .heroSupportingText {
 
 
-    width: 14vw; 
+    width: 18vw; 
+    min-width: 380px;
     font-size: clamp(1rem, 1vw + 1rem, 1.55rem);
 
     width: 90%; 
     max-width: 400px; 
 
+    font-family: "Nunito" !important; 
 	
 }
 

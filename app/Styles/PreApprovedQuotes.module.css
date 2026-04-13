@@ -1,0 +1,79 @@
+.section {
+	width: auto;
+	padding: 3.25rem 1rem 3.75rem;
+	margin: 0 auto;
+	background: transparent;
+}
+
+.inner {
+	width: min(1040px, 92vw);
+	margin: 0 auto;
+}
+
+.heading {
+	margin: 0;
+	color: #f2f4ef;
+	font-family: "Lato", sans-serif;
+	font-size: clamp(2rem, 3.2vw, 3rem);
+	font-weight: 700;
+	line-height: 1.1;
+}
+
+
+.quoteRow {
+	margin-top: 1.5rem;
+	display: grid;
+	grid-template-columns: 185px minmax(0, 1fr);
+	gap: 1rem;
+	align-items: start;
+}
+
+.avatarWrap {
+	width: 185px;
+	height: 185px;
+}
+
+.avatar {
+	width: 185px;
+	height: 185px;
+	display: block;
+	object-fit: cover;
+	border-radius: 8px;
+}
+
+.quoteCopy {
+	display: grid;
+	gap: 0.45rem;
+}
+
+.name {
+	margin: 0;
+	color: #f2f4ef;
+	font-family: "Lato", sans-serif;
+	font-size: clamp(1.5rem, 2vw, 2rem);
+	font-weight: 700;
+	line-height: 1.2;
+}
+
+.quoteText {
+	margin: 0;
+	color: #f2f4ef;
+	font-family: "Nunito", sans-serif;
+	font-size: clamp(1rem, 1.25vw, 1.35rem);
+	font-weight: 500;
+	line-height: 1.45;
+}
+
+@media (max-width: 640px) {
+	.section {
+		padding: 2.5rem 1rem 3rem;
+	}
+
+	.inner {
+		width: 94vw;
+	}
+
+	.quoteRow {
+		grid-template-columns: 1fr;
+	}
+}

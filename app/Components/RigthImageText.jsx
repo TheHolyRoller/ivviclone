@@ -1,6 +1,5 @@
 import React from 'react'
 import ti from '../Styles/RightImageText.module.css'
-import Link from 'next/link'
 import Image from 'next/image'
 import img from '../../public/images/girl_study.webp'
 
@@ -58,9 +57,13 @@ function RightImageText() {
 						</ul>
 
 						<p className={ti.buttonIntroText}>Download our Assessors Guide:</p>
-						<Link className={ti.downloadButton} href='/ivvi'>
+						<a
+							className={ti.downloadButton}
+							href='/assessors_DSA_guide.pdf'
+							download='assessors_DSA_guide.pdf'
+						>
 							Download Assessors Guide
-						</Link>
+						</a>
 					</div>
 				</div>
 

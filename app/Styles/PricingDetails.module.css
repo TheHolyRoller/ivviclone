@@ -64,6 +64,10 @@
 	color: #ef7a1a;
 	cursor: pointer;
 	transition: background-color 0.2s ease, color 0.2s ease, transform 0.12s ease;
+	text-decoration: none;
+	display: inline-grid;
+	place-items: center;
+	box-sizing: border-box;
 }
 
 .subscribeButton:hover {
@@ -111,6 +115,10 @@
 	color: #ffffff;
 	cursor: pointer;
 	transition: filter 0.2s ease, transform 0.12s ease;
+	text-decoration: none;
+	display: inline-grid;
+	place-items: center;
+	box-sizing: border-box;
 }
 
 .activateButton:hover {
@@ -155,6 +163,10 @@
 	color: #ffffff;
 	cursor: pointer;
 	transition: filter 0.2s ease, transform 0.12s ease;
+	text-decoration: none;
+	display: inline-grid;
+	place-items: center;
+	box-sizing: border-box;
 }
 
 .downloadButton:hover {

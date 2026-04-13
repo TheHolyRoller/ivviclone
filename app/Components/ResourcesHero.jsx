@@ -4,7 +4,7 @@ import styles from "../Styles/ResourcesHero.module.css"
 
 function ResourcesHero({
 	title = "Resources Page",
-	imageSrc = "/images/resources-hero.webp",
+	imageSrc = "/images/resources.webp",
 	imageAlt = "Team collaborating around a table with notes and laptops",
 	showText = true,
 	showOverlay = true,
@@ -16,8 +16,6 @@ function ResourcesHero({
 				<Image
 					src={imageSrc}
 					alt={imageAlt}
-					width={1024}
-					height={293}
 					fill
 					className={styles.bgImage}
 					sizes="100vw"

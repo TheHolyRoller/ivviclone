@@ -26,8 +26,6 @@ function DyslexiaScreenerApp({
 						<Image
 							src={imageSrc}
 							alt={imageAlt}
-							width={858}
-							height={808}
 							fill
 							className={styles.image}
 							sizes="(max-width: 900px) 88vw, 440px"

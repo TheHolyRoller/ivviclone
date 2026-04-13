@@ -21,6 +21,7 @@ export const metadata = {
 	},
 }
 
+
 function AssessorsPage() {
   return (
     <main aria-labelledby="assessors-hero-heading">
@@ -31,8 +32,9 @@ function AssessorsPage() {
       <SpecGrid sectionTitle="Key assistive features for assessment and study" />
       <TechSpecs heading="Audio, transcript and mind map in one assessment app" />
 
+
       <DemoRequest
-        mainHeading="Request a demo licence for assessment use"
+        mainHeading="Request a demo license for assessment use"
         bulletPoints={[
           "Free licence for assessment, demonstration and training purposes.",
           "Experience the functionality of ivvi",

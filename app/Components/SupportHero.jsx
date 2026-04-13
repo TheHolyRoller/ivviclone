@@ -11,8 +11,6 @@ function SupportHero() {
 				className={h.heroBackgroundImage}
 				src={lamp}
 				alt="Warm desk lamp beside a workspace — ivvi customer support hero background"
-				width={1600}
-				height={900}
 				fill
 				sizes="100vw"
 				loading="lazy"

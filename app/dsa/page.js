@@ -23,6 +23,7 @@ import Query from '../Components/Query'
 import LeadMagnet from '../Components/LeadMagnet'
 import Resources from '../Components/Resources'
 
+
 function Page() {
 	return (
 		<main>

@@ -1,4 +1,5 @@
 import styles from "../Styles/PressRelease.module.css"
+import Link from "next/link"
 
 const PRESS_PARAGRAPHS = [
 	"EDINBURGH, UK: ivvi Notes, a visual notes software for dyslexia, wins the 2026 Bett Award for SEND & Inclusion Resources and Services. A historic milestone for both the Scottish AI Edtech sector and the field of inclusive education.",
@@ -51,9 +52,9 @@ function PressRelease() {
 					</p>
 				</div>
 
-				<button type="button" className={styles.ctaButton}>
+				<Link href="/bett-press-release" className={styles.ctaButton}>
 					Download Press Kit
-				</button>
+				</Link>
 			</div>
 		</section>
 	)

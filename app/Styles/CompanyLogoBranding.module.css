@@ -1,0 +1,141 @@
+.section {
+	width: 100%;
+	padding: 4rem 1rem 4.5rem;
+	background: #efede8;
+}
+
+.inner {
+	width: min(1040px, 92vw);
+	margin: 0 auto;
+}
+
+.heading {
+	margin: 0;
+	color: #013699;
+	font-family: "Lato", sans-serif;
+	font-size: clamp(2rem, 3.2vw, 3.1rem);
+	font-weight: 700;
+	line-height: 1.1;
+}
+
+.logoWrap {
+	margin-top: 2rem;
+	margin-inline: auto;
+	display: grid;
+	place-items: center;
+	width: min(520px, 90%);
+	padding: 1.25rem 1rem;
+	background: #013699;
+	border-radius: 4px;
+}
+
+.logo {
+	width: min(320px, 60vw);
+	height: auto;
+}
+
+.intro {
+	margin: 2rem 0 0;
+	color: #00143d;
+	font-family: "Nunito", sans-serif;
+	font-size: clamp(1rem, 1.3vw, 1.45rem);
+	font-weight: 500;
+	line-height: 1.45;
+}
+
+.points {
+	margin-top: 1.4rem;
+	display: grid;
+	gap: 1rem;
+}
+
+.point {
+	margin: 0;
+	color: #00143d;
+	font-family: "Nunito", sans-serif;
+	font-size: clamp(1rem, 1.3vw, 1.45rem);
+	font-weight: 500;
+	line-height: 1.5;
+}
+
+.accessibility {
+	color: #013699;
+	font-weight: 700;
+}
+
+.confidence {
+	color: #c57b2b;
+	font-weight: 700;
+}
+
+.freedom {
+	color: #5b8f58;
+	font-weight: 700;
+}
+
+.assetsShowcase {
+	margin: 2.25rem auto 0;
+	width: min(70%, 760px);
+	display: grid;
+	gap: 1rem;
+}
+
+.logoCard {
+	min-height: 180px;
+	border-radius: 4px;
+	display: grid;
+	place-items: center;
+}
+
+.logoCardBlue {
+	background: #013ea2;
+}
+
+.logoCardBlack {
+	background: #000000;
+}
+
+.logoCardImage {
+	width: min(240px, 72%);
+	height: auto;
+}
+
+.assetsButton {
+	width: min(500px, 100%);
+	min-height: 52px;
+	margin: 0.5rem auto 0;
+	border: 2px solid #df983f;
+	border-radius: 999px;
+	background: transparent;
+	color: #df983f;
+	font-family: "Nunito", sans-serif;
+	font-size: clamp(1rem, 1.2vw, 1.35rem);
+	font-weight: 700;
+	line-height: 1;
+	cursor: pointer;
+}
+
+@media (min-width: 700px) {
+	.assetsShowcase {
+		grid-template-columns: 1fr 1fr;
+		align-items: stretch;
+	}
+
+	.assetsButton {
+		grid-column: 1 / -1;
+	}
+}
+
+@media (max-width: 640px) {
+	.section {
+		padding: 3rem 1rem 3.5rem;
+	}
+
+	.inner {
+		width: 94vw;
+	}
+
+	.assetsShowcase {
+		width: 94vw;
+	}
+}

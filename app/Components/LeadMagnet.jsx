@@ -1,6 +1,5 @@
 import React from 'react'
 import v from '../Styles/LeadMagnet.module.css'
-import Link from 'next/link'
 import Image from 'next/image'
 import background from '../../public/images/lead.webp'
 
@@ -16,11 +15,16 @@ function LeadMagnet({
 					<Image className={v.image} src={background} alt='Cover image of DSA guide' loading="lazy" />
 				</div>
 
-				<Link className={v.ctaButton} href='/ivvi'>
+				<a
+					className={v.ctaButton}
+					href='/Student_Application_DSA_Guide.pdf'
+					download='Student_Application_DSA_Guide.pdf'
+				>
 					Download PDF here
-				</Link>
+				</a>
 			</div>
 		</section>
+		
 	)
 }
 

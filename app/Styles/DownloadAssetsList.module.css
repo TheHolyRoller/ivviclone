@@ -1,0 +1,79 @@
+.section {
+	width: 100%;
+	padding: 3rem 1rem 4rem;
+	background: #efede8;
+}
+
+.inner {
+	width: min(1040px, 92vw);
+	margin: 0 auto;
+}
+
+.heading {
+	margin: 0;
+	color: #013699;
+	font-family: "Lato", sans-serif;
+	font-size: clamp(1.9rem, 3vw, 3rem);
+	font-weight: 700;
+	line-height: 1.15;
+}
+
+.downloadButton {
+	width: min(540px, 100%);
+	min-height: 56px;
+	margin: 1.25rem 0 0;
+	display: grid;
+	place-items: center;
+	border: 0;
+	border-radius: 999px;
+	background: #ef7a1a;
+	color: #f2f4ef;
+	font-family: "Nunito", sans-serif;
+	font-size: clamp(1rem, 1.35vw, 1.35rem);
+	font-weight: 700;
+	line-height: 1;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.copyBlock {
+	margin-top: 1.2rem;
+	max-width: 760px;
+}
+
+.blockTitle {
+	margin: 0 0 0.5rem;
+	color: #013699;
+	font-family: "Lato", sans-serif;
+	font-size: clamp(1.45rem, 2.1vw, 2rem);
+	font-weight: 700;
+}
+
+.groupTitle {
+	margin: 0.95rem 0 0.35rem;
+	color: #013699;
+	font-family: "Nunito", sans-serif;
+	font-size: clamp(1.1rem, 1.45vw, 1.5rem);
+	font-weight: 700;
+}
+
+.list {
+	margin: 0;
+	padding-left: 1.5rem;
+	display: grid;
+	gap: 0.35rem;
+	color: #013699;
+	font-family: "Nunito", sans-serif;
+	font-size: clamp(1rem, 1.25vw, 1.35rem);
+	font-weight: 600;
+}
+
+@media (max-width: 640px) {
+	.section {
+		padding: 2.5rem 1rem 3rem;
+	}
+
+	.inner {
+		width: 94vw;
+	}
+}

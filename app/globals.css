@@ -132,11 +132,16 @@
   }
 }
 
+html,
 body {
-    
-  color: var(--foreground);
+  margin: 0;
+  padding: 0;
+  width: 100%;
   overflow-x: hidden;
+}
 
+body {
+  color: var(--foreground);
 }
 
 

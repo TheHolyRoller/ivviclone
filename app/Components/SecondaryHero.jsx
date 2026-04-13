@@ -20,8 +20,6 @@ function SecondaryHero() {
       className={h.heroBackgroundImage}
       src={hero}
       alt="Ivvi Notes secondary hero"
-      width={2880}
-      height={1126}
       fill
       sizes="100vw"
       loading="lazy"

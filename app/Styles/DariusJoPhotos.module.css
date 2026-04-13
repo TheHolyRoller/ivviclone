@@ -1,0 +1,119 @@
+.section {
+	width: 100%;
+	padding: 3rem 1rem 4rem;
+	background: #efede8;
+}
+
+.inner {
+	width: min(1040px, 92vw);
+	margin: 0 auto;
+}
+
+.heading {
+	margin: 0;
+	color: #013699;
+	font-family: "Lato", sans-serif;
+	font-size: clamp(2rem, 3vw, 3rem);
+	font-weight: 700;
+	line-height: 1.1;
+}
+
+.imageWrap {
+	margin-top: 1.5rem;
+	width: min(900px, 100%);
+}
+
+.image {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.portraitGrid {
+	margin-top: 2rem;
+	width: min(900px, 100%);
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 1.25rem;
+}
+
+.portraitCard {
+	background: #d9d9d9;
+}
+
+.portraitImage {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.joTriptychGrid {
+	margin-top: 2rem;
+	width: 90%;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 1rem;
+}
+
+.featureImageWrap {
+	margin-top: 2rem;
+	width: min(960px, 90%);
+}
+
+.featureImage {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.dariusTriptychGrid {
+	margin-top: 2rem;
+	width: 90%;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 1rem;
+}
+
+.downloadPhotosButton {
+	width: min(500px, 90%);
+	min-height: 52px;
+	margin: 1.2rem auto 0;
+	display: block;
+	border: 2px solid #df983f;
+	border-radius: 999px;
+	background: transparent;
+	color: #df983f;
+	font-family: "Nunito", sans-serif;
+	font-size: clamp(1rem, 1.2vw, 1.35rem);
+	font-weight: 700;
+	line-height: 1;
+	cursor: pointer;
+}
+
+@media (max-width: 640px) {
+	.section {
+		padding: 2.5rem 1rem 3rem;
+	}
+
+	.inner {
+		width: 94vw;
+	}
+
+	.portraitGrid {
+		grid-template-columns: 1fr;
+	}
+
+	.joTriptychGrid {
+		width: 100%;
+		grid-template-columns: 1fr;
+	}
+
+	.dariusTriptychGrid {
+		width: 100%;
+		grid-template-columns: 1fr;
+	}
+
+	.featureImageWrap {
+		width: 100%;
+	}
+}

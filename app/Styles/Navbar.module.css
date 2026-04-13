@@ -1,3 +1,4 @@
+
 .navbar {
 
 
@@ -25,7 +26,7 @@
 
     height: 83.5px;
     position: absolute; 
-    left: 7.5rem; 
+    left: 12.5rem; 
     top: 30px; 
 
 	
@@ -33,7 +34,10 @@
 
 .navLogo {
 	width: auto;
-	height: 52px;
+	height: 32px;
+	cursor: pointer; 
+	
+
 }
 
 .navigationContainer {
@@ -158,7 +162,7 @@
 	opacity: 0;
 	visibility: hidden;
 	pointer-events: none;
-	transition: opacity 0.15s ease, visibility 0.15s ease;
+	transition: opacity 0.15s ease 1.5s, visibility 0s linear 1.5s;
 	z-index: 1;
 }
 
@@ -188,6 +192,7 @@
 	opacity: 1;
 	visibility: visible;
 	pointer-events: auto;
+	transition-delay: 0s, 0s;
 }
 
 #cta {

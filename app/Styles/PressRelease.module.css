@@ -103,7 +103,11 @@
 	line-height: 1;
 	color: #ffffff;
 	cursor: pointer;
-	transition: background-color 0.2s ease
+	transition: background-color 0.2s ease;
+	text-decoration: none;
+	display: inline-grid;
+	place-items: center;
+	box-sizing: border-box;
 }
 
 .ctaButton:hover {

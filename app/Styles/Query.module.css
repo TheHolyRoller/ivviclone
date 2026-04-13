@@ -35,6 +35,8 @@
 	border-radius: var(--input-border-radius);
 	border: none;
 	font-size: 1rem;
+	background-color: #ffffff;
+	color: #00143d;
 }
 
 #textAreaInput {

@@ -33,27 +33,42 @@ function PricingDetails({
 							))}
 						</ul>
 
-						<button type="button" className={styles.subscribeButton}>
+						<a
+							className={styles.subscribeButton}
+							href="https://ivvi.dev/subscription"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
 							{subscribeLabel}
-						</button>
+						</a>
 					</div>
 
 					<div className={styles.rightBlock}>
 						<h2 className={styles.activationTitle}>{activationTitle}</h2>
 						<p className={styles.activationCopy}>{activationCopy}</p>
 
-						<button type="button" className={styles.activateButton}>
+						<a
+							className={styles.activateButton}
+							href="https://ivvi.dev/student-registration"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
 							{activateLabel}
-						</button>
+						</a>
 					</div>
 				</div>
 
 				<div className={styles.downloadBlock}>
 					<h2 className={styles.downloadTitle}>{downloadTitle}</h2>
 
-					<button type="button" className={styles.downloadButton}>
+					<a
+						className={styles.downloadButton}
+						href="https://ivvi.dev/download"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
 						{downloadLabel}
-					</button>
+					</a>
 				</div>
 			</div>
 		</section>

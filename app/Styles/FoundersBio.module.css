@@ -1,0 +1,63 @@
+.founderSection {
+	width: 100%;
+	margin-top: 0;
+	padding: 0;
+	display: grid;
+	justify-items: center;
+}
+
+.founderInner {
+	width: min(1040px, 92vw);
+	display: grid;
+	gap: 1rem;
+}
+
+.founderHeading {
+	margin: 0;
+	color: #f2f4ef;
+	font-family: "Lato", sans-serif;
+	font-size: clamp(1.8rem, 2.5vw, 2.6rem);
+	font-weight: 700;
+	line-height: 1.2;
+}
+
+.founderGrid {
+	display: grid;
+	grid-template-columns: minmax(0, 1fr) minmax(280px, 430px);
+	gap: clamp(1rem, 2vw, 2.2rem);
+	align-items: center;
+}
+
+.founderGridReverse {
+	grid-template-columns: minmax(280px, 430px) minmax(0, 1fr);
+}
+
+.founderText {
+	margin: 0;
+	color: #f2f4ef;
+	font-family: "Nunito", sans-serif;
+	font-size: clamp(1.05rem, 1.45vw, 2rem);
+	font-weight: 500;
+	line-height: 1.5;
+}
+
+.founderImageWrap {
+	width: 100%;
+}
+
+.founderImage {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+@media (max-width: 760px) {
+	.founderInner {
+		width: 94vw;
+	}
+
+	.founderGrid,
+	.founderGridReverse {
+		grid-template-columns: 1fr;
+	}
+}

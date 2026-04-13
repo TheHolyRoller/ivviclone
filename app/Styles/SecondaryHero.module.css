@@ -277,6 +277,17 @@
 
 
 
+@media (min-width: 1120px) {
+
+    .heroTextContainer {
+
+        margin-top: 3.7rem;
+
+    }
+
+}
+
+
 /* Add in the media queries here  */
 
 @media(max-width: 1430px) {
