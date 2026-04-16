@@ -97,3 +97,17 @@
 		padding: 4rem 1rem 3rem;
 	}
 }
+
+@media (min-width: 701px) and (max-width: 1024px) {
+	.hero {
+		padding-top: calc(5rem + 7.5vh);
+		padding-bottom: calc(4rem + 7.5vh);
+	}
+}
+
+@media (max-width: 700px) {
+	.hero {
+		padding-top: calc(4rem + 7.5vh);
+		padding-bottom: calc(3rem + 7.5vh);
+	}
+}
