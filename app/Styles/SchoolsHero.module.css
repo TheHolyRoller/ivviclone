@@ -89,4 +89,26 @@
 	.hero {
 		padding: 4rem 1rem 3rem;
 	}
+
+	.awards {
+		width: clamp(136px, 20.4vw, 255px);
+	}
+}
+
+@media (min-width: 701px) and (max-width: 1024px) {
+	.hero {
+		padding-top: calc(5rem + 10vh);
+		padding-bottom: calc(4rem + 10vh);
+	}
+
+	.awards {
+		width: clamp(136px, 20.4vw, 255px);
+	}
+}
+
+@media (max-width: 700px) {
+	.hero {
+		padding-top: calc(4rem + 10vh);
+		padding-bottom: calc(3rem + 10vh);
+	}
 }
