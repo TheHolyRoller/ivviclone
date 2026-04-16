@@ -17,5 +17,6 @@
 @media (max-width: 1024px) {
 	.mainHeadline {
 		padding-left: 2rem;
+		font-size: calc(clamp(2rem, 4vw, 3.2rem) + 0.5rem);
 	}
 }
