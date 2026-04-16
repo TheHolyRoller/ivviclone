@@ -16,7 +16,7 @@
     .featureGridContainer {
 
         padding-top: 6rem !important;
-        margin-top: -8.5rem !important;
+        margin-top: 0 !important;
 
     }
 
@@ -171,6 +171,12 @@
 
 }
 
+@media (max-width: 1024px) {
+    .justificationContainer {
+        padding-top: 4.2rem;
+    }
+}
+
 
 .gridSupportingText {
 
@@ -250,7 +256,7 @@
 @media(max-width: 500px){
     .featureGridContainer {
         padding: 1rem 1rem 3rem;
-        margin-top: -22rem !important; 
+        margin-top: 0 !important; 
 
     }
 
