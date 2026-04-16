@@ -8,17 +8,9 @@
 	display: grid; 
 	place-content: center; 
 	margin-top: 20vh; 
-
-
-
-
 	 
 }
 
-.page,
-.page * {
-	/* outline: 1px solid rgba(1, 54, 153, 0.55); */
-}
 
 .hero {
 	min-height: 90vh;

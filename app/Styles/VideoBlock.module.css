@@ -202,8 +202,6 @@
 
     height: min-content;
     max-height: 100vh; 
-    /* outline: 55px solid red; */
-
 
 }
 
@@ -217,7 +215,6 @@
 
         height: min-content;
         max-height: 100vh;
-        /* outline: 55px solid red; */
         max-height: 30vh;
 
     }
