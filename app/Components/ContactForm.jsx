@@ -2,13 +2,13 @@
 import React from 'react'
 import c from '../Styles/ContactForm.module.css'; 
 
-import {useState, useEffect } from 'react'; 
+import {useState } from 'react'; 
 
 
 
 
 
-function ContactForm() {
+function ContactForm({ formAction = "https://submit-form.com/YRsAOjssR" }) {
 
 
   const [formInput, setFormInput] = useState({
@@ -22,6 +22,7 @@ function ContactForm() {
   }); 
 
   const [isSubmitting, setIsSubmitting] = useState(false); 
+  const [submitStatus, setSubmitStatus] = useState("");
 
 
 
@@ -32,31 +33,6 @@ function ContactForm() {
   // Add in the function definitions here 
 
 
-  // Add in useEffect hooks here 
-
-  // Add in the useEffect hook here that will take the inputted values and submit them to the form spark api endpoint. 
-  useEffect(() => {
-
-      // Use this use Effect hook to keep track of state input variables 
-
-      console.log("this is the updated state \n", formInput); 
-
-
-
-
-  }, [formInput]); 
-
-
-  // Add in the submitting useEffect here 
-  useEffect(() => {
-
-
-    console.log("updating the input variables"); 
-
-
-  }, [formInput]);
-
-
   // Add in the event handlers here 
 
   const handleInput = (e) => {
@@ -65,7 +41,6 @@ function ContactForm() {
     // Take the global state management here 
 
     const {name, value} = e.target; 
-    console.log('this is the user input', name, value); 
 
 
     setFormInput(prevState => ({
@@ -74,33 +49,51 @@ function ContactForm() {
       [name]: value 
 
 
-    }))
-    
+    }));
+    setSubmitStatus("");
 
   }
 
 
-  const handleSubmit = () => {
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+    setSubmitStatus("");
 
+    try {
+      const payload = new URLSearchParams({
+        name: formInput.name,
+        email: formInput.email,
+        mobile: formInput.mobile,
+        message: formInput.message,
+      });
 
-        try{
+      const response = await fetch(formAction, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded",
+          Accept: "application/json",
+        },
+        body: payload.toString(),
+      });
 
+      if (!response.ok) {
+        throw new Error("Request failed");
+      }
 
-          console.log('this is the final state \n', formInput); 
-
-
-
-        }
-        catch(error){
-
-
-          console.error("failed to submit form! \n", error); 
-
-
-        }
-      
-
-
+      setSubmitStatus("Thanks. Your message has been sent.");
+      setFormInput({
+        name: "",
+        email: "",
+        mobile: "",
+        message: "",
+      });
+    } catch (error) {
+      console.error("failed to submit form! \n", error);
+      setSubmitStatus("Something went wrong. Please try again.");
+    } finally {
+      setIsSubmitting(false);
+    }
   }
 
 
@@ -141,14 +134,14 @@ function ContactForm() {
         <div className={c.inputFormContainer}>
 
 
-        <form className={c.contactForm} action="https://submit-form.com/YRsAOjssR" >
+        <form className={c.contactForm} onSubmit={handleSubmit}>
 
 
 
           <input className={c.formInput} placeholder='Name*' name="name" value={formInput.name} type='text' required onChange={handleInput}  /> 
 
           <input className={c.formInput} placeholder="Email*" name="email" value={formInput.email} type="text" required onChange={handleInput} /> 
-          <input className={c.formInput} placeholder="Mobile" name="mobile" value={formInput.mobile} type="text" required onChange={handleInput}/> 
+          <input className={c.formInput} placeholder="Mobile" name="mobile" value={formInput.mobile} type="text" onChange={handleInput}/> 
           <textarea rows={1} className={c.formInput} id={c.textAreaInput} placeholder="Please tell us what you want to know" name="message" value={formInput.message} type="text" required onChange={handleInput}/>
 
 
@@ -157,11 +150,16 @@ function ContactForm() {
 
         {/* Add in the submit button here  */}
 
-        <button className={c.submitButton} type='submit'>
+        <button className={c.submitButton} type='submit' disabled={isSubmitting}>
 
-          Submit 
+          {isSubmitting ? "Submitting..." : "Submit"}
 
         </button>
+        {submitStatus && (
+          <p aria-live="polite" style={{ marginTop: "0.75rem" }}>
+            {submitStatus}
+          </p>
+        )}
         </form>
         </div>
 

@@ -20,6 +20,7 @@ function CompanyLogoBranding() {
 				</p>
 
 				<div className={styles.points}>
+
 					<p className={styles.point}>
 						<span className={styles.accessibility}>Accessibility</span> - The mark relates to multiple audiences. It is professional yet human in
 						form, approachable in style, and conveys partnership in the visual language it uses.
@@ -33,6 +34,8 @@ function CompanyLogoBranding() {
 						an individual using ivvi gains in the world around them and a reaching of potential.
 					</p>
 				</div>
+				
+
 
 				<div className={styles.assetsShowcase}>
 					<div className={`${styles.logoCard} ${styles.logoCardBlue}`}>

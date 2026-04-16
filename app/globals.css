@@ -75,7 +75,7 @@
   --orange-background: #ef7a1a; 
   --dark-grey-background: #c8c8c5; 
  
-  --input-label-color: ##a9a9a9;
+  --input-label-color: #a9a9a9;
   
   
   --navbar-background-color: #013699; 
@@ -196,6 +196,18 @@ body {
 
 
 
+}
+
+@media (max-width: 1024px) {
+  .homeVideoBlockSection {
+    margin-top: 6rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .homeVideoBlockSection {
+    margin-top: 8rem;
+  }
 }
 
 

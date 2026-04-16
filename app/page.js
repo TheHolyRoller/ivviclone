@@ -20,6 +20,8 @@ export const metadata = {
 }
 
 export default function Home() {
+  const getContactFormAction = () => "https://submit-form.com/DTcJ7Bccp";
+
   return (
     <div style={{ position: "relative" }}>
       <div
@@ -39,7 +41,9 @@ export default function Home() {
       </div>
 
       <ImageText />
-      <VideoBlock />
+      <div className="homeVideoBlockSection">
+        <VideoBlock />
+      </div>
 
       <FeatureGrid />
 
@@ -51,7 +55,7 @@ export default function Home() {
 
       <TextElement />
 
-      <ContactForm />
+      <ContactForm formAction={getContactFormAction()} />
     </div>
   );
 }
