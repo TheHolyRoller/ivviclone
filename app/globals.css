@@ -200,13 +200,15 @@ body {
 
 @media (max-width: 1024px) {
   .homeVideoBlockSection {
-    margin-top: 6rem;
+    margin-top: 0;
+    padding-top: 6rem;
   }
 }
 
 @media (max-width: 768px) {
   .homeVideoBlockSection {
-    margin-top: 8rem;
+    margin-top: 0;
+    padding-top: 8rem;
   }
 }
 
