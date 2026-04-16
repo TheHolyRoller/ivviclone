@@ -13,3 +13,9 @@
 	font-weight: 600;
 	color: #013699;
 }
+
+@media (max-width: 1024px) {
+	.mainHeadline {
+		padding-left: 2rem;
+	}
+}

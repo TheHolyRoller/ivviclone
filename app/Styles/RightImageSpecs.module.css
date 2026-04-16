@@ -58,6 +58,10 @@
 	.gridContainer {
 		grid-template-columns: 1fr;
 	}
+
+	.textContainer {
+		padding-left: 2rem;
+	}
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -84,6 +88,7 @@
 		margin-left: auto;
 		margin-right: auto;
 		text-align: center;
+		padding-left: 2rem;
 
 	}
 
