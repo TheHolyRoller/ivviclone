@@ -173,7 +173,8 @@
 
 @media (max-width: 1024px) {
     .justificationContainer {
-        padding-top: 4.2rem;
+        padding-top: 1.2rem;
+        margin-top: -3rem;
     }
 }
 
