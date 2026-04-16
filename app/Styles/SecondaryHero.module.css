@@ -688,8 +688,8 @@
 
 	.hero {
 
-		height: 50vh;
-		min-height: 50vh;
+		height: 70vh;
+		min-height: 70vh;
 		margin-top: 11rem;
 		padding-top: 11rem;
 
@@ -775,8 +775,8 @@
 
 @media (max-width: 768px) {
 	.hero {
-		height: 50vh;
-		min-height: 50vh;
+		height: 70vh;
+		min-height: 70vh;
 		margin-top: 11rem;
 		padding-top: 11rem;
 	}
