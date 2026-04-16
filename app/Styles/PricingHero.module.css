@@ -2,7 +2,8 @@
 	width: 100%;
 	min-height: clamp(560px, 84vh, 900px);
 	padding: clamp(3.25rem, 6vw, 5.4rem) 1.25rem 3rem;
-	background: #ef7a1a
+	background: #ef7a1a;
+	overflow: hidden;
 }
 
 .container {
@@ -140,7 +141,7 @@
 	.section {
 
 		min-height: auto;
-		padding-top: calc(2rem + 15vh);
+		padding-top: calc(2rem + 10vh);
 		padding-bottom: 2rem;
 
 	}
@@ -166,7 +167,7 @@
 @media (max-width: 640px) {
 	.section {
 		min-height: auto;
-		padding: calc(3rem + 15vh) 1rem 2.75rem
+		padding: calc(3rem + 10vh) 1rem 2.75rem
 	}
 
 	.ctaButton {
