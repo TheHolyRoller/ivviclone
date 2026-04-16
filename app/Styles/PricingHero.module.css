@@ -140,7 +140,7 @@
 	.section {
 
 		min-height: auto;
-		padding-top: 2rem;
+		padding-top: calc(2rem + 15vh);
 		padding-bottom: 2rem;
 
 	}
@@ -166,7 +166,7 @@
 @media (max-width: 640px) {
 	.section {
 		min-height: auto;
-		padding: 3rem 1rem 2.75rem
+		padding: calc(3rem + 15vh) 1rem 2.75rem
 	}
 
 	.ctaButton {

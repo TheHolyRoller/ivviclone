@@ -575,6 +575,14 @@
 
 @media (max-width: 1023px) {
 
+    .hero {
+
+        height: 53vh !important;
+        min-height: 51vh !important;
+        max-height: 55vh !important;
+
+    }
+
     .heroContentContainer {
 
         justify-content: flex-start;
