@@ -186,6 +186,22 @@
 
 }
 
+@media (max-width: 768px) {
+	.mediaContainer {
+		min-height: 50%;
+	}
+
+	.media {
+		width: 40vw;
+		min-width: 40vw;
+		max-width: 40vw;
+	}
+
+	.mainVideoFrame {
+		height: 233.5px;
+	}
+}
+
 @media (min-width: 1025px) {
 
 	.section {
