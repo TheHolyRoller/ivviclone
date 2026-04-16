@@ -151,6 +151,10 @@
 	.heading {
 		font-size: clamp(2rem, 6vw, 2.5rem)
 	}
+
+	.section {
+		padding-top: calc(clamp(3.5rem, 6vw, 5.25rem) + 15vh);
+	}
 }
 
 @media (max-width: 640px) {

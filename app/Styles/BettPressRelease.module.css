@@ -142,3 +142,21 @@
 		width: 94vw;
 	}
 }
+
+@media (max-width: 1024px) {
+	.container {
+		justify-items: center;
+	}
+
+	.supportingTextBlock,
+	.demoSection {
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+
+	.foundersGroup,
+	.preApprovedWrapper {
+		justify-items: center;
+	}
+}
