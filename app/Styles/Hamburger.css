@@ -213,7 +213,8 @@
     height: 100%; 
     width: 85%; 
     margin: auto; 
-    font-size: 1rem;
+    font-size: calc(1rem + 3px);
+    padding-top: 1rem;
     padding-bottom: 5rem;
 
 }
