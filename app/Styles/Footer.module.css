@@ -174,7 +174,8 @@
     display: grid;
     place-content: center;
 
-    padding-bottom: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 2.5rem;
 	
 }
 
@@ -189,6 +190,13 @@
 
 
 
+}
+
+@media (min-width: 751px) and (max-width: 1024px) {
+  .Footer {
+    padding-top: 3rem;
+    padding-bottom: 2.5rem;
+  }
 }
 
 .footerAwardImage {
