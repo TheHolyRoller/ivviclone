@@ -194,9 +194,10 @@
 
 
     width: 100vw; 
-    min-height: 110vh;
+    min-height: 100dvh;
+    height: 100dvh;
     overflow-x: hidden;
-    overflow-y: scroll;
+    overflow-y: auto;
 
 
 
@@ -431,7 +432,9 @@
 
     transition: transform 1s ease;
     transform: translateY(calc(-100% - 5rem));
-    position: absolute;
+    position: fixed;
+    top: 0;
+    left: 0;
     right: 0;
     padding-top: 2rem;
     pointer-events: none;
