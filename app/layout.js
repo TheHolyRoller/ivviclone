@@ -41,7 +41,13 @@ export default function RootLayout({ children }) {
         />
       </head>
 
-      <body>
+      <body
+        style={{
+          minHeight: "100dvh",
+          display: "flex",
+          flexDirection: "column",
+        }}
+      >
 
 
           <Hamburger/> 
@@ -56,6 +62,7 @@ export default function RootLayout({ children }) {
             position: "relative",
             zIndex: 0,
             isolation: "isolate",
+            flex: 1,
           }}
         >
           {children}
