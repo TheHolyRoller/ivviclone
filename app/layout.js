@@ -57,14 +57,8 @@ export default function RootLayout({ children }) {
 
         </div>
 
-        <div
-          style={{
-            position: "relative",
-            zIndex: 0,
-            isolation: "isolate",
-            flex: 1,
-          }}
-        >
+        <div style={{overflowX: 'hidden', padding: '0', margin: '0'}}  >
+
           {children}
         </div>
 

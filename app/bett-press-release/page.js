@@ -22,7 +22,7 @@ export const metadata = {
 
 function Page() {
 	return (
-		<main className={styles.page}  style={{outline:'3px solid lime'}} >
+		<main className={styles.page}  >
 			<section className={styles.hero}>
 				<div className={styles.container}>
 					<h1 className={styles.title}>ivvi Notes | Press Kit</h1>
