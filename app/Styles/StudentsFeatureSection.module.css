@@ -91,7 +91,8 @@
 		/* width: min(100%, 720px); */
 		/* width: 722px;  */
 		/* min-width: 722px;  */
-		width: 86vw; 
+		width: calc(86vw + 3rem); 
+		max-width: 94vw;
 		min-width: 0; 
 		margin: auto; 
 
@@ -105,7 +106,7 @@
 	.grid {
 	
 
-		width: 86vw; 
+		width: 94vw; 
 	
 		margin: 0 auto;
 		display: grid; 
@@ -124,9 +125,10 @@
 		/* min-width: 470px;  */
 		/* max-width: 477px;  */
 		min-width: 0; 
-		width: 86vw; 
-		padding-left: 1.5rem;
-		padding-right: 1.5rem;
+		width: 94vw; 
+		max-width: calc(94vw - 3rem);
+		padding-left: 1rem;
+		padding-right: 1rem;
 		box-sizing: border-box;
 		text-align: left; 
 		
