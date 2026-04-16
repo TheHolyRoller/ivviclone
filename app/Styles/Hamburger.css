@@ -375,15 +375,18 @@
     border-color: #ef7a1a;
     border-radius: 40px;;
     background-color: var(--cta-background-color); 
-    padding: 8px 16px; 
+    padding: 10px 24px; 
     font-weight: 600;
     margin-top: 2rem !important; 
 
     display: grid; 
     place-content: center; 
 
-    max-width: 101px;
-    max-height: 41.7px;
+    width: fit-content;
+    min-width: 0;
+    max-width: none;
+    min-height: 44px;
+    max-height: none;
     text-decoration: none;
     color: var(--cta-font-color);
     box-sizing: border-box;
