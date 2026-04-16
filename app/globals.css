@@ -7,6 +7,11 @@
 	font-display: swap;
 }
 
+.homeVideoBlockSection{
+  background-color: #013699;
+  width: 100vw;
+}
+
 @font-face {
 	font-family: "Nunito";
 	src: url('/fonts/Nunito.woff2') format('woff2');
