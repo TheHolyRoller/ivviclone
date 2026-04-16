@@ -688,8 +688,10 @@
 
 	.hero {
 
-		height: 62vh;
-		min-height: 62vh;
+		height: 50vh;
+		min-height: 50vh;
+		margin-top: 11rem;
+		padding-top: 11rem;
 
 	}
 
@@ -700,7 +702,7 @@
 		align-items: center;
 		width: 100%;
 		max-width: 100%;
-		padding-top: 4rem;
+		padding-top: 0;
 
 	}
 
@@ -769,6 +771,19 @@
 
 	}
 
+}
+
+@media (max-width: 768px) {
+	.hero {
+		height: 50vh;
+		min-height: 50vh;
+		margin-top: 11rem;
+		padding-top: 11rem;
+	}
+
+	.heroContentContainer {
+		padding-top: 0;
+	}
 }
 
 
