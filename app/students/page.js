@@ -62,11 +62,7 @@ function Assessors() {
     <Edit/> 
     <Outline/> 
 
-    {/* Add in the end of the section here */}
     </section>
-
-
-
 
     <All/> 
 

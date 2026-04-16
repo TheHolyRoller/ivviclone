@@ -72,7 +72,7 @@
 	border-radius: var(--image-border-radius);
 }
 
-@media (max-width: 920px) {
+@media (max-width: 1024px) {
 	.section {
 		padding: 3rem 1rem;
 	}
@@ -91,8 +91,8 @@
 		/* width: min(100%, 720px); */
 		/* width: 722px;  */
 		/* min-width: 722px;  */
-		width: 80vw; 
-		min-width: 50vw; 
+		width: 86vw; 
+		min-width: 0; 
 		margin: auto; 
 
 	
@@ -105,7 +105,7 @@
 	.grid {
 	
 
-		width: 80vw; 
+		width: 86vw; 
 	
 		margin: 0 auto;
 		display: grid; 
@@ -123,8 +123,11 @@
 	
 		/* min-width: 470px;  */
 		/* max-width: 477px;  */
-		min-width: 50vw; 
-		width: 80vw; 
+		min-width: 0; 
+		width: 86vw; 
+		padding-left: 1.5rem;
+		padding-right: 1.5rem;
+		box-sizing: border-box;
 		text-align: left; 
 		
 		
