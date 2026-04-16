@@ -12,7 +12,9 @@ const initialFormInput = {
 	message: ''
 }
 
-function Query() {
+function Query({
+	headline = "Do you have any DSA-related questions?"
+}) {
 	const [formInput, setFormInput] = useState(initialFormInput)
 
 	const [isSubmitting, setIsSubmitting] = useState(false)
@@ -38,6 +40,16 @@ function Query() {
 	return (
 		<section className={c.contactFormContainer}>
 			<div className={c.contactFormSubContainer}>
+				<h2
+					style={{
+						textAlign: "center",
+						margin: "0 auto 1.25rem",
+						maxWidth: "28ch",
+						color: "#013699",
+					}}
+				>
+					{headline}
+				</h2>
 				<div className={c.inputFormContainer}>
 					<form className={c.contactForm} action='https://submit-form.com/YRsAOjssR' onSubmit={handleSubmit}>
 						<Image src={darius} alt='People discussing study support' className={c.image} loading="lazy" />

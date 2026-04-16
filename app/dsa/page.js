@@ -38,7 +38,7 @@ function Page() {
 			<Assessment />
 			<Prepare />
 			<Award />
-			<Query />
+			<Query headline="Do you have any DSA-related questions?" />
 			<LeadMagnet />
 			<Resources />
 		</main>

@@ -3,7 +3,7 @@
 	width: 100%;
 	padding: 5.5rem 1.25rem 4rem;
 	overflow: hidden;
-	background-color: #efede8;
+	background-color: #dbe7ff;
 }
 
 .heroBackgroundImage {
@@ -54,10 +54,17 @@
 
 @media (max-width: 700px) {
 	.hero {
-		padding: 4rem 1rem 3rem;
+		padding: calc(4rem + 10vh) 1rem calc(3rem + 10vh);
 	}
 
 	.heroBackgroundImage {
 		opacity: 0.42;
+	}
+}
+
+@media (min-width: 701px) and (max-width: 1024px) {
+	.hero {
+		padding-top: calc(5.5rem + 10vh);
+		padding-bottom: calc(4rem + 10vh);
 	}
 }

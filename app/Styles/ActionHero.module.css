@@ -6,6 +6,7 @@
 	display: grid;
 	place-items: center;
 	overflow: hidden;
+	background-color: #0f2a63;
 }
 
 .heroBackgroundImage {
@@ -43,6 +44,13 @@
 
 @media (max-width: 640px) {
 	.hero {
-		padding: 2.6rem 1rem;
+		padding: calc(2.6rem + 7.5vh) 1rem calc(2.6rem + 7.5vh);
+	}
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+	.hero {
+		padding-top: calc(clamp(2.8rem, 6vw, 5rem) + 7.5vh);
+		padding-bottom: calc(clamp(2.8rem, 6vw, 5rem) + 7.5vh);
 	}
 }
