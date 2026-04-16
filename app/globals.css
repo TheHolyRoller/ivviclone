@@ -206,15 +206,21 @@ body {
 
 @media (max-width: 1024px) {
   .homeVideoBlockSection {
+    background-color: #013699;
     margin-top: 0;
-    padding-top: 6rem;
+    margin-bottom: -2rem;
+    padding-top: 9.5rem;
+    padding-bottom: 4rem;
   }
 }
 
 @media (max-width: 768px) {
   .homeVideoBlockSection {
+    background-color: #013699;
     margin-top: 0;
-    padding-top: 8rem;
+    margin-bottom: -2rem;
+    padding-top: 11.5rem;
+    padding-bottom: 4rem;
   }
 }
 
