@@ -10,6 +10,7 @@
 .homeVideoBlockSection{
   background-color: #013699;
   width: 100vw;
+  box-sizing: border-box;
 }
 
 @font-face {

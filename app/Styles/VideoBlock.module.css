@@ -6,7 +6,7 @@
 .hero {
 
     padding-top: 2.75rem !important;
-    padding-bottom: 0.875rem !important;
+    padding-bottom: max(0px, calc(0.875rem - 2rem)) !important;
 
     margin: 0 auto; 
 
@@ -409,7 +409,7 @@
 .hero {
 
     padding-top: 2rem !important;
-    padding-bottom: 0.75rem !important;
+    padding-bottom: max(0px, calc(0.75rem - 2rem)) !important;
 	
 }
 
@@ -571,7 +571,7 @@ aspect-ratio: 9 / 16;
 
     margin: 0 auto;
     padding-top: 1rem;
-    padding-bottom: 0.25rem;
+    padding-bottom: max(0px, calc(0.25rem - 2rem));
         
 	
 }
