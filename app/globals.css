@@ -151,6 +151,27 @@ body {
   color: var(--foreground);
 }
 
+/* Debug layout outlines: alternating colors by nesting depth */
+* {
+  outline: 1px solid rgba(255, 0, 0, 0.45);
+}
+
+* * {
+  outline-color: rgba(0, 128, 255, 0.45);
+}
+
+* * * {
+  outline-color: rgba(0, 180, 0, 0.45);
+}
+
+* * * * {
+  outline-color: rgba(255, 140, 0, 0.45);
+}
+
+* * * * * {
+  outline-color: rgba(128, 0, 255, 0.45);
+}
+
 
 .mainSpecGrid{
 
