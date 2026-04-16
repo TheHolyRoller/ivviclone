@@ -23,6 +23,12 @@ function ContactForm({ formAction = "https://submit-form.com/YRsAOjssR" }) {
 
   const [isSubmitting, setIsSubmitting] = useState(false); 
   const [submitStatus, setSubmitStatus] = useState("");
+  const [fieldErrors, setFieldErrors] = useState({
+    name: "",
+    email: "",
+    mobile: "",
+    message: "",
+  });
 
 
 
