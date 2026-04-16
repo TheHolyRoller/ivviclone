@@ -179,6 +179,11 @@
 
 	}
 
+	.media {
+		margin-top: -2.5rem;
+		margin-bottom: -2.5rem;
+	}
+
 }
 
 @media (min-width: 1025px) {
