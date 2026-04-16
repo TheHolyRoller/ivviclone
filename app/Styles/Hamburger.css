@@ -378,7 +378,6 @@
     background-color: var(--cta-background-color); 
     padding: 10px 24px; 
     font-weight: 600;
-    margin-top: 2rem !important; 
 
     display: grid; 
     place-content: center; 
@@ -414,11 +413,8 @@
 
 #ivviCTA{
 
-
-
-    margin-top: 2rem !important; 
-    padding: 3rem;
-
+    margin-top: 0;
+    padding: 0 3rem 3rem;
 
 }
 
