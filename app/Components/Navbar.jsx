@@ -174,7 +174,9 @@ function Navbar() {
 
               <Link   
                 className={n.navLink}
-                href="/students" alt="https://www.ivvi.app/">
+                href="https://ivvi.dev/login"
+                target="_blank"
+                rel="noopener noreferrer">
 
                 Log in 
 

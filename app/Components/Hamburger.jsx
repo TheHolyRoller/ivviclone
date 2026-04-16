@@ -19,9 +19,13 @@ function Hamburger() {
     const handleClicked = () => {
 
         console.log('this is the handle clicked function'); 
-        setIsChecked(!isChecked); 
+        setIsChecked((prev) => !prev); 
         console.log('this is the value of the is checked state variable \n', isChecked); 
 
+    }
+
+    const closeMenu = () => {
+        setIsChecked(false);
     }
 
 
@@ -42,23 +46,32 @@ function Hamburger() {
 
     <header className='hamburgerIconContainer' >
         <label htmlFor='menuToggle' className='spanLabel'>
-              <button className='hamburgerIconButtonIconContainer'>
+              <Link
+                className='hamburgerIconButtonIconContainer'
+                href="/"
+                aria-label="Go to homepage"
+                onClick={closeMenu}
+              >
+                <Image
+                  className="logoIconImage"
+                  src={ivvi}
+                  alt="ivvi"
+                  width={214}
+                  height={92}
+                  priority
+                  sizes="53px"
+                />
+              </Link>
+        <nav className='hamburgerIconNav' onClick={handleClicked} style={{}} >
 
-            <Image
-              className="logoIconImage"
-              src={ivvi}
-              alt="ivvi"
-              width={214}
-              height={92}
-              priority
-              sizes="53px"
-            />
 
-             </button>
-        <nav className='hamburgerIconNav' onClick={() => handleClicked} style={{}} >
-
-
-        <input id="menuToggle" className='checkBox'  type='checkbox' defaultChecked={isChecked}></input>
+        <input
+          id="menuToggle"
+          className='checkBox'
+          type='checkbox'
+          checked={isChecked}
+          onChange={handleClicked}
+        />
 
         <span className='hamburgerBar' id='firstBar'></span>
         <span className='hamburgerBar' id='secondBar'></span>
@@ -67,7 +80,14 @@ function Hamburger() {
         
         </nav>
         </label>
-    <aside className='hamburgerMenu' style={{}} >
+    <aside
+      className='hamburgerMenu'
+      style={{}}
+      onClickCapture={(e) => {
+        const anchor = e.target?.closest?.("a");
+        if (anchor) closeMenu();
+      }}
+    >
 
         <ul className='hamburgerMenuList'>
         
@@ -234,7 +254,12 @@ function Hamburger() {
 
         <li className='hamburgerSectionListItem' >
 
-            <Link className='hamburgerLoginLink' href='/login'>
+            <Link
+              className='hamburgerLoginLink'
+              href='https://ivvi.dev/login'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
             
             Log in 
             
