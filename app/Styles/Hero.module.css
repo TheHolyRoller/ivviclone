@@ -272,6 +272,10 @@
 	.heroTextContainer {
 		transform: translateY(4rem);
 	}
+
+	.heroLaptopImageContainer {
+		transform: translateY(4rem);
+	}
 }
 
 @media(max-width: 1430px) {
