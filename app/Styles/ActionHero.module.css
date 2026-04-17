@@ -59,4 +59,8 @@
 	.hero {
 		min-height: calc(clamp(240px, 44vw, 460px) + 15vh);
 	}
+
+	.heroContentContainer {
+		transform: translateY(4rem);
+	}
 }

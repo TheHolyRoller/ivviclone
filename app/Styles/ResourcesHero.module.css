@@ -66,6 +66,7 @@
 
 	.inner {
 		min-height: calc(clamp(240px, 42vh, 520px) + 15vh);
+		transform: translateY(4rem);
 	}
 }
 

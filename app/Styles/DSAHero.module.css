@@ -74,4 +74,8 @@
 		padding-top: calc(5.5rem + 7.5vh);
 		padding-bottom: calc(4rem + 7.5vh);
 	}
+
+	.heroContentContainer {
+		transform: translateY(4rem);
+	}
 }

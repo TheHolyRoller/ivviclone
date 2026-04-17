@@ -263,6 +263,17 @@
 
 /* Add in the media queries here  */
 
+@media (min-width: 1120px) {
+	.hero {
+		height: 115vh;
+		min-height: 115vh;
+	}
+
+	.heroTextContainer {
+		transform: translateY(4rem);
+	}
+}
+
 @media(max-width: 1430px) {
     
 

@@ -532,6 +532,10 @@
 		height: 95vh;
 		min-height: 95vh;
 	}
+
+	.heroContentContainer {
+		padding-top: 8rem;
+	}
 }
 
 

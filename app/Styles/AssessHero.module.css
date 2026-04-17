@@ -110,6 +110,10 @@
 		padding-top: calc(5rem + 7.5vh);
 		padding-bottom: calc(4rem + 7.5vh);
 	}
+
+	.heroContentContainer {
+		transform: translateY(4rem);
+	}
 }
 
 @media (max-width: 700px) {
