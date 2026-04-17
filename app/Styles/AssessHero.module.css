@@ -105,6 +105,13 @@
 	}
 }
 
+@media (min-width: 1025px) {
+	.hero {
+		padding-top: calc(5rem + 7.5vh);
+		padding-bottom: calc(4rem + 7.5vh);
+	}
+}
+
 @media (max-width: 700px) {
 	.hero {
 		padding-top: calc(4rem + 7.5vh);

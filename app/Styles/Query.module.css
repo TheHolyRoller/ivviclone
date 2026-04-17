@@ -76,6 +76,14 @@
 	cursor: not-allowed;
 }
 
+.formStatus {
+	grid-column: 1 / -1;
+	margin-top: 0.25rem;
+	line-height: 1.45;
+	font-size: 0.95rem;
+	color: #fff;
+}
+
 @media (max-width: 900px) {
 	.contactForm {
 		grid-template-columns: 1fr;

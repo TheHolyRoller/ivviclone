@@ -22,7 +22,7 @@ function Page() {
 
 			<FreeTrial heading="Try ivvi Notes free after exploring the demo" />
 
-			<ContactForm/>
+			<ContactForm formAction="https://submit-form.com/DTcJ7Bccp" />
 
 
 		</main>

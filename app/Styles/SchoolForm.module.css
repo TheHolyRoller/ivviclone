@@ -89,6 +89,13 @@
 	cursor: not-allowed;
 }
 
+.formStatus {
+	margin-top: 0.75rem;
+	text-align: center;
+	line-height: 1.45;
+	font-size: 0.95rem;
+}
+
 @media (max-width: 640px) {
 	.contactFormContainer {
 		padding: 3rem 1rem;

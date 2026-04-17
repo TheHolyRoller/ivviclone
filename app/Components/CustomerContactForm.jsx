@@ -5,20 +5,18 @@ import {useState, useEffect } from 'react';
 import support from '../../public/images/support.webp'; 
 import Image from 'next/image';
 
-function CustomerContactForm() {
-
-
+function CustomerContactForm({
+  formAction = "https://submit-form.com/DTcJ7Bccp",
+}) {
   const [formInput, setFormInput] = useState({
+    name: "",
+    email: "",
+    mobile: "",
+    message: "",
+  })
 
-    name: "", 
-    email: "", 
-    mobile: "", 
-    message: ""
-
-
-  }); 
-
-  const [isSubmitting, setIsSubmitting] = useState(false); 
+  const [isSubmitting, setIsSubmitting] = useState(false)
+  const [submitStatus, setSubmitStatus] = useState("") 
 
 
 
@@ -65,39 +63,52 @@ function CustomerContactForm() {
     console.log('this is the user input', name, value); 
 
 
-    setFormInput(prevState => ({
-
+    setFormInput((prevState) => ({
       ...prevState,
-      [name]: value 
-
-
+      [name]: value,
     }))
-    
-
+    setSubmitStatus("")
   }
 
+  const handleSubmit = async (e) => {
+    e.preventDefault()
+    setIsSubmitting(true)
+    setSubmitStatus("")
 
-  const handleSubmit = () => {
+    try {
+      const payload = new URLSearchParams({
+        name: formInput.name,
+        email: formInput.email,
+        mobile: formInput.mobile,
+        message: formInput.message,
+      })
 
+      const response = await fetch(formAction, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded",
+          Accept: "application/json",
+        },
+        body: payload.toString(),
+      })
 
-        try{
+      if (!response.ok) {
+        throw new Error("Request failed")
+      }
 
-
-          console.log('this is the final state \n', formInput); 
-
-
-
-        }
-        catch(error){
-
-
-          console.error("failed to submit form! \n", error); 
-
-
-        }
-      
-
-
+      setSubmitStatus("Thanks. Your message has been sent.")
+      setFormInput({
+        name: "",
+        email: "",
+        mobile: "",
+        message: "",
+      })
+    } catch (error) {
+      console.error("failed to submit form! \n", error)
+      setSubmitStatus("Something went wrong. Please try again.")
+    } finally {
+      setIsSubmitting(false)
+    }
   }
 
 
@@ -142,7 +153,7 @@ function CustomerContactForm() {
         <div className={c.inputFormContainer}>
 
 
-        <form className={c.contactForm} action="https://submit-form.com/YRsAOjssR" >
+        <form className={c.contactForm} onSubmit={handleSubmit}>
 
 
 
@@ -160,15 +171,21 @@ function CustomerContactForm() {
 
         <div className={c.buttonContainer}>
 
-        <button className={c.submitButton} type='submit'>
-
-            Submit 
-
-
-            </button>
+        <button
+          className={c.submitButton}
+          type="submit"
+          disabled={isSubmitting}
+        >
+          {isSubmitting ? "Submitting..." : "Submit"}
+        </button>
 
         </div>
 
+        {submitStatus ? (
+          <p className={c.formStatus} aria-live="polite">
+            {submitStatus}
+          </p>
+        ) : null}
 
         </form>
         </div>

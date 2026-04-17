@@ -42,6 +42,24 @@
 	font-family: var(--text-font-family);
 }
 
+.formInputError {
+	outline: 2px solid #ffb4b4;
+	outline-offset: 0;
+}
+
+.fieldError {
+	font-size: 0.875rem;
+	color: #ffd6d6;
+	margin: -0.55rem 0 0.65rem;
+	line-height: 1.35;
+}
+
+.formStatus {
+	margin-top: 0.75rem;
+	line-height: 1.45;
+	font-size: 0.95rem;
+}
+
 #textAreaInput {
 	min-height: 132px;
 	resize: vertical;

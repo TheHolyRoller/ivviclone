@@ -38,7 +38,10 @@ function Page() {
 			<Assessment />
 			<Prepare />
 			<Award />
-			<Query headline="Do you have any DSA-related questions?" />
+			<Query
+				headline="Do you have any DSA-related questions?"
+				formAction="https://submit-form.com/7BxKPIfwE"
+			/>
 			<LeadMagnet />
 			<Resources />
 		</main>

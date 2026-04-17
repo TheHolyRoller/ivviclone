@@ -12,6 +12,11 @@ export const metadata = {
   },
   description:
     "ivvi Assistant Ltd — ivvi Notes turns lectures into live visual mind maps. DSA-approved assistive technology for dyslexia and ADHD.",
+  icons: {
+    icon: [
+      { url: "/icons/icon.svg", type: "image/svg+xml", sizes: "any" },
+    ],
+  },
 };
 
 export default function RootLayout({ children }) {

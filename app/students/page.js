@@ -69,7 +69,7 @@ function Assessors() {
     <FreeTrial heading="Try ivvi Notes free: 30-day full trial for students" />
     <Testimony/> 
     <LeadMagnet title="Free DSA guide PDF from ivvi — download below" /> 
-    <ContactForm/> 
+    <ContactForm formAction="https://submit-form.com/DTcJ7Bccp" />
     
     
     

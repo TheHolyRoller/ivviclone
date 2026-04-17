@@ -47,8 +47,8 @@ export default function Schools() {
         imageAlt="Woman using laptop"
       />
 
-      <SchoolsForm />
-      <SchoolPricingForm />
+      <SchoolsForm formAction="https://submit-form.com/SuZmqBaN3" />
+      <SchoolPricingForm formAction="https://submit-form.com/2RJWKQIOQ" />
       <SchoolText />
     </main>
   );

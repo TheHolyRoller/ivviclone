@@ -19,7 +19,7 @@ function page() {
     <div className={cm.mainContainer} >
         
       <SupportHero/> 
-      <CustomerContactForm/> 
+      <CustomerContactForm formAction="https://submit-form.com/DTcJ7Bccp" />
       <FAQ/> 
 
     </div>

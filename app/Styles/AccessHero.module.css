@@ -62,3 +62,9 @@
 		transform: scale(1.06);
 	}
 }
+
+@media (min-width: 1025px) {
+	.hero {
+		min-height: calc(clamp(260px, 44vw, 460px) + 15vh);
+	}
+}

@@ -68,3 +68,10 @@
 		padding-bottom: calc(4rem + 10vh);
 	}
 }
+
+@media (min-width: 1025px) {
+	.hero {
+		padding-top: calc(5.5rem + 7.5vh);
+		padding-bottom: calc(4rem + 7.5vh);
+	}
+}
