@@ -18,6 +18,12 @@
 	line-height: 1.1;
 }
 
+@media (min-width: 1025px) {
+	.heading {
+		text-align: center;
+	}
+}
+
 .logoWrap {
 	margin-top: 2rem;
 	margin-inline: auto;

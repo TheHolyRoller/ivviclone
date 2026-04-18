@@ -9,6 +9,8 @@ function Prepare() {
 			subtitle='To help you prepare, think about these questions:'
 			image={zoom}
 			imageAlt='Microphone and headset for study support'
+			enlargeImageLaptopDesktop
+			closeTextToImageLaptopDesktop
 			bullets={[
 				'How does dyslexia affect you in daily study life?',
 				'Do you find it difficult to take notes during lectures?',

@@ -164,6 +164,12 @@
 
 }
 
+@media (min-width: 1025px) {
+	.section {
+		padding-top: calc(clamp(3.25rem, 6vw, 5.4rem) + 10vh);
+	}
+}
+
 @media (max-width: 640px) {
 	.section {
 		min-height: auto;

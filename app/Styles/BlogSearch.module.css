@@ -13,6 +13,12 @@
 	gap: 14px
 }
 
+@media (min-width: 1101px) {
+	.searchRow {
+		margin-top: 7vh;
+	}
+}
+
 .searchIcon {
 	font-size: 28px;
 	line-height: 1;

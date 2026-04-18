@@ -623,3 +623,9 @@
 
 }
 
+@media (min-width: 800px) {
+	.heroTextContainer {
+		transform: translateX(8rem);
+	}
+}
+

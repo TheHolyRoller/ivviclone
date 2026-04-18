@@ -13,6 +13,7 @@ const specItems = [
 		heading: 'Synchronised Visual Notes',
 		text: 'ivvi records audio, transcribes speech, and builds an editable mind map in real time. Each view stays synchronised so students can move between formats without losing context.'
 	},
+	
 	{
 		component: LeftImageSpecs,
 		imageSrc: sync,

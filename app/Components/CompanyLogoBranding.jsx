@@ -13,6 +13,7 @@ function CompanyLogoBranding() {
 					<Image src={ivviWhite} alt="ivvi logo" className={styles.logo} priority />
 				</div>
 				
+				
 
 				<p className={styles.intro}>
 					

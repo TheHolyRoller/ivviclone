@@ -9,6 +9,7 @@ function Eligible() {
 			subtitle='You are eligible for DSA with dyslexia if you:'
 			image={woman}
 			imageAlt='Student reviewing notes'
+			enlargeImageLaptopDesktop
 			bullets={[
 				'Have a dyslexia diagnosis from school or adulthood',
 				'Are studying full-time or part-time for at least one year',

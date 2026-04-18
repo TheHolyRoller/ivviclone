@@ -69,6 +69,16 @@
 	border-radius: 6px;
 }
 
+@media (min-width: 769px) {
+	.mediaLargeLaptopDesktop {
+		width: min(100%, 567px);
+	}
+
+	.gridCompactLaptopDesktop {
+		gap: 1.5rem;
+	}
+}
+
 @media (max-width: 920px) {
 	.section {
 		padding: 3rem 1rem;

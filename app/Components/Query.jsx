@@ -68,14 +68,7 @@ function Query({
 	return (
 		<section className={c.contactFormContainer}>
 			<div className={c.contactFormSubContainer}>
-				<h2
-					style={{
-						textAlign: 'center',
-						margin: '0 auto 1.25rem',
-						maxWidth: '28ch',
-						color: '#013699',
-					}}
-				>
+				<h2 className={c.headline}>
 					{headline}
 				</h2>
 				<div className={c.inputFormContainer}>

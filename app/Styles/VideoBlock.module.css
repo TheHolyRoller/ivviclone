@@ -1,12 +1,8 @@
-/* Hero Component Styles */
-
-
-
 
 .hero {
 
     padding-top: 2.75rem !important;
-    padding-bottom: max(0px, calc(0.875rem - 2rem)) !important;
+    /* padding-bottom: max(0px, calc(0.875rem - 2rem)) !important; */
 
     margin: 0 auto; 
 
@@ -29,6 +25,7 @@
     display: grid;
     place-content: center;    
     grid-template-columns: 1fr 1.4fr;
+
 	
 }
 
@@ -40,10 +37,6 @@
     
         position: absolute;
         width: 100vw; 
-
-
-
-
     
 }
 
@@ -201,7 +194,8 @@
     overflow: hidden;
 
     height: min-content;
-    max-height: 100vh; 
+    /* Add in a max height here  */
+    max-height: 600px; 
 
 }
 
@@ -214,8 +208,8 @@
         overflow: hidden;
 
         height: min-content;
-        max-height: 100vh;
         max-height: 30vh;
+
 
     }
 
@@ -407,7 +401,7 @@
 
     padding-top: 2rem !important;
     padding-bottom: max(0px, calc(0.75rem - 2rem)) !important;
-	
+
 }
 
 .mainVideoFrame{
@@ -476,6 +470,9 @@
 }
 
 .videoContainer{
+    max-height: 30vh; 
+    
+
 
 }
 

@@ -10,6 +10,14 @@
 	width: min(1100px, 100%);
 }
 
+.headline {
+	text-align: center;
+	margin: 0 auto 1.25rem;
+	max-width: 28ch;
+	color: #fff;
+	font-size: calc(1.5rem + 1.3rem);
+}
+
 .inputFormContainer {
 	width: 100%;
 }

@@ -10,11 +10,15 @@ function DsaContentSection({
 	image,
 	imageAlt,
 	reverse = false,
-	background = '#eeede8'
+	background = '#eeede8',
+	enlargeImageLaptopDesktop = false,
+	closeTextToImageLaptopDesktop = false
 }) {
 	return (
 		<section className={s.section} style={{ background }}>
-			<div className={`${s.grid} ${reverse ? s.reverse : ''}`}>
+			<div
+				className={`${s.grid} ${reverse ? s.reverse : ''} ${closeTextToImageLaptopDesktop ? s.gridCompactLaptopDesktop : ''}`}
+			>
 				<div className={s.text}>
 					{title ? <h2 className={s.title}>{title}</h2> : null}
 					{subtitle ? <h3 className={s.subtitle}>{subtitle}</h3> : null}
@@ -37,7 +41,12 @@ function DsaContentSection({
 				</div>
 
 				<div className={s.mediaWrap}>
-					<Image className={s.media} src={image} alt={imageAlt} loading="lazy" />
+					<Image
+						className={`${s.media} ${enlargeImageLaptopDesktop ? s.mediaLargeLaptopDesktop : ''}`}
+						src={image}
+						alt={imageAlt}
+						loading="lazy"
+					/>
 				</div>
 			</div>
 		</section>
