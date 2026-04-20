@@ -11,8 +11,7 @@
     margin: 0 auto; 
 
     width:100vw; 
-    height: 100vh; 
-    min-height: 100vh;
+    min-height: 52rem;
     position: relative; 
 
 	
@@ -38,8 +37,12 @@
 
     
         position: absolute;
+        top: 0;
+        left: 0;
         width: 100vw; 
-        min-height: 100vh !important;
+        min-height: 52rem !important;
+        height: 100% !important;
+        object-fit: cover;
 
 
     
@@ -156,7 +159,7 @@
     
     
     width: 223px;
-    height: 50px;
+    min-height: 50px;
     
     background-color: var(--cta-background-color);
     color: var(--cta-font-color); 
@@ -213,7 +216,7 @@
     top: 18px;
     right: 14px;
     width: 120px;
-    height: auto;
+    min-height: auto;
     z-index: 10;
 
 }
@@ -235,7 +238,7 @@
     top: 2%;
     right: 4%;
     width: clamp(64px, 11vw, 110px);
-    height: auto;
+    min-height: auto;
     z-index: 10;
 
 }
@@ -249,9 +252,11 @@
 
     /* width: 33vw;  */
     /* Add in a fixed width for the height here */
-    width: 829px;
-
-    height: 500px;
+    width: 849px;
+    max-width: 762px;
+    aspect-ratio: 381 / 221;
+    height: auto;
+    object-fit: contain;
 
     position: relative;
     z-index: 9;
@@ -265,8 +270,7 @@
 
 @media (min-width: 1120px) {
 	.hero {
-		height: 115vh;
-		min-height: 115vh;
+		min-height: 52rem;
 	}
 
 	.heroTextContainer {
@@ -275,6 +279,17 @@
 
 	.heroLaptopImageContainer {
 		transform: translateY(4rem);
+	}
+}
+
+@media (min-width: 1117px) {
+	.hero {
+		min-height: 52rem;
+	}
+
+	.heroBackgroundImage {
+		min-height: 52rem !important;
+		height: 100% !important;
 	}
 }
 
@@ -330,8 +345,9 @@
     /* Add in a fixed width for the height here */
     /* width: 829px; */
     /* aspect-ratio: ; */
-    width: 60vw; 
-    height: 40vw;
+    width: 61.353405051501vw;
+    aspect-ratio: 381 / 221;
+    height: auto;
     /* aspect-ratio: 1.7; */
 
     /* height: 500px; */
@@ -356,7 +372,7 @@
 
 /* Add in the text here and make it responsive  */
 
-@media(max-width: 1120px){
+@media(max-width: 930px){
 
     /* make the here element stacked here */
 
@@ -398,8 +414,9 @@
     .heroLaptopImg{
 
 
-        width: 85vw; 
-        /* height: 50vw;  */
+        width: 92.64517546440024vw;
+        aspect-ratio: 1.70992 / 1;
+        height: auto;
 
 
 
@@ -423,7 +440,7 @@
     
     
     width: 223px;
-    height: 50px;
+    min-height: 50px;
     
     font-size: 18px;
 
@@ -498,7 +515,7 @@
 }
 
 
-@media(min-width: 769px) and (max-width: 1119px){
+@media(min-width: 769px) and (max-width: 930px){
 
 	/* Stack from max-width 1120px block stays; centre all hero pieces on tablet */
 
@@ -550,8 +567,9 @@
 
 	.heroLaptopImg {
 
-		width: calc(85vw * 0.85);
-		height: calc(40vw * 0.85);
+		width: calc(85vw * 0.9264517546439982);
+		aspect-ratio: 1.70992 / 1;
+		height: auto;
 
 
 	}
@@ -575,8 +593,10 @@
 
 .heroLaptopImg{
 
-    min-height: 175px; 
-    min-width: 325px; 
+    min-height: 0; 
+    min-width: 354px;
+    aspect-ratio: 1.70992 / 1;
+    height: auto;
 
     position: relative; 
     z-index: 9;

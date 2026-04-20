@@ -65,7 +65,7 @@
 
 .mainImage {
 	width: min(100%, 380px);
-	height: auto;
+	min-height: auto;
 	border-radius: var(--image-border-radius);
 }
 

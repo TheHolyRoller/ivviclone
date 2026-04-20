@@ -6,7 +6,7 @@
     position: relative;
     z-index: 1;
     min-height: 292px;
-    height: auto;
+    min-height: auto;
     box-sizing: border-box;
     background-color: var(--footer-background-color);
     width: 100%;
@@ -39,7 +39,7 @@
 .footerAwardImage {
 
     width: min(330px, 70vw);
-    height: auto;
+    min-height: auto;
 
 }
 
@@ -76,7 +76,7 @@
 
 
     width: 22px; 
-    height: 22px; 
+    min-height: 22px; 
 
     margin-right: 25px; 
     cursor: pointer;
@@ -170,7 +170,7 @@
 
 
     min-height: 370px;
-    height: auto;
+    min-height: auto;
 
     background-color: var(--footer-background-color);
     width: 100%;
@@ -199,7 +199,7 @@
 .footerAwardImage {
 
     width: min(260px, 72vw);
-    height: auto;
+    min-height: auto;
 
 }
 

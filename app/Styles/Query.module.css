@@ -32,7 +32,7 @@
 .image {
 	grid-row: 1 / span 5;
 	width: min(100%, 420px);
-	height: auto;
+	min-height: auto;
 	border-radius: 6px;
 }
 
@@ -54,7 +54,7 @@
 
 .submitButton {
 	width: 140px;
-	height: 46px;
+	min-height: 46px;
 	background-color: var(--cta-background-color);
 	font-size: 1rem;
 	font-weight: 600;

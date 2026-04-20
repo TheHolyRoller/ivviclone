@@ -39,7 +39,7 @@
      
     
     
-    height: 400px; 
+    min-height: 400px; 
     width: 400px; 
 
     
@@ -187,7 +187,7 @@
 }
 
 
-@media(max-width: 1118px) and (min-width: 750px){
+@media(max-width: 1118px) and (min-width: 931px){
 
 
     /* Add in the grid container here  */
@@ -233,7 +233,7 @@
 /* Add in the phone media query here  */
 
 
-@media(max-width:749px){
+@media(max-width:930px){
 
 
 
@@ -282,7 +282,7 @@
 
 
     width: 90vw; 
-    height: 90vw; 
+    min-height: 90vw; 
     margin: 0 auto; 
 
 

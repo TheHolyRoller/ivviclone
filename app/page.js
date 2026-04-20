@@ -27,11 +27,12 @@ export default function Home() {
       <div
         style={{
           width: "100vw",
-          height: "100vh",
+          minHeight: "52rem",
+          height: "auto",
           backgroundColor: "#eeede8",
           paddingTop: "4rem",
           marginTop: "-5rem",
-          overflow: "hidden",
+          overflow: "visible",
         }}
       >
         <Hero />
@@ -39,7 +40,7 @@ export default function Home() {
       </div>
 
       <ImageText />
-      <div className="homeVideoBlockSection">
+      <div className="homeVideoBlockSection" style={{ paddingBottom: "3.5rem" }}>
         <VideoBlock />
       </div>
 

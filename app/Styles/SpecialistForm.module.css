@@ -67,7 +67,7 @@
 
 .submitButton {
 	min-width: 175px;
-	height: 46px;
+	min-height: 46px;
 	padding: 0 1rem;
 	border-radius: var(--cta-border-radius);
 	background-color: var(--cta-background-color);

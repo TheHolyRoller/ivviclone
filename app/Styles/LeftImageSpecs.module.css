@@ -20,7 +20,7 @@
 
 .mainImage {
 	width: min(100%, 440px);
-	height: auto;
+	min-height: auto;
 	border-radius: var(--image-border-radius);
 }
 

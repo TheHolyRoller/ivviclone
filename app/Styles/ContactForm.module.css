@@ -4,7 +4,7 @@
 
     margin: auto; 
     
-    height: 90vh; 
+    min-height: 90vh; 
     color: white;
     width: 100vw; 
     display: grid; 
@@ -21,7 +21,7 @@
 
     .contactFormContainer {
 
-        height: 62vh;
+        min-height: 62vh;
 
     }
 
@@ -83,7 +83,7 @@
     font-weight: 500;
     font-size: 24px;
     width: 615px;
-    height: 58.3px;
+    min-height: 58.3px;
     padding: 1rem;
     display: block;
     margin: 1.3rem auto;
@@ -108,7 +108,7 @@
 
 
 
-height: 90%;
+min-height: 90%;
 
 
 
@@ -136,7 +136,7 @@ height: 90%;
 /* Submit Button */
 .submitButton {
     width: 125px;
-    height: 50px;
+    min-height: 50px;
     background-color: var( --cta-background-color);
 
     display: grid;
@@ -181,7 +181,7 @@ height: 90%;
     .contactFormContainer {
 
     margin: 0rem auto; 
-    height: 90vh; 
+    min-height: 90vh; 
     color: white;
     font-size: 64px;
 
@@ -199,7 +199,7 @@ height: 90%;
     font-size: 24px;
     /* width: 615px; */
     width: 85vw; 
-    height: 58.3px;
+    min-height: 58.3px;
     padding: 1rem;
     display: block;
     margin: 1.3rem auto;
@@ -224,7 +224,7 @@ height: 90%;
 
 
 
-height: 90%;
+min-height: 90%;
 
 
 

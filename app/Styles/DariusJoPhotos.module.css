@@ -25,7 +25,7 @@
 
 .image {
 	width: 100%;
-	height: auto;
+	min-height: auto;
 	display: block;
 }
 
@@ -43,7 +43,7 @@
 
 .portraitImage {
 	width: 100%;
-	height: auto;
+	min-height: auto;
 	display: block;
 }
 
@@ -62,7 +62,7 @@
 
 .featureImage {
 	width: 100%;
-	height: auto;
+	min-height: auto;
 	display: block;
 }
 

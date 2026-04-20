@@ -8,6 +8,7 @@ const OFFER_ITEMS = [
 	"12 sessions of one-to-one coaching (£1,120)"
 ]
 
+
 function GrantOffer({
 	title = "What Does the Grant Offer?",
 	intro = "A typical Access to Work grant includes:",

@@ -76,7 +76,7 @@
   .iconWrapper {
     flex-shrink: 0;
     width: 28px;
-    height: 28px;
+    min-height: 28px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -85,7 +85,7 @@
   
   .iconWrapper svg {
     width: 18px;
-    height: 18px;
+    min-height: 18px;
     stroke: #ffffff;
     stroke-width: 2.5;
     fill: none;

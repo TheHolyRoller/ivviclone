@@ -14,6 +14,7 @@ function Hero() {
 
   return (
 
+    
     <main className={h.hero}>
     <Image className={h.heroBackgroundImage} src={HeroBackground} alt="background" width={100} height={100} priority sizes="100vw"/> 
 

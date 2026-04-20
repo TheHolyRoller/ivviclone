@@ -3,6 +3,7 @@
 	width: 100%;
 	max-width: 100%;
 	min-height: clamp(240px, 42vh, 520px);
+	min-height: 32rem;
 	overflow: hidden;
 	box-sizing: border-box;
 }
@@ -10,12 +11,16 @@
 .imageLayer {
 	position: absolute;
 	inset: 0;
+	min-height: 32rem;
+	height: 100%;
 	z-index: 0;
 }
 
 .bgImage {
 	object-fit: cover;
 	object-position: center;
+	min-height: 32rem;
+	height: 100%;
 }
 
 .overlay {
@@ -33,6 +38,7 @@
 	align-items: center;
 	justify-content: center;
 	min-height: clamp(240px, 42vh, 520px);
+	min-height: 32rem;
 	padding: clamp(2rem, 6vw, 3.5rem) clamp(1rem, 4vw, 1.5rem);
 	box-sizing: border-box;
 }
@@ -52,10 +58,17 @@
 @media (max-width: 639px) {
 	.hero {
 		min-height: clamp(210px, 42vh, 360px);
+		min-height: 28rem;
 	}
 
 	.inner {
 		min-height: clamp(210px, 42vh, 360px);
+		min-height: 28rem;
+	}
+
+	.imageLayer,
+	.bgImage {
+		min-height: 28rem;
 	}
 }
 

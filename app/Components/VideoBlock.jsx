@@ -19,9 +19,6 @@ function VideoBlock() {
         Introducing ivvi Notes
         </span>
 
-
-        
-
         </h2>
 
         <p  className={v.heroSupportingText}>

@@ -36,7 +36,7 @@
      
     
     
-    height: 507px; 
+    min-height: 507px; 
     min-height: 507px;
     width: 507px; 
     min-width: 507px;
@@ -205,7 +205,7 @@
 
 
     width: 60vw; 
-    height: 60vw;
+    min-height: 60vw;
 
     min-width: 296px; 
     min-height: 297px; 
@@ -238,7 +238,7 @@
     .mainImage{
 
         width: 80vw; 
-        height: 80vw; 
+        min-height: 80vw; 
 
 
 

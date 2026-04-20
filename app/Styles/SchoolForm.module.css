@@ -58,7 +58,7 @@
 
 .submitButton {
 	width: 125px;
-	height: 50px;
+	min-height: 50px;
 	margin: 1rem auto 0;
 	border-radius: 40px;
 	background-color: var(--cta-background-color);
