@@ -1,5 +1,11 @@
 @import "tailwindcss";
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 @font-face {
 	font-family: 'Nunito Sans';
 	src: url('/fonts/NunitoSans-VariableFont_YTLC,opsz,wdth,wght.woff2') format('woff2');
@@ -9,7 +15,7 @@
 
 .homeVideoBlockSection{
   background-color: #013699;
-  width: 100vw;
+  width: 100%;
   box-sizing: border-box;
   padding-bottom: 4rem;
 }
@@ -150,12 +156,33 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
+  max-width: 100%;
   overflow-x: hidden;
   background-color: #eeede8;
 }
 
 body {
   color: var(--foreground);
+}
+
+@media (max-width: 480px) {
+  html,
+  body {
+    overflow-x: clip;
+  }
+
+  img,
+  video,
+  iframe,
+  canvas,
+  svg {
+    max-width: 100%;
+  }
+
+  [style*="100vw"] {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
 }
 
 .mainSpecGrid{

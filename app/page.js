@@ -26,7 +26,7 @@ export default function Home() {
     <div style={{ position: "relative" }}>
       <div
         style={{
-          width: "100vw",
+          width: "100%",
           minHeight: "52rem",
           height: "auto",
           backgroundColor: "#eeede8",
