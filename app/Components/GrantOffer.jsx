@@ -42,6 +42,7 @@ function GrantOffer({
 								{item}
 							</li>
 						))}
+						
 					</ul>
 
 					<p className={styles.bodyCopy}>{note}</p>
