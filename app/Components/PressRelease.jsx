@@ -12,6 +12,8 @@ const PRESS_PARAGRAPHS = [
 	"* ivvi has scaled from its first sale to a Bett winner in under 12 months. The company is part of the University of Edinburgh's AI Accelerator."
 ]
 
+
+
 function PressRelease() {
 	return (
 		<section className={styles.section}>

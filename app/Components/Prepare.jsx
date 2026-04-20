@@ -6,6 +6,7 @@ function Prepare() {
 	return (
 		<DsaContentSection
 			reverse
+			mediumSubtitle
 			subtitle='To help you prepare, think about these questions:'
 			image={zoom}
 			imageAlt='Microphone and headset for study support'

@@ -53,13 +53,11 @@ function Assessors() {
     </h2>
 
 
-    <TextImageVideo/> 
     <ImageTextVideo/> 
-
-
+    <TextImageVideo/> 
     <LiveMap/> 
-    <Highlight/> 
     <Edit/> 
+    <Highlight/> 
     <Outline/> 
 
     </section>

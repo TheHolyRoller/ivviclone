@@ -19,7 +19,10 @@ export const metadata = {
 	alternates: {
 		canonical: "/assessors",
 	},
+  
+  
 }
+
 
 
 function AssessorsPage() {

@@ -1,6 +1,7 @@
 import React from 'react'
 import img from '../../public/images/audio_rec.webp'
 import StudentsFeatureSection from './StudentsFeatureSection'
+import sectionStyles from '../Styles/StudentsFeatureSection.module.css'
 
 function ImageTextVideo() {
 	return (
@@ -10,6 +11,7 @@ function ImageTextVideo() {
 			image={img}
 			imageAlt='Audio recording timeline in ivvi Notes'
 			description='Capture every word of your lectures or meetings with high-quality audio recording. This gives you a reliable backup so you can revisit any part of the session and never miss critical information.'
+			mediaClassName={sectionStyles.mediaCapped}
 		/>
 	)
 }

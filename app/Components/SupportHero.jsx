@@ -13,7 +13,8 @@ function SupportHero() {
 				alt="Warm desk lamp beside a workspace — ivvi customer support hero background"
 				fill
 				sizes="100vw"
-				loading="lazy"
+				priority
+				quality={95}
 			/>
 			
 

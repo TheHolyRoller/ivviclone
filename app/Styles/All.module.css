@@ -77,22 +77,34 @@
 
 }
 
-.media {
-	min-width: 722px; 
-
-	height: auto;
-	border-radius: var(--image-border-radius);
+.videoBg {
+	width: 100%;
+	max-width: min(100%, 980px);
+	background-color: #fff;
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: 0 10px 28px rgba(1, 20, 61, 0.12);
+	box-sizing: border-box;
 }
 
+.media {
+	margin: 0;
+	padding: 0;
+	min-width: 0;
+	width: 100%;
+	height: auto;
+	border-radius: 0;
+}
 
-.mainVideoFrame{
-
-
-    width: 100%; 
-    height: 467px; 
-    
-    
-    }
+.mainVideoFrame {
+	width: 100%;
+	aspect-ratio: 16 / 9;
+	height: auto;
+	min-height: 0;
+	border: none;
+	display: block;
+	background-color: #fff;
+}
     
 
 
@@ -127,16 +139,15 @@
 		order: initial;
 	}
 
+	.videoBg {
+		width: 80vw;
+		max-width: min(100%, 980px);
+		margin: auto;
+	}
+
 	.media {
-
-        width: 80vw; 
-		min-width: 50vw; 
-		margin: auto; 
-
-	
-	
-		height: auto;
-		border-radius: var(--image-border-radius);
+		width: 100%;
+		min-width: 0;
 	}
 
 
@@ -179,7 +190,7 @@
 
 	}
 
-	.media {
+	.videoBg {
 		margin-top: -2.5rem;
 		margin-bottom: -2.5rem;
 	}
@@ -191,15 +202,25 @@
 		min-height: 50%;
 	}
 
-	.media {
+	.videoBg {
 		width: 93vw;
-		min-width: 93vw;
 		max-width: 93vw;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
-	.mainVideoFrame {
-		height: 233.5px;
+	.media {
+		width: 100%;
+		min-width: 0;
 	}
+}
+
+@media (min-width: 921px) {
+
+	.grid {
+		width: 64vw;
+	}
+
 }
 
 @media (min-width: 1025px) {
@@ -213,7 +234,7 @@
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
-	.media {
-		padding-top: 2.5rem;
+	.videoBg {
+		margin-top: 2.5rem;
 	}
 }

@@ -8,20 +8,19 @@
 .grid {
 	
 
-	width: 80vw; 
-
+	width: fit-content;
+	max-width: min(96vw, 1800px);
 	margin: 0 auto;
 	display: flex;
-	gap: 1rem;
+	gap: 3rem;
 	align-items: center;
+	box-sizing: border-box;
 
 
 }
 
 .gridReverse .textContainer {
 	order: 2;
-
-	
 }
 
 .gridReverse .mediaContainer {
@@ -34,6 +33,8 @@
 
 	min-width: 470px; 
 	max-width: 477px; 
+	padding: 0;
+	margin: 0;
 	
 }
 
@@ -41,7 +42,7 @@
 	font-size: clamp(2rem, 3.5vw, 3rem);
 	line-height: 1.15;
 	font-weight: 600;
-	margin-bottom: 1rem;
+	margin: 0 0 0.25rem;
 	color: #013699; 
 
 
@@ -51,8 +52,9 @@
 
 .description {
 	font-size: clamp(1rem, 1.25vw, 1.5rem);
-	line-height: 1.6;
+	line-height: 1.45;
 	max-width: 62ch;
+	margin: 0;
 }
 
 .mediaContainer {
@@ -72,6 +74,13 @@
 	border-radius: var(--image-border-radius);
 }
 
+.mediaCapped {
+	width: 100%;
+	max-width: min(56rem, 92vw);
+	min-width: 0 !important;
+	height: auto;
+}
+
 @media (max-width: 1024px) {
 	.section {
 		padding: 3rem 1rem;
@@ -79,7 +88,8 @@
 
 	.grid {
 		grid-template-columns: 1fr;
-		gap: 1.75rem;
+		gap: 3rem;
+		row-gap: 3rem;
 	}
 
 	.gridReverse .textContainer,
@@ -102,11 +112,19 @@
 		border-radius: var(--image-border-radius);
 	}
 
+	.media.mediaCapped {
+		width: 100%;
+		max-width: min(56rem, 92vw);
+		min-width: 0;
+		margin: auto;
+	}
+
 
 	.grid {
 	
 
-		width: 94vw; 
+		width: min(96vw, 1800px);
+		max-width: 1800px;
 	
 		margin: 0 auto;
 		display: grid; 

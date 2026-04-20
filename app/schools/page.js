@@ -19,13 +19,15 @@ export const metadata = {
 	alternates: {
 		canonical: "/schools",
 	},
+
+  
 }
 
 export default function Schools() {
   return (
     <main aria-labelledby="schools-hero-heading">
       <SchoolsHero />
-      <Demo heading="Three-minute ivvi demo for schools and colleges" />
+      <Demo heading="3 Minute ivvi Demo" />
       <SchoolGrid />
       <SchoolsImageText />
       <SpecGrid sectionTitle="Key assistive features for schools and colleges" />

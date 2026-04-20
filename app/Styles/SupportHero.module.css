@@ -25,7 +25,7 @@
     margin: 0;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     padding: clamp(1rem, 3vw, 1.75rem) clamp(1rem, 5vw, 3rem);
     box-sizing: border-box;
 
@@ -43,6 +43,8 @@
     object-position: center center;
     z-index: 0;
     pointer-events: none;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
 
 }
 
@@ -63,7 +65,9 @@
     font-family: "Lato", sans-serif !important;
     height: auto;
     max-width: min(36rem, 85vw);
-    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 
 }
 
@@ -94,8 +98,8 @@
     font-weight: 700;
     line-height: 1.2;
     max-width: 20ch;
-    text-align: left;
-    margin: 0;
+    text-align: center;
+    margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
     color: #fff;
@@ -118,8 +122,8 @@
     font-family: "Nunito", sans-serif;
     font-size: clamp(0.9rem, 1.5vw + 0.5rem, 1.1rem);
     line-height: 1.45;
-    text-align: left;
-    margin: 0.75rem 0 0;
+    text-align: center;
+    margin: 0.75rem auto 0;
     color: #fff;
 
 }
@@ -252,7 +256,8 @@
         z-index: 2;
         color: #fff;
         font-family: "Lato", sans-serif !important;
-        margin-left: 0;
+        margin-left: auto;
+        margin-right: auto;
 
     }
 
@@ -267,7 +272,8 @@
         z-index: 2;
         color: #fff;
         font-family: "Lato", sans-serif !important;
-        margin-left: 0;
+        margin-left: auto;
+        margin-right: auto;
 
     }
 
@@ -290,7 +296,7 @@
 
         display: flex;
         flex-direction: row;
-        justify-content: flex-start;
+        justify-content: center;
         align-items: center;
         margin: 0;
         width: 100%;
@@ -347,8 +353,9 @@
 
 .heroTextContainer {
 
-    text-align: left;
-    margin-left: 0 !important;
+    text-align: center;
+    margin-left: auto !important;
+    margin-right: auto !important;
 
 }
 
@@ -425,7 +432,7 @@
         margin: 0;
         padding: clamp(1rem, 2.5vw, 1.5rem) clamp(1.25rem, 4vw, 2.5rem);
         align-items: center;
-        justify-content: flex-start;
+        justify-content: center;
 
     }
 
@@ -442,6 +449,7 @@
         margin-top: 0;
         height: auto;
         min-height: 0;
+        text-align: center;
 
     }
 
@@ -519,7 +527,7 @@
         height: 100%;
         padding: clamp(0.85rem, 3vw, 1.35rem) clamp(1rem, 4vw, 1.5rem);
         box-sizing: border-box;
-        justify-content: flex-start;
+        justify-content: center;
 
     }
 
@@ -529,7 +537,7 @@
         height: auto;
         min-height: 0;
         padding: 0;
-        text-align: left;
+        text-align: center;
 
     }
 
@@ -561,7 +569,7 @@
 
     .heroTextContainer {
 
-        text-align: left;
+        text-align: center;
 
     }
 
@@ -585,20 +593,21 @@
 
     .heroContentContainer {
 
-        justify-content: flex-start;
+        justify-content: center;
         padding-left: clamp(1rem, 4vw, 2rem);
+        padding-right: clamp(1rem, 4vw, 2rem);
 
     }
 
     .heroTextContainer {
 
-        text-align: left;
+        text-align: center;
 
     }
 
     .heroMainHeader {
 
-        text-align: left;
+        text-align: center;
         color: #fff;
 
     }
@@ -606,6 +615,7 @@
     .heroSupportingText {
 
         color: #fff;
+        text-align: center;
 
     }
 
@@ -622,10 +632,3 @@
 	}
 
 }
-
-@media (min-width: 800px) {
-	.heroTextContainer {
-		transform: translateX(8rem);
-	}
-}
-

@@ -15,7 +15,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 
-
 function Footer() {
   const [isCopied, setIsCopied] = useState(false)
 

@@ -42,8 +42,7 @@ function VideoBlock() {
 
     <div className={v.heroLaptopImageContainer}>
 
-    {/* TO DO Add in a white background here  */}
-    <figure className={v.videoContainer}  style={{}}>
+    <figure className={v.videoContainer}>
 
   <iframe
 

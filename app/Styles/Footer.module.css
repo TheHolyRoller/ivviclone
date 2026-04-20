@@ -5,9 +5,12 @@
 
     position: relative;
     z-index: 1;
-    height: 292px; 
+    min-height: 292px;
+    height: auto;
+    box-sizing: border-box;
     background-color: var(--footer-background-color);
-    width: 100vw; 
+    width: 100%;
+    max-width: 100%;
     display: grid;
     place-content: center;
 
@@ -166,11 +169,12 @@
 .Footer {
 
 
-    /* height: 292px;  */
-    height: 370px;  
+    min-height: 370px;
+    height: auto;
 
     background-color: var(--footer-background-color);
-    width: 100vw; 
+    width: 100%;
+    max-width: 100%;
     display: grid;
     place-content: center;
 
@@ -190,13 +194,6 @@
 
 
 
-}
-
-@media (min-width: 751px) and (max-width: 1024px) {
-  .Footer {
-    padding-top: 3rem;
-    padding-bottom: 2.5rem;
-  }
 }
 
 .footerAwardImage {
@@ -230,6 +227,38 @@
 
 }
 
+.footerSocialSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.footerSocialList {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    padding-right: 0;
+    list-style: none;
+    gap: 0.75rem 1.25rem;
+}
+
+.footerSocialListItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerSocialIcon {
+    margin-right: 0;
+}
+
 .desktopPhoneButton {
     display: none;
 }
@@ -238,13 +267,11 @@
     display: inline;
 }
 
+}
 
-
-
-
-
-
-
-
-
+@media (min-width: 751px) and (max-width: 1024px) {
+  .Footer {
+    padding-top: 3rem;
+    padding-bottom: 2.5rem;
+  }
 }

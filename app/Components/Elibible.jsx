@@ -6,6 +6,7 @@ function Eligible() {
 	return (
 		<DsaContentSection
 			reverse
+			largeSubtitle
 			subtitle='You are eligible for DSA with dyslexia if you:'
 			image={woman}
 			imageAlt='Student reviewing notes'

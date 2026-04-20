@@ -8,6 +8,7 @@ export const metadata = {
 	alternates: {
 		canonical: "/customersupport",
 	},
+  
 }
 import SupportHero from '../Components/SupportHero'
 import CustomerContactForm from '../Components/CustomerContactForm'

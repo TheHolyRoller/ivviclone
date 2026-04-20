@@ -390,6 +390,10 @@
 
     }
 
+    .bettBadgeMobile {
+        transform: translateY(-1rem);
+    }
+
     /* Add in the hero lapto img here  */
     .heroLaptopImg{
 
@@ -535,6 +539,20 @@
 		display: flex;
 		justify-content: center;
 		width: 100%;
+
+	}
+
+	.bettBadgeMobile {
+
+		transform: translate(-3rem, -1rem);
+
+	}
+
+	.heroLaptopImg {
+
+		width: calc(85vw * 0.85);
+		height: calc(40vw * 0.85);
+
 
 	}
 

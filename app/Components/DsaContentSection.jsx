@@ -12,7 +12,9 @@ function DsaContentSection({
 	reverse = false,
 	background = '#eeede8',
 	enlargeImageLaptopDesktop = false,
-	closeTextToImageLaptopDesktop = false
+	closeTextToImageLaptopDesktop = false,
+	largeSubtitle = false,
+	mediumSubtitle = false
 }) {
 	return (
 		<section className={s.section} style={{ background }}>
@@ -21,7 +23,13 @@ function DsaContentSection({
 			>
 				<div className={s.text}>
 					{title ? <h2 className={s.title}>{title}</h2> : null}
-					{subtitle ? <h3 className={s.subtitle}>{subtitle}</h3> : null}
+					{subtitle ? (
+						<h3
+							className={`${s.subtitle} ${largeSubtitle ? s.subtitleLarge : mediumSubtitle ? s.subtitleMedium : ''}`}
+						>
+							{subtitle}
+						</h3>
+					) : null}
 
 					{bullets.length > 0 ? (
 						<ul className={s.list}>

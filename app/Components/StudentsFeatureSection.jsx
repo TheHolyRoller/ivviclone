@@ -10,6 +10,7 @@ function StudentsFeatureSection({
 	reverse = false,
 	children,
 	className = '',
+	mediaClassName = '',
 	titleTag = 'h2'
 }) {
 	const Heading = titleTag === 'h3' ? 'h3' : 'h2'
@@ -25,7 +26,12 @@ function StudentsFeatureSection({
 				</div>
 
 				<div className={s.mediaContainer}>
-					<Image className={s.media} src={image} alt={imageAlt} loading="lazy" />
+					<Image
+						className={[s.media, mediaClassName].filter(Boolean).join(' ')}
+						src={image}
+						alt={imageAlt}
+						loading="lazy"
+					/>
 				</div>
 			</div>
 		</section>
