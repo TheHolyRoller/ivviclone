@@ -1,36 +1,165 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ivvi Clone
 
-## Getting Started
+This project is a Next.js App Router website for ivvi marketing pages, content pages, and lead capture flows.
 
-First, run the development server:
+## Tech Stack
+
+- Next.js `16`
+- React `19`
+- Tailwind CSS `4` (via PostCSS)
+- CSS modules plus global CSS variables
+- Vercel Analytics
+
+## Local Setup
+
+### Requirements
+
+- Node.js (current LTS recommended)
+- npm (repo includes `package-lock.json`)
+
+### Install
+
+```bash
+npm install
+```
+
+### Run
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Build and Production Run
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm start
+```
 
-## Learn More
+### Lint
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run lint
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Bundle Analysis
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm run analyze
+```
 
-## Deploy on Vercel
+## Environment Variables
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+There is no committed `.env.example`. The following environment variables are used by code:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- `NEXT_PUBLIC_SITE_URL` (optional): used for metadata base URL in `app/siteUrl.js`.
+  - If missing, defaults to `https://ivviclone.vercel.app`.
+  - Accepts values with or without protocol.
+- `ASSESSORS_CONTACT_UPSTREAM_URL` (optional): used by `app/api/contact/assessors/route.js`.
+  - If set, assessor form submissions are proxied upstream.
+  - If unset, the API still returns success JSON locally.
+- `ANALYZE`: used in `next.config.mjs` to enable `@next/bundle-analyzer` (set automatically by `npm run analyze`).
+
+Example `.env.local`:
+
+```env
+NEXT_PUBLIC_SITE_URL=localhost:3000
+ASSESSORS_CONTACT_UPSTREAM_URL=https://example.com/form-endpoint
+```
+
+## Routing Overview
+
+This project uses only the Next.js App Router in `app/`.
+
+### Site Routes (`page.js`)
+
+- `/` -> `app/page.js`
+- `/accessibility` -> `app/accessibility/page.js`
+- `/accesstowork` -> `app/accesstowork/page.js`
+- `/action` -> `app/action/page.js`
+- `/agreement` -> `app/agreement/page.js`
+- `/assessors` -> `app/assessors/page.js`
+- `/bett-press-release` -> `app/bett-press-release/page.js`
+- `/blog` -> `app/blog/page.js`
+- `/contact` -> `app/contact/page.js`
+- `/cookies` -> `app/cookies/page.js`
+- `/customersupport` -> `app/customersupport/page.js`
+- `/dsa` -> `app/dsa/page.js`
+- `/ivvi` -> `app/ivvi/page.js`
+- `/login` -> `app/login/page.js`
+- `/pressrelease` -> `app/pressrelease/page.js`
+- `/pricing` -> `app/pricing/page.js`
+- `/privacy` -> `app/privacy/page.js`
+- `/resources` -> `app/resources/page.js`
+- `/schools` -> `app/schools/page.js`
+- `/students` -> `app/students/page.js`
+- `/team` -> `app/team/page.js`
+
+### API Routes (`route.js`)
+
+- `POST /api/contact/assessors` -> `app/api/contact/assessors/route.js`
+  - Validates and sanitizes assessor contact submissions.
+  - Optionally forwards to an upstream form endpoint.
+
+### Route Notes
+
+- No dynamic route segments (`[slug]`, `[id]`, catch-all) are currently present.
+- No `middleware.js` in the repository.
+- No custom redirects/rewrites are defined in `next.config.mjs` or `vercel.json`.
+
+## Project Structure
+
+```text
+ivviclone/
+  app/
+    api/contact/assessors/route.js   # API endpoint for assessor form
+    Components/                      # Reusable UI/content components
+    Styles/                          # CSS modules and component styles
+    layout.js                        # Root layout (Navbar, Hamburger, Footer, Analytics)
+    globals.css                      # Global styles, fonts, design tokens
+    siteUrl.js                       # Metadata base URL helper
+    ...route folders...              # Each folder with page.js maps to a route
+  lib/
+    assessorsContactForm.js          # Validation/sanitization logic for assessor API
+  public/
+    images/                          # Marketing/site imagery
+    icons/                           # Favicons and icon assets
+    *.pdf                            # Downloadable guides/assets
+  next.config.mjs                    # Next config, security headers, image config
+  csp.mjs                            # CSP policy construction
+  vercel.json                        # Vercel security headers
+  package.json                       # Scripts and dependencies
+```
+
+## How the App Is Structured
+
+- `app/layout.js` provides the global shell for all routes:
+  - Includes global CSS and metadata.
+  - Renders `Hamburger`, `Navbar`, page content, and `Footer`.
+  - Adds Vercel Analytics.
+- Each route page in `app/*/page.js` composes route-specific sections from `app/Components`.
+- Styling is a mix of:
+  - Global CSS variables and base styles (`app/globals.css`)
+  - CSS modules in `app/Styles`
+  - Component-level class names and some inline styles.
+- Forms are primarily client-side submission flows, with one local API route for assessor contact handling.
+
+## Security and Headers
+
+- CSP and security headers are configured in both:
+  - `next.config.mjs` (`headers()` for app/static/image/font routes)
+  - `vercel.json` (platform-level headers)
+- CSP policy source helper: `csp.mjs`.
+
+## Deployment
+
+- Optimized for Vercel deployment.
+- Standard Next.js build/start process:
+  - `npm run build`
+  - `npm start`
+
+## Notes
+
+- `app/layout.js` preloads fonts from `/fonts/...`; ensure matching font files are available under `public/fonts` in deployment.

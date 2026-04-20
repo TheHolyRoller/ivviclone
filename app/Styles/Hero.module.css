@@ -352,6 +352,16 @@
 
 }
 
+@media(min-width: 1120px) and (max-width: 1320px){
+
+    .bettBadge{
+
+        top: calc(1.2vw - 1rem);
+
+    }
+
+}
+
 
 
 /* Add in the text here and make it responsive  */
