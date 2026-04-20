@@ -185,7 +185,7 @@ body {
 
   .appMainContainer,
   .appPageContent {
-    max-width: calc(100vw - 1rem);
+    max-width: 100vw;
     margin-left: auto;
     margin-right: auto;
   }
