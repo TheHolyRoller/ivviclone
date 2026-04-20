@@ -64,7 +64,7 @@
 
 
     width: 200px; 
-    height: 200px; 
+    min-height: 200px; 
     align-self: center; 
     margin: 0 auto;
 

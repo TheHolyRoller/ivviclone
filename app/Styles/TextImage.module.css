@@ -38,7 +38,7 @@
      
     
     
-    height: 507px; 
+    min-height: 507px; 
     width: 507px; 
     
     
@@ -159,7 +159,7 @@
 
 .cta{
     width: 168px;
-    height: 50px;
+    min-height: 50px;
     display: grid;
     place-content: center;
     outline:  2.4px solid #eeede8;
@@ -271,7 +271,7 @@
 
 
     width: 90vw; 
-    height: 90vw; 
+    min-height: 90vw; 
 
 
 
@@ -334,7 +334,7 @@
 
 
 
-    height: 90vw; 
+    min-height: 90vw; 
     min-width: none;
     min-height: none; 
 

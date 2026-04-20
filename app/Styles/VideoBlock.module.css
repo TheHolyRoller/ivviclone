@@ -147,7 +147,7 @@
 
 .heroCTAButton {
     width: 223px;
-    height: 50px;
+    min-height: 50px;
     background-color: var(--cta-background-color);
     color: var(--cta-font-color); 
     font-weight: 700;
@@ -192,7 +192,7 @@
 
     position: relative;
     z-index: 3;
-    height: min-content;
+    min-height: min-content;
     min-width: 0;
 
 	
@@ -209,7 +209,7 @@
     background-color: #fff;
     box-shadow: 0 10px 28px rgba(1, 20, 61, 0.12);
     box-sizing: border-box;
-    height: min-content;
+    min-height: min-content;
 
 }
 
@@ -220,7 +220,7 @@
 
         position: relative;
         overflow: hidden;
-        height: min-content;
+        min-height: min-content;
 
     }
 
@@ -236,7 +236,19 @@
     border: none;
     display: block;
     min-width: 0;
+    min-height: 30rem;
 
+}
+
+@media (min-width: 769px) {
+	.videoContainer {
+		min-height: 30rem;
+	}
+
+	.mainVideoFrame {
+		min-height: 30rem;
+		margin: 0 auto;
+	}
 }
 
 
@@ -288,7 +300,7 @@
 
     width: 100%;
     max-width: 600px;
-    margin: -10rem auto 0;
+    margin: 0 auto;
     aspect-ratio: 16 / 9;
 
 
@@ -310,7 +322,7 @@
 
     width: 100%;
     max-width: 400px !important;
-    margin: -19rem 0 0 0 !important;
+    margin: 0 auto !important;
     aspect-ratio: 16 / 9;
 
 
@@ -417,14 +429,21 @@
 
 .mainVideoFrame{
 
-    margin: 0; 
-    margin-top: -7rem !important; 
+    min-height: 15rem;
+    min-width: 15rem;
+    margin: 0 auto !important; 
     width: 100%;
-    max-width: min(90vw, 980px);
+    max-width: min(90vw, 490px);
     aspect-ratio: 16 / 9;
 
 
 
+}
+
+.videoContainer {
+    min-height: 15rem;
+    min-width: 15rem;
+    max-width: 490px;
 }
 
 

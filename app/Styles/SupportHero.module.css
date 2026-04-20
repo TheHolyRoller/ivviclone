@@ -8,8 +8,9 @@
     width: 100%;
     max-width: 100%;
     box-sizing: border-box;
-    height: 38vh;
     min-height: 38vh;
+    min-height: 38vh;
+    min-height: 32rem;
     max-height: 40vh;
     position: relative;
     overflow: hidden;
@@ -18,7 +19,7 @@
 
 .heroContentContainer {
 
-    height: 100%;
+    min-height: 100%;
     min-height: 0;
     position: relative;
     z-index: 1;
@@ -26,6 +27,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
     padding: clamp(1rem, 3vw, 1.75rem) clamp(1rem, 5vw, 3rem);
     box-sizing: border-box;
 
@@ -38,6 +40,8 @@
     left: 0;
     top: 0;
     width: 100%;
+    min-height: 100%;
+    min-height: 32rem;
     height: 100%;
     object-fit: cover;
     object-position: center center;
@@ -53,6 +57,7 @@
 
     margin: 0.65rem 0 0;
     color: #fff;
+    text-align: center;
 
 }
 
@@ -63,12 +68,21 @@
     color: #fff;
     margin: 0;
     font-family: "Lato", sans-serif !important;
-    height: auto;
+    min-height: auto;
     max-width: min(36rem, 85vw);
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    display: grid;
+    place-items: center;
+    transform: translateY(20vh);
 
+}
+
+@media (max-width: 1024px) {
+    .heroTextContainer {
+        transform: translateY(30vh);
+    }
 }
 
 .DSASubHeading {
@@ -125,6 +139,8 @@
     text-align: center;
     margin: 0.75rem auto 0;
     color: #fff;
+    display: grid;
+    place-items: center;
 
 }
 
@@ -180,7 +196,7 @@
     
     
     width: 223px;
-    height: 50px;
+    min-height: 50px;
     
     background-color: var(--cta-background-color);
     color: var(--cta-font-color); 
@@ -236,7 +252,7 @@
     /* Add in a fixed width for the height here */
     width: 829px;
 
-    height: 500px;
+    min-height: 500px;
 
     position: relative;
     z-index: 9;
@@ -343,7 +359,7 @@
     
     
     width: 223px;
-    height: 50px;
+    min-height: 50px;
     
     font-size: 18px;
 
@@ -418,7 +434,7 @@
     .hero {
 
         width: 100%;
-        height: 38vh;
+        min-height: 38vh;
         min-height: 38vh;
         max-height: 40vh;
         position: relative;
@@ -439,7 +455,7 @@
     .heroBackgroundImage {
 
         width: 100%;
-        height: 100%;
+        min-height: 100%;
         object-fit: cover;
 
     }
@@ -447,7 +463,7 @@
     .heroTextContainer {
 
         margin-top: 0;
-        height: auto;
+        min-height: auto;
         min-height: 0;
         text-align: center;
 
@@ -500,7 +516,7 @@
 
 .heroBackgroundImage {
 
-    height: 100%;
+    min-height: 100%;
 
 }
 
@@ -514,7 +530,7 @@
     .hero {
 
         width: 100%;
-        height: 38vh;
+        min-height: 38vh;
         min-height: 36vh;
         max-height: 40vh;
 
@@ -524,7 +540,7 @@
 
         width: 100%;
         min-height: 0;
-        height: 100%;
+        min-height: 100%;
         padding: clamp(0.85rem, 3vw, 1.35rem) clamp(1rem, 4vw, 1.5rem);
         box-sizing: border-box;
         justify-content: center;
@@ -534,7 +550,7 @@
     .heroTextContainer {
 
         margin-top: 0;
-        height: auto;
+        min-height: auto;
         min-height: 0;
         padding: 0;
         text-align: center;
@@ -544,7 +560,7 @@
     .heroBackgroundImage {
 
         top: 0;
-        height: 100%;
+        min-height: 100%;
         object-fit: cover;
 
     }
@@ -562,7 +578,7 @@
     .hero {
 
         min-height: 35vh;
-        height: 35vh;
+        min-height: 35vh;
         max-height: 40vh;
 
     }
@@ -575,7 +591,7 @@
 
     .heroBackgroundImage {
 
-        height: 100%;
+        min-height: 100%;
 
     }
 
@@ -585,8 +601,9 @@
 
     .hero {
 
-        height: 53vh !important;
+        min-height: 53vh !important;
         min-height: 51vh !important;
+        min-height: 30rem !important;
         max-height: 55vh !important;
 
     }
@@ -621,12 +638,19 @@
 
 }
 
+@media (max-width: 1120px) {
+	.hero {
+		min-height: 34rem !important;
+	}
+}
+
 @media (min-width: 1120px) {
 
 	.hero {
 
-		height: 60vh;
+		min-height: 60vh;
 		min-height: 24rem;
+		min-height: 32rem;
 		max-height: none;
 
 	}

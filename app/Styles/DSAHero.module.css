@@ -1,6 +1,7 @@
 .hero {
 	position: relative;
 	width: 100%;
+	min-height: 44rem;
 	padding: 5.5rem 1.25rem 4rem;
 	overflow: hidden;
 	background-color: #dbe7ff;
@@ -8,9 +9,13 @@
 
 .heroBackgroundImage {
 	position: absolute;
-	inset: -5% 0 auto 0;
+	top: 0;
+	left: 0;
+	right: 0;
 	width: 100%;
-	height: auto;
+	min-height: 44rem;
+	height: 100%;
+	object-fit: cover;
 	opacity: 0.55;
 	pointer-events: none;
 }
@@ -54,10 +59,12 @@
 
 @media (max-width: 700px) {
 	.hero {
+		min-height: 40rem;
 		padding: calc(4rem + 10vh) 1rem calc(3rem + 10vh);
 	}
 
 	.heroBackgroundImage {
+		min-height: 40rem;
 		opacity: 0.42;
 	}
 }

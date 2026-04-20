@@ -45,7 +45,7 @@
 	display: inline-grid;
 	place-items: center;
 	min-width: 220px;
-	height: 46px;
+	min-height: 46px;
 	margin-top: 1.1rem;
 	padding: 0 1rem;
 	border-radius: 999px;
@@ -61,7 +61,7 @@
 
 .mainImage {
 	width: min(100%, 480px);
-	height: auto;
+	min-height: auto;
 	border-radius: var(--image-border-radius);
 }
 

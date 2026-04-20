@@ -50,7 +50,7 @@
    width: 400px;
    min-width: 400px !important; 
    
-   height: 400px; 
+   min-height: 400px; 
    aspect-ratio: 1 / 1;
    border-radius: 50%;
    object-fit: cover;
@@ -185,7 +185,7 @@
 
 .cta{
     width: 168px;
-    height: 50px;
+    min-height: 50px;
     display: grid;
     place-content: center;
     outline:  2.4px solid #eeede8;
@@ -276,7 +276,7 @@
     .mainImage {
         width: calc(90vw - 2rem);
         max-width: calc(90vw - 2rem);
-        height: calc(90vw - 2rem);
+        min-height: calc(90vw - 2rem);
         min-width: 0 !important;
     }
 }
@@ -286,7 +286,7 @@
 
 
     width: 90vw; 
-    height: 90vw; 
+    min-height: 90vw; 
 
 
 
@@ -349,7 +349,7 @@
 
 
 
-    height: calc(90vw - 2rem); 
+    min-height: calc(90vw - 2rem); 
     min-width: none;
     min-height: none; 
 

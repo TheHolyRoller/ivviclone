@@ -2,24 +2,66 @@
 	width: 100%;
 	background-color: #eeede8;
 	padding: 4rem 1.25rem;
+	/* outline: 22px solid lime; */
+
 
 }
 
 .grid {
 	
 
-	width: 80vw; 
+	width: 80vw;
+	min-width: 90vw; 
 
 	margin: 0 auto;
 	display: flex;
-	gap: 1rem;
+	/* gap: 1rem; */
 	align-items: center;
+
+	/* outline: 2px solid lime;  */
+
 
 
 }
 
+@media (min-width: 1025px) {
+	.section {
+		padding: 4rem 1.25rem;
+	}
+
+	.grid {
+		display: grid;
+		grid-template-columns: minmax(22rem, 28rem) minmax(22rem, 28rem);
+		column-gap: 0.75rem;
+		row-gap: 0;
+		width: min(58rem, 92vw);
+		min-width: 0;
+		max-width: 58rem;
+		margin: 0 auto;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.textContainer,
+	.mediaContainer {
+		width: 100%;
+		max-width: 28rem;
+	}
+
+	.videoBg,
+	.mainVideoFrame {
+		width: 100%;
+		max-width: 28rem;
+	}
+
+	.videoBg {
+		padding: 1.5rem;
+	}
+}
+
 .gridReverse .textContainer {
 	order: 2;
+
 
 	
 }
@@ -78,8 +120,15 @@
 }
 
 .videoBg {
-	width: 100%;
-	max-width: min(100%, 980px);
+	width: min(100%, 40rem);
+	max-width: 100%;
+	min-width: 10rem;
+	min-height: 10rem;
+	padding: 1.5rem;
+	display: grid;
+	place-items: center;
+	margin-left: auto;
+	margin-right: auto;
 	background-color: #fff;
 	border-radius: 10px;
 	overflow: hidden;
@@ -92,18 +141,33 @@
 	padding: 0;
 	min-width: 0;
 	width: 100%;
-	height: auto;
+	max-width: 100%;
+	min-height: auto;
 	border-radius: 0;
+	display: block;
 }
 
 .mainVideoFrame {
 	width: 100%;
+	max-width: 100%;
 	aspect-ratio: 16 / 9;
-	height: auto;
-	min-height: 0;
+	min-width: 10rem;
+	min-height: 10rem;
 	border: none;
 	display: block;
 	background-color: #fff;
+}
+
+@media (min-width: 769px) {
+	.videoBg {
+		min-width: 10rem;
+		min-height: 10rem;
+	}
+
+	.media {
+		min-width: 10rem;
+		min-height: 10rem;
+	}
 }
     
 
@@ -140,8 +204,7 @@
 	}
 
 	.videoBg {
-		width: 80vw;
-		max-width: min(100%, 980px);
+		width: min(100%, 36rem);
 		margin: auto;
 	}
 
@@ -184,27 +247,41 @@
 
 	.section {
 
-		padding: 4rem 1.25rem;
-		padding-top: 7rem;
+		padding: 5.5rem 1.25rem 5rem;
+		padding-top: 8.5rem;
 		margin-top: -4rem;
+		/* outline: 55px solid lime; */
+
 
 	}
 
 	.videoBg {
-		margin-top: -2.5rem;
-		margin-bottom: -2.5rem;
+		margin-top: 0;
+		margin-bottom: 0;
+		/* outline: 44px solid red; */
+
+	}
+
+	.supportingCTAText {
+		margin-top: 2.75rem;
+		margin-bottom: 2.25rem;
 	}
 
 }
 
 @media (max-width: 768px) {
+	.section {
+		padding-top: 9rem;
+		padding-bottom: 5.5rem;
+	}
+
 	.mediaContainer {
 		min-height: 50%;
 	}
 
 	.videoBg {
-		width: 93vw;
-		max-width: 93vw;
+		width: 100%;
+		max-width: 100%;
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -234,7 +311,12 @@
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
+	.supportingCTAText {
+		margin-bottom: 2.75rem;
+	}
+
 	.videoBg {
-		margin-top: 2.5rem;
+		margin-top: 3.75rem;
+		margin-bottom: 1rem;
 	}
 }

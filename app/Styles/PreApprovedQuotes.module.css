@@ -30,12 +30,12 @@
 
 .avatarWrap {
 	width: 185px;
-	height: 185px;
+	min-height: 185px;
 }
 
 .avatar {
 	width: 185px;
-	height: 185px;
+	min-height: 185px;
 	display: block;
 	object-fit: cover;
 	border-radius: 8px;

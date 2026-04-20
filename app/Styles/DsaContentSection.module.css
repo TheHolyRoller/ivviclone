@@ -75,7 +75,7 @@
 
 .media {
 	width: min(100%, 420px);
-	height: auto;
+	min-height: auto;
 	border-radius: 6px;
 }
 

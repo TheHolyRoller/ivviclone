@@ -35,7 +35,7 @@
 
 .gridImage {
 	width: 100%;
-	height: auto;
+	min-height: auto;
 	border-radius: 6px;
 }
 

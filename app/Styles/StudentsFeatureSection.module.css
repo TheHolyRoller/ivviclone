@@ -70,7 +70,7 @@
 	min-width: 722px; 
 
 
-	height: auto;
+	min-height: auto;
 	border-radius: var(--image-border-radius);
 }
 
@@ -78,7 +78,7 @@
 	width: 100%;
 	max-width: min(56rem, 92vw);
 	min-width: 0 !important;
-	height: auto;
+	min-height: auto;
 }
 
 @media (max-width: 1024px) {
@@ -108,7 +108,7 @@
 
 	
 	
-		height: auto;
+		min-height: auto;
 		border-radius: var(--image-border-radius);
 	}
 

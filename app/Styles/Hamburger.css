@@ -18,7 +18,7 @@
     left: 0;
 
 
-    display: grid;
+    display: none;
     place-content: center;
     z-index: 999999999999999;
     background-color: #013699;
@@ -26,6 +26,12 @@
     
 
 
+}
+
+@media (max-width: 1390px) {
+    .hamburgerNav {
+        display: grid;
+    }
 }
 
 
@@ -77,7 +83,7 @@
 
     position: absolute;
     z-index: 9999999;
-    left: 1.5rem; 
+    left: 4rem; 
     top: 1.45rem; 
     border: none;
     background: transparent;

@@ -16,12 +16,7 @@
 	font-size: clamp(2rem, 3.2vw, 3.1rem);
 	font-weight: 700;
 	line-height: 1.1;
-}
-
-@media (min-width: 1025px) {
-	.heading {
-		text-align: center;
-	}
+	text-align: center;
 }
 
 .logoWrap {
@@ -37,7 +32,7 @@
 
 .logo {
 	width: min(320px, 60vw);
-	height: auto;
+	min-height: auto;
 }
 
 .intro {
@@ -103,7 +98,7 @@
 
 .logoCardImage {
 	width: min(240px, 72%);
-	height: auto;
+	min-height: auto;
 }
 
 .assetsButton {
