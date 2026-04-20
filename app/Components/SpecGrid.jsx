@@ -4,10 +4,11 @@ import LeftImageSpecs from './LeftImageSpecs'
 import RightImageSpecs from './RightImageSpecs'
 import sync from '../../public/images/sync.webp'
 import audioRec from '../../public/images/audio_rec.webp'
-import liveMap from '../../public/images/live_map.webp'
-import transcription from '../../public/images/trans.webp'
-import editFree from '../../public/images/edit_free.webp'
-import outlineVis from '../../public/images/outline_vis.webp'
+import trans from '../../public/images/trans.webp'
+import mindMap from '../../public/images/mind_map.webp'
+import edit from '../../public/images/edit.webp'
+import high from '../../public/images/high.webp'
+import outline from '../../public/images/outline.webp'
 
 const specItems = [
 	{
@@ -27,28 +28,35 @@ const specItems = [
 	},
 	{
 		component: RightImageSpecs,
-		imageSrc: transcription,
+		imageSrc: trans,
 		imageAlt: 'Full transcript view',
 		heading: 'Full Transcription',
 		text: 'Searchable transcripts improve access for auditory processing and hearing-related needs while making revision faster.'
 	},
 	{
 		component: LeftImageSpecs,
-		imageSrc: liveMap,
+		imageSrc: mindMap,
 		imageAlt: 'Live mind map',
 		heading: 'Live Mind Map',
 		text: 'AI generates visual structure as content is spoken, helping learners understand relationships between ideas quickly.'
 	},
 	{
 		component: RightImageSpecs,
-		imageSrc: editFree,
+		imageSrc: edit,
 		imageAlt: 'Editable notes',
 		heading: 'Edit Freely',
 		text: 'Students can personalise structure, labels, and layout to match their own cognitive workflow and revision style.'
 	},
 	{
 		component: LeftImageSpecs,
-		imageSrc: outlineVis,
+		imageSrc: high,
+		imageAlt: 'Highlighted key points',
+		heading: 'Highlight Quotes',
+		text: 'Key information can be flagged instantly during lectures, making review more targeted and less time-consuming.'
+	},
+	{
+		component: RightImageSpecs,
+		imageSrc: outline,
 		imageAlt: 'Visual and linear outline',
 		heading: 'Visual Outline',
 		text: 'Switch between map and outline modes to support both visual and linear processing preferences.'

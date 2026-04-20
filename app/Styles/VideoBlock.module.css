@@ -80,7 +80,7 @@
 .heroMainHeader {
 
 
-    font-size: 48px;
+    font-size: 51px;
     font-weight: 700;
     line-height: 1.2;
     width: 90%; 
@@ -94,7 +94,7 @@
 
     width: 18vw; 
     min-width: 380px;
-    font-size: clamp(1rem, 1vw + 1rem, 1.55rem);
+    font-size: clamp(calc(1rem + 2px), calc(1vw + 1rem + 2px), calc(1.55rem + 2px));
 
     width: 90%; 
     max-width: 400px; 
@@ -236,17 +236,17 @@
     border: none;
     display: block;
     min-width: 0;
-    min-height: 30rem;
+    min-height: 19.5rem;
 
 }
 
 @media (min-width: 769px) {
 	.videoContainer {
-		min-height: 30rem;
+		min-height: 19.5rem;
 	}
 
 	.mainVideoFrame {
-		min-height: 30rem;
+		min-height: 19.5rem;
 		margin: 0 auto;
 	}
 }
@@ -481,7 +481,7 @@
 .heroMainHeader{
 
 
-    font-size: 30px;
+    font-size: 33px;
     padding-top: 1.5rem;
 
 }
@@ -598,6 +598,16 @@
     padding-bottom: max(0px, calc(0.25rem - 2rem));
         
 	
+}
+
+.videoContainer,
+.mainVideoFrame {
+    width: 200px !important;
+    height: 200px !important;
+    min-width: 200px !important;
+    min-height: 200px !important;
+    max-width: 200px !important;
+    aspect-ratio: auto !important;
 }
 
 

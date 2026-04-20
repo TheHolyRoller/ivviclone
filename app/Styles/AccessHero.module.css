@@ -54,12 +54,24 @@
 
 @media (max-width: 640px) {
 	.hero {
+		min-height: calc(clamp(260px, 44vw, 460px) + 5vh);
 		padding: 2.5rem 1rem;
 	}
 
 	.heroBackgroundImage {
+		min-height: calc(100% + 5vh);
 		object-position: center 36%;
 		transform: scale(1.06);
+	}
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+	.hero {
+		min-height: calc(clamp(260px, 44vw, 460px) + 5vh);
+	}
+
+	.heroBackgroundImage {
+		min-height: calc(100% + 5vh);
 	}
 }
 

@@ -9,6 +9,7 @@
     min-height: auto;
     box-sizing: border-box;
     background-color: var(--footer-background-color);
+    color: var(--footer-font-color);
     width: 100%;
     max-width: 100%;
     display: grid;
@@ -131,7 +132,8 @@
 }
 
 .footerLegalLink {
-	
+	color: inherit;
+	text-decoration: none;
 }
 
 .footerPhoneSection {

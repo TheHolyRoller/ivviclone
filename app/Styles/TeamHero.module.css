@@ -54,6 +54,7 @@
 
 @media (min-width: 641px) and (max-width: 1024px) {
 	.hero {
+		min-height: calc(clamp(280px, 56vw, 620px) + 5vh);
 		padding-top: calc(3rem + 5vh);
 		padding-bottom: calc(3rem + 5vh);
 	}
@@ -61,6 +62,7 @@
 
 @media (max-width: 640px) {
 	.hero {
+		min-height: calc(clamp(280px, 56vw, 620px) + 5vh);
 		padding-top: calc(3rem + 5vh);
 		padding-bottom: calc(3rem + 5vh);
 	}

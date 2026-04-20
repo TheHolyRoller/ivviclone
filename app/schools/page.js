@@ -33,6 +33,7 @@ export default function Schools() {
       <SpecGrid sectionTitle="Key assistive features for schools and colleges" />
       <TechSpecs heading="Audio, transcript and mind map in one school app" />
 
+
       <DemoRequest
         mainHeading="Request a demo licence for your school"
         supportingHeadline=""

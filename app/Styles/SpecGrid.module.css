@@ -9,7 +9,7 @@
 	place-items: center;
 	text-align: center;
 	padding: 0 1rem 1.6rem;
-	font-size: clamp(2rem, 4vw, 3.2rem);
+	font-size: clamp(calc(2rem + 3px), calc(4vw + 3px), calc(3.2rem + 3px));
 	font-weight: 600;
 	color: #013699;
 }
@@ -17,7 +17,7 @@
 @media (max-width: 1024px) {
 	.mainHeadline {
 		padding-left: 2rem;
-		font-size: calc(clamp(2rem, 4vw, 3.2rem) + 0.5rem);
+		font-size: calc(clamp(calc(2rem + 3px), calc(4vw + 3px), calc(3.2rem + 3px)) + 0.5rem);
 		line-height: 1;
 	}
 }

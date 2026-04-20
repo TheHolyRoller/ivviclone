@@ -40,7 +40,7 @@ export default function Home() {
       </div>
 
       <ImageText />
-      <div className="homeVideoBlockSection" style={{ paddingBottom: "3.5rem" }}>
+      <div className="homeVideoBlockSection" >
         <VideoBlock />
       </div>
 
