@@ -13,7 +13,6 @@ import DownloadAssetsList from "../Components/DownloadAssetsList"
 import PermissionStatement from "../Components/PermissionStatement"
 
 
-
 export const metadata = {
 	title: "ivvi Notes Press Kit | ivvi",
 	description: "Press kit hero page for ivvi Notes Bett Award announcement.",
