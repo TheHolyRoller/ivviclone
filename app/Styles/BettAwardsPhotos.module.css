@@ -50,6 +50,7 @@
 	width: min(500px, 90%);
 	min-height: 52px;
 	margin: 1.2rem auto 0;
+	padding: 0.85rem 1rem;
 	display: block;
 	border: 2px solid #df983f;
 	border-radius: 999px;
@@ -59,6 +60,8 @@
 	font-size: clamp(1rem, 1.2vw, 1.35rem);
 	font-weight: 700;
 	line-height: 1;
+	text-align: center;
+	text-decoration: none;
 	cursor: pointer;
 }
 

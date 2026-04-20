@@ -11,7 +11,7 @@ const DEFAULT_COPY = [
 function ProcessGuide({
 	title = "Access to Work: how we support your application",
 	copy = DEFAULT_COPY,
-	imageSrc = "/images/access.webp",
+	imageSrc = "/images/guide.webp",
 	imageAlt = "Three students collaborating with a laptop and notebooks on grass in a bright, modern setting"
 }) {
 	return (

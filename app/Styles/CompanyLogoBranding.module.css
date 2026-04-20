@@ -102,9 +102,11 @@
 }
 
 .assetsButton {
+	display: block;
 	width: min(500px, 100%);
 	min-height: 52px;
 	margin: 0.5rem auto 0;
+	padding: 0.85rem 1rem;
 	border: 2px solid #df983f;
 	border-radius: 999px;
 	background: transparent;
@@ -113,6 +115,8 @@
 	font-size: clamp(1rem, 1.2vw, 1.35rem);
 	font-weight: 700;
 	line-height: 1;
+	text-align: center;
+	text-decoration: none;
 	cursor: pointer;
 }
 

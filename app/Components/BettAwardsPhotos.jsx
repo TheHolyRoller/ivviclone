@@ -18,6 +18,7 @@ function BettAwardsPhotos() {
 						sizes="(max-width: 768px) 94vw, (max-width: 1200px) 88vw, 920px"
 						loading="lazy"
 					/>
+					
 				</div>
 
 				<div className={styles.imageRow}>
@@ -51,9 +52,9 @@ function BettAwardsPhotos() {
 					/>
 				</div>
 
-				<button type="button" className={styles.downloadPhotosButton}>
+				<a href="#press-kit-download-zip" className={styles.downloadPhotosButton}>
 					Download All Photos
-				</button>
+				</a>
 			</div>
 		</section>
 	)

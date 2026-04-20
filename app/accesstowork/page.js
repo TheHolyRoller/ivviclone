@@ -10,8 +10,6 @@ export const metadata = {
 	},
 }
 
-
-
 import GetStarted from '../Components/GetStarted'
 import ProcessGuide from '../Components/ProcessGuide'
 import GrantOffer from '../Components/GrantOffer'

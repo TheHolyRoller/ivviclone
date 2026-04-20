@@ -12,6 +12,7 @@ function FounderBioDarius() {
 						Darius Namdaran is CEO and co-founder of ivvi. As someone who is dyslexic himself, Darius built ivvi to help visual thinkers capture
 						and organise information the way their brains naturally work. His mission: help a million students with dyslexia learn to mind map by
 						2030.
+						
 					</p>
 					<div className={styles.founderImageWrap}>
 						<Image

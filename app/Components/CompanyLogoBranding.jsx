@@ -14,6 +14,7 @@ function CompanyLogoBranding() {
 				</div>
 				
 				
+				
 
 				<p className={styles.intro}>
 					
@@ -45,9 +46,9 @@ function CompanyLogoBranding() {
 					<div className={`${styles.logoCard} ${styles.logoCardBlack}`}>
 						<Image src={ivviBlack} alt="ivvi black logo on black background" className={styles.logoCardImage} loading="lazy" />
 					</div>
-					<button type="button" className={styles.assetsButton}>
+					<a href="#press-kit-download-zip" className={styles.assetsButton}>
 						Download ALL Company Assets
-					</button>
+					</a>
 				</div>
 			</div>
 		</section>

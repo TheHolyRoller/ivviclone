@@ -2,7 +2,7 @@ import styles from "../Styles/DownloadAssetsList.module.css"
 
 function DownloadAssetsList() {
 	return (
-		<section className={styles.section}>
+		<section id="press-kit-download-zip" className={styles.section}>
 			<div className={styles.inner}>
 				<h2 className={styles.heading}>Click Here to Download Zip file for all Assets</h2>
 

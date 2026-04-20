@@ -13,6 +13,7 @@ import dariusLight from "../../public/images/darius_light.webp"
 
 function DariusJoPhotos() {
 	return (
+		
 		<section className={styles.section}>
 			<div className={styles.inner}>
 				<h2 className={styles.heading}>Darius and Jo Photos</h2>
@@ -116,9 +117,9 @@ function DariusJoPhotos() {
 						/>
 					</div>
 				</div>
-				<button type="button" className={styles.downloadPhotosButton}>
+				<a href="#press-kit-download-zip" className={styles.downloadPhotosButton}>
 					Download All Photos
-				</button>
+				</a>
 			</div>
 		</section>
 	)

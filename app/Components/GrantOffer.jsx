@@ -13,7 +13,7 @@ function GrantOffer({
 	title = "What Does the Grant Offer?",
 	intro = "A typical Access to Work grant includes:",
 	note = "(This is indicative only. The final grant offered will be dependent on needs.)",
-	imageSrc = "/images/access_brain_storming.webp",
+	imageSrc = "/images/grant_offer.webp",
 	imageAlt = "Colleagues collaborating at a desk with laptops in a modern open-plan office"
 }) {
 	return (

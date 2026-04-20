@@ -12,6 +12,7 @@ const KEY_STATS = [
 
 function KeyStatistics() {
 	return (
+		
 		<section className={styles.section}>
 			<div className={styles.inner}>
 				<h2 className={styles.heading}>ivvi Key Statistics</h2>
