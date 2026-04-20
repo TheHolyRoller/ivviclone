@@ -53,21 +53,16 @@ export default function RootLayout({ children }) {
           flexDirection: "column",
         }}
       >
+        <div className="appMainContainer">
+          <Hamburger />
+          <div style={{ position: "relative", zIndex: "99999999999" }}>
+            <Navbar />
+          </div>
 
+          <div className="appPageContent">{children}</div>
 
-          <Hamburger/> 
-        <div style={{position: 'relative', zIndex: '99999999999'}}>
-
-    <Navbar/> 
-
+          <Footer />
         </div>
-
-        <div style={{overflowX: 'hidden', padding: '0', margin: '0'}}  >
-
-          {children}
-        </div>
-
-        <Footer />
 
         <Analytics />
 

@@ -165,10 +165,29 @@ body {
   color: var(--foreground);
 }
 
+.appMainContainer {
+  width: 100%;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+.appPageContent {
+  width: 100%;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
 @media (max-width: 480px) {
   html,
   body {
     overflow-x: clip;
+  }
+
+  .appMainContainer,
+  .appPageContent {
+    max-width: calc(100vw - 1rem);
+    margin-left: auto;
+    margin-right: auto;
   }
 
   img,
