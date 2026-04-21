@@ -4,6 +4,7 @@ import { buildContentSecurityPolicy } from './csp.mjs'
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
+    formats: ['image/webp'],
     qualities: [75, 95, 100],
     remotePatterns: [
       {
