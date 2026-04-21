@@ -16,6 +16,7 @@ function BettAwardsPhotos() {
 						alt="Darius and Jo at the Bett awards event"
 						className={styles.image}
 						sizes="(max-width: 768px) 94vw, (max-width: 1200px) 88vw, 920px"
+						unoptimized
 						loading="lazy"
 					/>
 					
@@ -28,6 +29,7 @@ function BettAwardsPhotos() {
 							alt="Darius and Jo seated at Bett awards dinner"
 							className={styles.image}
 							sizes="(max-width: 900px) 94vw, 460px"
+							unoptimized
 							loading="lazy"
 						/>
 					</div>
@@ -37,6 +39,7 @@ function BettAwardsPhotos() {
 							alt="Bett awards group photo"
 							className={styles.image}
 							sizes="(max-width: 900px) 94vw, 460px"
+							unoptimized
 							loading="lazy"
 						/>
 					</div>
@@ -48,6 +51,7 @@ function BettAwardsPhotos() {
 						alt="Bett awards winners group photo on stage"
 						className={styles.image}
 						sizes="(max-width: 768px) 94vw, (max-width: 1200px) 88vw, 920px"
+						unoptimized
 						loading="lazy"
 					/>
 				</div>
