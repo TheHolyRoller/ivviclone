@@ -9,7 +9,7 @@ import schools from '../../public/images/schools.webp'
 function SchoolsHero() {
 	return (
 		<section className={h.hero}>
-			<Image className={h.heroBackgroundImage} src={schools} alt='School classroom background' sizes='100vw' loading="lazy" />
+			<Image className={h.heroBackgroundImage} src={schools} alt='School classroom background' sizes='100vw' priority />
 
 			<div className={h.heroContentContainer}>
 				<div className={h.heroTitleBlock}>
@@ -17,7 +17,6 @@ function SchoolsHero() {
 						className={h.awards}
 						src={awards}
 						alt="Bett Awards winner badge"
-						loading="lazy"
 					/>
 					<h1 className={h.heroMainHeader} id="schools-hero-heading">
 						ivvi Notes for schools and colleges

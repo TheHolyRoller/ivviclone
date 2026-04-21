@@ -21,7 +21,7 @@ function BlogHero({
 					alt={imageAlt}
 					width={1200}
 					height={720}
-					loading="lazy"
+					priority
 					sizes="(max-width: 768px) 100vw, 50vw"
 				/>
 			</div>

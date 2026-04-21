@@ -1,0 +1,20 @@
+.placeholder {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: 0;
+  background: #0f172a;
+  color: #ffffff;
+  display: grid;
+  place-items: center;
+}
+
+.playButton {
+  border: 0;
+  border-radius: 999px;
+  padding: 0.7rem 1.2rem;
+  font: inherit;
+  font-weight: 700;
+  background: #df983f;
+  color: #1e293b;
+  cursor: pointer;
+}

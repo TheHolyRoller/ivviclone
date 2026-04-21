@@ -1,5 +1,3 @@
-"use client"
-
 import Link from "next/link"
 import styles from "../Styles/GetStarted.module.css"
 import { IVVI_APP_URL } from "./ivviAppUrl"

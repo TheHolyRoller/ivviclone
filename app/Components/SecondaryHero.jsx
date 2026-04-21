@@ -22,7 +22,7 @@ function SecondaryHero() {
       alt="Ivvi Notes secondary hero"
       fill
       sizes="100vw"
-      loading="lazy"
+      priority
     />
 
     <section className={h.heroContentContainer} >

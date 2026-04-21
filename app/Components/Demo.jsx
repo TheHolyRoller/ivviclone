@@ -2,6 +2,7 @@ import React from 'react'
 import v from '../Styles/Demo.module.css'
 import Link from 'next/link'
 import { IVVI_APP_URL } from './ivviAppUrl'
+import LiteVimeoEmbed from './LiteVimeoEmbed'
 
 function Demo({ heading = "3 Minute ivvi Demo" }) {
 	return (
@@ -10,11 +11,9 @@ function Demo({ heading = "3 Minute ivvi Demo" }) {
 				<h2 className={v.heroMainHeader}>{heading}</h2>
 
 				<figure className={v.videoContainer}>
-					<iframe
+					<LiteVimeoEmbed
 						className={v.mainVideoFrame}
-						src='https://player.vimeo.com/video/1007634251?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479'
-						allow='autoplay; fullscreen; picture-in-picture'
-						allowFullScreen
+						videoId="1007634251"
 						title='ivvi Demo Video'
 					/>
 				</figure>

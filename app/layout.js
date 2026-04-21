@@ -4,6 +4,20 @@ import Hamburger from "./Components/Hamburger";
 import Footer from "./Components/Footer";
 import { Analytics } from "@vercel/analytics/next"
 import { getMetadataBaseUrl } from "./siteUrl"
+import { Lato, Nunito_Sans } from "next/font/google"
+
+const nunitoSans = Nunito_Sans({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-nunito-sans",
+})
+
+const lato = Lato({
+  subsets: ["latin"],
+  weight: ["400", "700", "900"],
+  display: "swap",
+  variable: "--font-lato",
+})
 
 export const metadata = {
   metadataBase: new URL(getMetadataBaseUrl()),
@@ -22,30 +36,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <head>
-        <link
-          rel="preload"
-          href="/fonts/NunitoSans-VariableFont_YTLC,opsz,wdth,wght.woff2"
-          as="font"
-          type="font/woff2"
-          crossOrigin="anonymous"
-        />
-        <link
-          rel="preload"
-          href="/fonts/Nunito.woff2"
-          as="font"
-          type="font/woff2"
-          crossOrigin="anonymous"
-        />
-        <link
-          rel="preload"
-          href="/fonts/Lato-Black.woff2"
-          as="font"
-          type="font/woff2"
-          crossOrigin="anonymous"
-        />
-      </head>
+    <html lang="en" className={`${nunitoSans.variable} ${lato.variable}`}>
+      <head />
 
       <body
         style={{

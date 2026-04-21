@@ -6,7 +6,7 @@ import action from '../../public/images/action.webp'
 function ActionHero() {
 	return (
 		<section className={h.hero}>
-			<Image className={h.heroBackgroundImage} src={action} alt='Learner using ivvi in action' sizes='100vw' loading="lazy" />
+			<Image className={h.heroBackgroundImage} src={action} alt='Learner using ivvi in action' sizes='100vw' priority />
 			<div className={h.overlay} />
 
 			<div className={h.heroContentContainer}>

@@ -6,7 +6,7 @@ import HeroBackground from '../../public/images/HeroBackground.webp'
 function DSAHero() {
 	return (
 		<section className={h.hero}>
-			<Image className={h.heroBackgroundImage} src={HeroBackground} alt='Background pattern' sizes='100vw' loading="lazy" />
+			<Image className={h.heroBackgroundImage} src={HeroBackground} alt='Background pattern' sizes='100vw' priority />
 
 			<div className={h.heroContentContainer}>
 				<p className={h.subHeading}>A Guide to the</p>

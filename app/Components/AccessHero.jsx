@@ -6,7 +6,7 @@ import workHero from '../../public/images/_work.webp'
 function AccessHero() {
 	return (
 		<section className={h.hero}>
-			<Image className={h.heroBackgroundImage} src={workHero} alt='Person using ivvi at work' sizes='100vw' loading="lazy" />
+			<Image className={h.heroBackgroundImage} src={workHero} alt='Person using ivvi at work' sizes='100vw' priority />
 			<div className={h.imageOverlay} />
 
 			<div className={h.heroContentContainer}>

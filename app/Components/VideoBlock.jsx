@@ -2,6 +2,7 @@ import React from 'react'
 import { IVVI_APP_URL } from './ivviAppUrl'
 import v from '../Styles/VideoBlock.module.css'; 
 import Link from 'next/link';
+import LiteVimeoEmbed from './LiteVimeoEmbed';
 
 function VideoBlock() {
   return (
@@ -41,13 +42,9 @@ function VideoBlock() {
 
     <figure className={v.videoContainer}>
 
-  <iframe
-
+  <LiteVimeoEmbed
     className={v.mainVideoFrame}
-    src="https://player.vimeo.com/video/1007634251?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-    
-    allow="autoplay; fullscreen; picture-in-picture"
-    allowFullScreen
+    videoId="1007634251"
     title="ivvi Demo Video 30s"
   />
 

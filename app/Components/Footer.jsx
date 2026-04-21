@@ -40,7 +40,6 @@ function Footer() {
           className={f.footerAwardImage}
           src={bettAwards}
           alt="BETT Awards 2026 winner"
-          priority
           sizes="(max-width: 750px) 240px, 320px"
         />
       </div>

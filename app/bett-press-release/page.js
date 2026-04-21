@@ -11,6 +11,7 @@ import PreApprovedQuotes from "../Components/PreApprovedQuotes"
 import ContactInformation from "../Components/ContactInformation"
 import DownloadAssetsList from "../Components/DownloadAssetsList"
 import PermissionStatement from "../Components/PermissionStatement"
+import LiteVimeoEmbed from "../Components/LiteVimeoEmbed"
 
 
 export const metadata = {
@@ -51,14 +52,10 @@ function Page() {
 					<section className={styles.demoSection}>
 						<h2 className={styles.demoHeading}>ivvi Short Demo</h2>
 						<div className={styles.videoWrap}>
-							<iframe
+							<LiteVimeoEmbed
 								className={styles.videoFrame}
-								src="https://player.vimeo.com/video/1010294911"
+								videoId="1010294911"
 								title="ivvi short demo video"
-								loading="lazy"
-								allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
-								referrerPolicy="strict-origin-when-cross-origin"
-								allowFullScreen
 							/>
 						</div>
 						<a
@@ -74,14 +71,10 @@ function Page() {
 					<section className={styles.demoSection}>
 						<h2 className={styles.demoHeading}>Bett Application Video</h2>
 						<div className={styles.videoWrap}>
-							<iframe
+							<LiteVimeoEmbed
 								className={styles.videoFrame}
-								src="https://player.vimeo.com/video/1141475189"
+								videoId="1141475189"
 								title="ivvi BETT application video"
-								loading="lazy"
-								allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
-								referrerPolicy="strict-origin-when-cross-origin"
-								allowFullScreen
 							/>
 						</div>
 						<a
@@ -97,14 +90,10 @@ function Page() {
 					<section className={styles.demoSection}>
 						<h2 className={styles.demoHeading}>Bett Awards Video</h2>
 						<div className={styles.videoWrap}>
-							<iframe
+							<LiteVimeoEmbed
 								className={styles.videoFrame}
-								src="https://player.vimeo.com/video/1161367627"
+								videoId="1161367627"
 								title="BETT SEND winner Award 2026 video"
-								loading="lazy"
-								allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
-								referrerPolicy="strict-origin-when-cross-origin"
-								allowFullScreen
 							/>
 						</div>
 						<a

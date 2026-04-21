@@ -9,7 +9,7 @@ import awards from '../../public/images/bett.webp'
 function AssessHero() {
 	return (
 		<section className={h.hero}>
-			<Image className={h.heroBackgroundImage} src={hero} alt='Assessor page background' sizes='100vw' loading="lazy" />
+			<Image className={h.heroBackgroundImage} src={hero} alt='Assessor page background' sizes='100vw' priority />
 
 			<div className={h.heroContentContainer}>
 				<p className={h.subHeading}>DSA Approved</p>
@@ -19,7 +19,6 @@ function AssessHero() {
 						className={h.awards}
 						src={awards}
 						alt="Bett Awards winner badge"
-						loading="lazy"
 					/>
 					<h1 className={h.heroMainHeader} id="assessors-hero-heading">
 						ivvi Notes for assessors and specialists

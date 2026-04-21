@@ -22,7 +22,6 @@ function Navbar() {
           alt="ivvi"
           width={214}
           height={92}
-          priority
           className={n.navLogo}
           sizes="140px"
         />

@@ -1,4 +1,5 @@
 import React from 'react'
+import dynamic from "next/dynamic";
 import SecondaryHero from '../Components/SecondaryHero'
 
 export const metadata = {
@@ -23,7 +24,7 @@ import All from '../Components/All'
 import FreeTrial from '../Components/FreeTrial'
 import Testimony from '../Components/Testimony'
 import LeadMagnet from '../Components/LeadMagnet'
-import ContactForm from '../Components/ContactForm'
+const ContactForm = dynamic(() => import("../Components/ContactForm"));
 
 
 function Assessors() {

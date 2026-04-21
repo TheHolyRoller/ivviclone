@@ -14,7 +14,7 @@ function SupportHero() {
 				fill
 				sizes="100vw"
 				priority
-				quality={95}
+				quality={75}
 			/>
 			
 

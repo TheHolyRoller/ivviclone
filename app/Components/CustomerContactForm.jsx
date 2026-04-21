@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
 import c from '../Styles/CustomerContactForm.module.css'; 
-import {useState, useEffect } from 'react'; 
+import {useState } from 'react'; 
 import support from '../../public/images/support.webp'; 
 import Image from 'next/image';
 
@@ -18,49 +18,8 @@ function CustomerContactForm({
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [submitStatus, setSubmitStatus] = useState("") 
 
-
-
-  // Add in the global variables here 
-
-
-
-  // Add in the function definitions here 
-
-
-  // Add in useEffect hooks here 
-
-  // Add in the useEffect hook here that will take the inputted values and submit them to the form spark api endpoint. 
-  useEffect(() => {
-
-      // Use this use Effect hook to keep track of state input variables 
-
-      console.log("this is the updated state \n", formInput); 
-
-
-
-
-  }, [formInput]); 
-
-
-  // Add in the submitting useEffect here 
-  useEffect(() => {
-
-
-    console.log("updating the input variables"); 
-
-
-  }, [formInput]);
-
-
-  // Add in the event handlers here 
-
   const handleInput = (e) => {
-
-
-    // Take the global state management here 
-
     const {name, value} = e.target; 
-    console.log('this is the user input', name, value); 
 
 
     setFormInput((prevState) => ({
@@ -118,37 +77,16 @@ function CustomerContactForm({
     
     <section className={c.contactFormContainer}>
 
-      {/* Add in the sub container here  */}
-
-      {/* Add in the image  */}
-    
       <div className={c.contactFormSubContainer}>
-        
-        {/* Add in the contact form headline section here  */}
         <div className={c.contactFormHeadlineContainer}>
-
-          {/* Add in the main headline here  */}
           <h2 className={c.contactFormHeadline}>
-
-          {/* Get in Touch */}
           Contact Us With Questions
-
-
           </h2>
 
           <div className={c.contactFormSupportingText}>
-
-          {/* Email us with any questions. */}
-          {/* Contact Us With Questions */}
-
-
-
           </div>
 
         </div>
-
-
-        {/* add in the input section here  */}
 
         <div className={c.inputFormContainer}>
 
@@ -162,13 +100,6 @@ function CustomerContactForm({
           <input className={c.formInput} placeholder="Email*" name="email" value={formInput.email} type="text" required onChange={handleInput} /> 
           <input className={c.formInput} placeholder="Mobile" name="mobile" value={formInput.mobile} type="text" required onChange={handleInput}/> 
           <textarea rows={4} className={`${c.formInput} ${c.textArea}`} placeholder="Please tell us what you would like to know" name="message" value={formInput.message} required onChange={handleInput}/>
-
-
-
-
-
-        {/* Add in the submit button here  */}
-
         <div className={c.buttonContainer}>
 
         <button

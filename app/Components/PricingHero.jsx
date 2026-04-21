@@ -53,7 +53,7 @@ function PricingHero({
 							alt={imageAlt}
 							width={900}
 							height={900}
-							loading="lazy"
+							priority
 							sizes="(max-width: 768px) 100vw, 40vw"
 						/>
 					</div>

@@ -1,5 +1,6 @@
 import React from 'react'
 import s from '../Styles/All.module.css'
+import LiteVimeoEmbed from './LiteVimeoEmbed'
 
 function All({
 	title,
@@ -40,11 +41,9 @@ function All({
 				<div className={s.mediaContainer}>
 					<div className={s.videoBg}>
 						<figure className={s.media}>
-							<iframe
+							<LiteVimeoEmbed
 								className={s.mainVideoFrame}
-								src='https://player.vimeo.com/video/1007634251?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479'
-								allow='autoplay; fullscreen; picture-in-picture'
-								allowFullScreen
+								videoId="1007634251"
 								title='ivvi Demo Video 30s'
 							/>
 						</figure>

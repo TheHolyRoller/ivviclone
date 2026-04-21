@@ -1,5 +1,6 @@
 import React from 'react'
 import ts from '../Styles/TechSpecs.module.css'
+import LiteVimeoEmbed from './LiteVimeoEmbed'
 
 function TechSpecs({ heading = "All in One App" }) {
 	return (
@@ -15,11 +16,9 @@ function TechSpecs({ heading = "All in One App" }) {
 
 				<div className={ts.imageContainer}>
 					<figure className={ts.videoContainer}>
-						<iframe
+						<LiteVimeoEmbed
 							className={ts.mainVideoFrame}
-							src='https://player.vimeo.com/video/1007634251?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479'
-							allow='autoplay; fullscreen; picture-in-picture'
-							allowFullScreen
+							videoId="1007634251"
 							title='ivvi Demo Video'
 						/>
 					</figure>

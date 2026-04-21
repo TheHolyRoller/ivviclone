@@ -17,7 +17,7 @@ function Hero() {
 
     
     <main className={h.hero}>
-    <Image className={h.heroBackgroundImage} src={HeroBackground} alt="background" width={100} height={100} priority sizes="100vw"/> 
+    <Image className={h.heroBackgroundImage} src={HeroBackground} alt="background" width={100} height={100} sizes="100vw"/> 
 
     <section className={h.heroContentContainer} >
 
@@ -30,7 +30,6 @@ function Hero() {
         className={h.bettBadgeMobile}
         src={bett}
         alt="BETT award badge"
-        priority
         sizes="(max-width: 1120px) 18vw, 110px"
       />
 
@@ -104,7 +103,6 @@ function Hero() {
         className={h.bettBadge}
         src={bett}
         alt="BETT award badge"
-        priority
         sizes="(max-width: 1320px) 10vw, 120px"
       />
 
