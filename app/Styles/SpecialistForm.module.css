@@ -31,7 +31,7 @@
 	margin-bottom: 0.85rem;
 	border-radius: var(--input-border-radius);
 	border: none;
-	font-size: 1rem;
+	font-size: 1.1875rem;
 	font-weight: 500;
 	background-color: #fff;
 	color: #000;
@@ -48,7 +48,7 @@
 }
 
 .fieldError {
-	font-size: 0.875rem;
+	font-size: 1.0625rem;
 	color: #ffd6d6;
 	margin: -0.55rem 0 0.65rem;
 	line-height: 1.35;
@@ -57,7 +57,7 @@
 .formStatus {
 	margin-top: 0.75rem;
 	line-height: 1.45;
-	font-size: 0.95rem;
+	font-size: 1.1375rem;
 }
 
 #textAreaInput {

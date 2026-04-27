@@ -16,11 +16,13 @@ function Navbar() {
     <nav className={n.navbar}> 
 
       <div className={n.LogoContainer}>
+
       <Link href="/" aria-label="Go to homepage">
+
         <Image
           src={Logo}
           alt="ivvi"
-          width={214}
+          width={114}
           height={92}
           className={n.navLogo}
           sizes="140px"

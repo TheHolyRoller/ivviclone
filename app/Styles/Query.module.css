@@ -42,7 +42,7 @@
 	padding: 0.9rem 1rem;
 	border-radius: var(--input-border-radius);
 	border: none;
-	font-size: 1rem;
+	font-size: 1.1875rem;
 	background-color: #ffffff;
 	color: #00143d;
 }
@@ -56,7 +56,7 @@
 	width: 140px;
 	min-height: 46px;
 	background-color: var(--cta-background-color);
-	font-size: 1rem;
+	font-size: 1.1875rem;
 	font-weight: 600;
 	border-radius: 40px;
 	border: none;
@@ -88,7 +88,7 @@
 	grid-column: 1 / -1;
 	margin-top: 0.25rem;
 	line-height: 1.45;
-	font-size: 0.95rem;
+	font-size: 1.1375rem;
 	color: #fff;
 }
 

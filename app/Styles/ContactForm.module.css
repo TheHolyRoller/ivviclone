@@ -12,7 +12,7 @@
     background-color: #013699;  
 
 
-    font-size: 64px;
+    font-size: 67px;
 
 	
 }
@@ -60,7 +60,7 @@
 .contactFormSupportingText {
 
 
-    font-size: 24px;
+    font-size: 27px;
 
 	
 }
@@ -81,7 +81,7 @@
     color: black;
 
     font-weight: 500;
-    font-size: 24px;
+    font-size: 27px;
     width: 615px;
     min-height: 58.3px;
     padding: 1rem;
@@ -144,7 +144,7 @@ min-height: 90%;
     margin: 1.85rem auto;
 
 
-    font-size: 18px; 
+    font-size: 21px; 
     font-weight: 600; 
 
 
@@ -183,7 +183,7 @@ min-height: 90%;
     margin: 0rem auto; 
     min-height: 90vh; 
     color: white;
-    font-size: 64px;
+    font-size: 67px;
 
     width: 100vw; 
 
@@ -196,7 +196,7 @@ min-height: 90%;
     color: black;
 
     font-weight: 500;
-    font-size: 24px;
+    font-size: 27px;
     /* width: 615px; */
     width: 85vw; 
     min-height: 58.3px;
@@ -234,7 +234,7 @@ min-height: 90%;
 .contactFormHeadline{
 
 
-    font-size: 2.2rem;
+    font-size: 2.3875rem;
 
 
 
@@ -244,7 +244,7 @@ min-height: 90%;
 .contactFormSupportingText{
 
 
-    font-size: 1rem;
+    font-size: 1.1875rem;
 
 
 
@@ -257,7 +257,7 @@ min-height: 90%;
 
 
 
-    font-size: 1rem;
+    font-size: 1.1875rem;
 
 
 
@@ -267,7 +267,7 @@ min-height: 90%;
 .formInput{
 
 
-    font-size: 1rem;
+    font-size: 1.1875rem;
 
 
 
@@ -278,7 +278,7 @@ min-height: 90%;
 
 
 
-    font-size: 0.98rem;
+    font-size: 1.1675rem;
 
 
 
