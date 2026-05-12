@@ -116,6 +116,11 @@ function Navbar() {
                     Access to Work
                   </Link>
                 </li>
+                <li className={n.dropdownMenuItem}>
+                  <Link className={n.dropdownMenuLink} href="/disgraphia">
+                    Using ivvi with Dysgraphia
+                  </Link>
+                </li>
               </ul>
             </li>
               

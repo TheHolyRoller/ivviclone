@@ -212,6 +212,66 @@ body {
 
 }
 
+.cookieBanner {
+  position: fixed;
+  left: 1rem;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 100000000000;
+  background: #00143d;
+  color: #eeede8;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.cookieBannerText {
+  margin: 0;
+  line-height: 1.5;
+  font-size: 0.95rem;
+}
+
+.cookieBannerText a {
+  color: #ef7a1a;
+  text-decoration: underline;
+}
+
+.cookieBannerActions {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 0.9rem;
+  justify-content: flex-end;
+}
+
+.cookieBannerBtnPrimary,
+.cookieBannerBtnSecondary {
+  border: 1px solid transparent;
+  border-radius: 999px;
+  font: inherit;
+  padding: 0.45rem 1rem;
+  cursor: pointer;
+}
+
+.cookieBannerBtnPrimary {
+  background: #ef7a1a;
+  border-color: #ef7a1a;
+  color: #eeede8;
+}
+
+.cookieBannerBtnSecondary {
+  background: transparent;
+  border-color: #eeede8;
+  color: #eeede8;
+}
+
+@media (min-width: 768px) {
+  .cookieBanner {
+    left: 50%;
+    transform: translateX(-50%);
+    width: min(850px, calc(100% - 2rem));
+  }
+}
+
 
 @media(max-width: 1100px){
 

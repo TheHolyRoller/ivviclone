@@ -2,6 +2,7 @@ import "./globals.css";
 import Navbar from "./Components/Navbar";
 import Hamburger from "./Components/Hamburger";
 import Footer from "./Components/Footer";
+import BehaviorTracker from "./Components/BehaviorTracker";
 import { Analytics } from "@vercel/analytics/next"
 import { getMetadataBaseUrl } from "./siteUrl"
 import { Lato, Nunito_Sans } from "next/font/google"
@@ -58,6 +59,7 @@ export default function RootLayout({ children }) {
         </div>
 
         <Analytics />
+        <BehaviorTracker />
 
       </body>
     </html>
